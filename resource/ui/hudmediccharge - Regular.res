@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Code55"
-		"fgcolor"		"30 144 255 255"
+		"fgcolor"		"ChargePercent"
 	}
 
 	"ChargeLabelShadow"
@@ -58,7 +58,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Code55"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 	}
 
 	"IndividualChargesLabel"
