@@ -273,7 +273,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Norm"
+				"font"			"NormalCode10"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
