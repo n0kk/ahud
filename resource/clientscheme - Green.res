@@ -5,18 +5,18 @@ Scheme
 		// custom  colors -------------------
 		"ShadowBlack"		"0 0 0 196"
 		
-		"ChargePercent"		"30 144 255 255"
-		"Ubercharge Meter"	"30 144 255 255"
-		"Ubercharge1"		"255 165 0 255"
-		"Ubercharge2"		"255 69 0 255"
+		"ChargePercent"		"21 207 100 255"
+		"Ubercharge Meter"	"21 207 100 255"
+		"Ubercharge1"		"21 207 100 255"
+		"Ubercharge2"		"21 207 100 255"
 		
 		"Ammo In Clip"		"255 255 255 255"
-		"Ammo In Reserve"	"30 144 255 255"
+		"Ammo In Reserve"	"0 191 255 255"
 		"Ammo No Clip"		"255 255 255 255"
-		"Stickies"			"30 144 255 255"
+		"Stickies"			"46 175 255 255"
 		
 		"HP"				"255 255 255 255"
-		"HP Buff"			"30 144 255 255"
+		"HP Buff"			"21 207 100 255"
 		"HP Low"			"204 51 63 255"
 		
 		"Damage Numbers"	"255 255 0 255"
