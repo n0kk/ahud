@@ -69,7 +69,7 @@
 		"textAlignment"	"center"	
 		"labeltext"		  "%Health%"
 		"font"					"DefaultNumber"
-		"fgcolor"		    "255 255 255 255"
+		"fgcolor"		    "HP"
   }
 	"PlayerStatusHealthValueSpecguiLow"
 	{

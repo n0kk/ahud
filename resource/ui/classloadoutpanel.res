@@ -54,7 +54,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"NormalCode11"
+				"font"			"NormalCode14"
 				"visible"		"0"
 			}
 			
@@ -251,7 +251,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"NormalCode10" //ItemFontAttribLarge
+		"font"			"NormalCode14" //ItemFontAttribLarge
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	

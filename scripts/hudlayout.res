@@ -78,11 +78,11 @@
 		"ypos"			"c-25"
 		"zpos"			"1"
 		"wide"			"51"
-		"tall"			"51"
+		"tall"			"50"
 		"font"			"xHairDot"
 		"labeltext"		"k"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 0 255"
+		"fgcolor"		"21 207 100 255"
 	}
 	
 	xHairBrackets
@@ -116,7 +116,7 @@
 		"font"			"xHairKonrWings"
 		"labeltext"		"q"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 255 255 75"
 	}
 
 
@@ -374,7 +374,7 @@
 		"xpos"		"c-126"
 		"ypos"		"265"
 		"wide"	 	"200"
-		"tall"	 	"26"
+		"tall"	 	"36"
 		"priority"	"35"
 
 		if_vr
@@ -570,12 +570,12 @@
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"NormalCode9"
+		"TextFont"		"NormalCode10"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

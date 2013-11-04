@@ -5,10 +5,10 @@
 		"delta_item_x"			"28"
 		"delta_item_start_y"	"90"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
+		"PositiveColor"			"21 207 100 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Code24"
+		"delta_item_font"		"Code18"
 	}
 	
 	"AccountBG"
@@ -27,39 +27,7 @@
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"19"
-		"ypos"			"120"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
-	}
-	
-	"MetalIconShadow"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIconShadow"
-		"xpos"			"19"
-		"ypos"			"121"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"ShadowBlack"
-	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"

@@ -251,7 +251,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
+				"font"			"NormalCode9"
 				"xpos"			"15"
 				"ypos"			"3"
 				"zpos"			"6"
@@ -292,7 +292,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
+				"font"			"NormalCode9"
 				"xpos"			"122"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -378,7 +378,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Code18Shadow"
+		"font"			"NormalCode18"
 		"fgcolor"		"255 255 255 255"
 		
 		if_mvm

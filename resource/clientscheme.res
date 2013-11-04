@@ -5,14 +5,14 @@ Scheme
 		// custom  colors -------------------
 		"ShadowBlack"		"0 0 0 196"
 		
-		"ChargePercent"		"0 255 255 255"
-		"Ubercharge Meter"	"0 255 255 255"
-		"Ubercharge1"		"255 137 0 255"
-		"Ubercharge2"		"255 30 0 255"
+		"ChargePercent"		"21 207 100 255"
+		"Ubercharge Meter"	"21 207 100 255"
+		"Ubercharge1"		"21 207 100 255"
+		"Ubercharge2"		"21 207 100 255"
 		
 		"Ammo In Clip"		"255 255 255 255"
-		"Ammo In Reserve"	"46 175 255 255"
-		"Ammo No Clip"		"46 175 255 255"
+		"Ammo In Reserve"	"0 191 255 255"
+		"Ammo No Clip"		"255 255 255 255"
 		"Stickies"			"46 175 255 255"
 		
 		"HP"				"255 255 255 255"
@@ -423,7 +423,7 @@ Scheme
 				"tall"		"12"
 				"antialias"	"0"
 				"additive"	"0"
-				"outline"	"1"
+				"outline"	"0"
 			}
 		}
 		xHairHollowCross
@@ -434,7 +434,7 @@ Scheme
 				"tall"		"18"
 				"antialias"	"0"
 				"additive"	"0"
-				"outline"	"1"
+				"outline"	"0"
 			}
 		}
 		xHairHollowCrossDot
@@ -445,7 +445,7 @@ Scheme
 				"tall"		"18"
 				"antialias"	"0"
 				"additive"	"0"
-				"outline"	"1"
+				"outline"	"0"
 			}
 		}
 		xHairCircle
@@ -467,7 +467,7 @@ Scheme
 				"tall"		"35"
 				"antialias" "0"
 				"additive"	"0"
-				"outline"	"1"
+				"outline"	"0"
 			}
 		}
 		xHairBrackets

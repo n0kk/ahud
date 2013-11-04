@@ -91,7 +91,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"roboto11"
+			"font"			"NormalCode10"
 			"xpos"			"54"
 			"ypos"			"0"
 			"wide"			"200"
@@ -273,7 +273,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"roboto11"
+				"font"			"Norm"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

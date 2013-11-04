@@ -368,7 +368,7 @@
 			"tabPosition"		"0"
 			"textinsetx"		"0"
 			"use_proportional_insets" "1"
-			"font"			"NormalCode10"
+			"font"			"NormalCode12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"

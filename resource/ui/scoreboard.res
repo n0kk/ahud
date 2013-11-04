@@ -966,7 +966,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"Code17"
+			"font"			"NormalCode14"
 			"labelText"		"%mapname%"
 			"textAlignment"		"center"
 			"xpos"			"28"
