@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"NormalCode12"
+		"font"			"NormalCode10"
 		"xpos"			"30"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -113,22 +113,6 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"	"west"
-	}
-	"TargetDataLabelShadow"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"TargetDataLabelShadow"
-		"font"			"NormalCode12"
-		"xpos"			"31"
-		"ypos"			"25"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetdata%"
-		"textAlignment"	"west"
-		"fgcolor_override"	"TransparentBlack"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -150,7 +134,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"28"
+		"xpos"			"23"
 		"ypos"			"28"
 		"zpos"			"12"
 		"wide"			"10"
