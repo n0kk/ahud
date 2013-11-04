@@ -415,6 +415,16 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
 		xHairCross
 		{
 			"1"
@@ -1142,10 +1152,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"yres"	"480 599"
+				"name"	"Code-Pro-LC"
+				"tall"	"10"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -4412,6 +4423,11 @@ Scheme
 		{
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"	"Code-Pro-LC"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/fogcrosshairs.ttf"
+			"name"	"Crosshairs"
 		}
 	}
 }

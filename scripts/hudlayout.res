@@ -1,5 +1,22 @@
 "Resource/HudLayout.res"
 {	
+	xHairCrossOutline
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"BasicCross"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"-1"
+		"xpos"			"c-103"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"2"
+		"textAlignment"		"center"	
+		"fgcolor"		"0 0 0 255"
+	}
+	
 	xHairCross
 	{
 		"controlName"	"CExLabel"
@@ -344,7 +361,7 @@
 		"xpos"		"c-126"
 		"ypos"		"300"
 		"wide"	 	"200"
-		"tall"	 	"26"
+		"tall"	 	"46"
 		"priority"	"40"
 
 		if_vr
@@ -362,7 +379,7 @@
 		"xpos"		"c-126"
 		"ypos"		"360"
 		"wide"	 	"200"
-		"tall"	 	"26"
+		"tall"	 	"46"
 		"priority"	"40"
 	}
 	
@@ -374,7 +391,7 @@
 		"xpos"		"c-126"
 		"ypos"		"265"
 		"wide"	 	"200"
-		"tall"	 	"36"
+		"tall"	 	"46"
 		"priority"	"35"
 
 		if_vr
@@ -823,7 +840,7 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-240"
-		"ypos"					"c60"
+		"ypos"					"c90"
 		"wide"					"480"
 		"tall"					"100"
 		"HintSize"				"1"
