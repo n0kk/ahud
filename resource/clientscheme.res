@@ -10,12 +10,12 @@ Scheme
 		"Ubercharge1"		"255 165 0 255"
 		"Ubercharge2"		"255 69 0 255"
 		
-		"Ammo In Clip"		"255 255 255 255"
+		"Ammo In Clip"		"235 226 202 255"
 		"Ammo In Reserve"	"30 144 255 255"
-		"Ammo No Clip"		"255 255 255 255"
-		"Stickies"			"30 144 255 255"
+		"Ammo No Clip"		"30 144 255 255"
+		"Stickies"			"235 226 202 255"
 		
-		"HP"				"255 255 255 255"
+		"HP"				"235 226 202 255"
 		"HP Buff"			"30 144 255 255"
 		"HP Low"			"204 51 63 255"
 		
