@@ -407,8 +407,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-20"	[$WIN32]
-		"ypos"		"c"	[$WIN32]	
+		"xpos"		"0"	[$WIN32]
+		"ypos"		"0"	[$WIN32]	
 		"wide"		"640"
 		"tall"		"480"
 		
