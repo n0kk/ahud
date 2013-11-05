@@ -1,5 +1,68 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"HomeServer"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HomeServer"
+		"xpos"					"r44"
+		"ypos"					"r44"
+		"zpos"					"11"
+		"wide"					"44"
+		"tall"					"44"
+		"visible"				"1"
+		"PaintBackgroundType"	"2"
+		
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"44"
+			"tall"						"44"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"textinsetx"				"-8"
+			"textinsety"				"-8"
+			"use_proportional_insets"	"1"
+			"font"						"SymbolS"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			"sound_depressed"			"ui/buttonclick.wav"
+			"sound_released"			"ui/buttonclickrelease.wav"
+			"border_default"			""
+			"border_armed"				""
+			"paintbackground"			"0"
+			
+			"FgColor"					"225 225 225 255"
+			"defaultFgColor_override" 	"255 255 255 255"
+			"armedFgColor_override"   	"0 200 255 255"
+			"depressedFgColor_override" "75 125 255 255"
+				
+			"image_drawcolor"			"0 0 0 175"
+			"image_armedcolor"			"0 0 0 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
+	}
+	
 	"MainMenuDarkBG"
 	{
 		"ControlName"	"ImagePanel"

@@ -81,6 +81,11 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"HomeServer"
+	{
+		"label"	"7"
+		"command" "engine JoinHomeServer"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
