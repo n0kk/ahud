@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CImagePanel"
 		"fieldName"		"Notification_Background"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"			"140"
-		"tall"			"44"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
 		"scaleImage"	"1"
 	}
 	
@@ -28,7 +28,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_notify_sixty_seconds"
+		"icon"			""
 	}
 	
 	"Notification_Label"
@@ -44,7 +44,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"60 seconds until gates open"
+		"labelText"		""
 		"textAlignment"	"West"
 		"dulltext"		"0"
 		"brighttext"	"0"

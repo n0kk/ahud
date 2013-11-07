@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTeamGoalBG"
-		"xpos"			"0"
-		"ypos"			"115"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"320"
 		"tall"			"150"
@@ -23,11 +23,10 @@
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
 		"font"			"HudFontSmallBold"
-		"xpos"			"80"
-		"ypos"			"135"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"220"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -42,14 +41,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"80"
-		"ypos"			"150"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"220"
-		"wide_hidef"	"200"
-		"wide_lodef"		"230"
 		"tall"			"55"
-		"tall_lodef"	"60"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -62,8 +58,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"GoalImage"
-		"xpos"			"27"
-		"ypos"			"140"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"45"
@@ -79,8 +75,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudStopWatchObjective"
-		"xpos"				"15"
-		"ypos"				"105"
+		"xpos"				"9999"
+		"ypos"				"99999"
 		"zpos"				"1"
 		"wide"				"275"
 		"tall"				"130"
@@ -153,8 +149,8 @@
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText1"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"35"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"35"
 			"wide"			"225"
 			"tall"			"150"
 			"wrap"			"1"
@@ -190,8 +186,8 @@
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText2"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"75"	[$WIN32]
+			"xpos"			"25"
+			"ypos"			"75"
 			"wide"			"225"
 			"tall"			"150"
 			"wrap"			"1"
@@ -210,8 +206,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchObjectiveArrow"
-		"xpos"			"25"
-		"ypos"			"30"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"80"

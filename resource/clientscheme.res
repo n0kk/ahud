@@ -12,11 +12,11 @@ Scheme
 		
 		"Ammo In Clip"		"235 226 202 255"
 		"Ammo In Reserve"	"30 144 255 255"
-		"Ammo No Clip"		"30 144 255 255"
+		"Ammo No Clip"		"235 226 202 255"
 		"Stickies"			"235 226 202 255"
 		
 		"HP"				"235 226 202 255"
-		"HP Buff"			"30 144 255 255"
+		"HP Buff"			"21 207 100 255"
 		"HP Low"			"204 51 63 255"
 		
 		"Damage Numbers"	"255 255 0 255"
