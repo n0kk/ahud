@@ -19,8 +19,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"22"

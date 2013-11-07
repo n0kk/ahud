@@ -14,25 +14,31 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"obj_status_background_disabled"
+		"iconColor"		"255 255 255 255"
 	}
+	
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"15"
-		"ypos"			"3"
-		"wide"			"24"
-		"tall"			"24"
+		"xpos"			"24"
+		"ypos"			"1"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -40,59 +46,23 @@
 		"iconColor"		"228 228 242 255"
 		"alpha"			"125"
 	}
+	
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-		"BlackBG"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"BlackBG"
-			"xpos"					"0"
-			"ypos"					"2"
-			"zpos"					"-10"
-			"wide"					"108"
-			"tall"					"27"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"1"
-			"enabled"				"1"
-			"fillcolor"				"HudBGBuilding"
-			"PaintBackgroundType"	"0"
-		}			
-		"TeamColoredUnderline"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
-		"TeamColoredUnderline2"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredUnderline2"
-			"xpos"			"9999"
-			"ypos"			"9999"		
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}
+
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"NormalCode10"
-			"xpos"			"54"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
@@ -104,118 +74,85 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"alpha"			"175"
 		}
 	}
+	
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
-		"TeamColoredBG"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"TeamColoredBG"
-			"xpos"			"0"
-			"ypos"			"2"
-			"zpos"			"-10"		
-			"wide"			"108"
-			"tall"			"27"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_brown"
-			"scaleImage"	"1"
-			"teambg_1"		"../hud/color_panel_brown"
-			"teambg_2"		"../hud/objectives_timepanel_red_bg"
-			"teambg_3"		"../hud/objectives_timepanel_blue_bg"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		"HealthBG"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"HealthBG"
-			"xpos"					"0"
-			"ypos"					"2"
-			"zpos"					"-9"
-			"wide"					"13"
-			"tall"					"27"
-			"autoResize"			"0"
-			"pinCorner"				"0"
-			"visible"				"0"
-			"enabled"				"1"
-			"fillcolor"				"28 28 28 255"
-			"PaintBackgroundType"	"0"
-		}
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"36"
+			"xpos"			"46"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
+
 		"Icon_Upgrade_2"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"36"
+			"xpos"			"46"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
+
 		"Icon_Upgrade_3"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"36"
+			"xpos"			"46"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"8"
+			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
+
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"104"
-			"ypos"			"2"
-			"zpos"			"24"
-			"wide"			"4"
-            "tall"          "27"
+			"xpos"			"113"
+			"ypos"			"0"
+			"wide"			"34"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
+
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"111"
+			"xpos"			"121"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"19"
@@ -224,13 +161,14 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
+		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"107"
+			"xpos"			"117"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"25"
@@ -239,16 +177,17 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"228 228 242 255"
+			"iconColor"		"255 255 255 255"
 		}
+
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"2"
+			"xpos"			"13"
 			"ypos"			"3"
-			"wide"			"9"
+			"wide"			"8"
 			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -263,7 +202,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"50"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -304,66 +243,19 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-			}			
-			
-			"building_25"
-			{
-				"ControlName"			"ImagePanel"
-				"fieldName"				"building_25"
-				"xpos"					"13"
-				"ypos"					"16"
-				"zpos"					"5"
-				"wide"					"1"
-				"tall"					"8"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"fillcolor"				"DcGameDialog"
-				"PaintBackgroundType"	"0"
-			}
-			"building_50"
-			{
-				"ControlName"			"ImagePanel"
-				"fieldName"				"building_50"
-				"xpos"					"25"
-				"ypos"					"16"
-				"zpos"					"5"
-				"wide"					"1"
-				"tall"					"8"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"fillcolor"				"DcGameDialog"
-				"PaintBackgroundType"	"0"
-			}
-			"building_75"
-			{
-				"ControlName"			"ImagePanel"
-				"fieldName"				"building_75"
-				"xpos"					"38"
-				"ypos"					"16"
-				"zpos"					"5"
-				"wide"					"1"
-				"tall"					"8"
-				"autoResize"			"0"
-				"pinCorner"				"0"
-				"visible"				"1"
-				"enabled"				"1"
-				"fillcolor"				"DcGameDialog"
-				"PaintBackgroundType"	"0"
 			}
 		}
+	
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"50"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
+			
 			"AmmoIcon"	
 			{
 				"ControlName"	"ImagePanel"
@@ -379,6 +271,7 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
+
 			"Ammo"
 			{	
 				"ControlName"	"ContinuousProgressBar"
@@ -395,7 +288,8 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-			}
+			}	
+			
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"
@@ -411,6 +305,7 @@
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
 			}
+			
 			"Upgrade"
 			{	
 				"ControlName"	"ContinuousProgressBar"

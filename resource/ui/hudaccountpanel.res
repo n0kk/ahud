@@ -46,7 +46,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code18"
+		"font"			"Code24"
 	}
 	
 	"AccountValueShadow"
@@ -67,7 +67,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code18"
+		"font"			"Code24"
 		"fgcolor"		"ShadowBlack"
 	}
 }
