@@ -4,8 +4,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCross"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"-1"
 		"xpos"			"c-103"
 		"ypos"			"c-99"

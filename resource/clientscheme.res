@@ -582,6 +582,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Code16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold-LC"
+				"tall"		"16"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Code17"
 		{
 			"1"
@@ -3367,80 +3378,12 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "2"
 		}
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "15 255 255 255"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "2"
 		}
 
 		LoadoutItemMouseOverBorder
