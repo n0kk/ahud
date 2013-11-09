@@ -2,11 +2,11 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"21 207 100 255"
-		"NegativeColor"			"255 0 0 255"
+		"delta_item_x"			"35"
+		"delta_item_start_y"	"100"
+		"delta_item_end_y"		"80"
+		"PositiveColor"			"HP Buff"
+		"NegativeColor"			"HP Low"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Code18"
 	}

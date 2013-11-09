@@ -740,7 +740,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"MOTD_TextLabel"
-					"font"			"HudFontSmall"
+					"font"			"NormalCode12"
 					"labelText"		"%motdtext%"
 					"textAlignment"	"north-west"
 					"xpos"			"0"
