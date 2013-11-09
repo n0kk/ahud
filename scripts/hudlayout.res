@@ -136,6 +136,56 @@
 		"fgcolor"		"255 255 255 75"
 	}
 
+	SmallDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"SmallDot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-103"
+		"ypos" 		 	"c-100"
+		"wide" 		 	"201"
+		"tall" 		 	"200"
+		"font"			"Crosshairs24"
+		"labelText"		"3"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "0 255 127 255"
+	}
+
+	Wings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Wings"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"d"
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	WingsSmall
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmall"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-97"
+		"wide" 		 	"200"
+		"tall" 		 	"200"
+		"font"			"Crosshairs34"
+		"labelText"		"g"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "255 255 255 70"
+	}
 
 	HudPlayerStatus
 	{
@@ -1437,4 +1487,115 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
+	
+//FOR TESTING FOR TESTING FOR TESTING FOR TESTING 
+	
+	"MidVerticalLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c0"
+		"ypos"			"c-540"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"1080"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"225 255 0 255"
+	}
+
+	"MidHorizontalLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-960"
+		"ypos"			"c0"
+		"zpos"			"-5"
+		"wide"			"1920"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 0 255"
+	}
+
+	"HorizontalLine1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-960"
+		"ypos"			"c-10"
+		"zpos"			"-5"
+		"wide"			"1920"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"225 0 0 255"
+	}
+
+	"HorizontalLine2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-960"
+		"ypos"			"c10"
+		"zpos"			"-5"
+		"wide"			"1920"
+		"tall"			"1"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 0 0 255"
+	}
+	
+	"VerticalLine1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c10"
+		"ypos"			"c-540"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"1080"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 0 0 255"
+	}
+
+	"VerticalLine2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-10"
+		"ypos"			"c-540"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"1080"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 0 0 255"
+	}
+	
 }
