@@ -209,20 +209,20 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		//"image"			"../console/background_upward"
 		"scaleImage"	"1"
 		
 		if_halloween
 		{
-			"image"		"../console/background_upward"
+			//"image"		"../console/background_upward"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/background_upward"
+			//"image"		"../console/background_upward"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_upward"
+			//"image"		"../console/background_upward"
 		}
 	}
 					
