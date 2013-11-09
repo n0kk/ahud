@@ -371,7 +371,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-150"
+		"xpos"					"c-190"
 		"ypos"					"267"
 		"wide"					"116"
 		"tall"  				"180"
@@ -457,10 +457,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"xpos"		"0"
+		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -473,11 +471,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
