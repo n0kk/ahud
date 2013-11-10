@@ -1264,10 +1264,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-114"
-		"ypos"					"5"
-		"ypos_minmode"				"15"
-		"ypos_lodef"				"75"
+		"xpos"					"c0"
+		"ypos"					"0"
 		"wide"					"300"
 		"tall"					"55"
 	}
@@ -1560,7 +1558,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c10"
+		"xpos"			"c55"
 		"ypos"			"c-540"
 		"zpos"			"-5"
 		"wide"			"1"
@@ -1578,7 +1576,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-10"
+		"xpos"			"c-55"
 		"ypos"			"c-540"
 		"zpos"			"-5"
 		"wide"			"1"
