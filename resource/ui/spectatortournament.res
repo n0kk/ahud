@@ -11,11 +11,11 @@
 		"enabled"		  "1"
 				
 		"team1_player_base_offset_x"	"0"
-		"team1_player_base_y"				  "300"
+		"team1_player_base_y"				  "335"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
 		"team2_player_base_offset_x"  "277"
-		"team2_player_base_y"				  "300"
+		"team2_player_base_y"				  "335"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
 		
@@ -23,7 +23,7 @@
 		{
 			"visible"		"0"
 			"wide"			"150"
-			"tall"			"18"
+			"tall"			"17"
 			"zpos"			"1"
 			
 			"color_ready"	    "0 255 0 220"
