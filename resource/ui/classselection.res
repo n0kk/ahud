@@ -60,7 +60,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Random"
+		"labelText"			"&Random"
 		"textAlignment"		"center"
 		"Command"			"select 12"
 		"Default"			"1"
