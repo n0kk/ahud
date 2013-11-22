@@ -7,7 +7,7 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"0"
 		"ypos"			"600"
-		"zpos"			"1000"
+		"zpos"			"9999"
 		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
@@ -40,37 +40,242 @@
 			"centerwrap"	"1"
 		}
 	}
+
+	"DoneButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DoneButton"
+		"xpos"			"c175"
+		"ypos"			"372"
+		"zpos"			"100"
+		"wide"			"106"
+		"tall"			"25"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#DoneButton"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"Command"		"done"
+	}
+
+	"ParticlePanel"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"ParticlePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"200"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+	}
+
+
+	"OutterBackground"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"OutterBackground"
+		"xpos"			"0"
+		"ypos"			"90"
+		"zpos"			"-8"
+		"wide"			"f0"
+		"tall"			"320"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+			
+		"PaintBackgroundType" "2"
+		"bgcolor_override"	"42 39 37 255"
+	}
+
+	"HeaderLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"-10"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"               "OutterBackground"
+		"pin_corner_to_sibling"        "2"          
+		"pin_to_sibling_corner"        "0"   
+	}	
+
+	"FooterLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"FooterLine"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_solid_line"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"               "OutterBackground"
+		"pin_corner_to_sibling"        "0"          
+		"pin_to_sibling_corner"        "2" 
+	}	
+	
+
+	"TabContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TabContainer"
+		"xpos"			"c-118"
+		"ypos"			"55"
+		"zpos"			"100"
+		"wide"			"399"
+		"tall"			"40"
+		"visible"		"1"
+		"proportionalToParent"	"1"
+
+
+		"PlayerTab1"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab1"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"63"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"42 41 39 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+
+		"PlayerTab2"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab2"
+			"xpos"			"68"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"62"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+
+		"PlayerTab3"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab3"
+			"xpos"			"135"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"62"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+
+		"PlayerTab4"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab4"
+			"xpos"			"202"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"62"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+
+		"PlayerTab5"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab5"
+			"xpos"			"269"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"62"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+
+		"PlayerTab6"
+		{
+			"ControlName"	"CMvMVictoryMannUpPlayerTab"
+			"fieldName"		"PlayerTab6"
+			"xpos"			"336"
+			"ypos"			"0"
+			"zpos"			"-5"
+			"wide"			"62"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"		"0"
+			"bgcolor_override"	"77 72 68 255"
+			"PaintBackgroundType"	"2"
+			"proportionalToParent"	"1"
+		}
+	}
 		
 	"MainPanelContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainPanelContainer"
-		"xpos"			"c-265"
-		"ypos"			"100"
+		"xpos"			"c-230"
+		"ypos"			"140"
+		"zpos"			"-10"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 
-		"Background"
-		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"530"
-			"tall"			"230"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-			
-			"scaleImage"		"1"
-			
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
+
 			
 		"NoItemServerContainer"
 		{
@@ -109,127 +314,6 @@
 				"centerwrap"		"1"
 				"fgcolor"		"tanlight"
 			}
-		}
-		
-		//Header
-		"ItemTableHeader"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"ItemTableHeader"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"600"
-			"tall"			"20"
-			"visible"		"1"
-			
-			"LevelProgress"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"LevelLabel"
-				"font"			"HudFontSmallestBold"
-				"labelText"		"#TF_MVM_Victory_TourProgress"
-				"textAlignment" "south-west"
-				"xpos"			"160"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"19"
-				"fgcolor"		"tanlight"
-			}
-			
-			"LootLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"LootLabel"
-				"font"			"HudFontSmallestBold"
-				"labelText"		"#TF_MVM_Victory_Loot"
-				"textAlignment" "south-west"
-				"xpos"			"255"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"19"
-				"fgcolor"		"tanlight"
-			}
-			
-			"SquadSurplusLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"LootLabel"
-				"font"			"HudFontSmallestBold"
-				"labelText"		"#TF_MVM_Victory_SquadSurplus"
-				"textAlignment" "south-west"
-				"xpos"			"325"
-				"ypos"			"0"
-				"wide"			"100"
-				"tall"			"19"
-				"fgcolor"		"tanlight"
-			}
-		}
-		
-		// 6 Entries
-		"PlayerEntry01"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry01"
-			"xpos"			"0"
-			"ypos"			"20"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
-		}
-		
-		"PlayerEntry02"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry02"
-			"xpos"			"0"
-			"ypos"			"55"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
-		}
-		
-		"PlayerEntry03"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry03"
-			"xpos"			"0"
-			"ypos"			"90"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
-		}
-		
-		"PlayerEntry04"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry04"
-			"xpos"			"0"
-			"ypos"			"125"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
-		}
-		
-		"PlayerEntry05"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry05"
-			"xpos"			"0"
-			"ypos"			"160"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
-		}
-		
-		"PlayerEntry06"
-		{
-			"ControlName"	"CMvMVictoryMannUpEntry"
-			"fieldName"		"PlayerEntry06"
-			"xpos"			"0"
-			"ypos"			"195"
-			"wide"			"600"
-			"tall"			"32"
-			"visible"		"1"
 		}
 	}
 }
