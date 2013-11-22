@@ -219,4 +219,65 @@
 			"fgcolor"		"White"
 		}
 	}
+
+	"RespecBackground"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"RespecBackground"
+		"xpos"			"0"
+		"ypos"			"80"
+		"wide"			"250"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+
+	"RespecContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RespecContainer"
+		"xpos"			"0"
+		"ypos"			"80"
+		"wide"			"250"
+		"tall"			"25"
+		"visible"		"1"
+		"PaintBackgroundType" "2"
+	
+		"RespecTextLabelWin"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecTextLabelWin"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_PVE_Respecs"
+			"textAlignment" "center"
+			"xpos"			"0"
+			"ypos"			"3"
+			"wide"			"160"
+			"tall"			"20"
+			"fgcolor"		"tanlight"
+		}
+		
+		"RespecCountLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecCountLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respeccount%"
+			"textAlignment" "center"
+			"xpos"			"145"
+			"ypos"			"3"
+			"wide"			"30"
+			"tall"			"20"
+			"fgcolor"		"CreditsGreen"
+		}
+	}
 }
