@@ -259,6 +259,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 196"
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"HudTournamentBG"
@@ -550,7 +555,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
@@ -562,7 +567,7 @@
 			"ypos"			"106"
 			"wide"			"190"
 			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 			"fgcolor"		"Black"
 		}
 	}
