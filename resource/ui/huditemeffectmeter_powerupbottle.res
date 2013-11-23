@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-190"
+		"xpos"			"c-215"
 		"ypos"			"r41"
 		"wide"			"100"
 		"tall"			"60"
@@ -26,22 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-	}
-	
-	"ItemEffectIcon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectIcon"
-		"xpos"			"60"
-		"ypos"			"2"
-		"zpos"			"1"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_powerup_critboost_red"
-		"scaleImage"	"1"
+		"fillcolor"		"0 0 0 196"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -70,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CanteenLabel"
-		"font"			"NormalCode14"
+		"font"			"NormalCode12"
 		"fgcolor"		"TanLight"
 		"xpos"			"5"
 		"ypos"			"0"
@@ -119,6 +104,6 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code15"	
+		"font"					"NormalCode12"	
 	}
 }

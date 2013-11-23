@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"8"
+		"xpos"				"27"
+		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -14,16 +14,30 @@
 		
 		"verbose"			"1"
 	}
-	
+
+	"ScoreboardBackground"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ScoreboardBackground"
+		"xpos"			"118"
+		"ypos"			"71"
+		"zpos"			"-1"
+		"wide"			"455"
+		"tall"			"288"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 196"
+	}
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"NormalCode18"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"377"
+		"textAlignment"	"center"
+		"xpos"			"118"
+		"ypos"			"c150"
 		"wide"			"290"
 		"tall"			"20"
 		"fgcolor"		"tanlight"
@@ -33,23 +47,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
-		"ypos"			"30"
+		"xpos"			"395"
+		"ypos"			"c150"
 		"wide"			"150"
-		"tall"			"20"
+		"tall"			"50"
 		"visible"		"1"
 		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
+			"font"			"NormalCode18"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-6"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"30"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -57,13 +71,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode12"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"9"
+			"ypos"			"16"
 			"wide"			"150"
-			"tall"			"10"
+			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -72,10 +86,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"75"
-		"ypos"			"75"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"			"450"
+		"wide"			"400"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -86,15 +100,15 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"85"
+		"xpos"			"130"
 		"ypos"			"79"
 		"wide"			"430"
 		"tall"			"150"
@@ -105,14 +119,15 @@
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
+		"font"			"NormalCode10"
 	}
 	
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
+		"xpos"			"118"
+		"ypos"			"220"
 		"wide"			"400"
 		"tall"			"205"
 		"visible"		"1"
@@ -121,8 +136,8 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"CreditStatsBackground"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"135"
@@ -135,21 +150,20 @@
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 		}
 		
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
+			"font"			"NormalCode16"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"8"
-			"ypos"			"8"
+			"textAlignment" "center"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"200"
-			"tall"			"40"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -200,7 +214,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-
+		
 		"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"

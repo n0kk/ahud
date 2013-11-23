@@ -262,8 +262,8 @@
 		
 		if_mvm
 		{
-			"visible"	"0"
-		}
+			"visible"		"0"
+		}	
 	}
 	
 	"HudTournamentBG"
@@ -517,7 +517,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
+		"font"			"NormalCode10"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
@@ -525,50 +525,20 @@
 		"zpos"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"	"center"
 		
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
+			"font"			"NormalCode12"
 			"xpos"			"155"
 			"ypos"			"105"
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
-		}
-	}
-	
-	"TournamentInstructionsLabelShadow"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
-		"xpos"			"0"
-		"ypos"			"54"
-		"wide"			"250"
-		"tall"			"10"
-		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wrap"			"0"
-		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
-		
-		if_mvm
-		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"156"
-			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"12"
-			"visible"		"0"
-			"fgcolor"		"Black"
 		}
 	}
 	
