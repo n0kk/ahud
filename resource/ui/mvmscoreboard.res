@@ -11,7 +11,6 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
 
@@ -37,10 +36,10 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
 		"xpos"			"118"
-		"ypos"			"c150"
+		"ypos"			"c120"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"TanLight"
 	}
 
 	"DifficultyContainer"
@@ -48,7 +47,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"395"
-		"ypos"			"c150"
+		"ypos"			"c120"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
@@ -64,7 +63,7 @@
 			"ypos"			"-6"
 			"wide"			"150"
 			"tall"			"30"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"TanLight"
 		}
 		
 		"DifficultyValue"
@@ -143,8 +142,8 @@
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -219,14 +218,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "north-west"
-			"xpos"			"180"
-			"ypos"			"8"
+			"textAlignment" "center"
+			"xpos"			"115"
+			"ypos"			"0"
 			"wide"			"220"
 			"tall"			"40"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"TanLight"
 		}
 	}
 }
