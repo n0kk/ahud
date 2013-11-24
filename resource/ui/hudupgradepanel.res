@@ -639,6 +639,31 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
+
+		"RespecButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"RespecButton"
+			"xpos"			"50"
+			"ypos"			"285"
+			"zpos"			"1"
+			"wide"			"120"
+			"tall"			"17"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"labelText"		"#TF_PVE_UpgradeRespec"
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"textinsetx"	"50"
+			"dulltext"		"0"
+			"brighttext"	"1"
+			"Command"		"respec"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
 	}	
 	
 	"TipPanel"
