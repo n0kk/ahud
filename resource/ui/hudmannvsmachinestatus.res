@@ -29,7 +29,7 @@
 	"BossStatusPanel"
 	{
 		"ControlName"		"CMvMBossStatusPanel"
-		"fieldName"			"MvMBossStatusPanel"
+		"fieldName"			"BossStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -42,7 +42,7 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-	
+
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -179,7 +179,6 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -255,5 +254,4 @@
 			"fgcolor"		"tanlight"		
 		}
 	}
-	
 }

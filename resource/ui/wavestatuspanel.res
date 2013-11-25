@@ -36,7 +36,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
+		"labelText"					"%wave_count%"
+	}
+	
+	"WaveCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WaveCountLabel"
+		"font"			"HudFontSmallestBold"
+		"fgcolor"		"ShadowBlack"
+		"xpos"			"201"
+		"ypos"			"7"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -65,7 +81,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode11"
 		"fgcolor"		"TanLight"
 		"xpos"			"55"
 		"ypos"			"6"
@@ -91,10 +107,10 @@
 		"ypos"			"20"
 		"zpos"			"3"
 		"wide"			"178"
-		"tall"			"10"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			"../HUD/tournament_panel_tan"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -102,7 +118,21 @@
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
-	
+	"NewProgressBarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NewProgressBarBG"
+		"xpos"			"211"
+		"ypos"			"20"
+		"zpos"			"-1"
+		"wide"			"179"
+		"tall"			"8"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 196"
+	}
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -112,7 +142,7 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		

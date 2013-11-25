@@ -28,7 +28,23 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
+			"BG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"	"BG"
+				"xpos"	"0"
+				"ypos"	"0"
+				"zpos"	"2"
+				"wide"	"55"
+				"tall"	"35"
+				"autoResize"	"0"
+				"pinCorner"	"0"
+				"fillcolor"	"TanLight"
+				"visible"	"1"
+				"enabled"	"1"
+			}
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -52,7 +68,8 @@
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"NormalCode9"
+					"fgcolor"	"Black"
 				}
 			}
 			
@@ -124,7 +141,7 @@
 				"fieldName"		"ReadyBG"
 				"xpos"			"30"
 				"ypos"			"6"
-				"zpos"			"-1"
+				"zpos"			"3"
 				"wide"			"16"
 				"tall"			"16"
 				"autoResize"	"0"
@@ -136,8 +153,8 @@
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
 			
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
+				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
 				
 				if_mvm
 				{
@@ -539,6 +556,7 @@
 			"wide"			"190"
 			"tall"			"12"
 			"zpos"			"3"
+			"visible"	"0"
 		}
 	}
 	
