@@ -67,7 +67,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"wide"			"320"
 		"tall"			"30"

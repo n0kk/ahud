@@ -56,10 +56,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "0"
-		//"bgcolor" "Yellow"
-		//"bgcolor_override"	"Yellow"
-		//"fgcolor_override"	"Yellow"
-		//"PaintBackgroundType" "2"
 		"image"			"../hud/leaderboard_class_critical"
 	}
 	
