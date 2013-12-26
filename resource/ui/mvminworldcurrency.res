@@ -38,7 +38,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"NormalCode12"
-		"fgcolor"		"30 225 30 255"
+		"fgcolor"		"CreditsGreen"
 		"xpos"			"45"
 		"ypos"			"0"
 		"zpos"			"4"
