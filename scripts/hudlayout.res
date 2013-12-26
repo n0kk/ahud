@@ -146,13 +146,31 @@
 		"xpos" 		 	"c-103"
 		"ypos" 		 	"c-100"
 		"wide" 		 	"201"
-		"tall" 		 	"200"
-		"font"			"Crosshairs24"
+		"tall" 		 	"201"
+		"font"			"Crosshairs22"
 		"labelText"		"3"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 127 255"
+		"fgcolor" 		 "21 207 100 255"
 	}
 
+	ThinCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"9"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"0 0 0 155"
+	}
+	
 	Wings
 	{
 		"controlName"	"CExLabel"
@@ -185,6 +203,23 @@
 		"labelText"		"g"
 		"textAlignment"	"center"	
 		"fgcolor" 		 "255 255 255 70"
+	}
+	
+	Ycrosshair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmall"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-97"
+		"wide" 		 	"200"
+		"tall" 		 	"200"
+		"font"			"Crosshairs34"
+		"labelText"		"`"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "21 207 100 255"
 	}
 
 	HudPlayerStatus
@@ -1025,14 +1060,10 @@
 		"fieldName"				"StatPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-133"
-		"xpos_lodef"			"c-190"
-		"ypos"				"270"
-		"ypos_lodef"			"250"
+		"xpos"					"9999"
+		"ypos"					"9999"
 		"wide"					"266"
-		"wide_lodef"			"400"
 		"tall"					"120"
-		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
