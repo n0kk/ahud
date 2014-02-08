@@ -46,15 +46,15 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
+			"model_ypos"	"3"
+			"model_tall"	"52"
+			"text_ypos"		"47"
 			"text_center"	"1"
 			"name_only"		"1"
 			
 			"attriblabel"
 			{
-				"font"			"NormalCode14"
+				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
 			
@@ -63,6 +63,28 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+		}
+		
+		"itemoptionpanels_kv"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"autoResize"	"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"+"
+			"font"			"NormalCode10"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
 	
@@ -251,7 +273,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"NormalCode14" //ItemFontAttribLarge
+		"font"			"NormalCode12" //ItemFontAttribLarge
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -309,7 +331,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NormalCode14" //HudFontSmallBold
+			"font"			"NormalCode12" //HudFontSmallBold
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -328,7 +350,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"NormalCode14"
+			"font"			"NormalCode12"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -358,7 +380,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NormalCode14"
+			"font"			"NormalCode12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -391,91 +413,19 @@
 			}				
 		}		
 	}
-	
-	"HatParticleSliderToggleButton"
+
+	"ItemOptionsPanel"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"HatParticleSliderToggleButton"
-		"xpos"			"c145"
-		"ypos"			"100"
-		"wide"			"14"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"+"
-		"font"			"NormalCode14" //HudFontSmallBold
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"particle_button_clicked"
-	}
-	
-	"HatParticleSliderBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HatParticleSliderBackground"
-		"xpos"			"c"
-		"ypos"			"100"
+		"ControlName"	"CLoadoutParticleSlider"
+		"fieldname"		"ItemOptionsPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
 		"wide"			"140"
-		"tall"			"32"
+		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"	"TanDark"
+		"bgcolor_override"		"69 64 63 255"
 		"PaintBackgroundType"	"2"
 	}
-	"HatUseHeadCheckButton"
-	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"HatUseHeadCheckButton"
-		"xpos"			"c2"
-		"ypos"			"100"
-		"wide"		"140"
-		"tall"		"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#GameUI_ParticleHatUseHead"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"1"
-		"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-		"use_proportional_insets"		"0"
-		"Default"		"0"
-		"Command"		"particle_use_head_clicked"
-	}
-	
-	"HatParticleSlider"
-	{
-		"ControlName"		"CCvarSlider"
-		"fieldName"		"HatParticleSlider"
-		"xpos"			"c2"
-		"ypos"			"120"
-		"wide"		"140"
-		"tall"		"14"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"fgcolor_override" "TanLight"
-	}	
-	
 }
