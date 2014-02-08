@@ -288,6 +288,24 @@
 		"fgcolor_override"	"235 227 203 255"
 	}
 	
+	"ahudLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ahud"
+		"font"			"Code48"
+		"labelText"		"ahud"
+		"textAlignment"	"west"
+		"xpos"			"40"
+		"ypos"			"62"
+		"wide"			"130"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"255 255 255 255"
+	}
+	
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -409,7 +427,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ToggleMinmode"
 		"xpos"			"50"
-		"ypos"			"65"
+		"ypos"			"346"
 		"zpos"			"12"
 		"wide"			"150"
 		"tall"			"20"
@@ -431,6 +449,7 @@
 			"tabPosition"		"0"
 			"textinsetx"		"0"
 			"use_proportional_insets" "1"
+			"labelText"		"Toggle Scoreboard"
 			"font"			"NormalCode12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
@@ -1918,7 +1937,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
 		"xpos"			"50"
-		"ypos"			"100"
+		"ypos"			"123"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
