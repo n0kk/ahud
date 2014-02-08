@@ -8,7 +8,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"HP Buff"
 		"NegativeColor"			"HP Low"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Code24"
+		"delta_lifetime"		"2"
+		"delta_item_font"		"NormalCode24"
 	}
 }

@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Back"
+		"labelText"		"Back (&Q)"
 		"font"			NormalCode14
 		"textAlignment"	"center"
 		"dulltext"		"0"

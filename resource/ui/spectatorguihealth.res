@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Code12"
+		"font"			"NormalCode12"
 		"fgcolor"		"HP"
 		"labeltext"		"%Health%"
 	}
@@ -89,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Code12"
+		"font"			"NormalCode12"
 		"fgcolor"		"0 0 0 255"
 		"labeltext"		"%Health%"
 	}

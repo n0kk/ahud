@@ -8,7 +8,7 @@
 		"PositiveColor"			"HP Buff"
 		"NegativeColor"			"HP Low"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Code18"
+		"delta_item_font"		"NormalCode18"
 	}
 	
 	"AccountBG"
@@ -46,7 +46,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code24"
+		"font"			"NormalCode24"
 	}
 	
 	"AccountValueShadow"
@@ -67,7 +67,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code24"
+		"font"			"NormalCode24"
 		"fgcolor"		"ShadowBlack"
 	}
 }

@@ -5,22 +5,22 @@ Scheme
 		// custom  colors -------------------
 		"ShadowBlack"		"0 0 0 196"
 		
-		"ChargePercent"		"30 144 255 255"
-		"Ubercharge Meter"	"30 144 255 255"
-		"Ubercharge1"		"255 165 0 255"
-		"Ubercharge2"		"255 69 0 255"
+		"ChargePercent"		"255 255 255 255"
+		"Ubercharge Meter"	"0 255 127 255"
+		"Ubercharge1"		"0 255 127 255"
+		"Ubercharge2"		"0 255 127 255"
 		
-		"Ammo In Clip"		"235 226 202 255"
-		"Ammo In Reserve"	"30 144 255 255"
-		"Ammo No Clip"		"235 226 202 255"
-		"Stickies"			"235 226 202 255"
+		"Ammo In Clip"		"255 255 255 255"
+		"Ammo In Reserve"	"0 191 255 255"
+		"Ammo No Clip"		"255 255 255 255"
+		"Stickies"			"255 255 255 255"
 		
-		"HP"				"235 226 202 255"
-		"HP Buff"			"21 207 100 255"
-		"HP Low"			"204 51 63 255"
+		"HP"				"255 255 255 255"
+		"HP Buff"			"0 255 127 255"
+		"HP Low"			"220 20 60 255"
 		
 		"Damage Numbers"	"255 255 0 255"
-		"Healing Numbers"	"199 244 100 255"
+		"Healing Numbers"	"0 255 127 25"
 		// ----------------------------------
 		
 		// base colors
@@ -30,7 +30,7 @@ Scheme
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 		
-		"White"				"235 235 235 255"
+		"White"				"255 255 255 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
@@ -759,6 +759,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Code48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold-LC"
+				"tall"		"48"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Code50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold-LC"
+				"tall"		"50"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Code52"
 		{
 			"1"
@@ -898,6 +920,50 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode24"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode34"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"34"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode52"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"52"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode55"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"55"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -1944,6 +2010,17 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
 		"MenuMainTitle"
 		{
 			"1"
@@ -2633,7 +2710,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"8"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2644,7 +2721,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2666,7 +2743,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"7"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2677,7 +2754,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"

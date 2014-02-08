@@ -35,7 +35,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ChargePercent"
 	}
 
@@ -57,7 +57,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
 	}
 
@@ -79,7 +79,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 	}
 	
 	"IndividualChargesLabelShadow"
@@ -100,7 +100,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"1"
 		"brighttext"	"1"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
 	}
 	

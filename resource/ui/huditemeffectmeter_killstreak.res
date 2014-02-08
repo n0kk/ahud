@@ -108,7 +108,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code24"
+		"font"					"NormalCode20"
 	}
 	"ItemEffectMeterCountShadow"
 	{
@@ -127,7 +127,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code24"
+		"font"					"NormalCode20"
 		"fgcolor"	"ShadowBlack"
 	}
 }

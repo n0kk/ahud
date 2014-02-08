@@ -178,7 +178,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-71"
@@ -202,7 +202,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -274,7 +274,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"textAlignment_minmode"		"east"
@@ -301,7 +301,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -611,7 +611,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"			"Code20"
+		"font"			"NormalCode20"
 		"labelText"		"%playerscore%"
 		"textAlignment"		"center"
 		"xpos"			"c-368"
@@ -864,7 +864,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"Code34"
+			"font"			"NormalCode34"
 			"labelText"		":"
 			"textAlignment"	"center"
 			"xpos"			"28"
@@ -932,7 +932,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"Code34"
+			"font"			"NormalCode34"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"7"
@@ -949,7 +949,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"Code34"
+			"font"			"NormalCode34"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"96"

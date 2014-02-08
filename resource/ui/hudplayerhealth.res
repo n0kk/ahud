@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"HP"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Code55"
+		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
 	}	
 	"PlayerStatusBleedImage"
