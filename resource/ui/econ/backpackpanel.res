@@ -57,6 +57,9 @@
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 			
+			"deferred_description"        "1"
+            "deferred_icon"                        "1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -261,24 +264,6 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
-    	}
 		
 		"attriblabel"
 		{

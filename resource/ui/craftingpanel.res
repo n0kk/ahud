@@ -51,31 +51,43 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
-			"itemmodelpanel"
+
+			"MainContentsContainer"
 			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
-			}
-			
-			"namelabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"namelabel"
+				"ControlName"	"EditablePanel"
+				"fieldName"		"MainContentsContainer"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"50"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"wide"			"f0"
+				"tall"			"f0"
 				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%itemname%"
-				"textAlignment"	"south"
-				"fgcolor"		"235 226 202 255"
-				"wrap"			"1"
-				"centerwrap"	"1"
+				"bgcolor_override"		"0 0 0 0"
+			
+				"itemmodelpanel"
+				{
+					"use_item_rendertarget" "0"
+					"allow_rot"				"0"
+				}
+			
+				"namelabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"namelabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"
+					"wide"			"50"
+					"tall"			"30"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"%itemname%"
+					"textAlignment"	"south"
+					"fgcolor"		"235 226 202 255"
+					"wrap"			"1"
+					"centerwrap"	"1"
+				}
 			}
 		}
 		
