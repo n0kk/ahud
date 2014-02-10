@@ -20,7 +20,7 @@ Scheme
 		"HP Low"			"220 20 60 255"
 		
 		"Damage Numbers"	"255 255 0 255"
-		"Healing Numbers"	"0 255 127 25"
+		"Healing Numbers"	"0 255 127 255"
 		// ----------------------------------
 		
 		// base colors
@@ -2754,7 +2754,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"9"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3143,21 +3143,21 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "Blank"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "Green"
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"offset" "0 0"
+			"color" "Blank"
 		}
 
 		ComboBoxBorder
