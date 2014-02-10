@@ -37,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"190"
-		"ypos"					"-1"
+		"xpos"					"195"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"8"
@@ -80,8 +80,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"190"
-		"ypos"					"10"
+		"xpos"					"220"
+		"ypos"					"7"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -93,14 +93,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code20"
+		"font"					"NormalCode20"
 	}
 	"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"191"
-		"ypos"					"11"
+		"xpos"					"221"
+		"ypos"					"8"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -112,7 +112,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code20"
+		"font"					"NormalCode20"
 		"fgcolor"				"ShadowBlack"
 	}
 }
