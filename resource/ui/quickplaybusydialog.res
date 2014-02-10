@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 196"
 	}
 
 	"BusyContainer"
@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"0 0 0 196"
 		}
 
 		"TitleLabel"
@@ -157,7 +157,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"0 0 0 196"
 		}
 
 		"TitleLabel"

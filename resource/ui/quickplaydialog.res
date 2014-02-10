@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 240"
+		"bgcolor_override"	"0 0 0 5"
 	}
 
 	"Container"
@@ -46,7 +46,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"40 37 37 255"
+			"bgcolor_override"	"0 0 0 196"
 		}
 
 		"TitleLabel"
@@ -248,7 +248,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"40 37 37 255"
+						"bgcolor_override"	"0 0 0 196"
 					}
 		
 					"MoreInfoLabel"
@@ -334,7 +334,7 @@
 			"visible"	"0"
 			"enabled"	"1"
 			"border"	"QuickplayBorder"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"0 0 0 196"
 
 			"TitleLabel"
 			{
