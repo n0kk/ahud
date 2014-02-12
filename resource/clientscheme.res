@@ -3,7 +3,9 @@ Scheme
 	Colors
 	{
 		// custom  colors -------------------
-		"ShadowBlack"		"0 0 0 196"
+		
+		"ShadowBlack"		"0 0 0 225"
+		"HudBlack"			"0 0 0 196"
 		
 		"ChargePercent"		"255 255 255 255"
 		"Ubercharge Meter"	"0 255 127 255"
@@ -21,6 +23,7 @@ Scheme
 		
 		"Damage Numbers"	"255 255 0 255"
 		"Healing Numbers"	"0 255 127 255"
+		
 		// ----------------------------------
 		
 		// base colors
@@ -522,110 +525,6 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
-		xHairCross
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"12"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairHollowCross
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"18"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairHollowCrossDot
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"18"
-				"antialias"	"0"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairCircle
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"30"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairDot
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"35"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairBrackets
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"24"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		xHairKonrWings
-		{
-			"1"
-			{
-				"name"		"broeselhud Crosshairs"
-				"tall"		"26"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
-			}
-		}
-		"roboto10"
-		{
-			"1"
-			{
-				"name"		"Roboto Condensed Bold"
-				"tall"		"10"
-				"antialias"	"1"
-			}
-		}
-		"roboto11"
-		{
-			"1"
-			{
-				"name"		"Roboto Condensed Bold"
-				"tall"		"11"
-				"antialias"	"1"
-			}
-		}
-		"roboto12"
-		{
-			"1"
-			{
-				"name"		"Roboto Condensed Bold"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
 		"BlocksSharp64"
 		{
 			"1"
@@ -942,6 +841,17 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"34"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"48"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -4520,35 +4430,20 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}	
-		"8" 
-		{
-			"font" "resource/fonts/RobotoCondensed-Bold.ttf"
-			"name" "Roboto Condensed Bold"
-		}	
-		"9"
-		{
-			"font" "resource/fonts/Crosshairs.ttf"
-			"name" "broeselhud Crosshairs"
-		}		
-		"10"
+		"8"
 		{
 			"font"	"resource/fonts/CodeProBoldLC.otf"
 			"name"	"Code-Pro-Bold-LC"
 		}
-		"11"
+		"9"
 		{
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"	"Code-Pro-LC"
 		}
-		"12"
+		"10"
 		{
-			"font"	"resource/fonts/fogcrosshairs.ttf"
+			"font"	"resource/fonts/Crosshairs.ttf"
 			"name"	"Crosshairs"
-		}
-		"13"
-		{
-			"font"	"resource/fonts/Entypo.otf"
-			"name"	"Entypo"
 		}
 	}
 }
