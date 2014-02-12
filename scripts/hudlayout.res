@@ -1,141 +1,71 @@
 "Resource/HudLayout.res"
 {	
-	xHairCrossOutline
+	// custom crosshairs -------------------
+	
+	Cross
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"BasicCross"
-		"visible"		"0"
-		"enabled"		"0"
-		"zpos"			"-1"
-		"xpos"			"c-103"
-		"ypos"			"c-99"
-		"wide"			"200"
-		"tall"			"200"
+		"fieldName"	 	"Cross"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-103"
+		"ypos" 		 	"c-99"
+		"wide" 		 	"201"
+		"tall" 		 	"201"
 		"font"			"Crosshairs34"
-		"labelText"		"2"
-		"textAlignment"		"center"	
-		"fgcolor"		"0 0 0 255"
+		"labelText"		"v"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "0 255 0 255"
 	}
-	
-	xHairCross
+	OpenCross
 	{
 		"controlName"	"CExLabel"
-		"fieldName"		"xHairCross"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairCross"
-		"labeltext"		"a"
-		"textAlignment"	"center"
-		"fgcolor"		"0 255 0  255"
+		"fieldName"	 	"OpenCross"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-87"
+		"ypos" 		 	"c-100"
+		"wide" 		 	"200"
+		"tall" 		 	"201"
+		"font"			"Crosshairs22"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "0 255 0 255"
 	}
-
-	xHairHollowCross
+	OpenCrossDot
 	{
 		"controlName"	"CExLabel"
-		"fieldName"		"xHairHollowCross"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairHollowCross"
-		"labeltext"		"b"
-		"textAlignment"	"center"
-		"fgcolor"		"0 255 0 255"
+		"fieldName"	 	"OpenCrossDot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-87"
+		"ypos" 		 	"c-100"
+		"wide" 		 	"200"
+		"tall" 		 	"201"
+		"font"			"Crosshairs22"
+		"labelText"		"h"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "0 255 0 255"
 	}
-	
-	xHairHollowCrossDot
+	Dot
 	{
 		"controlName"	"CExLabel"
-		"fieldName"		"xHairHollowCrossDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairHollowCrossDot"
-		"labeltext"		"c"
-		"textAlignment"	"center"
-		"fgcolor"		"0 255 0 255"
+		"fieldName"	 	"Dot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-104"
+		"ypos" 		 	"c-100"
+		"wide" 		 	"201"
+		"tall" 		 	"201"
+		"font"			"Crosshairs34"
+		"labelText"		"3"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "0 255 0 255"
 	}
-	
-	xHairCircle
-	{
-		"controlName"	"CExLabel"
-		"fieldName"		"xHairCircle"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairCircle"
-		"labeltext"		"h"
-		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 180"
-	}
-	
-	xHairDot
-	{
-		"controlName"	"CExLabel"
-		"fieldName"		"xHairDot"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"51"
-		"tall"			"50"
-		"font"			"xHairDot"
-		"labeltext"		"k"
-		"textAlignment"	"center"
-		"fgcolor"		"21 207 100 255"
-	}
-	
-	xHairBrackets
-	{
-		"controlName"	"CExLabel"
-		"fieldName"		"xHairBrackets"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairBrackets"
-		"labeltext"		"n"
-		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
-	}
-	
-	xHairKonrWings
-	{
-		"controlName"	"CExLabel"
-		"fieldName"		"xHairKonrWings"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"font"			"xHairKonrWings"
-		"labeltext"		"q"
-		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 75"
-	}
-
 	SmallDot
 	{
 		"controlName"	"CExLabel"
@@ -150,27 +80,59 @@
 		"font"			"Crosshairs22"
 		"labelText"		"3"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "21 207 100 255"
+		"fgcolor" 		 "0 255 0 255"
 	}
-
-	ThinCircle
+	Circle
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"ThinCircle"
+		"fieldName"	 	"Circle"
 		"visible"		"0"
 		"enabled"		"0"
 		"zpos"			"2"
 		"xpos"			"c-100"
 		"ypos"			"c-96"
-		"wide"			"200"
+		"wide"			"201"
 		"tall"			"200"
 		"font"			"Crosshairs34"
 		"labelText"		"9"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 0 0 155"
+		"fgcolor"		"255 255 255 255"
 	}
-	
+	CircleDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CircleDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"201"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	QuarterCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"QuarterCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-100"
+		"ypos"			"c-98"
+		"wide"			"201"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"w"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
 	Wings
 	{
 		"controlName"	"CExLabel"
@@ -187,7 +149,22 @@
 		"textAlignment"	"center"	
 		"fgcolor"		"255 255 255 255"
 	}
-	
+	WingsCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+		"font"			"Crosshairs34"
+		"labelText"		"c"
+		"textAlignment"	"center"	
+		"fgcolor"		"255 255 255 255"
+	}
 	WingsSmall
 	{
 		"controlName"	"CExLabel"
@@ -202,9 +179,40 @@
 		"font"			"Crosshairs34"
 		"labelText"		"g"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "255 255 255 70"
+		"fgcolor" 		 "255 255 255 255"
 	}
-	
+	WingsSmallDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"WingsSmallDot"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-97"
+		"wide" 		 	"200"
+		"tall" 		 	"200"
+		"font"			"Crosshairs34"
+		"labelText"		"f"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "255 255 255 255"
+	}
+	KonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KonrWings"
+		"visible" 		"0"
+		"enabled" 		"0"
+		"zpos"			"2"
+		"xpos" 		 	"c-100"
+		"ypos" 		 	"c-98"
+		"wide" 		 	"200"
+		"tall" 		 	"200"
+		"font"			"Crosshairs34"
+		"labelText"		"6"
+		"textAlignment"	"center"	
+		"fgcolor" 		 "255 255 255 255"
+	}
 	Ycrosshair
 	{
 		"controlName"	"CExLabel"
@@ -216,11 +224,13 @@
 		"ypos" 		 	"c-97"
 		"wide" 		 	"200"
 		"tall" 		 	"200"
-		"font"			"Crosshairs34"
+		"font"			"Crosshairs32"
 		"labelText"		"`"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "21 207 100 255"
+		"fgcolor" 		 "0 255 0 255"
 	}
+	
+	// ----------------------------------
 
 	HudPlayerStatus
 	{
@@ -403,7 +413,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-190"
+		"xpos"					"c-181"
 		"ypos"					"267"
 		"wide"					"116"
 		"tall"  				"180"
@@ -429,10 +439,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-255"
-		"ypos"		"c140"
+		"xpos"		"c-345"
+		"ypos"		"c192"
 		"wide"		"500"
-		"tall"		"200"
+		"tall"		"100"
 	}
 
 	CMainTargetID
@@ -502,7 +512,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-15"
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
@@ -1168,10 +1178,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-370"
+		"xpos"			"c90"
 		"ypos"			"c-10"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"202"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1521,7 +1531,7 @@
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 	
-//FOR TESTING FOR TESTING FOR TESTING FOR TESTING 
+	// for testing purposes
 	
 	"MidVerticalLine"
 	{
