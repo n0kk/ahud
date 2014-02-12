@@ -4445,5 +4445,10 @@ Scheme
 			"font"	"resource/fonts/Crosshairs.ttf"
 			"name"	"Crosshairs"
 		}
+		"11"
+		{
+			"font"	"resource/fonts/Entypo.otf"
+			"name"	"Entypo"
+		}
 	}
 }
