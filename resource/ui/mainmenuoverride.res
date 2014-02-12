@@ -76,7 +76,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 196"
+		"fillcolor"		"HudBlack"
 	}
 	MainMenuOverride
 	{
@@ -292,10 +292,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ahud"
-		"font"			"Code48"
+		"font"			"NormalCode48"
 		"labelText"		"ahud"
 		"textAlignment"	"west"
-		"xpos"			"40"
+		"xpos"			"35"
 		"ypos"			"62"
 		"wide"			"130"
 		"tall"			"30"

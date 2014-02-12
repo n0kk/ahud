@@ -191,7 +191,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"Code18"
+		"font"			"NormalCode18"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
 		"xpos"			"c+10"
@@ -209,7 +209,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Code34"
+		"font"			"NormalCode34"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"
@@ -226,7 +226,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"Code18"
+		"font"			"NormalCode18"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"c-25"

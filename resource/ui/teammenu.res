@@ -2,7 +2,7 @@
 {
 	"team"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 196"
+		"fillcolor"		"HudBlack"
 	}
 	
 	"SysMenu"
@@ -191,20 +191,6 @@
 		"selectedFgColor_override" 	"TanLight"
 	}
 	
-	"AutojoinBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AutojoinBG"
-		"xpos"			"0"
-		"ypos"			"c-75"
-		"zpos"			"0"
-		"wide"			"170"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-	}
-	
 	"teambutton3"
 	{
 		"ControlName"	"CTFTeamButton"
@@ -230,20 +216,6 @@
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"TanLight"
-	}
-	
-	"SpectateBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpectateBG"
-		"xpos"			"0"
-		"ypos"			"c45"
-		"zpos"			"0"
-		"wide"			"170"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
 	}
 	
 	"CancelButton" [$WIN32] 

@@ -275,7 +275,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 196"
+		"fillcolor"		"HudBlack"
 		
 		if_mvm
 		{

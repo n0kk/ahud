@@ -106,7 +106,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Code24"
+			"font"			"NormalCode24"
 			"fgcolor"		"Stickies"
 		}
 		"NumPipesLabelDropshadow"
@@ -127,7 +127,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Code24"
+			"font"			"NormalCode24"
 			"fgcolor"		"ShadowBlack"
 		}		
 	}

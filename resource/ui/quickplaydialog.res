@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 5"
+		"bgcolor_override"	"HudBlack"
 	}
 
 	"Container"
@@ -46,7 +46,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 196"
+			"bgcolor_override"	"HudBlack"
 		}
 
 		"TitleLabel"
@@ -248,7 +248,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"0 0 0 196"
+						"bgcolor_override"	"HudBlack"
 					}
 		
 					"MoreInfoLabel"
@@ -334,7 +334,7 @@
 			"visible"	"0"
 			"enabled"	"1"
 			"border"	"QuickplayBorder"
-			"bgcolor_override"	"0 0 0 196"
+			"bgcolor_override"	"HudBlack"
 
 			"TitleLabel"
 			{

@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"font"			"NormalCode12"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}
 	"PlayerStatusPlayerLevel"

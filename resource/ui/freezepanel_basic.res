@@ -5,7 +5,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r210"
-		"ypos"			"c113"
+		"ypos"			"c32"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"1000"
@@ -43,7 +43,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 196"
+			"fillcolor"		"HudBlack"
 		}
 		
 		"itemmodelpanel"
@@ -80,7 +80,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"r210"
-		"ypos"			"c81"		
+		"ypos"			"c0"		
 		"wide"			"200"		
 		"tall"			"32"		
 		"visible"		"1"
