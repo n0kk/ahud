@@ -268,12 +268,12 @@
 		"fieldName"		"MainBG"
 		"xpos"			"c-500"
 		"ypos"			"c-300"
-		"zpos"			"-1"
+		"zpos"			"-3"
 		"wide"			"360"
 		"tall"			"110"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 		
@@ -333,9 +333,10 @@
 		}
 	}
 
+	
 	"HudTournamentBLUEBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"5"
 		"ypos"			"23"
@@ -346,7 +347,35 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		//"image"			"../HUD/tournament_panel_blu"
+		"fillcolor"	"72 112 125 255"
+
+		"src_corner_height"	"15"				// pixels inside the image
+		"src_corner_width"	"15"
+		
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height"	"0"	
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"HudTournamentBLUEBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudTournamentBLUEBG2"
+		"xpos"			"5"
+		"ypos"			"25"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../HUD/tournament_panel_blu"
+		"fillcolor"	"46 73 82 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -408,7 +437,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"125"
 		"ypos"			"23"
@@ -419,7 +448,35 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_red"
+		//"image"			"../HUD/tournament_panel_red"
+		"fillcolor"	"158 64 61 255"
+
+		"src_corner_height"	"15"				// pixels inside the image
+		"src_corner_width"	"15"
+		
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height"	"0"	
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"HudTournamentREDBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudTournamentREDBG2"
+		"xpos"			"125"
+		"ypos"			"25"
+		"zpos"			"-2"
+		"wide"			"120"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../HUD/tournament_panel_red"
+		"fillcolor"	"102 48 46 255"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -485,7 +542,7 @@
 		"font"			"NormalCode9"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"27"
+		"ypos"			"29"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -542,8 +599,8 @@
 		"zpos"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"	"center"
