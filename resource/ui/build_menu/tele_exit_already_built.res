@@ -11,9 +11,4 @@
 	{	
 		"labelText"		"4"
 	}
-	
-	"CantBuildReason"
-	{
-		"xpos"	"-13"
-	}
 }
