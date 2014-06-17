@@ -86,5 +86,21 @@
 		"labeltext"		  "%Health%"
 		"font"					"NormalCode12"
 		"fgcolor"		    "0 0 0 0"
-	}								
+	}				
+	"SpecHealthBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"SpecHealthBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"       	"24"
+		"tall"        	"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultBgColor_Override"	"Blank"
+		"PaintBackgroundType"	"0"
+        "textinsety"	"99"
 }

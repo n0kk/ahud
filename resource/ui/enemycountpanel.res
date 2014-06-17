@@ -40,7 +40,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"ahudWhite"
 	}
 	
 	"EnemyCountCritImageBG"
@@ -64,7 +64,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
 		"font"			"NormalCode11"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ahudWhite"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"

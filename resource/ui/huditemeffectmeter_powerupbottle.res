@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-198"
-		"ypos"			"r33"
-		"wide"			"100"
+		"xpos"			"c-196"
+		"ypos"			"r25"
+		"wide"			"95"
 		"tall"			"60"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
@@ -18,15 +18,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PowerupBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"20"
+		"wide"			"95"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"fillcolor"		"ahudWhite"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -56,8 +56,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CanteenLabel"
 		"font"			"NormalCode12"
-		"fgcolor"		"TanLight"
-		"xpos"			"5"
+		"fgcolor"		"ahudBlack"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"60"
@@ -91,7 +91,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"54"
+		"xpos"					"52"
 		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"40"
@@ -105,5 +105,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NormalCode12"	
+		"fgcolor"				"ahudBlack"
 	}
 }

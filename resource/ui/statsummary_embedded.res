@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"ahudDarkGrey"
 	}
 	"MainBackground"
 	{
@@ -206,6 +206,25 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				
+				"fgcolor_override"	"ahudWhite"
+				"bgcolor_override"	"ahudBlack"
+				"disabledFgColor_override" "ahudWhite"
+				"disabledBgColor_override" "ahudBlack"
+				"selectionColor_override" "ahudBlack"
+				"selectionTextColor_override" "ahudWhite"
+				"defaultSelectionBG2Color_override" "ahudBlack"
+		
+				"Button"
+				{
+					"defaultFgColor_override"	"ahudWhite"
+					"defaultBgColor_override"	"ahudBlack"
+					"selectedFgColor_override"	"ahudBlack"
+					"selectedBgColor_override"	"ahudWhite"
+					"armedFgColor_override"	"ahudBlack"
+					"armedBgColor_override"	"ahudWhite"
+					"paintbackgroundtype"	"0"
+				}		
 			}
 			"BarChartComboB"
 			{
@@ -226,6 +245,25 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				
+				"fgcolor_override"	"ahudWhite"
+				"bgcolor_override"	"ahudBlack"
+				"disabledFgColor_override" "ahudWhite"
+				"disabledBgColor_override" "ahudBlack"
+				"selectionColor_override" "ahudBlack"
+				"selectionTextColor_override" "ahudWhite"
+				"defaultSelectionBG2Color_override" "ahudBlack"
+		
+				"Button"
+				{
+					"defaultFgColor_override"	"ahudWhite"
+					"defaultBgColor_override"	"ahudBlack"
+					"selectedFgColor_override"	"ahudBlack"
+					"selectedBgColor_override"	"ahudWhite"
+					"armedFgColor_override"	"ahudBlack"
+					"armedBgColor_override"	"ahudWhite"
+					"paintbackgroundtype"	"0"
+				}						
 			}
 			"ClassCombo"
 			{
@@ -246,6 +284,25 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				
+				"fgcolor_override"	"ahudWhite"
+				"bgcolor_override"	"ahudBlack"
+				"disabledFgColor_override" "ahudWhite"
+				"disabledBgColor_override" "ahudBlack"
+				"selectionColor_override" "ahudBlack"
+				"selectionTextColor_override" "ahudWhite"
+				"defaultSelectionBG2Color_override" "ahudBlack"
+		
+				"Button"
+				{
+					"defaultFgColor_override"	"ahudWhite"
+					"defaultBgColor_override"	"ahudBlack"
+					"selectedFgColor_override"	"ahudBlack"
+					"selectedBgColor_override"	"ahudWhite"
+					"armedFgColor_override"	"ahudBlack"
+					"armedBgColor_override"	"ahudWhite"
+					"paintbackgroundtype"	"0"
+				}				
 			}
 		}
 		"AveragesBG"
@@ -268,7 +325,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"ahudDarkGrey"
 		}
 		"AveragesLabel"
 		{
@@ -1653,7 +1710,7 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"ahudDarkGrey"
 		}
 		"RecordsLabel1"
 		{

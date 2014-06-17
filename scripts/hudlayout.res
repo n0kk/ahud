@@ -97,7 +97,7 @@
 		"labelText"		"9"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"225 225 225 225"
 	}
 	CircleDot
 	{
@@ -273,7 +273,7 @@
 		"xpos"	"c-100"
 		"ypos"	"0"
 		"wide"	"200"
-		"tall"	"160"
+		"tall"	"200"
 		
 		"blue_active_xpos"			"31"
 		"red_active_xpos"			"131"
@@ -288,7 +288,7 @@
 		"ypos"			"c25"	[$WIN32]
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
@@ -328,6 +328,7 @@
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"alpha"			"0"
 	}
 
 	HudFlameRocketCharge
@@ -402,7 +403,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c35"
+		"ypos"					"c15"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -451,7 +452,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"310"
 		"wide"	 	"200"
 		"tall"	 	"46"
 		"priority"	"40"
@@ -469,7 +470,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"360"
+		"ypos"		"370"
 		"wide"	 	"200"
 		"tall"	 	"46"
 		"priority"	"40"
@@ -481,7 +482,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"265"
+		"ypos"		"275"
 		"wide"	 	"200"
 		"tall"	 	"46"
 		"priority"	"35"
@@ -677,7 +678,7 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
@@ -686,13 +687,13 @@
 		
 		"TextFont"		"NormalCode10"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"ahudBlue"
+		"TeamRed"		"ahudRed"
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"0 0 0 150"		[$WIN32]
-		"LocalBackgroundColor"	"255 255 255 198"	[$WIN32]
+		"BaseBackgroundColor"	"HudBlack"		[$WIN32]
+		"LocalBackgroundColor"	"ahudWhite"	[$WIN32]
 	}
 
 	HudVehicle
@@ -1155,7 +1156,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-202"
-		"ypos"			"c-50"
+		"ypos"			"c-65"
 		"wide"			"425"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1167,9 +1168,21 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-202"
-		"ypos"			"c-50"
-		"wide"			"450"
-		"tall"			"200"
+		"ypos"			"c-65"
+		"wide"			"425"
+		"tall"			"195"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-202"
+		"ypos"			"c-65"
+		"wide"			"425"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1179,7 +1192,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-202"
-		"ypos"			"c-50"
+		"ypos"			"c-65"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -1347,7 +1360,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r320"
+		"ypos"					"r380"
 		"wide"					"f0"
 		"tall"					"320"
 	}
@@ -1529,6 +1542,20 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 	
 	// for testing purposes

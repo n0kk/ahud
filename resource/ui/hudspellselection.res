@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"ActionText"
@@ -60,7 +60,7 @@
 		"ypos"			"43"
 		"wide"			"100"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ahudWhite"
 		"visible"		"1"
 	}
 	
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
+		"font"			"NormalCode22"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"47"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
+		"font"			"NormalCode22"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"46"
@@ -108,6 +108,6 @@
 		"ypos_minmode"	"37"
 		"wide"			"20"
 		"tall"			"19"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"ahudWhite"
 	}
 }

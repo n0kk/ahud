@@ -2,7 +2,7 @@
 {
 	"ToggleMinmode"
 	{
-		"label" "Toggle Minmode"
+		"label" "Toggle Scoreboard"
 		"command" "engine toggle cl_hud_minmode"
 		"OnlyInGame" "1"
 	}

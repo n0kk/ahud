@@ -47,6 +47,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NormalCode24"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"AccountValueShadow"

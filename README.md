@@ -1,6 +1,8 @@
 ahud
 ====
 it's a hud
+http://imgur.com/a/569GH
+
 autoexec.cfg
 -------------------
 >alias JoinHomeServer "connect x.x.x.x:xxxx"

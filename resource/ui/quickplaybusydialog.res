@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"HoAssBorder"
 
 		"Background"
 		{
@@ -47,17 +47,17 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"HudBlack"
+			"bgcolor_override"	"ahudDarkerGrey"
 		}
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Code18"
 			"textAlignment"	"center"
 			"xpos"			"0"
-			"ypos"			"15"
+			"ypos"			"13"
 			"zpos"			"1"
 			"wide"			"450"
 			"tall"			"20"
@@ -79,6 +79,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"bgcolor_override"	"ahudGrey"
+			"fgcolor_override"	"ahudWhite"
 		}
 
 		"NumServers"
@@ -142,7 +144,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"HoAssBorder"
 
 		"Background"
 		{
@@ -157,7 +159,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"HudBlack"
+			"bgcolor_override"	"ahudDarkGrey"
 		}
 
 		"TitleLabel"

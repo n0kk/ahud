@@ -24,7 +24,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"			"../hud/winpanel_blue_bg_team"
-			"fillcolor"	"72 112 125 255"
+			"fillcolor"	"ahudBlue"
 			
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -45,7 +45,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"			"../hud/color_panel_blu"
-			"fillcolor"	"46 73 82 255"
+			"fillcolor"	"ahudDarkBlue"
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -66,7 +66,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"			"../hud/winpanel_red_bg_team"
-			"fillcolor"	"158 64 61 255"
+			"fillcolor"	"ahudRed"
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -87,7 +87,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"			"../hud/color_panel_red"
-			"fillcolor"	"102 48 46 255"
+			"fillcolor"	"ahudDarkRed"
 
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -138,7 +138,7 @@
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
-			"xpos"			"127"
+			"xpos"			"128"
 			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"44"
@@ -192,7 +192,7 @@
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
-			"xpos"			"191"
+			"xpos"			"192"
 			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"44"
@@ -274,7 +274,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"fillcolor"		"Hudblack"
 	}
 	"WinningTeamLabel"
 	{	

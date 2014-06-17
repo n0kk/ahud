@@ -40,8 +40,8 @@
 			"paintbackground"			"0"
 			
 			"FgColor"					"225 225 225 255"
-			"defaultFgColor_override" 	"255 255 255 255"
-			"armedFgColor_override"   	"0 200 255 255"
+			"defaultFgColor_override" 	"White"
+			"armedFgColor_override"   	"ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"			"0 0 0 175"
@@ -132,8 +132,8 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"2"
 				
-				"defaultFgColor_override" "255 255 255 255"
-				"armedFgColor_override"   "0 200 255 255"
+				"defaultFgColor_override" "White"
+				"armedFgColor_override"   "ahudYellow"
 				"depressedFgColor_override" "75 125 255 255"
 				
 				"image_drawcolor"	"0 0 0 175"
@@ -295,7 +295,7 @@
 		"font"			"NormalCode48"
 		"labelText"		"ahud"
 		"textAlignment"	"west"
-		"xpos"			"35"
+		"xpos"			"32"
 		"ypos"			"62"
 		"wide"			"130"
 		"tall"			"30"
@@ -303,7 +303,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"White"
 	}
 	
 	"TooltipPanel"
@@ -365,7 +365,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"50"
-		"ypos"			"200"
+		"ypos"			"183"
 		"zpos"			"12"
 		"wide"			"150"
 		"tall"			"20"
@@ -399,8 +399,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -427,7 +427,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ToggleMinmode"
 		"xpos"			"50"
-		"ypos"			"346"
+		"ypos"			"323"
 		"zpos"			"12"
 		"wide"			"150"
 		"tall"			"20"
@@ -462,8 +462,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -525,7 +525,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -833,7 +833,7 @@
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -876,7 +876,7 @@
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -940,7 +940,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -968,7 +968,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"White"
 			
 			"SubImage"
 			{
@@ -1237,8 +1237,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1357,8 +1357,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1431,8 +1431,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1632,7 +1632,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
 		"xpos"			"50"
-		"ypos"			"130"
+		"ypos"			"123"
 		"zpos"			"0"
 		"wide"			"150"
 		"tall"			"20"
@@ -1665,8 +1665,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1754,7 +1754,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"50"
-		"ypos"			"150"
+		"ypos"			"143"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
@@ -1787,8 +1787,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1815,7 +1815,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"50"
-		"ypos"			"180"
+		"ypos"			"163"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
@@ -1848,8 +1848,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1876,7 +1876,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
 		"xpos"			"50"
-		"ypos"			"180"
+		"ypos"			"183"
 		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
@@ -1909,8 +1909,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -1970,8 +1970,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -2031,8 +2031,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -2093,8 +2093,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override"   "0 200 255 255"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "ahudYellow"
 			"depressedFgColor_override" "75 125 255 255"
 				
 			"image_drawcolor"	"0 0 0 175"
@@ -2421,7 +2421,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"50"
-		"ypos"			"386"
+		"ypos"			"363"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
@@ -2446,8 +2446,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 		
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override"   "0 200 255 255"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "ahudYellow"
 		"depressedFgColor_override" "75 125 255 255"
 				
 		"image_drawcolor"	"0 0 0 175"
@@ -2474,7 +2474,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"50"
-		"ypos"			"366"
+		"ypos"			"343"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
@@ -2499,8 +2499,8 @@
 			"border_armed"		""
 			"paintbackground"	"0"
 		
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override"   "0 200 255 255"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "ahudYellow"
 		"depressedFgColor_override" "75 125 255 255"
 				
 		"image_drawcolor"	"0 0 0 175"
@@ -2526,7 +2526,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"QuitButton"
 		"xpos"			"50"
-		"ypos"			"437"
+		"ypos"			"413"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
@@ -2551,8 +2551,8 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override"   "0 200 255 255"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "ahudYellow"
 		"depressedFgColor_override" "75 125 255 255"
 				
 		"image_drawcolor"	"0 0 0 175"
@@ -2579,7 +2579,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"50"
-		"ypos"			"437"
+		"ypos"			"413"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
@@ -2604,8 +2604,8 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override"   "0 200 255 255"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "ahudYellow"
 		"depressedFgColor_override" "75 125 255 255"
 				
 		"image_drawcolor"	"0 0 0 175"

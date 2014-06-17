@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"ahudDarkGrey"
+		"infocus_bgcolor_override" "ahudDarkGrey"
+		"outoffocus_bgcolor_override" "ahudDarkGrey"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -84,7 +84,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"ahudWhite"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -108,7 +108,7 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "ahudWhite"
 			"armedBgColor_override" "0 0 0 0"
 			"depressedFgColor_override" "178 82 22 255"
 			"depressedBgColor_override" "0 0 0 0"
@@ -371,6 +371,24 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"			"NoBorder"
+			"bgcolor_override"	"ahudDarkerGrey"
+    	}	
+		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -430,7 +448,8 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"HoAssBorder"
+		"bgcolor_override" "ahudBlack"
 		
 		"TipLabel"
 		{
@@ -448,7 +467,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"ahudWhite"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

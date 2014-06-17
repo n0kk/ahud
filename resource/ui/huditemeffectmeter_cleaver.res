@@ -6,10 +6,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c124"	
+		"ypos"			"c98"	
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	

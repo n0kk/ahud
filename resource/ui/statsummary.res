@@ -36,7 +36,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"ahudDarkerGrey"
 	
 		"Background"
 		{
@@ -127,7 +127,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"0 0 0 0"
 		}
 
 		"Title"
@@ -209,7 +209,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"NormalCode34"
+		"font"			"Code34"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"
@@ -244,7 +244,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"-25"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -425,7 +425,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"0 0 0 0"
 		}
 		"AveragesLabel"
 		{
@@ -1812,7 +1812,7 @@
 			"enabled"		"1"
 			"enabled_hidef"		"0"			
 			"enabled_lodef"		"0"			
-			"border"		"TFThinLineBorder"
+			"bgcolor_override"		"0 0 0 0"
 		}
 		"RecordsLabel1"
 		{

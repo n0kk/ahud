@@ -64,7 +64,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 210"
+		"bgcolor_override"	"HudBlack"
 	}
 	
 	"SelectWeaponPanel"
@@ -80,7 +80,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"63 59 55 0"
+		"bgcolor_override"	"0 0 0 0"
 		
 		"OutterPanelBG"
 		{
@@ -93,8 +93,8 @@
 			"tall"			"310"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -104,25 +104,123 @@
 			"draw_corner_height" "8"	
 
 		}
-		
+	
+		"OutPanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"OutPanelBG"
+			"xpos"			"10"
+			"ypos"			"5"
+			"zpos"			"-8"
+			"wide"			"480"
+			"tall"			"310"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"HudBlack"
+		}	
+		"BetweenBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BetweenBG"
+			"xpos"			"10"
+			"ypos"			"278"
+			"zpos"			"-8"
+			"wide"			"480"
+			"tall"			"35"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"ahudWhite"
+		}
+	
 		"InnerPanelRim"
 		{
 			"ControlName"	"Panel"
 			"fieldName"		"InnerPanelRim"
-			"xpos"			"10"
-			"ypos"			"50"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-1"
 			"wide"			"480"
 			"tall"			"230"
 			"autoResize"	"0"
 			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"ahudWhite"
+		}
+		"TopBorder"
+		{
+			"ControlName"	"Panel"
+			"fieldName"		"TopBorder"
+			"xpos"			"10"
+			"ypos"			"50"
+			"zpos"			"-1"
+			"wide"			"480"
+			"tall"			"5"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"PaintBackgroundType" "2"
-			"bgcolor_override"	"142 132 121 255"
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"ahudWhite"
 		}
-		
+		"BottomBorder"
+		{
+			"ControlName"	"Panel"
+			"fieldName"		"BottomBorder"
+			"xpos"			"10"
+			"ypos"			"275"
+			"zpos"			"-1"
+			"wide"			"480"
+			"tall"			"5"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"ahudWhite"
+		}
+		"LeftBorder"
+		{
+			"ControlName"	"Panel"
+			"fieldName"		"LeftBorder"
+			"xpos"			"10"
+			"ypos"			"50"
+			"zpos"			"-1"
+			"wide"			"5"
+			"tall"			"230"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"ahudWhite"
+		}
+		"RightBorder"
+		{
+			"ControlName"	"Panel"
+			"fieldName"		"LeftBorder"
+			"xpos"			"485"
+			"ypos"			"50"
+			"zpos"			"-1"
+			"wide"			"5"
+			"tall"			"230"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"ahudWhite"
+		}		
 		"InnerBGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -132,9 +230,10 @@
 			"zpos"			"0"
 			"wide"			"470"
 			"tall"			"220"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"visible"		"0"
+			"PaintBackgroundType"	"0"
+			"border"		"HoAssBorder"
+			"bgcolor_override" "ahudDarkerGrey"
 		}
 	
 		"PlayerUpgradeButton"
@@ -204,14 +303,14 @@
 			"ypos"			"8"
 			"zpos"			"-3"
 			"wide"			"74"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"142 132 121 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"ahudWhite"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"MouseOverTabPanel"
@@ -222,14 +321,14 @@
 			"ypos"			"9"
 			"zpos"			"-6"
 			"wide"			"72"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"MouseOverUpgradePanel"
@@ -240,14 +339,14 @@
 			"ypos"			"0"
 			"zpos"			"10"
 			"wide"			"157"
-			"tall"			"47"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"bgcolor_override"	"239 128 73 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel1"
@@ -258,14 +357,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel2"
@@ -276,14 +375,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel3"
@@ -294,14 +393,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel4"
@@ -312,14 +411,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel5"
@@ -330,14 +429,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveTabPanel6"
@@ -348,14 +447,14 @@
 			"ypos"			"10"
 			"zpos"			"-5"
 			"wide"			"70"
-			"tall"			"54"
+			"tall"			"45"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"	"97 94 85 255"
+			"PaintBackgroundType"	"0"
 		}
 		
 		"InactiveSeparatorPanel"
@@ -369,8 +468,8 @@
 			"tall"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"		"0"
 			"bgcolor_override"	"0 0 0 128"
 		}
@@ -457,8 +556,8 @@
 			"tall"			"65"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			
 			"bgcolor_override"	"52 48 45 255"
 		}
@@ -494,8 +593,8 @@
 			"tall"			"130"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			
 			"bgcolor_override"	"97 94 84 255"
 		}
@@ -511,8 +610,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			
 			"bgcolor_override"	"72 68 63 255"
 		}
@@ -539,7 +638,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemStatsLabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"NormalCode10"
 			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"30"
@@ -587,14 +686,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudBlack"
 		}
 		
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CancelButton"
-			"xpos"			"335"
+			"xpos"			"325"
 			"ypos"			"285"
 			"zpos"			"1"
 			"wide"			"75"
@@ -619,7 +718,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CloseButton"
-			"xpos"			"415"
+			"xpos"			"405"
 			"ypos"			"285"
 			"zpos"			"1"
 			"wide"			"75"
@@ -679,21 +778,21 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"63 59 55 0"
+		"bgcolor_override"	"0 0 0 0"
 		
 		"TipPanelBG"
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"TipPanelBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"-3"
 			"wide"			"500"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -701,6 +800,22 @@
 			
 			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" "8"	
+		}
+
+		"RealTipPanelBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"RealTipPanelBG"
+			"xpos"			"10"
+			"ypos"			"0"
+			"zpos"			"-3"
+			"wide"			"480"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"ahudWhite"
 		}
 		
 		"TipText"
@@ -710,28 +825,28 @@
 			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
 			"textAlignment" "west"
-			"xpos"			"10"
+			"xpos"			"20"
 			"ypos"			"0"
 			"zpos"			"11"
-			"wide"			"460"
+			"wide"			"440"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudBlack"
 		}
 		
 		"NextTipButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"NextTipButton"
-			"xpos"			"470"
-			"ypos"			"9"
+			"xpos"			"460"
+			"ypos"			"12"
 			"zpos"			"12"
 			"wide"			"20"
-			"tall"			"23"
+			"tall"			"17"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

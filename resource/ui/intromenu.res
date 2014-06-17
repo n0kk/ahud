@@ -76,7 +76,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"Continue (&E)"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"

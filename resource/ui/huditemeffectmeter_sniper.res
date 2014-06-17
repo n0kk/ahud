@@ -9,7 +9,7 @@
 		"ypos"			"367"
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
@@ -37,8 +37,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"190"
-		"ypos"					"-1"
+		"xpos"					"198"
+		"ypos"					"13"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"8"
@@ -52,6 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NormalCode10"
+		"fgcolor_override"		"ahudWhite"
 	}
 
 	"ItemEffectMeter"
@@ -59,8 +60,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"ypos"					"0"
-		"xpos"					"0"
+		"ypos"					"25"
+		"xpos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"6"				
@@ -77,8 +78,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"190"
-		"ypos"					"10"
+		"xpos"					"226"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -90,14 +91,15 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code20"
+		"font"					"NormalCode20"
+		"fgcolor"				"ahudWhite"
 	}
 		"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"
-		"xpos"					"191"
-		"ypos"					"11"
+		"xpos"					"227"
+		"ypos"					"6"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -109,7 +111,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Code20"
+		"font"					"NormalCode20"
 		"fgcolor"				"ShadowBlack"
 	}
 }

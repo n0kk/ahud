@@ -26,9 +26,9 @@
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"Hudblack"
 	}
 	
 	"MapInfoTitle"
@@ -46,8 +46,8 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"NormalCode15"
-		"fgcolor"		"255 255 255 255"
+		"font"			"Code18"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"MapInfoType"
@@ -66,7 +66,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"NormalCode11"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}	
 	
 	"MapInfoText"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"MapImage"
@@ -129,11 +129,11 @@
 		"font"			"Blank"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
+		"fgcolor"			"ahudWhite"
+		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" "ahudWhite"
 	}
 
 	"MapInfoContinue2"
@@ -149,7 +149,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"Continue (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -158,11 +158,11 @@
 		"font"			"NormalCode15"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "255 255 255 255"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" "ahudWhite"
 	}
 	
 	"MapInfoWatchIntro"
@@ -187,11 +187,11 @@
 		"font"			"NormalCode11"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
+		"fgcolor"			"ahudWhite"
+		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" "ahudWhite"
 	}
 	
 	"MapInfoBack"
@@ -215,11 +215,11 @@
 		"font"			"NormalCode11"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
+		"fgcolor"			"ahudWhite"
+		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "255 255 255 255"
+		"selectedFgColor_override" "ahudWhite"
 	}
 	
 	"MenuBG"

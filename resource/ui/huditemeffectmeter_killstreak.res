@@ -9,7 +9,7 @@
 		"ypos"			"c128"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
@@ -49,6 +49,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NormalCode10"
+		"fgcolor"				"ahudWhite"
 	}
 	"ItemEffectMeterLabelShadow"
 	{
@@ -69,7 +70,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NormalCode10"
-		"fgcolor"	"ShadowBlack"
+		"fgcolor"				"ShadowBlack"
 	}
 
 	"ItemEffectMeter"

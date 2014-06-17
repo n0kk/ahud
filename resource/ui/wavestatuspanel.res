@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"TanLight"
+		"font"			"NormalCode12"
+		"fgcolor"		"ahudWhite"
 		"xpos"			"200"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NormalCode12"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"201"
 		"ypos"			"7"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"ahudWhite"
 		
 		if_verbose
 		{
@@ -82,7 +82,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
 		"font"			"NormalCode11"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ahudWhite"
 		"xpos"			"55"
 		"ypos"			"6"
 		"zpos"			"3"
@@ -110,7 +110,7 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
+		"fillcolor"		"../HUD/tournament_panel_tan"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

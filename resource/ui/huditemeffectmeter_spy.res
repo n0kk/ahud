@@ -9,7 +9,7 @@
 		"ypos" 			"367"
 		"wide" 			"500"
 		"tall" 			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	

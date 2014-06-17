@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"27 27 27 0"
+		"infocus_bgcolor_override"		"27 27 27 0"
+		"outoffocus_bgcolor_override"	"27 27 27 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"Code24"
+		"title_font"	"NormalCode24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarbgcolor_override"				"ahudDarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -44,6 +44,20 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
+	}
+	"BackgroundHeader2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
@@ -51,14 +65,28 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}		
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -81,7 +109,7 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"35"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -103,12 +131,15 @@
 		{
 			"textinsetx"		"40"
 			"font"				"Code24"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"selectedcolor"		"ahudWhite"
+			"unselectedcolor"	"TanDark"	
+			"defaultBgColor_override"	"ahudDarkGrey"
+			"paintbackground"	"1"
+			"activeborder_override"	"ButtonDepressedBorder"
+			"normalborder_override" "ButtonDepressedBorder"
+			
+			"armedBgColor_override"		"37 37 37 255"
+			"selectedBgColor_override"	"ahudDarkGrey"
 		}
 	}
 	
@@ -116,7 +147,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"

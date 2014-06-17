@@ -52,8 +52,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NormalCode9"
-		"fgcolor"			"255 255 255 255"
+		"font"			"NormalCode10"
+		"fgcolor"			"ahudWhite"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -86,7 +86,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"NormalCode10"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}			
 	"OvertimeBG"
 	{
@@ -119,7 +119,7 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"NormalCode10"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}			
 	"SuddenDeathBG"
 	{
@@ -152,7 +152,7 @@
 		"brighttext"		"0"
 		"wrap"				"0"
 		"font"				"NormalCode10"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}	
 	"SetupBG"
 	{
@@ -185,7 +185,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"NormalCode10"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}
 	"ServerTimeLimitLabelBG"
 	{

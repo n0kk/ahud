@@ -6,7 +6,7 @@
 		"fieldName"		"background"
 		"xpos"			"c-100"
 		"ypos"			"130"
-		"zpos"			"1"
+		"zpos"			"-1"
 		"wide"			"20"
 		"tall"			"100"
 		"autoResize"	"0"
@@ -21,8 +21,8 @@
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"localPlayerBG"
@@ -84,7 +84,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 	}
 		
 	"changeLabel"

@@ -32,17 +32,17 @@
 			"BG"
 			{
 				"ControlName"	"ImagePanel"
-				"fieldName"	"BG"
-				"xpos"	"0"
-				"ypos"	"0"
-				"zpos"	"2"
-				"wide"	"55"
-				"tall"	"35"
+				"fieldName"		"BG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"2"
+				"wide"			"55"
+				"tall"			"35"
 				"autoResize"	"0"
-				"pinCorner"	"0"
-				"fillcolor"	"TanLight"
-				"visible"	"1"
-				"enabled"	"1"
+				"pinCorner"		"0"
+				"fillcolor"		"ahudWhite"
+				"visible"		"1"
+				"enabled"		"1"
 			}
 			
 			"playername"
@@ -108,7 +108,7 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"ahudGrey"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
@@ -168,7 +168,7 @@
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
-				"zpos"			"3"
+				"zpos"			"4"
 				"wide"			"12"
 				"tall"			"12"
 				"autoResize"	"0"
@@ -275,7 +275,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"fillcolor"		"Hudblack"
 		
 		if_mvm
 		{
@@ -348,7 +348,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_blu"
-		"fillcolor"	"72 112 125 255"
+		"fillcolor"	"ahudBlue"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -375,7 +375,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_blu"
-		"fillcolor"	"46 73 82 255"
+		"fillcolor"	"ahudDarkBlue"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -449,7 +449,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_red"
-		"fillcolor"	"158 64 61 255"
+		"fillcolor"	"ahudRed"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -476,7 +476,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"image"			"../HUD/tournament_panel_red"
-		"fillcolor"	"102 48 46 255"
+		"fillcolor"	"ahudDarkRed"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -542,7 +542,7 @@
 		"font"			"NormalCode9"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
-		"ypos"			"29"
+		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -559,6 +559,26 @@
 			"visible"		"0"
 		}
 	}
+
+	"TournamentConditionLabelBG"
+	{	
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TournamentConditionLabelBG"
+		"fgcolor"		"TanLight"
+		"xpos"			"5"
+		"ypos"			"41"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"13"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"HudBlack"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
 
 	"HudTournamentBGHelp"
 	{

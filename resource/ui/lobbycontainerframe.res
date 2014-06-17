@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarbgcolor_override"				"ahudDarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -46,6 +46,20 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
+	}
+	"BackgroundHeader2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
@@ -53,14 +67,28 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
+		"xpos"			"0"
+		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -83,7 +111,7 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"35"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -104,13 +132,16 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"font"				"Code24"
+			"selectedcolor"		"TanLight"
+			"unselectedcolor"	"TanDark"	
+			"defaultBgColor_override"	"ahudDarkGrey"
+			"paintbackground"	"1"
+			"activeborder_override"	"HoAssBorder"
+			"normalborder_override" "HoAssBorder"
+			
+			"armedBgColor_override"		"37 37 37 255"
+			"selectedBgColor_override"	"ahudDarkGrey"
 		}
 	}
 
@@ -128,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontSmallBold"
+		"font"			"NormalCode14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -242,7 +273,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_MannUp"
-		"font"			"HudFontMediumBold"
+		"font"			"Code24"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -257,13 +288,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"border_default"	"HoAssBorder"
+		"border_armed"		"HoAssBorder"
+		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "TanLight"
+		"defaultBgColor_override"	"ahudBlack"
+		"armedFgColor_override" "TanLight"
+		"armedBgColor_override"	"ahudYellow"
+		"depressedFgColor_override" "TanLight"
+		"depressedBgColor_override" "ahudYellow"
 	}
 
 	"MannUpDisabledLabel"
@@ -299,7 +333,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_MvM_BootCamp"
-		"font"			"HudFontMediumBold"
+		"font"			"Code24"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -314,13 +348,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"border_default"	"HoAssBorder"
+		"border_armed"		"HoAssBorder"
+		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "TanLight"
+		"defaultBgColor_override"	"ahudBlack"
+		"armedFgColor_override" "TanLight"
+		"armedBgColor_override"	"ahudYellow"
+		"depressedFgColor_override" "TanLight"
+		"depressedBgColor_override" "ahudYellow"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -334,8 +371,8 @@
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

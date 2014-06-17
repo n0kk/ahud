@@ -6,6 +6,7 @@
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"27"
 		"ypos"				"-5"
+		"ypos_minmode"		"-5"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -19,14 +20,32 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-370"
-		"ypos"			"91"
+		"ypos"			"86"
 		"zpos"			"-1"
 		"wide"			"540"
-		"tall"			"280"
+		"tall"			"236"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
+	}
+	
+	"GrayLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"GrayLine"
+		"xpos"			"67"
+		"ypos"			"318"	
+		"zpos"			"0"
+		"wide"			"520"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"	
+		"fillcolor"		"255 255 255 255"
+		"PaintBackgroundType"	"0"	
 	}
 	"PopFileLabel"
 	{
@@ -34,12 +53,12 @@
 		"fieldName"		"PopFileLabel"
 		"font"			"NormalCode10"
 		"labelText"		"%popfile%"
-		"textAlignment"	"center"
-		"xpos"			"382"
-		"ypos"			"414"
-		"wide"			"290"
+		"textAlignment"	"east"
+		"xpos"			"445"
+		"ypos"			"70"
+		"wide"			"150"
 		"tall"			"20"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ahudWhite"
 	}
 
 	"DifficultyContainer"
@@ -47,7 +66,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"445"
-		"ypos"			"63"
+		"ypos"			"46"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
@@ -63,7 +82,7 @@
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"20"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"DifficultyValue"
@@ -77,22 +96,22 @@
 			"ypos"			"12"
 			"wide"			"150"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 	}
 	
 	"PlayerListBackground"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"PlayerListBackground"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"			"400"
-		"tall"			"150"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
+		"wide"			"510"
+		"tall"			"140"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"TanLight"
 		
 		"scaleImage"		"1"
 		
@@ -108,16 +127,16 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-360"
-		"ypos"			"93"
+		"ypos"			"94"
 		"wide"			"515"
-		"tall"			"150"
+		"tall"			"146"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
-		"textcolor"		"White"
+		"textcolor"		"ahudWhite"
 		"font"			"NormalCode10"
 	}
 	
@@ -125,9 +144,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"127"
-		"ypos"			"217"
-		"wide"			"400"
+		"xpos"			"80"
+		"ypos"			"212"
+		"wide"			"515"
 		"tall"			"205"
 		"visible"		"1"
 		
@@ -157,20 +176,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"NormalCode16"
+			"font"			"NormalCode14"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"ahudWhite"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"8"
+			"xpos"			"0"
 			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
@@ -182,7 +201,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"208"
+			"xpos"			"260"
 			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
@@ -194,8 +213,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"8"
-			"ypos"			"75"
+			"xpos"			"130"
+			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -206,8 +225,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"208"
-			"ypos"			"75"
+			"xpos"			"390"
+			"ypos"			"30"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -221,11 +240,11 @@
 			"font"			"NormalCode14"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "center"
-			"xpos"			"90"
-			"ypos"			"122"
+			"xpos"			"130"
+			"ypos"			"88"
 			"wide"			"230"
-			"tall"			"40"
-			"fgcolor"		"TanLight"
+			"tall"			"18"
+			"fgcolor"		"ahudWhite"
 		}
 	}
 }

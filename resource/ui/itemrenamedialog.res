@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"ahudDarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"HoAssBorder"
 	}
 
 	"mouseoveritempanel"
@@ -35,6 +35,24 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
+		
+		"BackColor"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"			"NoBorder"
+			"bgcolor_override"	"ahudDarkerGrey"
+    	}			
 		
 		"attriblabel"
 		{
@@ -93,22 +111,6 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_SelfMade"
 	}
-	"tool_icon"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"tool_icon"
-		"xpos"			"10"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"backpack_jewel_modify_target_b_g"
-		"tileImage"		"0"
-		"tileVertically" "0"
-		"drawcolor"		"112 176 74 255"
-	}				
 	"tool_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -158,22 +160,6 @@
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_Vintage"
 	}
-	"subject_icon"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"subject_icon"
-		"xpos"			"300"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"backpack_jewel_modify_target_b_g"
-		"tileImage"		"0"
-		"tileVertically" "0"
-		"drawcolor"		"71 98 145 255"
-	}	
 	"subject_modelpanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -220,8 +206,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override" "ahudBlack"
+		"paintbackgroundtype" "0"
 	}
 	"OldItemNameDescLabel"
 	{
@@ -277,8 +263,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override" "ahudBlack"
+		"paintbackgroundtype" "0"
 	}
 	"NewItemNameDescLabel"
 	{
@@ -318,9 +304,9 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"46 43 42 255"
-		"paintbackgroundtype" "2"
+		"fgcolor_override"	"TanLight"
+		"bgcolor_override"	"ahudGrey"
+		"paintbackgroundtype" "0"
 		"labelText"			""
 		"font"				"HudFontSmall"
 		"textAlignment"		"west"

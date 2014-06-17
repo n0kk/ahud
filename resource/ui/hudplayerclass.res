@@ -189,7 +189,7 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"225"
+				"angles_y"		"212"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
@@ -219,10 +219,10 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"212"
+				"angles_y"		"225"
 				"angles_z"		"0"
 				"origin_x"		"138"
-				"origin_y"		"-4"
+				"origin_y"		"-7"
 				"origin_z"		"-93"
 			}
 			"Medic"

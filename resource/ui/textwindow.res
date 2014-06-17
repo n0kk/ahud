@@ -27,9 +27,9 @@
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"Hudblack"
 	}
 	
 	"TFMessageTitle"
@@ -49,8 +49,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode15"
-		"fgcolor"		"255 255 255 255"
+		"font"			"Code18"
+		"fgcolor"		"ahudWhite"
 	}	
 
 	"TextMessage"
@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}
 
 	"HTMLMessage"
@@ -111,7 +111,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"CONTINUE (&E)"
+		"labelText"		"Continue (&E)"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -121,11 +121,11 @@
 		"font"			"NormalCode15"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "255 255 255 255"
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" "ahudWhite"
 	}
 	
 	"MenuBG"
@@ -160,20 +160,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"5"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}						
+		"fillcolor"		"HudBlack"
+	}								
 	
 	"MessageTitle"
 	{

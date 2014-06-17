@@ -6,7 +6,7 @@
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"4"
 		"zpos"			"1"
 		"wide"			"55"
 		"tall"			"15"
@@ -43,7 +43,7 @@
 		"fieldName"		"CantBuildReason"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"21"
+		"ypos"			"30"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"18"
@@ -61,8 +61,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"10"
-		"ypos"			"49"
+		"xpos"			"13"
+		"ypos"			"58"
 		"zpos"			"1"
 		"wide"			"7"
 		"tall"			"7"
@@ -71,16 +71,17 @@
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"TanDark"
+		"textAlignment"	"center"
 	}
 	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"HudFontSmall"
+		"font"			"NormalCode11"
 		"fgcolor"		"TanDark"
 		"xpos"			"0"
-		"ypos"			"46"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"58"
 		"tall"			"13"
@@ -89,7 +90,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
+		"textAlignment"	"center"	
 	}
 	
 	"ModeLabel"

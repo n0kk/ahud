@@ -10,7 +10,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 				
 		"PassedIcon"
 		{
@@ -76,7 +77,8 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 		
 		"Header"
 		{
@@ -392,7 +394,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 				
 		"FailedIcon"
 		{
@@ -458,7 +461,8 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 				
 		"FailedIcon"
 		{
@@ -527,8 +531,8 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
-		"bgcolor_override"	"0 0 0 0"
+		"border"		"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 		"PaintBackground"	"0"
 
 		"header_font"		"ItemFontNameLarge"

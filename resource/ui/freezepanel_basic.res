@@ -43,7 +43,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HudBlack"
+			"fillcolor"		"Hudblack"
 		}
 		
 		"itemmodelpanel"

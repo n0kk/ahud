@@ -207,11 +207,20 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		FgColor 	"HP Buff" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpec 	FgColor 	"HP Buff" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Buff" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpec 	FgColor 	"HP" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP" 	Linear 0.0 0.0
 
-
+	Animate	HealthBG			BgColor		"HP Buff"		Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"200"			Accel 0.0 0.2
+	Animate	HealthBG			Alpha		"0"				Accel 0.2 0.4
+	Animate	TargetHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
+    Animate	TargetHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	TargetHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	SpecHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
+    Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -228,6 +237,13 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValue FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui FgColor "HP" Accel 0.0 0.0
+	
+	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
+	Animate	TargetHealthBG			BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	TargetHealthBG			Alpha		"255"		   Accel 0.0 0.0
+	Animate	SpecHealthBG			BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	SpecHealthBG			Alpha		"255"		   Accel 0.0 0.0
 }
 
 //===========================================
@@ -238,11 +254,21 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
-	Animate PlayerStatusHealthValue 		FgColor 	"HP Low" 	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpec		FgColor		"HP Low"	Linear 0.0 0.0
-	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Low" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpec		FgColor		"HP"	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP" 	Linear 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	Animate	HealthBG			BgColor		"HP Low"		Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"200"			Accel 0.0 0.2
+	Animate	HealthBG			Alpha		"0"				Accel 0.2 0.4
+	Animate	TargetHealthBG		BgColor		"HP Low"		Accel 0.0 0.0
+    Animate	TargetHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	TargetHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	SpecHealthBG		BgColor		"HP Low"		Accel 0.0 0.0
+    Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
+	
+	RunEvent HudHealthDyingPulseLoop	0.4
 }
 
 // call to loop HudHealthDyingPulse
@@ -258,6 +284,13 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthValue FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui FgColor "HP" Accel 0.0 0.0
+	
+	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
+	Animate	TargetHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	TargetHealthBG		Alpha		"255"		   Accel 0.0 0.0
+	Animate	SpecHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	SpecHealthBG		Alpha		"255"		   Accel 0.0 0.0
 }
 
 //===========================================
@@ -754,6 +787,8 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
 	// empty
+	Animate SmallDot FgColor "255 0 0 255" Linear 0.0 0.0
+	Animate SmallDot FgColor "21 207 100 255" Linear 0.15 0.0
 }
 
 //===========================================

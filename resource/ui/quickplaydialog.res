@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
+		"border"				"HoAssBorder"
 
 		"Background"
 		{
@@ -46,21 +46,21 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"HudBlack"
+			"bgcolor_override"	"ahudDarkGrey"
 		}
 
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"Code24"
 			"labelText"		"#TF_Quickplay_Title"
 			"textAlignment"	"center"
 			"xpos"			"40"
 			"ypos"			"15"
 			"zpos"			"1"
 			"wide"			"320"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -95,7 +95,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"89 81 71 255"
+				"fgcolor_override"	"ahudWhite"
 			}
 
 			"MoreInfoButton"
@@ -133,7 +133,7 @@
 				"tall"		"245"
 				"visible"	"1"
 				"enabled"	"1"
-				"border"				"MainMenuHighlightBorder"
+				"fillcolor"				"ahudDarkGrey"
 
 				"ModeImage"
 				{
@@ -159,7 +159,7 @@
 					"labelText"		"%gametype%"
 					"textAlignment"	"center"
 					"xpos"			"0"
-					"ypos"			"7"
+					"ypos"			"4"
 					"zpos"			"2"
 					"wide"			"320"
 					"tall"			"25"
@@ -168,7 +168,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"mouseinputenabled" "0"
-					"fgcolor_override"	"89 81 71 255"
+					"fgcolor_override"	"ahudWhite"
 				}
 
 				"DescLabel"
@@ -187,7 +187,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"89 81 71 255"
+					"fgcolor_override"	"ahudWhite"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
@@ -233,7 +233,7 @@
 					"tabPosition"		"0"
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
-					"border"				"MainMenuBGBorder"
+					"bgcolor_override"				"ahudDarkerGrey"
 		
 					"Background"
 					{
@@ -248,7 +248,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"HudBlack"
+						"bgcolor_override"	"ahudDarkerGrey"
 					}
 		
 					"MoreInfoLabel"
@@ -333,21 +333,21 @@
 			"tall"		"240"
 			"visible"	"0"
 			"enabled"	"1"
-			"border"	"QuickplayBorder"
-			"bgcolor_override"	"HudBlack"
+			"border"	"HoAssBorder"
+			"bgcolor_override"	"ahudBlack"
 
 			"TitleLabel"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"NormalCode18"
 				"labelText"		"#TF_Quickplay_AdvancedOptions"
 				"textAlignment"	"center"
 				"xpos"			"10"
-				"ypos"			"10"
+				"ypos"			"8"
 				"zpos"			"1"
 				"wide"			"355"
-				"tall"			"15"
+				"tall"			"17"
 				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -709,7 +709,7 @@
 			"ypos"			"300"
 			"zpos"			"20"
 			"wide"			"185"
-			"tall"			"40"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -725,13 +725,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
+			"depressedFgColor_override" "ahudWhite"
+			
+			"defaultBgColor_override" "ahudBlack"
+			"armedBgColor_override" "ahudYellow"
+			"depressedBgColor_override" "ahudBlack"
 		}
 
 		"ShowServersButton"
@@ -742,13 +744,13 @@
 			"ypos"			"300"
 			"zpos"			"20"
 			"wide"			"185"
-			"tall"			"40"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Show servers"
+			"labelText"		"Show Servers"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
@@ -758,13 +760,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
+			"depressedFgColor_override" "ahudWhite"
+			
+			"defaultBgColor_override" "ahudBlack"
+			"armedBgColor_override" "ahudYellow"
+			"depressedBgColor_override" "ahudBlack"
 		}
 
 		"OptionsButton"
@@ -794,7 +798,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

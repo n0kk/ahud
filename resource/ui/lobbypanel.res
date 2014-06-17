@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"ahudDarkGrey"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -59,7 +59,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"89 81 71 255"
+				"fgcolor_override"	"TanLight"
 			}
 
 			"MoreInfoButton"
@@ -136,7 +136,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"mouseinputenabled" "0"
-					"fgcolor_override"	"89 81 71 255"
+					"fgcolor_override"	"TanLight"
 				}
 
 				"DescLabel"
@@ -155,7 +155,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"89 81 71 255"
+					"fgcolor_override"	"TanLight"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
@@ -310,7 +310,8 @@
 		"tall"		"350"
 		"visible"	"1"
 		"enabled"	"1"
-		"border"	"MainMenuHighlightBorder"
+		"border"	"HoAssBorder"
+		"bgcolor_override"	"ahudDarkGrey"
 		
 		"MannVsMachineLabel"
 		{
@@ -322,8 +323,8 @@
 			"wide"			"370"
 			"tall"			"25"
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"HudFontMediumBold"
-			//"fgcolor_override"	"89 81 71 255"
+			"font"			"Code24"
+			//"fgcolor_override"	"TanLight"
 			"fgcolor_override"	"201 79 57 255"
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -335,7 +336,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"MannVsMachineExplanation"
 			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_MannVsMachineExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
@@ -380,7 +381,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayForBraggingRightsExplanation"
 			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
@@ -409,7 +410,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayOnCommunityServerExplanation"
 			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"TanLight"
 			"labelText"		"#TF_MvM_PracticeExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
@@ -430,7 +431,7 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"225"
-
+		
 		"NavToRelay"	"TourlistGroupBox"
 		"NavUp"			"MvMSelectChallengeGroupBox"
 		"NavLeft"		"MvMSelectChallengeGroupBox"
@@ -507,8 +508,8 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"ahudDarkGrey"
+			"border"		"HoAssBorder"
 
 			"NavToRelay"	"TourList"
 
@@ -569,8 +570,8 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"TourLootImage"
 		{
@@ -627,8 +628,8 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -837,8 +838,8 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -1000,8 +1001,8 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"ahudBlack"
+			"border"		"HoAssBorder"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -1044,8 +1045,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"NoGCTitle"
 		{
@@ -1092,8 +1093,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"ahudDarkGrey"
+		"border"		"HoAssBorder"
 
 		"SearchActiveTitle"
 		{
@@ -1491,8 +1492,8 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"ahudBlack"
+			"border"		"HoAssBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -1500,7 +1501,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"Code24"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"
@@ -1575,8 +1576,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"ahudBlack"
+			"border"		"HoAssBorder"
 		}
 
 		"ChatTextEntry"
@@ -1589,8 +1590,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"ahudBlack"
+			"border"		"HoAssBorder"
 		}
 	}
 
