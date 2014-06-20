@@ -564,10 +564,10 @@
 		"fieldName"		"mapname"
 		"font"			"Code18"
 		"labelText"		"%mapname%"
-		"textAlignment"		"center"
-		"xpos"			"c140"
-		"ypos"			"343"
-		"ypos_minmode"	"318"
+		"textAlignment"		"west"
+		"xpos"			"c147"
+		"ypos"			"357"
+		"ypos_minmode"	"332"
 		"zpos"			"4"
 		"wide"			"116"
 		"tall"			"20"
@@ -581,7 +581,7 @@
 		{
 			"visible"		"1"
 			"fgcolor"		"ahudBlack"
-			"ypos"			"347"
+			"ypos"			"361"
 		}	
 	}	
 	"HorizontalLine"
@@ -1080,7 +1080,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"176"
+			"xpos"			"171"
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1104,7 +1104,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
-			"xpos"			"176"
+			"xpos"			"171"
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1176,7 +1176,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"west"
-			"xpos"			"226"
+			"xpos"			"216"
 			"ypos"			"10"	
 			"zpos"			"3"
 			"wide"			"100"
@@ -1200,7 +1200,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"west"
-			"xpos"			"226"
+			"xpos"			"216"
 			"ypos"			"20"	
 			"zpos"			"3"
 			"wide"			"100"
@@ -1224,7 +1224,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
-			"xpos"			"176"	
+			"xpos"			"171"	
 			"ypos"			"40"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1248,7 +1248,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
-			"xpos"			"176"	[$WIN32]
+			"xpos"			"171"	[$WIN32]
 			"ypos"			"50"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1272,7 +1272,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"286"	
+			"xpos"			"271"	
 			"ypos"			"10"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1296,7 +1296,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"286"	
+			"xpos"			"271"	
 			"ypos"			"20"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1320,7 +1320,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
-			"xpos"			"226"	
+			"xpos"			"216"	
 			"ypos"			"40"	
 			"zpos"			"3"
 			"wide"			"95"	
@@ -1344,7 +1344,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"west"
-			"xpos"			"226"	
+			"xpos"			"216"	
 			"ypos"			"50"	
 			"zpos"			"3"
 			"wide"			"95"
@@ -1368,7 +1368,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"west"
-			"xpos"			"336"	
+			"xpos"			"316"	
 			"ypos"			"10"	
 			"zpos"			"3"
 			"wide"			"95"	
@@ -1392,7 +1392,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
-			"xpos"			"336"	
+			"xpos"			"316"	
 			"ypos"			"20"	
 			"zpos"			"3"
 			"wide"			"95"	
@@ -1416,7 +1416,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"286"	
+			"xpos"			"271"	
 			"ypos"			"40"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1440,7 +1440,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"286"	
+			"xpos"			"271"	
 			"ypos"			"50"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1464,7 +1464,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"396"	[$WIN32]
+			"xpos"			"371"	[$WIN32]
 			"ypos"			"10"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -1488,7 +1488,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"396"	
+			"xpos"			"371"	
 			"ypos"			"20"	
 			"zpos"			"3"
 			"wide"			"35"
@@ -1512,7 +1512,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"west"
-			"xpos"			"336"
+			"xpos"			"316"
 			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1536,7 +1536,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"	
-			"xpos"			"396"
+			"xpos"			"371"
 			"ypos"			"40"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1560,7 +1560,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"west"
-			"xpos"			"336"
+			"xpos"			"316"
 			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1584,7 +1584,7 @@
 			"font"			"NormalCode10"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
-			"xpos"			"396"
+			"xpos"			"371"
 			"ypos"			"50"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1594,6 +1594,99 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"ahudWhite"
+			
+			if_mvm
+			{
+				"visible"		"1"
+				"fgcolor"		"ahudBlack"
+			}	
+		}
+		
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"NormalCode10"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"west"
+			"xpos"			"416"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"		"1"
+				"fgcolor"		"ahudBlack"
+			}	
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"NormalCode10"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"471"	[$WIN32]
+			"ypos"			"10"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"		"1"
+				"fgcolor"		"ahudBlack"
+			}	
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"NormalCode10"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"west"
+			"xpos"			"416"	[$WIN32]
+			"ypos"			"20"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			if_mvm
+			{
+				"visible"		"1"
+				"fgcolor"		"ahudBlack"
+			}	
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"NormalCode10"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"471"	[$WIN32]
+			"ypos"			"20"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			
 			if_mvm
 			{
