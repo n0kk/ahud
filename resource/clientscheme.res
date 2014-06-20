@@ -4487,7 +4487,7 @@ Scheme
 		}
 		"11"
 		{
-			"font" "resource/fonts/Entypo.otf
+			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
 	}
