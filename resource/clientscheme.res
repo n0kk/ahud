@@ -473,6 +473,17 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+		"CrosshairsOutline20"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"20"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		"Crosshairs22"
 		{
 			"1"
@@ -481,6 +492,17 @@ Scheme
 			"tall" 			"22"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline22"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"22"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		"Crosshairs24"
@@ -493,6 +515,17 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		"Crosshairs26"
 		{
 			"1"
@@ -501,6 +534,17 @@ Scheme
 			"tall" 			"26"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		"Crosshairs28"
@@ -513,6 +557,17 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+		"CrosshairsOutline28"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"28"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		"Crosshairs30"
 		{
 			"1"
@@ -521,6 +576,17 @@ Scheme
 			"tall" 			"30"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline30"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"30"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		"Crosshairs32"
@@ -533,6 +599,17 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+		"CrosshairsOutline32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		"Crosshairs34"
 		{
 			"1"
@@ -541,6 +618,17 @@ Scheme
 			"tall" 			"34"
 			"weight" 		"0"
 			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
 			}
 		}
 		"BlocksSharp64"
