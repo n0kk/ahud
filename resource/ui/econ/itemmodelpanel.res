@@ -117,7 +117,7 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ahudBlack"
 			"PaintBackgroundType"	"0"
 		}
 	
@@ -152,7 +152,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"ahudBlack"
 			"PaintBackgroundType"	"0"
 		}
 

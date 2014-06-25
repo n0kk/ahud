@@ -133,7 +133,7 @@
 		{
 			"textinsetx"		"40"
 			"font"				"Code24"
-			"selectedcolor"		"TanLight"
+			"selectedcolor"		"ahudWhite"
 			"unselectedcolor"	"TanDark"	
 			"defaultBgColor_override"	"ahudDarkGrey"
 			"paintbackground"	"1"
@@ -292,11 +292,11 @@
 		"border_armed"		"HoAssBorder"
 		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "ahudWhite"
 		"defaultBgColor_override"	"ahudBlack"
-		"armedFgColor_override" "TanLight"
+		"armedFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"ahudYellow"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ahudWhite"
 		"depressedBgColor_override" "ahudYellow"
 	}
 
@@ -352,11 +352,11 @@
 		"border_armed"		"HoAssBorder"
 		"paintbackground"	"1"
 			
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "ahudWhite"
 		"defaultBgColor_override"	"ahudBlack"
-		"armedFgColor_override" "TanLight"
+		"armedFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"ahudYellow"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "ahudWhite"
 		"depressedBgColor_override" "ahudYellow"
 	}
 
