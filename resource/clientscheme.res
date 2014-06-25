@@ -3164,13 +3164,13 @@ Scheme
 		ScrollBarButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ButtonBorder
@@ -3311,13 +3311,13 @@ Scheme
 		}
 		SalePriceBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "SaleGreen"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3326,7 +3326,7 @@ Scheme
 				"1"
 				{
 					"color" "SaleGreen"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -3351,13 +3351,13 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -3365,8 +3365,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -3382,7 +3382,7 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3405,7 +3405,7 @@ Scheme
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/tournament_panel_brown"
 			//"image"					"../hud/color_panel_browner"
@@ -3417,7 +3417,7 @@ Scheme
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -3428,7 +3428,7 @@ Scheme
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -3439,18 +3439,18 @@ Scheme
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3461,7 +3461,7 @@ Scheme
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -3472,7 +3472,7 @@ Scheme
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -3483,13 +3483,13 @@ Scheme
 
 		ToolTipBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -3497,8 +3497,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -3506,7 +3506,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3515,14 +3515,14 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
 		}
 		OptionsCategoryBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			
 			// This border is used just to create a horizontal line, so it only has a bottom border
 			
@@ -3539,7 +3539,7 @@ Scheme
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"loadout_rect"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -3551,22 +3551,22 @@ Scheme
 		StoreFreeTrialBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"loadout_rect_red"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"ahudGrey"
+			"color"					"ahudDarkGrey"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -3576,18 +3576,18 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"backpack_rect_mouseover_color"
 			"color"					"ahudDarkerGrey"
@@ -3600,7 +3600,7 @@ Scheme
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"				// pixels inside the image
@@ -3612,7 +3612,7 @@ Scheme
 		BackpackItemGrayedOut
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"color"					"Black"
 			
 			"image"					"backpack_rect_color"
@@ -3625,14 +3625,14 @@ Scheme
 		BackpackItemGrayedOut_Selected
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"color"					"Black"
 			
 			"image"					"backpack_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		BackpackItemBorder
@@ -3656,8 +3656,8 @@ Scheme
 			"image"					"backpack_rect_mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"69420"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"69420"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		BackpackItemSelectedBorder
 		{
@@ -3985,14 +3985,14 @@ Scheme
 		}
 		StoreItemBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			"backgroundtype"		"2"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4000,8 +4000,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4009,7 +4009,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4018,21 +4018,21 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
 		}
 		StoreItemBorderMouseOver
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			"backgroundtype"		"2"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4040,8 +4040,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4049,7 +4049,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4058,21 +4058,21 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
 		}
 		StoreItemBorderSelected
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			"backgroundtype"		"2"
 			Left
 			{
 				"1"
 				{
-					"color" "TanLight"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4080,8 +4080,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4089,7 +4089,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4098,7 +4098,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4189,8 +4189,8 @@ Scheme
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuBlogTabBG
 		{
@@ -4200,8 +4200,8 @@ Scheme
 			"image"					"blog_tabby"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		MainMenuHighlightBorder
 		{
@@ -4211,8 +4211,8 @@ Scheme
 			"image"					"callout_bubble"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		TrainingResultsBG
@@ -4223,8 +4223,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"			// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		StoreInnerShadowBorder
@@ -4338,18 +4338,18 @@ Scheme
 			"image"					"scroll_well"
 			"src_corner_height"		"16"				// pixels inside the image
 			"src_corner_width"		"16"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		QuickplayBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4357,8 +4357,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4366,7 +4366,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4375,7 +4375,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4383,13 +4383,13 @@ Scheme
 
 		SteamWorkshopBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4397,8 +4397,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -4406,7 +4406,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4415,7 +4415,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
