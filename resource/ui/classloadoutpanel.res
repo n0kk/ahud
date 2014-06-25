@@ -48,7 +48,7 @@
 			
 			"model_ypos"	"3"
 			"model_tall"	"52"
-			"text_ypos"		"47"
+			"text_ypos"		"43"
 			"text_center"	"1"
 			"name_only"		"1"
 			
@@ -132,15 +132,15 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-150"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -152,16 +152,16 @@
 
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
-		"xpos"			"c-130"
-		"ypos"			"15"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
 
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"TopLine"
@@ -466,11 +466,11 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"ahudGrey"
+		"bgcolor_override"		"ahudDarkerGrey"
 		"PaintBackgroundType"	"0"
 	}
 	
-		"TauntHintLabel"
+	"TauntHintLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
