@@ -3566,7 +3566,7 @@ Scheme
 			"backgroundtype"		"0"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"ahudDarkGrey"
+			"color"					"ahudDarkerGrey"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -3590,7 +3590,7 @@ Scheme
 			"backgroundtype"		"0"
 			
 			"image"					"backpack_rect_mouseover_color"
-			"color"					"ahudDarkerGrey"
+			"color"					"ahudGrey"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"

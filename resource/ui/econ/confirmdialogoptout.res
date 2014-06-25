@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkGrey"
+		"bgcolor_override"	"ahudDarkerGrey"
 
 		"BackColor"
     	{
@@ -33,7 +33,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
-			"bgcolor_override"	"ahudDarkGrey"
+			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
 	
