@@ -300,14 +300,14 @@ event HudLowAmmoPulse
 	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
-	Animate AmmoInClip FgColor "200 0 0 255" Linear 0.0 0.075
-	Animate AmmoInClip FgColor "255 0 0 255" Linear 0.125 0.075
+	Animate AmmoInClip FgColor "LowAmmo1" Linear 0.0 0.075
+	Animate AmmoInClip FgColor "LowAmmo2" Linear 0.125 0.075
 	
-	Animate AmmoInReserve FgColor "200 0 0 255" Linear 0.0 0.075
-	Animate AmmoInReserve FgColor "255 0 0 255" Linear 0.125 0.075
+	Animate AmmoInReserve FgColor "LowAmmo1" Linear 0.0 0.075
+	Animate AmmoInReserve FgColor "LowAmmo2" Linear 0.125 0.075
 	
-	Animate AmmoNoClip FgColor "200 0 0 255" Linear 0.0 0.075
-	Animate AmmoNoClip FgColor "255 0 0 255" Linear 0.125 0.075
+	Animate AmmoNoClip FgColor "LowAmmo1" Linear 0.0 0.075
+	Animate AmmoNoClip FgColor "LowAmmo2" Linear 0.125 0.075
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
