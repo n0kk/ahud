@@ -300,16 +300,20 @@ event HudLowAmmoPulse
 	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
-	Animate AmmoInClip FgColor "LowAmmo1" Linear 0.0 0.075
-	Animate AmmoInClip FgColor "LowAmmo2" Linear 0.125 0.075
+	Animate LowAmmoBG 	BgColor 	"LowAmmo1" 	Accel 0.0 0.0
+	Animate LowAmmoBG 	Alpha 		"200" 		Accel 0.0 0.2
+	Animate LowAmmoBG 	Alpha		"0"			Accel 0.2 0.4
 	
-	Animate AmmoInReserve FgColor "LowAmmo1" Linear 0.0 0.075
-	Animate AmmoInReserve FgColor "LowAmmo2" Linear 0.125 0.075
+	//Animate AmmoInClip FgColor "LowAmmo1" Linear 0.0 0.075
+	//Animate AmmoInClip FgColor "LowAmmo2" Linear 0.125 0.075
 	
-	Animate AmmoNoClip FgColor "LowAmmo1" Linear 0.0 0.075
-	Animate AmmoNoClip FgColor "LowAmmo2" Linear 0.125 0.075
+	//Animate AmmoInReserve FgColor "LowAmmo1" Linear 0.0 0.075
+	//Animate AmmoInReserve FgColor "LowAmmo2" Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.25
+	//Animate AmmoNoClip FgColor "LowAmmo1" Linear 0.0 0.075
+	//Animate AmmoNoClip FgColor "LowAmmo2" Linear 0.125 0.075
+	
+	RunEvent HudLowAmmoPulseLoop	0.4
 }
 
 // call to loop HudLowAmmoPulse
@@ -322,6 +326,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	
+	Animate LowAmmoBG 	BgColor 	"Blank" 	Linear 0.0 0.0
+	Animate LowAmmoBG 	Alpha		"255"		Linear 0.0 0.4
 	
 	Animate AmmoInClip FgColor "Ammo In Clip" Linear 0.0 0.0
 	Animate AmmoInReserve FgColor "Ammo In Reserve" Linear 0.0 0.0
@@ -483,8 +490,8 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate ChargeLabel FgColor "Ubercharge1" Linear 0.0 0.1
-	Animate ChargeLabel FgColor "Ubercharge2" Linear 0.3 0.4
+	Animate ChargeLabel 	FgColor 	"ChargePercent" 	Linear 0.0 0.0
+	Animate ChargeLabel 	FgColor 	"ChargePercent" 	Linear 0.0 0.0
 	
 	Animate	ChargeMeter 	FgColor		"Ubercharge1"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"Ubercharge2"		Linear 0.3 0.4
@@ -500,11 +507,11 @@ event HudMedicChargedLoop
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 0.0
-	StopEvent HudMedicChargedLoop 0.0
+	StopEvent HudMedicCharged 		0.0
+	StopEvent HudMedicChargedLoop 	0.0
 	
 	Animate	ChargeMeter 	FgColor		"Ubercharge Meter"		Linear 0.0 0.0001
-	Animate ChargeLabel FgColor "ChargePercent" Linear 0.0 0.0001
+	Animate ChargeLabel 	FgColor 	"ChargePercent" 		Linear 0.0 0.0001
 }
 
 //====================================

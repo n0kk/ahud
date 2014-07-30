@@ -103,7 +103,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"NormalCode55"
 		"fgcolor"		"Ammo No Clip"
-		"xpos"			"26"
+		"xpos"			"10"
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"100"
@@ -120,7 +120,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"28"
+		"xpos"			"12"
 		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"100"
@@ -129,5 +129,22 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%Ammo%"
-	}									
+	}
+	"LowAmmoBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"LowAmmoBG"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"43"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+        "textinsety" 	"99"
+	}	
 }
