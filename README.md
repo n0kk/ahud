@@ -17,7 +17,9 @@ an album of screenshots can be found [here](http://imgur.com/a/569GH)
 
 ###support
 
-since this is a personal project of mine, i don't plan on providing support or adding proposed features from the public. also note that i've only tested this on 16:9 resolutions; other aspect ratios might not work correctly with ahud.
+i have only tested this on my windows pc using a 16:9 resolution; so far it seems to work on 16:10. 4:3 resolution support possible in the future (if it doesn't work fine already). no mac or linux support. 
+
+please post any bugs with ahud to the issues page on this repository. there is also a [steam group](http://steamcommunity.com/groups/ahud) you can join to get announcement for updates to ahud.
 
 
 ###testimonials
