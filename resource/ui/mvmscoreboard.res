@@ -54,7 +54,7 @@
 		"font"			"NormalCode10"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
-		"xpos"			"445"
+		"xpos"			"c20"
 		"ypos"			"70"
 		"wide"			"150"
 		"tall"			"20"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"445"
+		"xpos"			"c20"
 		"ypos"			"46"
 		"wide"			"150"
 		"tall"			"50"
@@ -144,7 +144,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"80"
+		"xpos"			"c-350"
 		"ypos"			"212"
 		"wide"			"515"
 		"tall"			"205"
