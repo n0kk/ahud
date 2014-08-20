@@ -466,9 +466,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"310"
+		"ypos"		"290"
 		"wide"	 	"200"
-		"tall"	 	"46"
+		"tall"	 	"54"
 		"priority"	"40"
 
 		if_vr
@@ -484,9 +484,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"370"
+		"ypos"		"350"
 		"wide"	 	"200"
-		"tall"	 	"46"
+		"tall"	 	"54"
 		"priority"	"40"
 	}
 	
@@ -496,9 +496,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"275"
+		"ypos"		"255"
 		"wide"	 	"200"
-		"tall"	 	"46"
+		"tall"	 	"54"
 		"priority"	"35"
 
 		if_vr

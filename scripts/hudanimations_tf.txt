@@ -204,9 +204,15 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	//normal
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
+	//Animate PlayerStatusHealthValue 		FgColor 	"HP Buff" 	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueSpec 	FgColor 	"HP Buff" 	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Buff" 	Linear 0.0 0.0
+	
+	//box
 	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec 	FgColor 	"HP" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP" 	Linear 0.0 0.0
@@ -238,6 +244,7 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValueSpec FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui FgColor "HP" Accel 0.0 0.0
 	
+	//box
 	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
 	Animate	TargetHealthBG			BgColor		"Blank"	       Accel 0.0 0.0
@@ -251,9 +258,15 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	//normal
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
+	//Animate PlayerStatusHealthValue 		FgColor 	"HP Low" 	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueSpec		FgColor		"HP Low"	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Low" 	Linear 0.0 0.0
+	
+	//box
 	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec		FgColor		"HP"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP" 	Linear 0.0 0.0
@@ -285,6 +298,7 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthValueSpec FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui FgColor "HP" Accel 0.0 0.0
 	
+	//box
 	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
     Animate	HealthBG			Alpha		"255"		   Accel 0.0 0.0
 	Animate	TargetHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
@@ -300,6 +314,7 @@ event HudLowAmmoPulse
 	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
+	//box
 	Animate LowAmmoBG 	BgColor 	"LowAmmo1" 	Accel 0.0 0.0
 	Animate LowAmmoBG 	Alpha 		"200" 		Accel 0.0 0.2
 	Animate LowAmmoBG 	Alpha		"0"			Accel 0.2 0.4
@@ -313,7 +328,7 @@ event HudLowAmmoPulse
 	//Animate AmmoNoClip FgColor "LowAmmo1" Linear 0.0 0.075
 	//Animate AmmoNoClip FgColor "LowAmmo2" Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.4
+	RunEvent HudLowAmmoPulseLoop	0.4		//0.25 for normal
 }
 
 // call to loop HudLowAmmoPulse
@@ -327,6 +342,7 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 	
+	//box
 	Animate LowAmmoBG 	BgColor 	"Blank" 	Linear 0.0 0.0
 	Animate LowAmmoBG 	Alpha		"255"		Linear 0.0 0.4
 	
