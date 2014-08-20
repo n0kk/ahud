@@ -26,6 +26,12 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 
 more screenshots can be found [here](http://imgur.com/a/569GH)
 
+###installation
+
+extract the materials, resources, and scripts folder inside a newly created folder (named ahud, but it can by anything) inside your custom folder. for a detailed how-to on installing a hud for tf2, check out [this guide](http://huds.tf/guides/?guide=1) on huds.tf
+
+to use the non-box version of ahud, locate *hudplayerhealth.res* and *spectatorguihealth.res* in resources/ui, and *hudanimations_tf.txt* in scripts. delete or backup these 3 files and rename the replacement *xxx_NOBOX.xxx* versions to the original names.
+
 ###support
 
 i have only tested this on my windows pc using a 16:9 resolution; so far it seems to work on 16:10. 4:3 resolution support possible in the future (if it doesn't work fine already). no mac or linux support. 
