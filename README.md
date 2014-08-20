@@ -19,8 +19,8 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 * http://i.imgur.com/zEhjEy4.jpg - class select
 * http://i.imgur.com/n3Wu0iD.jpg - buffed hp
 * http://i.imgur.com/5hl5O9F.jpg - low hp
-* http://i.imgur.com/XGNavjYs.jpg - buffed hp (non-box)
-* http://i.imgur.com/j2t8Mj2s.jpg - low hp (non-box)
+* http://i.imgur.com/XGNavjY.jpg - buffed hp (non-box)
+* http://i.imgur.com/j2t8Mj2.jpg - low hp (non-box)
 * http://i.imgur.com/Wfvi1eo.jpg - default scoreboard
 * http://i.imgur.com/fs8oP55.jpg - tournament spectator hud
 
