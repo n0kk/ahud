@@ -7,8 +7,10 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 
 ###features
 
-* home server button (place *alias JoinHomeServer "connect x.x.x.x:xxxx"* in your autoexec.cfg
-* toggle 9v9 scoreboard
+* custom colors
+* custom crosshairs
+* home server button
+* 9v9 scoreboard toggle
 * some MvM support
 * non-box version
 
@@ -26,9 +28,11 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 
 more screenshots can be found [here](http://imgur.com/a/569GH)
 
-###installation
+###installation & setup
 
 extract the materials, resources, and scripts folder inside a newly created folder (named ahud, but it can by anything) inside your custom folder. for a detailed how-to on installing a hud for tf2, check out [this guide](http://huds.tf/guides/?guide=1) on huds.tf
+
+to use the home server button that is on the bottom right of the main page, simply put *alias JoinHomeServer "connect x.x.x.x:xxxx"* in your autoexec.cfg. 
 
 to use the non-box version of ahud, locate *hudplayerhealth.res* and *spectatorguihealth.res* in resources/ui, and *hudanimations_tf.txt* in scripts. delete or backup these 3 files and rename the replacement *xxx_NOBOX.xxx* versions to the original names.
 
