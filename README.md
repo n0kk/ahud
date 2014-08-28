@@ -10,7 +10,7 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 * custom colors
 * custom crosshairs
 * home server button
-* 9v9 scoreboard toggle
+* 6v6 and 9v9 scoreboard
 * some MvM support
 * non-box version
 
