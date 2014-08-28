@@ -1,6 +1,7 @@
 //SourceScheme.res edited by rays, originally by:
 // Doodles - DoodleHUD - http://doodlesstuff.com
 //Thanks to rays for the layout.
+//Thanks to bill watterson aka pwny for the bwHUD sourcescheme.
 //
 #base "SourceSchemeBase.res"
 Scheme
