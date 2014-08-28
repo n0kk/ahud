@@ -23,7 +23,8 @@ a simplistic hud for team fortress 2 first started by [kyle](https://github.com/
 * http://i.imgur.com/5hl5O9F.jpg - low hp
 * http://i.imgur.com/XGNavjY.jpg - buffed hp (non-box)
 * http://i.imgur.com/j2t8Mj2.jpg - low hp (non-box)
-* http://i.imgur.com/Wfvi1eo.jpg - default scoreboard
+* http://i.imgur.com/lDXTtPm.jpg - default scoreboard
+* http://i.imgur.com/jkn9H8W.jpg - 6v6 scoreboard
 * http://i.imgur.com/fs8oP55.jpg - tournament spectator hud
 
 more screenshots can be found [here](http://imgur.com/a/569GH)
