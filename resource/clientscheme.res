@@ -4,9 +4,6 @@ Scheme
 	{
 		// custom  colors -------------------
 		
-		"ShadowBlack"		"30 30 30 230"
-		"HudBlack"			"0 0 0 200"
-		
 		"ChargePercent"		"243 243 243 255"
 		"Ubercharge Meter"	"0 255 127 255"
 		"Ubercharge1"		"0 255 127 255"
@@ -26,6 +23,11 @@ Scheme
 		
 		"Damage Numbers"	"255 255 0 255"
 		"Healing Numbers"	"0 255 127 255"
+		
+		// hud colors -----------------------
+		
+		"ShadowBlack"		"30 30 30 230"
+		"HudBlack"			"0 0 0 200"
 		
 		"ahudBlue"			"72 112 125 255"
 		"ahudDarkBlue"		"46 73 82 255"
