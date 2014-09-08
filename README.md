@@ -2,15 +2,16 @@
 
 it's a hud
 
-A simplistic hud for team fortress 2 first started by [kyle](https://github.com/hikyle). ahud draws inspiration from various huds, including, but not limited to, rayshud, yahud, and omphud.
+A simplistic hud for Team Fortress 2 first started by [kyle](https://github.com/hikyle). ahud draws inspiration from various huds, including, but not limited to, rayshud, yahud, and omphud.
 
 
 ###Features
 
 * Custom colors
 * Custom crosshairs
-* Home server button
+* * Home server button
 * 6v6 and 9v9 scoreboard
+* 16:9, 16:10, and 4:3 support
 * Some MvM support
 * Non-box version
 
