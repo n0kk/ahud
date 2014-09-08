@@ -620,13 +620,13 @@
 	{
 		"fieldName" "HudDamageIndicator" 
 		"visible" "1" 
-		"enabled" "1" 
-		"MinimumWidth" "10" 
-		"MaximumWidth" "10" 
-		"StartRadius" "80" 
-		"EndRadius" "80" 
-		"MinimumHeight" "30" 
-		"MaximumHeight" "60" 
+		"enabled" "1" 			//skinny damage indicator
+		"MinimumWidth" "10" 	//5
+		"MaximumWidth" "10" 	//5
+		"StartRadius" "80" 		//70
+		"EndRadius" "80" 		//70
+		"MinimumHeight" "30" 	//120
+		"MaximumHeight" "60" 	//120
 		"MinimumTime" "1" 
 	}
 
@@ -1052,9 +1052,9 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-120"
+		"xpos"					"c-100"
 		"ypos"					"r152"
-		"wide"					"240"
+		"wide"					"200"
 		"tall"					"152"
 	}
 
@@ -1407,7 +1407,7 @@
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
 		"NormalY"		"10"
-		"EngineerY"		"170"
+		"EngineerY"		"10"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"280"
