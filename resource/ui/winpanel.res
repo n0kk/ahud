@@ -279,7 +279,7 @@
 		"font"			"NormalCode10"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"10"
-		"ypos"			"20"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"14"
