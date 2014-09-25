@@ -103,4 +103,5 @@
 		"defaultBgColor_Override"	"Blank"
 		"PaintBackgroundType"	"0"
         "textinsety"	"99"
+	}
 }
