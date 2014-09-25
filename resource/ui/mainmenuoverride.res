@@ -209,20 +209,28 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		//"image"			"../console/background_upward"
+		"image"			""
 		"scaleImage"	"1"
 		
-		if_halloween
+		if_halloween_0
 		{
-			//"image"		"../console/background_upward"
+			"image"		"../console/title_team_halloween2011"
+		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
 		}
 		if_fullmoon
 		{
-			//"image"		"../console/background_upward"
+			"image"		"../console/title_fullmoon"
 		}
 		if_christmas
 		{
-			//"image"		"../console/background_upward"
+			"image"		"../console/background_xmas2011"
 		}
 	}
 					
