@@ -26,7 +26,7 @@ Scheme
 		
 		// hud colors -----------------------
 		
-		"ShadowBlack"		"30 30 30 230"
+		"ShadowBlack"		"25 25 25 255"
 		"HudBlack"			"0 0 0 200"
 		
 		"ahudBlue"			"72 112 125 255"
@@ -935,6 +935,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"NormalCode20Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"NormalCode22"
 		{
 			"1"
@@ -946,12 +958,80 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"NormalCode22Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"22"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
 		"NormalCode24"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"24"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode24Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"NormalCode26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"26"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"28"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"30"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"32"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
@@ -968,12 +1048,89 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"NormalCode36"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode38"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"38"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode40"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"40"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode42"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"42"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode44"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"44"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode46"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"46"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"NormalCode48"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"48"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"50"
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
