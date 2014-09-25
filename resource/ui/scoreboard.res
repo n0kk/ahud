@@ -190,7 +190,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"NormalCode34"
+		"font"			"NormalCode32"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"textAlignment_minmode"		"west"
@@ -267,7 +267,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"NormalCode34"
+		"font"			"NormalCode32"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c11"
