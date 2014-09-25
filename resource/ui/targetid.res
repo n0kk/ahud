@@ -102,7 +102,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
 		"font"			"NormalCode10"
-		"xpos"			"38"
+		"xpos"			"40"
 		"ypos"			"33"
 		"zpos"			"1"
 		"wide"			"640"
@@ -132,7 +132,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"30"
+		"xpos"			"32"
 		"ypos"			"41"
 		"zpos"			"12"
 		"wide"			"10"
