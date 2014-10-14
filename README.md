@@ -49,5 +49,5 @@ Please post any bugs with ahud to the Issues page on this repository. There is a
 
 ###Testimonials
 
-"*It didn't improve my FPS but it stopped it from dipping.*" - 5pike, UGC Platinum Heavy for Land Before Time
+"*It didn't improve my FPS but it stopped it from dipping.*" - 5pike, UGC Platinum Heavy for Land Before Time  
 "*I switched to ahud, and I get even less sleep now.*" -raiden, UGC Platinum Spy for Chill Penguins
