@@ -125,15 +125,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		  "255 255 255 255"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
@@ -149,15 +140,6 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
@@ -173,11 +155,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -218,11 +195,6 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
 			}
 			
 			"ReadyImage"
@@ -240,11 +212,6 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"respawntime"
@@ -263,11 +230,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"255 255 255 255"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 
 			"respawntimecover"
@@ -322,24 +284,7 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
-			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
 	}
 
 	"topbar"
@@ -390,9 +335,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-300"
-		"ypos"			"20"
-		"wide"			"600"
+		"xpos"			"c-190"
+		"ypos"			"360"
+		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -400,8 +345,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"default"
-		"fgcolor"		"255 255 255 255"
+		"font"			"NormalCode12"
+		"fgcolor"		"ahudWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
