@@ -47,7 +47,7 @@
 		"fieldName"		"CapNumPlayers"
 		"font"			"NormalCode12"
 		"xpos"			"14"
-		"ypos"			"5"
+		"ypos"			"4"
 		"zpos"			"4"
 		"wide"			"16"
 		"tall"			"24"
