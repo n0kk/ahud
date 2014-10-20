@@ -103,7 +103,7 @@
 		"labelText"		"9"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"225 225 225 225"
+		"fgcolor"		"225 225 225 200"
 	}
 	CircleDot
 	{
@@ -417,7 +417,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c15"
+		"ypos"					"c25"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -466,7 +466,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"290"
+		"ypos"		"255"
 		"wide"	 	"200"
 		"tall"	 	"54"
 		"priority"	"40"
@@ -496,7 +496,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"255"
+		"ypos"		"295"
 		"wide"	 	"200"
 		"tall"	 	"54"
 		"priority"	"35"
@@ -620,13 +620,13 @@
 	{
 		"fieldName" "HudDamageIndicator" 
 		"visible" "1" 
-		"enabled" "1" 			//skinny damage indicator
-		"MinimumWidth" "10" 	//5
-		"MaximumWidth" "10" 	//5
-		"StartRadius" "80" 		//70
-		"EndRadius" "80" 		//70
-		"MinimumHeight" "30" 	//120
-		"MaximumHeight" "60" 	//120
+		"enabled" "1"			//skinny damage indicator
+		"MinimumWidth" "10"		//5
+		"MaximumWidth" "10"		//5
+		"StartRadius" "80"		//70
+		"EndRadius" "80"		//70
+		"MinimumHeight" "30"	//120
+		"MaximumHeight" "60"	//120
 		"MinimumTime" "1" 
 	}
 
@@ -695,7 +695,7 @@
 		"MaxDeathNotices" "6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
-		"LineSpacing"	  "1"
+		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
@@ -787,8 +787,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"xpos"			"232"
+		"ypos"			"r91"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1020,7 +1020,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"2"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 	}
