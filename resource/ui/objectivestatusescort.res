@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
-		"xpos"				"c-200"
+		"xpos"				"c-150"
 		"ypos"				"r150"
 		"zpos"				"1"
 		"wide"				"400"
@@ -28,7 +28,7 @@
 		"xpos"			"73"
 		"ypos"			"123"
 		"zpos"			"0"
-		"wide"			"254"
+		"wide"			"150"
 		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
@@ -46,8 +46,8 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"120"
-			"tall"			"10"
+			"ypos"			"121"
+			"tall"			"8"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
