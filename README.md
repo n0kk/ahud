@@ -2,7 +2,7 @@
 
 it's a hud
 
-A simplistic hud for Team Fortress 2 first started by [kyle](https://github.com/hikyle). ahud draws inspiration from various huds, including, but not limited to, rayshud, yahud, and omphud.
+A simplistic HUD for Team Fortress 2 first started by [kyle](https://github.com/hikyle). ahud draws inspiration from various huds, including, but not limited to, rayshud, yahud, and omphud.
 
 
 ###Features
@@ -50,4 +50,4 @@ Please post any bugs with ahud to the Issues page on this repository. There is a
 ###Testimonials
 
 "*It didn't improve my FPS but it stopped it from dipping.*" - 5pike, UGC Platinum Heavy for Land Before Time  
-"*I switched to ahud, and I get even less sleep now.*" - raiden, UGC Platinum Spy for Chill Penguins
+"*I switched to ahud and I get even less sleep now.*" - raiden, UGC Platinum Spy for Chill Penguins
