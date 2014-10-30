@@ -496,7 +496,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"295"
+		"ypos"		"285"
 		"wide"	 	"200"
 		"tall"	 	"54"
 		"priority"	"35"
@@ -1568,6 +1568,17 @@
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
+	}
+
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 	
 	// for testing purposes
