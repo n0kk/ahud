@@ -10,7 +10,7 @@ A simplistic HUD for Team Fortress 2 first started by [kyle](https://github.com/
 * Custom colors
 * Custom crosshairs
 * Home server button
-* 6v6 and 9v9 scoreboard
+* 6v6 toggleable scoreboard
 * 16:9, 16:10, and 4:3 support
 * Some MvM support
 * Non-box version
@@ -32,11 +32,11 @@ More screenshots can be found [here](http://imgur.com/a/569GH)
 
 ###Installation & Setup
 
-Extract the materials, resource, and scripts folder inside a newly created folder (named ahud, but it can by anything) inside your custom folder. For a detailed how-to on installing a HUD for tf2, check out [this guide](http://huds.tf/guides/?guide=1) on huds.tf
+Extract the materials, resource, and scripts folder inside a newly created folder (named ahud, but it can by anything) inside your custom folder. For a detailed how-to on installing a HUD for TF2, check out [this guide](http://huds.tf/guides/?guide=1).
 
 To use the Home Server button located on the bottom right of the main page, simply put *alias JoinHomeServer "connect x.x.x.x:xxxx"* in your autoexec.cfg. 
 
-To use the non-box version of ahud, locate *hudplayerhealth.res* and *spectatorguihealth.res* in resource/ui, and *hudanimations_tf.txt* in scripts. Delete or backup these 3 files and replace them with the *xxx_NOBOX.xxx* included.
+To use the non-box version of ahud, locate *hudplayerhealth.res* and *spectatorguihealth.res* in resource/ui, and *hudanimations_tf.txt* in scripts. Delete or backup these 3 files and replace them with the *xxx_NOBOX.xxx* versions included.
 
 For 4:3 users: delete or backup *scoreboard.res* and *mvmscoreboard.res* in resource/ui and replace them with the included 4x3 versions.
 
@@ -49,5 +49,5 @@ Please post any bugs with ahud to the Issues page on this repository. There is a
 
 ###Testimonials
 
-"*It didn't improve my FPS but it stopped it from dipping.*" - 5pike, UGC Platinum Heavy for Land Before Time  
-"*I switched to ahud and I get even less sleep now.*" - raiden, UGC Platinum Spy for Chill Penguins
+"*It didn't improve my FPS but it stopped it from dipping.*" -5pike, UGC Platinum Heavy for Land Before Time  
+"*I switched to ahud and I get even less sleep now.*" -raiden, UGC Platinum Spy for Chill Penguins
