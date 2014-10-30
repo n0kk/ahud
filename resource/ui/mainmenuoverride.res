@@ -224,6 +224,10 @@
 		{
 			"image"		"../console/title_team_halloween2013"
 		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
