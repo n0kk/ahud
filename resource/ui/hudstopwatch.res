@@ -50,12 +50,12 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"NormalCode14"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"ahudWhite"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"55"
-			"tall"			"13"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -77,7 +77,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}
 	"StopWatchPointsLabel"
 	{
@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}
 
 	"StopWatchLabel"
@@ -116,7 +116,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"wrap"				"0"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}
 
 	"HudStopWatchDescriptionBG"
@@ -159,6 +159,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"wrap"			"0"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"ahudWhite"
 	}
 }

@@ -118,9 +118,9 @@
 		
 		"defaultBgColor_override"	"ahudBlack"
 		"defaultFgColor_override" "ahudWhite"
-		"armedBgColor_override"	"Red"
+		"armedBgColor_override"	"RedSolid"
 		"armedFgColor_override" 	"ahudWhite"
-		"depressedBgColor_override"	"Red"
+		"depressedBgColor_override"	"RedSolid"
 		"depressedFgColor_override" "ahudWhite"
 	}
 
@@ -148,9 +148,9 @@
 		
 		"defaultBgColor_override"	"ahudBlack"
 		"defaultFgColor_override" "ahudWhite"
-		"armedBgColor_override"	"ahudGreen"
+		"armedBgColor_override"	"GreenSolid"
 		"armedFgColor_override" 	"ahudWhite"
-		"depressedBgColor_override"	"ahudGreen"
+		"depressedBgColor_override"	"GreenSolid"
 		"depressedFgColor_override" "ahudWhite"
 	}
 }

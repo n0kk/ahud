@@ -515,12 +515,12 @@
 			}				
 		}		
 	}
-	
+
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c200"
+		"xpos"			"r45"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"32"
@@ -564,8 +564,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"26"
+				"tall"			"26"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_MOTD"
@@ -578,8 +578,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c0"
-		"ypos"			"28"
+		"xpos"			"c80"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"360"
@@ -602,7 +602,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"NormalCode12"
+				"font"			"Code16"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
@@ -613,8 +613,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
+				"PaintBackgroundType" "0"
+				"fgcolor_override"	"ahudWhite"
 				"bgcolor_override"	"141 178 61 255"
 			}
 		}
@@ -688,7 +688,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"NormalCode12"
+			"font"			"NormalCode14"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -707,7 +707,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"%motddate%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -928,7 +928,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c165"
+		"xpos"			"r80"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1021,8 +1021,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"c135"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"

@@ -7,7 +7,7 @@ Scheme
 		"ChargePercent"		"243 243 243 255"
 		"Ubercharge Meter"	"0 255 127 255"
 		"Ubercharge1"		"0 255 127 255"
-		"Ubercharge2"		"0 255 127 255"
+		"Ubercharge2"		"0 255 127 200"
 		
 		"Ammo In Clip"		"243 243 243 255"
 		"Ammo In Reserve"	"0 191 255 255"
@@ -15,7 +15,7 @@ Scheme
 		"Stickies"			"243 243 243 255"
 		
 		"LowAmmo1"			"200 45 45 255"
-		"LowAmmo2"			"200 45 45 200"
+		"LowAmmo2"			"255 45 45 255"
 		
 		"HP"				"243 243 243 255"
 		"HP Buff"			"0 255 127 255"
@@ -26,7 +26,7 @@ Scheme
 		
 		// hud colors -----------------------
 		
-		"ShadowBlack"		"25 25 25 255"
+		"ShadowBlack"		"12 12 12 255"
 		"HudBlack"			"0 0 0 200"
 		
 		"ahudBlue"			"72 112 125 255"

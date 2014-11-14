@@ -4,8 +4,8 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"delta_item_x"			"13"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"30"
+		"delta_item_start_y"	"45"
+		"delta_item_end_y"		"25"
 		"PositiveColor"			"HP Buff"
 		"NegativeColor"			"HP Low"
 		"delta_lifetime"		"1.5"
