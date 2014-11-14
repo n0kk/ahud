@@ -96,7 +96,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"20"
+		"xpos"			"15"
 		"ypos"			"r200"
 		"zpos"			"2"		
 		"wide"			"100"
@@ -189,11 +189,11 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"212"
-				"angles_z"		"-10"
-				"origin_x"		"105"
+				"angles_y"		"203"
+				"angles_z"		"-5"
+				"origin_x"		"115"
 				"origin_y"		"-1"
-				"origin_z"		"-82"
+				"origin_z"		"-85"
 			}
 			"Sniper"
 			{
@@ -201,15 +201,15 @@
 				"angles_x"		"-10"
 				"angles_y"		"172"
 				"angles_z"		"0"
-				"origin_x"		"130"
+				"origin_x"		"125"
 				"origin_y"		"-3"
-				"origin_z"		"-97"
+				"origin_z"		"-93"
 			}
 			"Soldier"
 			{
 				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"157"
+				"angles_x"		"-5"
+				"angles_y"		"203"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
@@ -221,9 +221,9 @@
 				"angles_x"		"-13"
 				"angles_y"		"225"
 				"angles_z"		"0"
-				"origin_x"		"138"
+				"origin_x"		"145"
 				"origin_y"		"-7"
-				"origin_z"		"-93"
+				"origin_z"		"-95"
 			}
 			"Medic"
 			{
@@ -233,13 +233,13 @@
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
-				"origin_z"		"-96"
+				"origin_z"		"-94"
 			}
 			"Heavy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"200"
+				"angles_y"		"203"
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"0"
@@ -248,18 +248,18 @@
 			"Pyro"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
+				"angles_x"		"-10"
 				"angles_y"		"172"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"-5"
+				"origin_y"		"-1"
 				"origin_z"		"-90"
 			}
 			"Spy"
 			{
 				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_x"		"-1"
+				"angles_y"		"203"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
@@ -269,7 +269,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_y"		"203"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"
