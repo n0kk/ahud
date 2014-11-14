@@ -29,7 +29,7 @@ More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
 ###Installation & Setup
 
-Extract the `ahud-master` folder inside `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For  detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/guides/?guide=1).
+Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For  detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/guides/?guide=1).
 
 To use the Home Server button (located on the bottom right of the main menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
