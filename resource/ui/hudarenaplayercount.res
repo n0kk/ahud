@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-50"
+		"xpos"			"c-85"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
@@ -35,7 +35,7 @@
 			"ypos"			"2"
 			"zpos"			"-1"
 			"wide"			"50"
-			"tall"			"21"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -47,7 +47,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"16"
+			"xpos"			"12"
 			"ypos"			"-2"
 			"zpos"			"2"
 			"wide"			"30"
@@ -65,7 +65,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"18"
+			"xpos"			"13"
 			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
@@ -84,7 +84,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"12"
+			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"3"
 			"wide"			"8"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c0"
+		"xpos"			"c35"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
@@ -131,7 +131,7 @@
 			"ypos"			"2"
 			"zpos"			"-1"
 			"wide"			"50"
-			"tall"			"21"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -143,7 +143,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"5"
+			"xpos"			"8"
 			"ypos"			"-2"
 			"zpos"			"2"
 			"wide"			"30"
@@ -161,7 +161,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"7"
+			"xpos"			"9"
 			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
@@ -180,7 +180,7 @@
 		{
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
-			"xpos"			"30"
+			"xpos"			"32"
 			"ypos"			"3"
 			"zpos"			"3"
 			"wide"			"8"
