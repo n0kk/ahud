@@ -38,7 +38,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode10"
+		"font"					"NormalCode8"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -51,7 +51,7 @@
 		"ypos"					"99"
 		"zpos"					"1"
 		"wide"					"150"
-		"tall"					"8"				
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

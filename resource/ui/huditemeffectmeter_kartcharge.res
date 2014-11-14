@@ -48,7 +48,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode10"
+		"font"					"NormalCode8"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -58,10 +58,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"20"
+		"ypos"					"21"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"8"				
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
