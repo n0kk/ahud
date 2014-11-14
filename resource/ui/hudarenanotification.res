@@ -2,18 +2,18 @@
 {
 	"HudArenaNotificationBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudArenaNotificationBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"15"
+		"ypos"			"35"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"200"
+		"wide"			"290"
+		"tall"			"75"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
+		"fillcolor"		"HudBlack"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
@@ -30,7 +30,6 @@
 		"wide"			"50"
 		"tall"			"50"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -44,14 +43,13 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NormalCode14"
 		"xpos"			"75"
 		"ypos"			"30"
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
+		"wide"			"230"
 		"tall"			"55"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -66,14 +64,13 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"HudFontSmallest"
+		"font"			"NormalCode10"
 		"xpos"			"75"
 		"ypos"			"75"
 		"ypos_hidef"	"23"
 		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
