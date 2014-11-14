@@ -120,8 +120,8 @@
 		"ypos"			"16"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
@@ -142,4 +142,5 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
     }
+	
 }
