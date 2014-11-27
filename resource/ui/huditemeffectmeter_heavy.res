@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c123"	
+		"ypos"			"c112"	
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"TanLight"
