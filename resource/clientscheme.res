@@ -636,6 +636,69 @@ Scheme
 			"outline"		"1"
 			}
 		}
+		"Crosshairs36"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"36"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline36"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"36"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		"Crosshairs38"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"38"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline38"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"38"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		"Crosshairs40"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"40"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		"CrosshairsOutline40"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"40"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
 		"BlocksSharp64"
 		{
 			"1"
@@ -650,7 +713,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -661,7 +724,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"12"
 				"weight"	"0"
 				"additive"	"0"
@@ -672,7 +735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"15"
 				"weight"	"0"
 				"additive"	"0"
@@ -683,7 +746,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"16"
 				"weight"	"0"
 				"additive"	"0"
@@ -694,7 +757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"17"
 				"weight"	"0"
 				"additive"	"0"
@@ -705,7 +768,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"18"
 				"weight"	"0"
 				"additive"	"0"
@@ -716,7 +779,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"18"
 				"weight"	"0"
 				"additive"	"0"
@@ -728,7 +791,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"20"
 				"weight"	"0"
 				"additive"	"0"
@@ -739,7 +802,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"20"
 				"weight"	"0"
 				"additive"	"0"
@@ -751,7 +814,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"24"
 				"weight"	"0"
 				"additive"	"0"
@@ -762,7 +825,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"34"
 				"weight"	"0"
 				"additive"	"0"
@@ -773,7 +836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"48"
 				"weight"	"0"
 				"additive"	"0"
@@ -784,7 +847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"50"
 				"weight"	"0"
 				"additive"	"0"
@@ -795,7 +858,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"52"
 				"weight"	"0"
 				"additive"	"0"
@@ -806,7 +869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-Bold-LC"
+				"name"		"Code-Pro-Bold"
 				"tall"		"55"
 				"weight"	"0"
 				"additive"	"0"
@@ -4724,8 +4787,8 @@ Scheme
 		}	
 		"8"
 		{
-			"font"	"resource/fonts/CodeProBoldLC.otf"
-			"name"	"Code-Pro-Bold-LC"
+			"font"	"resource/fonts/CodeProBold.otf"
+			"name"	"Code-Pro-Bold"
 		}
 		"9"
 		{
