@@ -44,7 +44,7 @@ Navigate to the `scripts` folder and open `hudlayout.res`. Use any of the crossh
 To use the Home Server button (located on the bottom right of the main menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
 ####Alternative style:
-To use the non-box version of ahud, locate `hudplayerhealth.res` and `spectatorguihealth.res` in `resource\ui`, and `hudanimations_tf.txt` in `scripts`. Delete or backup these 3 files and replace them with the `xxx_NOBOX.xxx` versions included.
+To use the non-box version of ahud, locate `hudplayerhealth.res`, `hudmedicharge.res`, and `spectatorguihealth.res` in `resource\ui`, and `hudanimations_tf.txt` in `scripts`. Delete or backup these 4 files and replace them with the `xxx_NOBOX.xxx` versions included.
 
 ##Support
 
