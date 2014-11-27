@@ -93,7 +93,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A TEAM"
 		"textAlignment"	"center"
-		"font"			"Code20"
+		"font"			"Code18"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"ahudWhite"
@@ -103,17 +103,17 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"c-175"
+		"xpos"			"c-90"
 		"ypos"			"c-26"
 		"zpos"			"3"
-		"wide"			"170"
+		"wide"			"90"
 		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"BLU"	[$WIN32]
+		"labelText"		"&3 BLU"	[$WIN32]
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -158,17 +158,17 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"c5"
+		"xpos"			"c0"
 		"ypos"			"c-26"
 		"zpos"			"3"
-		"wide"			"170"
+		"wide"			"90"
 		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"RED"	[$WIN32]
+		"labelText"		"&4 RED"	[$WIN32]
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -223,7 +223,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"Auto-join"	[$WIN32]
+		"labelText"		"&1 Auto-join"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -250,7 +250,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"Spectate"	[$WIN32]
+		"labelText"		"&2 Spectate"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -412,8 +412,8 @@
 		"fieldName"		"BlueCount"
 		"xpos"			"c-85"
 		"ypos"			"c-26"
-		"zpos"			"4"
-		"wide"			"50"
+		"zpos"			"3"
+		"wide"			"18"
 		"tall"			"29"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -451,10 +451,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c35"
+		"xpos"			"c67"
 		"ypos"			"c-26"
-		"zpos"			"4"
-		"wide"			"50"
+		"zpos"			"3"
+		"wide"			"18"
 		"tall"			"29"
 		"autoResize"	"0"
 		"pinCorner"		"0"
