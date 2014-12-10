@@ -631,7 +631,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"#BackpackItemsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -680,7 +680,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -716,7 +716,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -745,7 +745,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -760,7 +760,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -806,7 +806,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"#BackpackPagesExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -855,7 +855,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -902,7 +902,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -917,7 +917,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -938,7 +938,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -967,7 +967,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -982,7 +982,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1028,7 +1028,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"#BackpackContextExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1077,7 +1077,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1124,7 +1124,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1139,7 +1139,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1171,7 +1171,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1186,7 +1186,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1207,7 +1207,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1250,7 +1250,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"#BackpackStockExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1299,7 +1299,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1346,7 +1346,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1361,7 +1361,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1393,7 +1393,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1408,7 +1408,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1429,7 +1429,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1471,7 +1471,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"#BackpackSortExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1520,7 +1520,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1567,7 +1567,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1582,7 +1582,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1603,7 +1603,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NormalCode14"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
