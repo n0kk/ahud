@@ -63,3 +63,6 @@ Please post any bugs with ahud to the Issues page on this repository. There is a
 
 "*It is a dust-free HUD.*"  
 —Mariposa, UGC Platinum Medic for Chill Penguins
+
+"*I always played Team Fortress 2 with [HUD] style, but ahud gives me the edge I need to truly play classy.*"  
+—Radeon, ESEA-Open Medic
