@@ -188,18 +188,18 @@
 				"fieldName"		"respawntime"
 				"font"			"NormalCode10"
 				"xpos"			"125"
-				"ypos"			"3"
+				"ypos"			"1"
 				"zpos"			"6"
-				"wide"			"23"
-				"tall"			"12"
+				"wide"			"24"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"255 255 255 255"
+				"fgcolor"		"ahudWhite"
 			}
-
+			
 			"respawntimecover"
 			{
 				"ControlName"	"CExLabel"

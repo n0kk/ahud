@@ -522,7 +522,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "117 107 94 255"
+		"fgcolor_override" "ahudWhite"
 	}
 	"LoadoutChangesLabel"
 	{
