@@ -809,9 +809,12 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
-	Animate SmallDot FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate SmallDot FgColor "21 207 100 255" Linear 0.15 0.0
+	Animate Circle	 	FgColor 	"CrosshairDamage" 		Linear 0.0 0.0
+	Animate Circle	 	FgColor 	"Crosshair" 			Linear 0.15 0.0
+	
+	// Change the name of the crosshair above to the one you are using (found
+	// in hudlayout.res). The colors for CrosshairDamage and Crosshair can be
+	// changed under custom colors in clientscheme.res in the resource folder.
 }
 
 //===========================================

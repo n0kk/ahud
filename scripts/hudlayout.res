@@ -17,7 +17,7 @@
 		//"font"		"CrosshairsOutline34"
 		"labelText"		"v"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	OpenCross
 	{
@@ -34,7 +34,7 @@
 		//"font"		"CrosshairsOutline22"
 		"labelText"		"i"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	OpenCrossDot
 	{
@@ -51,7 +51,7 @@
 		//"font"		"CrosshairsOutline22"
 		"labelText"		"h"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	Dot
 	{
@@ -68,7 +68,7 @@
 		//"font"		"CrosshairsOutline34"
 		"labelText"		"3"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	SmallDot
 	{
@@ -85,7 +85,7 @@
 		//"font"		"CrosshairsOutline22"
 		"labelText"		"3"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	Circle
 	{
@@ -103,7 +103,7 @@
 		"labelText"		"9"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"225 225 225 200"
+		"fgcolor"		"Crosshair"
 	}
 	CircleDot
 	{
@@ -121,7 +121,7 @@
 		"labelText"		"8"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"Crosshair"
 	}
 	QuarterCircle
 	{
@@ -139,7 +139,7 @@
 		"labelText"		"w"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"Crosshair"
 	}
 	Wings
 	{
@@ -156,7 +156,7 @@
 		//"font"		"CrosshairsOutline34"
 		"labelText"		"d"
 		"textAlignment"	"center"	
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"Crosshair"
 	}
 	WingsCross
 	{
@@ -173,7 +173,7 @@
 		//"font"		"CrosshairsOutline34"
 		"labelText"		"c"
 		"textAlignment"	"center"	
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"Crosshair"
 	}
 	WingsSmall
 	{
@@ -190,7 +190,7 @@
 		//"font"		"CrosshairsOutline38"
 		"labelText"		"g"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "255 255 255 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	WingsSmallDot
 	{
@@ -207,7 +207,7 @@
 		//"font"		"CrosshairsOutline38"
 		"labelText"		"f"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "255 255 255 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	KonrWings
 	{
@@ -224,7 +224,7 @@
 		//"font"		"CrosshairsOutline34"
 		"labelText"		"6"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "255 255 255 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	Ycrosshair
 	{
@@ -241,7 +241,7 @@
 		//"font"		"CrosshairsOutline32"
 		"labelText"		"`"
 		"textAlignment"	"center"	
-		"fgcolor" 		 "0 255 0 255"
+		"fgcolor" 		 "Crosshair"
 	}
 	
 	// ----------------------------------
@@ -484,7 +484,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"350"
+		"ypos"		"335"
 		"wide"	 	"200"
 		"tall"	 	"50"
 		"priority"	"40"
