@@ -22,7 +22,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "Play MVM" 
+		"label" "Play MvM" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
@@ -83,7 +83,7 @@
 	}
 	"HomeServer"
 	{
-		"label"	"7"
+		"label"	"6"
 		"command" "engine JoinHomeServer"
 	}
 
