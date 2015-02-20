@@ -14,8 +14,8 @@ ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://git
 
 ####Screenshots
 
-* http://i.imgur.com/KOqN98O.jpg – Main Menu
-* http://i.imgur.com/syDFaIA.jpg – Team Select
+* http://i.imgur.com/8VAle2s.jpg – Main Menu
+* http://i.imgur.com/yGdN0CO.jpg – Team Select
 * http://i.imgur.com/xVrIYJs.jpg – Class Select
 * http://i.imgur.com/ExOLP9q.jpg – Buffed HP
 * http://i.imgur.com/wefV5Jm.jpg – Low HP
@@ -23,7 +23,7 @@ ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://git
 * http://i.imgur.com/x7h2U1t.jpg – Low HP – alt. style
 * http://i.imgur.com/xLFWrgj.jpg – Default scoreboard
 * http://i.imgur.com/k3mudc7.jpg – 6v6 scoreboard
-* http://i.imgur.com/q3YFXjL.jpg – Tournament Spectator HUD
+* http://i.imgur.com/SPhvdMh.jpg – Tournament Spectator HUD
 
 More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
@@ -38,7 +38,10 @@ Delete or backup `scoreboard.res` and `mvmscoreboard.res` in `resource\ui` and r
 Navigate to the `resource` folder and open `clientscheme.res`. Edit anything under  `custom colors` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow)
 
 ####Custom crosshairs:
-Navigate to the `scripts` folder and open `hudlayout.res`. Use any of the crosshairs listed under `custom crosshairs` by changing the values of `enabled` and `visible` to `1`. To change the color of the crosshair, change the RGBA for `fgcolor`. To use the outlined version of a crosshair, uncomment the font (i.e., remove the `//`) with Outline in its name and comment the original font.
+Navigate to the `scripts` folder and open `hudlayout.res`. Use any of the crosshairs listed under `custom crosshairs` by changing the values of `enabled` and `visible` to `1`. To change the color of the crosshair, change the RGBA for `Crosshair` in `clientscheme.res`.
+
+####Crosshair damage flash
+Navigate to `scripts` folder and open `hudanimations_tf.txt`. Search for `event DamagedPlayer` and change the crosshair name to the crosshair you are using/enabled in `hudlayout.res`. To change the crosshair flash damage color, change the RGBA for `CrosshairDamage` in `clientscheme.res`.
 
 ####Home Server button:
 To use the Home Server button (located on the bottom right of the main menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
