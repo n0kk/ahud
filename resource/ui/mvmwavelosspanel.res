@@ -24,7 +24,7 @@
 		"visible"		"1"
 		
 		"PaintBackgroundType"	"0"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border"		"HoAssBorder"
 		"bgcolor_override"	"ahudWhite"
 	}
@@ -80,7 +80,7 @@
 		"ypos"			"135"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"ahudBlack"
 	}
 	
 	"CollectionContainer"
@@ -103,7 +103,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"Black"
+			"fgcolor"		"ahudBlack"
 		}
 	
 		"CollectedLabel"
@@ -205,7 +205,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"Black"
+			"fgcolor"		"ahudBlack"
 		}
 	
 		"YouLabel"
@@ -374,7 +374,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudBlack"
+			"fillcolor"		"ahudDarkGrey"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"

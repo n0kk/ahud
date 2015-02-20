@@ -49,7 +49,7 @@
 		"ypos"			"372"
 		"zpos"			"100"
 		"wide"			"106"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -63,7 +63,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"ahudWhite"
 		"Command"		"done"
 	}
 
@@ -95,7 +95,7 @@
 		"enabled"		"1"
 			
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"42 39 37 255"
+		"bgcolor_override"	"ahudDarkGrey"
 	}
 
 	"HeaderLine"
@@ -107,8 +107,8 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 
@@ -126,8 +126,8 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 
@@ -163,7 +163,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"42 41 39 255"
+			"bgcolor_override"	"ahudDarkGrey"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
 		}
@@ -297,7 +297,7 @@
 				"xpos"			"0"
 				"ypos"			"100"
 				"wide"			"530"
-				"fgcolor"		"tanlight"
+				"fgcolor"		"ahudWhite"
 			}
 			
 			"NoItemServerMessage"
@@ -312,7 +312,7 @@
 				"wide"			"530"
 				"tall"			"40"
 				"centerwrap"		"1"
-				"fgcolor"		"tanlight"
+				"fgcolor"		"ahudWhite"
 			}
 		}
 	}

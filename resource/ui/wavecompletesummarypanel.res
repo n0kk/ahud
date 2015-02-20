@@ -36,20 +36,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"NormalCode18"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"3"
-			"ypos"			"3"
-			"wide"			"245"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"250"
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"black"		
+			"fgcolor"		"ShadowBlack"		
 			
 			// Red Background
 			"PaintBackgroundType" "0"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"ShadowBlack"		
 			"bgcolor_override"	"ahudRed"
 		}
 		
@@ -57,13 +57,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"NormalCode18"
+			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
-			"ypos"			"2"
+			"ypos"			"-1"
 			"wide"			"244"
-			"tall"			"35"
+			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"ahudWhite"		
@@ -75,7 +75,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"33"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
@@ -202,7 +202,7 @@
 			"ypos"			"20"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"Black"
+			"fgcolor"		"ShadowBlack"
 		}
 		
 		"RatingText"
