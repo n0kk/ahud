@@ -3,23 +3,10 @@ Scheme
 	Colors
 	{
 		// custom  colors -------------------
-		
-		"ChargePercent"		"243 243 243 255"
-		"Ubercharge Meter"	"0 255 127 255"
-		"Ubercharge1"		"0 255 127 255"
-		"Ubercharge2"		"0 255 127 200"
-		
-		"Ammo In Clip"		"243 243 243 255"
-		"Ammo In Reserve"	"0 191 255 255"
-		"Ammo No Clip"		"243 243 243 255"
-		"Stickies"			"243 243 243 255"
-		
+			
 		"Crosshair"			"255 255 255 70"
 		"CrosshairDamage"	"255 0 0 255"		// For no damage flash, set to the
 												// same value as "Crosshair"
-		
-		"LowAmmo1"			"200 45 45 255"
-		"LowAmmo2"			"255 45 45 255"
 		
 		"HP"				"243 243 243 255"
 		"HP Buff"			"0 255 127 255"
@@ -27,6 +14,21 @@ Scheme
 		
 		"Damage Numbers"	"255 255 0 255"
 		"Healing Numbers"	"0 255 127 255"
+		
+		"Ammo In Clip"		"243 243 243 255"
+		"Ammo In Reserve"	"0 191 255 255"
+		"Ammo No Clip"		"243 243 243 255"
+		"LowAmmo1"			"200 45 45 255"
+		"LowAmmo2"			"255 45 45 255"
+		
+		"Stickies"			"243 243 243 255"
+		"Metal"				"243 243 243 255"
+		"Killstreak"		"243 243 243 255"
+		
+		"ChargePercent"		"243 243 243 255"
+		"Ubercharge Meter"	"0 255 127 255"
+		"Ubercharge1"		"0 255 127 255"
+		"Ubercharge2"		"0 210 105 255"
 		
 		// hud colors -----------------------
 		
@@ -42,7 +44,7 @@ Scheme
 		"ahudDarkGreen"		"38 53 36 255"
 		"ahudYellow"		"169 123 53 255"
 		"ahudDarkYellow"	"97 70 27 255"
-
+		
 		"ahudWhite"			"242 242 242 255"
 		"ahudDullWhite"		"132 132 132 255"
 		
@@ -2205,9 +2207,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"tall_hidef"	"32"
+				"antialias" "1"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -2216,9 +2219,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"tall_hidef"	"32"
+				"antialias" "1"
 				"weight"	"500"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2228,9 +2232,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"tall_hidef"	"32"
+				"antialias" "1"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -2239,9 +2244,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Code-Pro-LC"
 				"tall"		"24"
 				"tall_hidef"	"32"
+				"antialias" "1"
 				"weight"	"900"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2251,9 +2257,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Code-Pro-LC"
 				"tall"		"16"
 				"tall_hidef"	"24"
+				"antialias" "1"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
