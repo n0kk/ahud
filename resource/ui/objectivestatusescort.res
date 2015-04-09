@@ -474,7 +474,7 @@
 			"wide"				"65"		
 			"tall"				"42"			
 			"visible"			"0"
-			"enabled"			"1"
+			"enabled"			"0"
 			
 			"if_multiple_trains"
 			{
@@ -493,8 +493,8 @@
 				"zpos"				"0"
 				"wide"				"35"				
 				"tall"				"42"
-				"visible"			"1"
-				"enabled"			"1"
+				"visible"			"0"
+				"enabled"			"0"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_teardrop"
 				"iconColor"			"255 255 255 255"
@@ -568,12 +568,12 @@
 				"xpos"			"8"
 				"ypos"			"8"
 				"zpos"			"1"
-				"wide"			"20"
+				"wide"			"0"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"tabPosition"	"0"
 				"labelText"		""
 				"image"			"../hud/cart_arrow_right"
@@ -583,7 +583,7 @@
 				{
 					"xpos"			"8"
 					"ypos"			"8"			
-					"wide"			"20"			
+					"wide"			"0"			
 					"tall"			"20"			
 				}		
 			}			
