@@ -93,7 +93,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"0"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"25"
@@ -246,8 +246,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"107"
-		"ypos"			"115"
+		"xpos"			"101"
+		"ypos"			"78"
 		"zpos"			"7"
 		"wide"			"25"
 		"tall"			"25"
@@ -321,7 +321,7 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
-
+	
 	"PlayerStatus_RuneStrength"
 	{
 		"ControlName"	"ImagePanel"

@@ -58,9 +58,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"NormalCode16"
+		"font"			"NormalCode12"
 		"xpos"			"80"
-		"ypos"			"16"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"18"
@@ -78,9 +78,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabelShadow"
-		"font"			"NormalCode16"
+		"font"			"NormalCode12"
 		"xpos"			"81"
-		"ypos"			"17"
+		"ypos"			"18"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"18"
@@ -94,7 +94,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
 	}
-	
+
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
