@@ -110,7 +110,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NormalCode20"
-		"fgcolor"				"ahudWhite"
+		"fgcolor"				"Killstreak"
 	}
 	"ItemEffectMeterCountShadow"
 	{
