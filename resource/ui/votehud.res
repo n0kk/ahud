@@ -536,7 +536,7 @@
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_fgcolor"	"ahudWhite"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
