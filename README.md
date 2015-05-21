@@ -14,22 +14,22 @@ ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://git
 
 ####Screenshots
 
-* http://i.imgur.com/8VAle2s.jpg – Main Menu
+* http://i.imgur.com/PIx7Ds5.jpg – Main Menu
 * http://i.imgur.com/yGdN0CO.jpg – Team Select
 * http://i.imgur.com/xVrIYJs.jpg – Class Select
 * http://i.imgur.com/ExOLP9q.jpg – Buffed HP
 * http://i.imgur.com/wefV5Jm.jpg – Low HP
 * http://i.imgur.com/PYHubC5.jpg – Buffed HP – alt. style
 * http://i.imgur.com/x7h2U1t.jpg – Low HP – alt. style
-* http://i.imgur.com/xLFWrgj.jpg – Default scoreboard
-* http://i.imgur.com/k3mudc7.jpg – 6v6 scoreboard
+* http://i.imgur.com/NIwun3r.jpg – Default scoreboard
+* http://i.imgur.com/5LM0rNd.jpg – 6v6 scoreboard
 * http://i.imgur.com/SPhvdMh.jpg – Tournament Spectator HUD
 
 More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
 ##Installation
 
-Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For  detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/guides/?guide=1).
+Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/guides/?guide=1).
 
 ##Customization
 
@@ -37,17 +37,17 @@ Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\t
 The color of various HUD elements (health and ammo numbers, damage numbers, crosshair and flash damage, etc.) can be easily changed in `resource\clientscheme.res`. Edit anything under  `custom colors` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow). 
 
 ####Scoreboards
-The default scoreboard is a 12v12 scoreboard. To switch between the default scoreboard and the 6v6 scoreboard, use the Toggle Scoreboard button in the in-game menu. Alternatively, you can enter `cl_hud_minmode 1` or `0` in console.
+The default scoreboard is a 12v12 scoreboard. To switch between the default scoreboard and the 6v6 scoreboard, use the Scoreboard button in the main menu. Alternatively, you can enter `cl_hud_minmode 1` or `0` in console.
 
 To use the alternative 16v16 scoreboard in place of the default scoreboard, navigate to `resource\ui`, delete or backup `scoreboard.res` and rename `scoreboard_16v16.res` to `scoreboard.res`.
 
 ####Custom crosshairs
-Navigate to the `scripts\hudlayout.res`. Use any of the crosshairs listed under `custom crosshairs` by changing the values of `visible` and `enabled` to `1`. You can also use outlined versions of the crosshairs by changing the font name to the one listed in the comment (e.g., change `Crosshairs34` to `CrosshairsOutline34`). The color of the crosshair is listed in `resource\clientscheme.res`.
+Navigate to `scripts\hudlayout.res`. Use any of the crosshairs listed under `custom crosshairs` by changing the values of `visible` and `enabled` to `1`. You can also use outlined versions of the crosshairs by changing the font name to the one listed in the comment (e.g., change `Crosshairs34` to `CrosshairsOutline34`). The color of the crosshair is listed in `resource\clientscheme.res`.
 
 Note that not every crosshair will be perfectly centered because of different resolutions and aspect ratios. If your crosshair is not perfectly centered, experiment with changing the `xpos`, `ypos`, `wide`, and `tall` values.
 
 ####Crosshair damage flash
-For crosshair damage flash, navigate to `scripts\hudanimations_tf.txt`. Search for `event DamagedPlayer` and change the crosshair name to the crosshair you are enabled in `scripts\hudlayout.res` (set to `Circle` by default). The color of the crosshair flash damage is listed in `resource\clientscheme.res`.
+For crosshair damage flash, navigate to `scripts\hudanimations_tf.txt`. Search for `event DamagedPlayer` and change the crosshair name to the crosshair you have enabled in `scripts\hudlayout.res` (set to `Circle` by default). The color of the crosshair flash damage is listed in `resource\clientscheme.res`.
 
 ####Alternative style
 To use the non-box alternative style of ahud, locate `hudplayerhealth.res`, `hudmediccharge.res`, and `spectatorguihealth.res` in `resource\ui`, and `hudanimations_tf.txt` in `scripts`. Delete or backup these 4 files and replace them with the `_NOBOX` files included by renaming them to the original file names (e.g., rename `hudplayerhealth_NOBOX.res` to `hudplayerhealth.res`).
@@ -67,7 +67,7 @@ To use the Home Server button (located on the bottom right of the main menu) in 
 
 ##Support
 
-I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linx). 
+I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linux). 
 
 Please post any bugs with ahud to the Issues page on this repository. There is also a [Steam group](http://steamcommunity.com/groups/ahud) you can join where you can ask general questions and get announcements on updates to ahud.
 
