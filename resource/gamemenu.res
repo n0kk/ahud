@@ -2,9 +2,9 @@
 {
 	"ToggleMinmode"
 	{
-		"label" "Toggle Scoreboard"
+		"label" "Scoreboard"
 		"command" "engine toggle cl_hud_minmode"
-		"OnlyInGame" "1"
+		"OnlyInGame" "0"
 	}
 	"QuickplayButton"
 	{
@@ -57,8 +57,7 @@
 	{
 		"label" "Training"
 		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
