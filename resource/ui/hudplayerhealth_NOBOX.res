@@ -466,6 +466,22 @@
 		"fgcolor"		"TanDark"
 	}
 	
+    "PlayerStatus_RuneKnockout"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "PlayerStatus_RuneKnockout"
+        "xpos"          "85"
+        "ypos"          "0"
+        "zpos"          "7"
+        "wide"          "25"
+        "tall"          "25"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1" 
+        "image"         "../Effects/powerup_knockout_hud"
+        "fgcolor"       "TanDark"
+    }
+	
 	"HealthBG"	
 	{
 		"ControlName"	"CExImageButton"
