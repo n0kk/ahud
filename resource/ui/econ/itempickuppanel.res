@@ -25,20 +25,24 @@
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
 		
+		
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
 			"bgcolor_override"		"ahudGrey"
 			
-			"model_xpos"	"-125"
+			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
+			"model_wide"	"240"
 			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
+			"is_mouseover"	"1"
+			"hide_collection_panel"	"1"
 			
 			"itemmodelpanel"
 			{
@@ -52,7 +56,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"classimageoutline"
-		"xpos"			"c207"
+		"xpos"			"c208"
 		"ypos"			"115"
 		"zpos"			"6"
 		"wide"			"36"
@@ -65,7 +69,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
-		"xpos"			"c210"
+		"xpos"			"c211"
 		"ypos"			"118"
 		"zpos"			"7"
 		"wide"			"30"
@@ -246,11 +250,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c210"
+		"xpos"			"c224"
 		"ypos"			"155"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -276,24 +280,25 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
+			"wide"			"p1"
+			"tall"			"p1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"icon_trash_on"
 			"scaleImage"	"1"
 			"paintbackgroundtype" "0"
+			"proportionaltoparent"	"1"
 		}				
 	}		
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DiscardButtonTooltip"
-		"xpos"			"c175"
-		"ypos"			"186"
+		"xpos"			"c180"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"50"

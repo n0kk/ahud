@@ -275,9 +275,12 @@
 		"name_only"			"1"
 		
 		"model_ypos"	"40"
-		"model_tall"	"120"
+		"model_xpos"	"50"
+		"model_wide"	"156"
+		"model_tall"	"100"
 		
 		"text_forcesize"	"1"
+		"is_mouseover"		"1"
 		
 		"itemmodelpanel"
 		{
