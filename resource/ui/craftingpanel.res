@@ -106,7 +106,7 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
-			"defaultFgColor_override" "117 107 94 255"
+			"defaultFgColor_override" "ahudDullWhite"
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "ahudWhite"
 			"armedBgColor_override" "0 0 0 0"
@@ -156,7 +156,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 187 161 255"
+		"fgcolor_override" "ahudWhite"
 	}
 	
 	"selectedrecipecontainer"
@@ -187,7 +187,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"ahudWhite"
 			"wrap"			"1"
 		}
 		
@@ -207,7 +207,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"153 204 255 255"
+			"fgcolor"		"ahudDullWhite"
 			"wrap"			"1"
 		}
 	
@@ -227,7 +227,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"ahudDullWhite"
 		}
 		"OutputLabel"
 		{
@@ -245,7 +245,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"ahudDullWhite"
 		}
 		
 		"CraftButton"
@@ -331,9 +331,9 @@
 		"ypos"			"70"
 		"zpos"			"5"
 		"wide"			"280"
-		"tall"			"240"
+		"tall"			"245"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"fgcolor_override"	"ahudDullWhite"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
@@ -345,7 +345,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"280"
-		"tall"			"240"
+		"tall"			"245"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 	}
@@ -370,24 +370,6 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"ahudDarkerGrey"
-    	}	
 		
 		"attriblabel"
 		{
