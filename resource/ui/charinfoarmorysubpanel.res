@@ -288,24 +288,6 @@
 			"inventory_image_type" "1"
 			"allow_rot"				"0"
 		}
-		
-		"BackColor"
-    	{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"		"0"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
-			"bgcolor_override"	"ahudDarkerGrey"
-    	}
 	}
 	
 	"PrevPageButton"

@@ -34,6 +34,22 @@
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
+
+		"ItemBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"200"
+			"tall"			"1000"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"Hudblack"
+		}
 		
 		"ItemLabel"
 		{	

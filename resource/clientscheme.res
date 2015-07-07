@@ -4035,7 +4035,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"button_holder_central"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"ahudDarkGrey"
+			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
