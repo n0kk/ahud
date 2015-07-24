@@ -395,7 +395,7 @@
 		
 		if_mvm
 		{
-			"xpos_minmode"	"c-270"
+			"xpos_minmode"	"c-280"
 			"ypos"			"83"
 		}
 	}
@@ -422,7 +422,7 @@
 		
 		if_mvm
 		{
-			"xpos_minmode"	"c-270"
+			"xpos_minmode"	"c-280"
 			"ypos"			"95"
 		}
 	}							
@@ -529,7 +529,7 @@
 		
 		if_mvm
 		{
-			"xpos"		"c-270"
+			"xpos"		"c-280"
 			"ypos"		"366"
 		}
 	}	
@@ -905,7 +905,7 @@
 		if_mvm
 		{
 			"visible"		"1"
-			"xpos_minmode"	"c-270"
+			"xpos_minmode"	"c-280"
 			"ypos"			"298"
 			"ypos_minmode"	"298"
 			"tall"			"500"
@@ -938,7 +938,7 @@
 				"xpos_minmode"	"0"
 				"ypos"			"9"
 				"tall_minmode"	"62"
-				"wide_minmode"	"540"				
+				"wide_minmode"	"560"				
 				"tall"			"62"
 				"fillcolor"		"ahudWhite"
 			}
@@ -966,7 +966,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"4"
+				"xpos_minmode"	"14"
 				"ypos_minmode"	"13"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1011,7 +1011,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"116"
+				"xpos_minmode"	"126"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1040,7 +1040,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"116"
+				"xpos_minmode"	"126"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1068,7 +1068,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"-15"
+				"xpos_minmode"	"-3"
 				"ypos_minmode"	"13"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1096,7 +1096,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"69"
+				"xpos_minmode"	"77"
 				"ypos_minmode"	"13"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1148,7 +1148,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"171"
+				"xpos_minmode"	"181"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1177,7 +1177,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"171"
+				"xpos_minmode"	"181"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1205,7 +1205,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"116"
+				"xpos_minmode"	"126"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1233,7 +1233,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"116"
+				"xpos_minmode"	"126"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1262,7 +1262,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"216"
+				"xpos_minmode"	"226"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1291,7 +1291,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"216"
+				"xpos_minmode"	"226"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1319,7 +1319,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"171"
+				"xpos_minmode"	"181"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1347,7 +1347,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"171"
+				"xpos_minmode"	"181"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1376,7 +1376,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"271"
+				"xpos_minmode"	"281"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1405,7 +1405,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"271"
+				"xpos_minmode"	"281"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1433,7 +1433,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"216"
+				"xpos_minmode"	"226"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1461,7 +1461,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"216"
+				"xpos_minmode"	"226"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1490,7 +1490,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"316"
+				"xpos_minmode"	"326"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1519,7 +1519,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"316"
+				"xpos_minmode"	"326"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1547,7 +1547,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"271"
+				"xpos_minmode"	"281"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1575,7 +1575,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"271"
+				"xpos_minmode"	"281"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1604,7 +1604,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"371"
+				"xpos_minmode"	"381"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1633,7 +1633,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"371"
+				"xpos_minmode"	"381"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1662,7 +1662,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"316"
+				"xpos_minmode"	"326"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1691,7 +1691,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"371"
+				"xpos_minmode"	"381"
 				"ypos_minmode"	"35"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1720,7 +1720,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"316"
+				"xpos_minmode"	"326"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1749,7 +1749,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"371"
+				"xpos_minmode"	"381"
 				"ypos_minmode"	"45"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1778,7 +1778,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"416"
+				"xpos_minmode"	"426"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1806,7 +1806,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"471"
+				"xpos_minmode"	"481"
 				"ypos_minmode"	"15"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1833,7 +1833,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"416"
+				"xpos_minmode"	"426"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
@@ -1860,7 +1860,7 @@
 			
 			if_mvm
 			{
-				"xpos_minmode"	"471"
+				"xpos_minmode"	"481"
 				"ypos_minmode"	"25"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
