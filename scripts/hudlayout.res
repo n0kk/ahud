@@ -822,7 +822,7 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-285"
+		"xpos"		"c205"
 		"ypos"		"247"
 		"wide"		"500"
 		"tall"		"136"
