@@ -756,8 +756,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c28"
-		"ypos"			"c107"
+		"xpos"			"c-100"
+		"ypos"			"c92"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"14"
