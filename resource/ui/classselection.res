@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c28"
+		"xpos"				"c85"
 		"ypos"				"c77"
 		"zpos"				"6"
 		"wide"				"100"
@@ -75,7 +75,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&Random"
+		"labelText"			"&R   Random"
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
@@ -130,24 +130,21 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
-		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Offense"
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"ahudWhite"
 	}
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c16"
+		"xpos"				"c86"
 		"ypos"				"c-63"
 		"zpos"				"6"
 		"wide"				"100"
@@ -196,8 +193,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_scout_inactive"
 			"scaleImage"	"1"
 		}				
@@ -206,7 +203,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c-49"
 		"zpos"				"6"
 		"wide"				"100"
@@ -255,8 +252,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_soldier_inactive"
 			"scaleImage"	"1"
 		}				
@@ -265,7 +262,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c-35"
 		"zpos"				"6"
 		"wide"				"100"
@@ -314,8 +311,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_pyro_inactive"
 			"scaleImage"	"1"
 		}				
@@ -330,24 +327,21 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
-		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Defense"
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"ahudWhite"
 	}
 	"demoman"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c-21"
 		"zpos"				"6"
 		"wide"				"100"
@@ -396,8 +390,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
 		}				
@@ -406,7 +400,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c-7"
 		"zpos"				"6"
 		"wide"				"100"
@@ -455,8 +449,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_heavy_inactive"
 			"scaleImage"	"1"
 		}				
@@ -465,7 +459,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c7"
 		"zpos"				"6"
 		"wide"				"100"
@@ -514,8 +508,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
 		}				
@@ -530,24 +524,21 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
-		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Support"
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
-		"font_lodef"			"MenuMainTitle"
 		"fgcolor"		"TanDark"
-		"fgcolor_lodef"	"ahudWhite"
 	}
 	"medic"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c21"
 		"zpos"				"6"
 		"wide"				"100"
@@ -596,8 +587,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_medic_inactive"
 			"scaleImage"	"1"
 		}				
@@ -606,7 +597,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c35"
 		"zpos"				"6"
 		"wide"				"100"
@@ -655,8 +646,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_sniper_inactive"
 			"scaleImage"	"1"
 		}				
@@ -665,7 +656,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c15"
+		"xpos"				"c85"
 		"ypos"				"c49"
 		"zpos"				"6"
 		"wide"				"100"
@@ -714,8 +705,8 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
 		}				
@@ -725,8 +716,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c28"
-		"ypos"			"c92"
+		"xpos"			"c84"
+		"ypos"			"c106"
 		"zpos"			"6"
 		"wide"			"100"
 		"tall"			"14"
@@ -735,7 +726,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Cancel"
+		"labelText"		"&C   Cancel"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
 		"font"			"NormalCode12"
@@ -756,7 +747,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c-100"
+		"xpos"			"c85"
 		"ypos"			"c92"
 		"zpos"			"6"
 		"wide"			"100"
@@ -766,7 +757,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Edit Loadout"
+		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"NormalCode12"
@@ -787,15 +778,15 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
-		"xpos"			"r470"
-		"ypos"			"r38"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"6"
 		"wide"			"110"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
@@ -814,9 +805,8 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_lodef"	"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"MenuMainTitle"
@@ -834,8 +824,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"16"
 		
 		"model"
@@ -846,8 +836,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "365"
-			"origin_x_lodef" "415"
-			"origin_x_hidef" "380"
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
@@ -862,19 +850,16 @@
 		"zpos"			"2"
 		"wide"			"600"
 		"tall"			"50"
-		"tall_lodef"	"30"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
 		"wrap"			"1"
 		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
 		"fgcolor"		"HudTrainingHint"
-		"fgcolor_lodef"	"HudTrainingHint"
 	}
 	
 	"ShadedBar"
@@ -892,51 +877,7 @@
 		"fillcolor"		"HudBlack"
 	}		
 	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}
-	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -946,9 +887,9 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 	}
 	
 	"localPlayerBG"
@@ -963,7 +904,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
@@ -986,7 +927,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}							
@@ -1001,7 +942,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1016,7 +957,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1031,7 +972,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1046,7 +987,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1061,7 +1002,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1076,7 +1017,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1091,7 +1032,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1106,7 +1047,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1121,7 +1062,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1136,7 +1077,7 @@
 		"wide"			"30"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -1152,8 +1093,8 @@
 		"tall"			"18"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
@@ -1161,11 +1102,11 @@
 		"fgcolor"		"ahudWhite"
 	}
 	
-	"numScout" [$WIN32]
+	"numScout"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c-63"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1176,16 +1117,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}	
 	
-	"numSoldier" [$WIN32]
+	"numSoldier"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c-49"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1196,16 +1137,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}		
 	
-	"numPyro" [$WIN32]
+	"numPyro"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c-35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1216,16 +1157,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}			
 	
-	"numDemoman" [$WIN32]
+	"numDemoman"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c-21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1236,16 +1177,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}				
 	
-	"numHeavy" [$WIN32]
+	"numHeavy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c-7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1256,16 +1197,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}					
 	
-	"numEngineer" [$WIN32]
+	"numEngineer"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1276,16 +1217,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}						
 	
-	"numMedic" [$WIN32]
+	"numMedic"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1296,16 +1237,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}							
 	
-	"numSniper" [$WIN32]
+	"numSniper"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1316,16 +1257,16 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}						
 	
-	"numSpy" [$WIN32]
+	"numSpy"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c25"
+		"xpos"			"c175"
 		"ypos"			"c49"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1336,7 +1277,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
-		"textAlignment"	"east"
+		"textAlignment"	"west"
 		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}								
@@ -1345,7 +1286,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c-63"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1360,7 +1301,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c-49"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1375,7 +1316,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c-35"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1390,7 +1331,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c-21"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1405,7 +1346,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c-7"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1420,7 +1361,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c7"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1435,7 +1376,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c21"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1450,7 +1391,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c35"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1465,7 +1406,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"c99"
+		"xpos"			"c67"
 		"ypos"			"c49"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1591,8 +1532,8 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"c-200"
-		"ypos"			"85"
+		"xpos"			"c-130"
+		"ypos"			"80"
 		"zpos"			"6"		
 		"wide"			"320"
 		"tall"			"320"
@@ -1683,8 +1624,8 @@
 		"tall"			"165"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 	}
 	

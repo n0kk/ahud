@@ -116,7 +116,7 @@
 		"font"			"Code24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
-		"xpos"			"c-122"
+		"xpos"			"c-120"
 		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"240"
@@ -491,12 +491,50 @@
 		"centerwrap"	"1"
 	}
 
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-54"
+		"ypos"				"c90"
+		"zpos"				"12"	
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"B"
+		"textAlignment"		"center"
+		"font"				"NormalCode16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"defaultFgColor_override" "ahudBlue"
+		"armedFgColor_override" "ahudWhite"
+		"armedBgColor_override"	"ahudBlue"
+		"depressedFgColor_override" "ahudWhite"
+		"depressedBgColor_override"	"ahudBlue"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			""
+		"border_armed"				""
+		"border_depressed"			""
+	}
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-25"
+		"xpos"			"c-27"
 		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"25"
@@ -565,6 +603,44 @@
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
 		}
+	}
+
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c29"
+		"ypos"				"c90"
+		"zpos"				"12"	
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"R"
+		"textAlignment"		"center"
+		"font"				"NormalCode16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"defaultFgColor_override" "ahudRed"
+		"armedFgColor_override" "ahudWhite"
+		"armedBgColor_override"	"ahudRed"
+		"depressedFgColor_override" "ahudWhite"
+		"depressedBgColor_override"	"ahudRed"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			""
+		"border_armed"				""
+		"border_depressed"			""
 	}
 
 	"TauntsExplanation"
