@@ -33,7 +33,7 @@ Scheme
 		// hud colors -----------------------
 		
 		"ShadowBlack"		"7 7 7 255"
-		"HudBlack"			"0 0 0 210"
+		"HudBlack"			"0 0 0 200"
 		
 		"ahudBlue"			"72 112 125 255"
 		"ahudDarkBlue"		"46 73 82 255"
