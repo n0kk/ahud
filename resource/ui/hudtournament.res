@@ -925,6 +925,18 @@
 		
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
+		
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 
 	"CountdownLabel"
@@ -944,6 +956,18 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 	
 	"CountdownLabelShadow"
@@ -963,6 +987,18 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
+
+		if_competitive
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
 	}
 }
