@@ -333,8 +333,6 @@
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
-		"tall_hidef"	"75"
-		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -485,14 +483,10 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"299"
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
 		"ypos"			"9999"
 		"zpos"			"9999"
 		"wide"			"2"
 		"tall"			"292"
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -575,7 +569,7 @@
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
@@ -586,19 +580,18 @@
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"xpos_lodef"	"105"
 		"ypos"			"9999"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"9999"	[$WIN32]
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"MapName"
@@ -666,8 +659,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		if_mvm
 		{
