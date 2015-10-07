@@ -454,7 +454,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsLabel"
-		"font"			"NormalCode12"
+		"font"			"NormalCode10"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
