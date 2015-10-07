@@ -206,7 +206,11 @@
 		if_operation
 		{
 			"image"		"../console/title_summer_operation_2015"
-		}		
+		}
+		if_community_update
+		{
+			"image"		"../console/title_invasion"
+		}
 	}
 	
 	"MainMenuSideBG"
@@ -1292,7 +1296,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2015.0916"
+		"labelText"		"v2015.1006"
 		"textAlignment"	"east"
 		"xpos"			"r56"
 		"ypos"			"r15"
