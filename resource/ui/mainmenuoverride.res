@@ -191,6 +191,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}		
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -205,7 +209,7 @@
 		}
 		if_operation
 		{
-			"image"		"../console/title_summer_operation_2015"
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -408,7 +412,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c25"
+		"xpos"			"c5"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"300"
@@ -894,7 +898,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -1296,7 +1300,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2015.1006"
+		"labelText"		"v2015.1028"
 		"textAlignment"	"east"
 		"xpos"			"r56"
 		"ypos"			"r15"
