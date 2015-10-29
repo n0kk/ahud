@@ -434,10 +434,10 @@
 		"fgcolor"		"TanDark"
 	}
 	
-	"PlayerStatus_RuneWarlock"
+	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
