@@ -306,6 +306,22 @@
 		"fgcolor"		"TanDark"
 	}
 	
+	"PlayerStatus_SpyMarked"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_SpyMarked"
+		"xpos"			"115"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
+	}
+	
 	"PlayerStatus_Parachute"
 	{
 		"ControlName"	"ImagePanel"
@@ -465,6 +481,57 @@
         "image"         "../Effects/powerup_knockout_hud"
         "fgcolor"       "TanDark"
     }
+	
+	"PlayerStatus_RuneKing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneKing"
+		"xpos"			"85"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_king_hud"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatus_RunePlague"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RunePlague"
+		"xpos"			"85"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_plague_hud"
+		"fgcolor"		"TanDark"
+	}
+	
+	"PlayerStatus_RuneSupernova"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_RuneSupernova"
+		"xpos"			"85"
+		"xpos_minmode"	"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../Effects/powerup_supernova_hud"
+		"fgcolor"		"TanDark"
+	}
 	
 	"HealthBG"	
 	{
