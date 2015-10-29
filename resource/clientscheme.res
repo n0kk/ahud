@@ -2,59 +2,63 @@ Scheme
 {
 	Colors
 	{
-		// custom  colors -------------------
+		//---------------------------------------------
+		// CUSTOM COLORS
+		//---------------------------------------------
 			
-		"Crosshair"			"255 255 255 70"
-		"CrosshairDamage"	"255 0 0 255"		// For no damage flash, set to the
-												// same value as Crosshair
+		"Crosshair"				"255 255 255 255"
+		"CrosshairDamage"		"255 0 0 255"		// For no damage flash, set to the
+													// same value as Crosshair
 		
-		"HP"				"243 243 243 255"
-		"HP Buff"			"0 255 127 255"
-		"HP Low"			"200 45 45 255"
+		"HP"					"243 243 243 255"
+		"HP Buff"				"0 255 127 255"
+		"HP Low"				"200 45 45 255"
 		
-		"Damage Numbers"	"255 255 0 255"
-		"Healing Numbers"	"0 255 127 255"
+		"Damage Numbers"		"255 255 0 255"
+		"Healing Numbers"		"0 255 127 255"
 		
-		"Ammo In Clip"		"243 243 243 255"
-		"Ammo In Reserve"	"0 191 255 255"
-		"Ammo No Clip"		"243 243 243 255"
-		"LowAmmo1"			"200 45 45 255"
-		"LowAmmo2"			"255 45 45 255"
+		"Ammo In Clip"			"243 243 243 255"
+		"Ammo In Reserve"		"0 191 255 255"
+		"Ammo No Clip"			"243 243 243 255"
+		"LowAmmo1"				"200 45 45 255"
+		"LowAmmo2"				"255 45 45 255"
 		
-		"Stickies"			"243 243 243 255"
-		"Metal"				"243 243 243 255"
-		"Killstreak"		"243 243 243 255"
+		"Stickies"				"243 243 243 255"
+		"Metal"					"243 243 243 255"
+		"Killstreak"			"243 243 243 255"
 		
-		"ChargePercent"		"243 243 243 255"
-		"Ubercharge Meter"	"0 255 127 255"
-		"Ubercharge1"		"0 255 127 255"
-		"Ubercharge2"		"0 210 105 255"
+		"ChargePercent"			"243 243 243 255"
+		"Ubercharge Meter"		"0 255 127 255"
+		"Ubercharge1"			"0 255 127 255"
+		"Ubercharge2"			"0 210 105 255"
 		
-		// hud colors -----------------------
+		//---------------------------------------------
+		// HUD COLORS
+		//---------------------------------------------
 		
-		"ShadowBlack"		"7 7 7 255"
-		"HudBlack"			"0 0 0 200"
+		"ShadowBlack"			"7 7 7 255"
+		"HudBlack"				"0 0 0 200"
 		
-		"ahudBlue"			"72 112 125 255"
-		"ahudDarkBlue"		"46 73 82 255"
-		"ahudRed"			"158 64 61 255"
-		"ahudDarkRed"		"102 48 46 255"
+		"ahudBlue"				"72 112 125 255"
+		"ahudDarkBlue"			"46 73 82 255"
+		"ahudRed"				"158 64 61 255"
+		"ahudDarkRed"			"102 48 46 255"
 		
-		"ahudGreen"			"92 122 90 255"
-		"ahudDarkGreen"		"38 53 36 255"
-		"ahudYellow"		"169 123 53 255"
-		"ahudDarkYellow"	"97 70 27 255"
+		"ahudGreen"				"92 122 90 255"
+		"ahudDarkGreen"			"38 53 36 255"
+		"ahudYellow"			"169 123 53 255"
+		"ahudDarkYellow"		"97 70 27 255"
 		
-		"ahudWhite"			"242 242 242 255"
-		"ahudDullWhite"		"132 132 132 255"
+		"ahudWhite"				"242 242 242 255"
+		"ahudDullWhite"			"132 132 132 255"
 		
-		"ahudGrey"			"51 47 46 255"
-		"ahudDarkGrey"		"27 27 27 255"
-		"ahudDarkerGrey"	"22 22 22 255"
+		"ahudGrey"				"51 47 46 255"
+		"ahudDarkGrey"			"27 27 27 255"
+		"ahudDarkerGrey"		"22 22 22 255"
 		
-		"ahudBlack"			"17 17 17 255"
+		"ahudBlack"				"17 17 17 255"
 		
-		// ----------------------------------
+		//---------------------------------------------
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -64,6 +68,11 @@ Scheme
 		"TFOrange"			"145 73 59 255"
 		
 		"QuestGold"			"208 147 75 255"
+		"HalloweenThemeColor2015_Light"	"238 126 17 255"
+		"HalloweenThemeColor2015"		"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
+		"QuestStandardHighlight"	"0 255 0 255"
+		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
@@ -193,7 +202,7 @@ Scheme
 		"ItemRarityRare_GreyedOut"				"25 35 85 255"
 		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-		"ItemRarityAncient_GreyedOut"			"78 25 25 255"	
+		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
 		
 		"QualityColorNormal_GreyedOut"			"44 44 44 255"
 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
@@ -486,6 +495,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
 		"SymbolS"
 		{
 			"1"
@@ -496,235 +506,884 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Crosshairs20"
+		"size:10,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"10"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline20"
+		"size:11,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"11"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs22"
+		"size:12,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"12"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline22"
+		"size:13,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"13"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs24"
+		"size:14,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"14"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline24"
+		"size:15,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"15"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs26"
+		"size:16,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"16"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline26"
+		"size:17,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"17"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs28"
+		"size:18,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"18"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline28"
+		"size:19,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"19"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs30"
+		"size:20,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"20"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline30"
+		"size:21,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"21"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs32"
+		"size:22,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"22"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline32"
+		"size:23,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"23"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs34"
+		"size:24,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"24"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline34"
+		"size:25,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"25"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs36"
+		"size:26,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline36"
+		"size:27,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs38"
+		"size:28,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"28"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline38"
+		"size:29,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"29"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"Crosshairs40"
+		"size:30,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"30"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
 			}
 		}
-		"CrosshairsOutline40"
+		"size:31,outline:off"
 		{
 			"1"
 			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
+				"name"	"KnucklesCrosses"
+				"tall"	"31"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:32,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"32"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:33,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"33"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:34,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"34"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:35,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"35"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:36,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"36"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:37,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"37"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:38,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"38"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:39,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"39"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:40,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"40"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:41,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"41"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:42,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"42"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:43,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"43"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:44,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"44"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:45,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"45"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:46,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"46"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:47,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"47"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:48,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"48"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:49,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"49"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:50,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"50"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:12,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"12"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:13,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"13"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:14,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"14"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:15,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"15"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:16,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"16"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:17,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"17"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:18,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"18"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:19,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"19"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:20,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"20"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:21,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"21"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:22,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"22"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:23,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"23"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:24,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"24"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:25,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"25"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:26,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:27,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:28,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"28"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:29,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"29"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:30,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"30"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:31,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"31"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:32,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"32"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:33,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"33"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:34,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"34"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:35,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"35"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:36,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"36"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:37,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"37"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:38,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"38"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:39,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"39"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:40,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"40"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:41,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"41"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:42,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"42"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:43,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"43"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:44,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"44"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:45,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"45"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:46,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"46"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:47,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"47"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:48,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"48"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:49,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"49"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:50,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"50"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
 			}
 		}
 		"BlocksSharp64"
@@ -3234,7 +3893,127 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		
+		"QuestInstructionText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
 
+		"QuestFlavorText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+		}
+
+		"QuestObjectiveText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestMediumText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		"QuestLargeText_Merasmus"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"AdFont_ItemName"
 		{
 			"1"
@@ -5853,8 +6632,8 @@ Scheme
 		}
 		"10"
 		{
-			"font"	"resource/fonts/Crosshairs.ttf"
-			"name"	"Crosshairs"
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
 		}
 		"11"
 		{
