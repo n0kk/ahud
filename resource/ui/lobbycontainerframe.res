@@ -360,65 +360,6 @@
 		"depressedBgColor_override" "ahudYellow"
 	}
 
-	"PlayWithFriendsExplanation"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayWithFriendsExplanation"
-		"xpos"			"c+100"
-		"ypos"			"62"
-		"zpos"			"8"
-		"wide"			"200"
-		"tall"			"285"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
-
-		"PlayWithFriendsExplanationTitle"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PlayWithFriendsExplanationTitle"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_Matchmaking_PlayWithFriends"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"10"
-			"wide"			"200"
-			"tall"			"32"
-		}
-
-		"FriendsImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"FriendsImage"
-			"xpos"			"10"
-			"ypos"			"32"
-			"zpos"			"0"
-			"wide"			"180"
-			"tall"			"90"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"pve/mvm_friends_image"
-			"scaleImage"	"1"
-		}
-
-		"PlayWithFriendsExplanationLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PlayWithFriendsExplanationLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_PlayWithFriendsExplanation"
-			"textAlignment"	"north-west"
-			"xpos"			"10"
-			"ypos"			"130"
-			"zpos"			"10"
-			"wide"			"180"
-			"tall"			"150"
-			"wrap"			"1"
-		}
-	}
-
 	"StartPartyButton"
 	{
 		"ControlName"	"CExButton"
@@ -440,6 +381,12 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"start_party"
+		
+		if_competitive
+		{
+			"xpos"			"c+120"
+			"ypos"			"375"
+		}
 
 		"NavUp"			"Sheet"
 		"NavDown"		"NextButton"
