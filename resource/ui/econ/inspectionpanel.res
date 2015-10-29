@@ -11,24 +11,55 @@
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"30 25 25 245"
+		
+		"BGImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BGImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"o1"
+			"tall"			"p0.75"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"item_carousel_bg"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+		}	
 	}
-
-	"BGImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGImage"
+	
+	"ItemName"
+	{		
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1"
-		"wide"			"o1"
-		"tall"			"p0.75"
+		"ypos"			"35"
+		"zpos"			"5"
+		"wide"			"o2"
+		"tall"			"p0.5"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"item_carousel_bg"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
-	}	
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"0"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
 
+		"text_ypos"		"15"
+		"text_center"	"0"
+		"paint_icon_hide" "1"
+		"model_hide"	"1"
+		"text_forcesize"	"4"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+			"inventory_image_type"	"1"
+		}
+	}	
+	
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
