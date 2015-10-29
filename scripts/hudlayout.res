@@ -1,275 +1,36 @@
 "Resource/HudLayout.res"
 {	
-	// custom crosshairs -------------------
-	
-	Cross
+	//--------------------------------------------------------------
+	// KNUCKLESCROSSES
+	//--------------------------------------------------------------
+	// Set visible/enabled to 1 to use. Change labelText to the corr-
+	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
+	// values if not perfectly centered.
+	//--------------------------------------------------------------
+
+	KnucklesCrosses
 	{
 		"visible" 		"0"
 		"enabled" 		"0"
 		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Cross"
-		"zpos"			"0"
-		"xpos" 		 	"c-103"
-		"ypos" 		 	"c-99"
-		"wide" 		 	"201"
-		"tall" 		 	"201"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"v"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	OpenCross
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
+		"labelText"		"a"
 		
 		"controlName"	"CExLabel"
-		"fieldName"	 	"OpenCross"
+		"fieldName"	 	"KnucklesCrosses"
 		"zpos"			"0"
-		"xpos" 		 	"c-87"
-		"ypos" 		 	"c-100"
-		"wide" 		 	"200"
-		"tall" 		 	"201"
+		"xpos" 		 	"c-25"
+		"ypos" 		 	"c-25"
+		"wide" 		 	"50"
+		"tall" 		 	"50"
 		
-		"font"			"Crosshairs22"	//CrosshairsOutline22
+		"font"			"size:30,outline:off"	// size: range 10-50 
+												// outline: on or off
 		
-		"labelText"		"i"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	OpenCrossDot
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"OpenCrossDot"
-		"zpos"			"0"
-		"xpos" 		 	"c-87"
-		"ypos" 		 	"c-100"
-		"wide" 		 	"200"
-		"tall" 		 	"201"
-		
-		"font"			"Crosshairs22"	//CrosshairsOutline22
-		
-		"labelText"		"h"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	Dot
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Dot"
-		"zpos"			"0"
-		"xpos" 		 	"c-104"
-		"ypos" 		 	"c-100"
-		"wide" 		 	"201"
-		"tall" 		 	"201"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"3"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	SmallDot
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"SmallDot"
-		"zpos"			"0"
-		"xpos" 		 	"c-103"
-		"ypos" 		 	"c-100"
-		"wide" 		 	"201"
-		"tall" 		 	"201"
-		
-		"font"			"Crosshairs22"	//CrosshairsOutline22
-		
-		"labelText"		"3"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	Circle
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Circle"
-		"zpos"			"0"
-		"xpos"			"c-100"
-		"ypos"			"c-96"
-		"wide"			"201"
-		"tall"			"200"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"9"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	CircleDot
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CircleDot"
-		"zpos"			"0"
-		"xpos"			"c-100"
-		"ypos"			"c-96"
-		"wide"			"201"
-		"tall"			"200"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"8"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	QuarterCircle
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"QuarterCircle"
-		"zpos"			"0"
-		"xpos"			"c-100"
-		"ypos"			"c-98"
-		"wide"			"201"
-		"tall"			"200"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"w"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	Wings
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"Wings"
-		"zpos"			"0"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"d"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	WingsCross
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsCross"
-		"zpos"			"0"
-		"xpos"			"c-100"
-		"ypos"			"c-97"
-		"wide"			"200"
-		"tall"			"200"
-		
-		"font"			"Crosshairs34"	//CrosshairsOutline34
-		
-		"labelText"		"c"
-		"textAlignment"	"center"	
-		"fgcolor"		"Crosshair"
-	}
-	WingsSmall
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsSmall"
-		"zpos"			"0"
-		"xpos" 		 	"c-100"
-		"ypos" 		 	"c-96"
-		"wide" 		 	"200"
-		"tall" 		 	"200"
-		
-		"font"			"Crosshairs38"	//CrosshairsOutline38
-		
-		"labelText"		"g"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	WingsSmallDot
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsSmallDot"
-		"zpos"			"0"
-		"xpos" 		 	"c-100"
-		"ypos" 		 	"c-96"
-		"wide" 		 	"200"
-		"tall" 		 	"200"
-		
-		"font"			"Crosshairs38"	//CrosshairsOutline38
-		
-		"labelText"		"f"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	KonrWings
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KonrWings"
-		"zpos"			"0"
-		"xpos" 		 	"c-100"
-		"ypos" 		 	"c-98"
-		"wide" 		 	"200"
-		"tall" 		 	"200"
-		
-		"font"			"Crosshairs40"	//CrosshairsOutline40
-		
-		"labelText"		"6"
-		"textAlignment"	"center"	
-		"fgcolor" 		"Crosshair"
-	}
-	Ycrosshair
-	{
-		"visible" 		"0"
-		"enabled" 		"0"
-		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"WingsSmall"
-		"zpos"			"0"
-		"xpos" 		 	"c-100"
-		"ypos" 		 	"c-97"
-		"wide" 		 	"200"
-		"tall" 		 	"200"
-		
-		"font"			"Crosshairs32"	//CrosshairsOutline32
-		
-		"labelText"		"`"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"fgcolor" 		"Crosshair"
 	}
 	
-	// ----------------------------------
+	//--------------------------------------------------------------
 
 	HudPlayerStatus
 	{
@@ -1644,7 +1405,10 @@
 		"wide"	 		"f0"
 		"tall"	 		"f0"
 	}
-	// for testing purposes
+	
+	//----------------------------------------
+	// FOR TESTING PURPOSES
+	//----------------------------------------
 	
 	"MidVerticalLine"
 	{
