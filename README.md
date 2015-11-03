@@ -33,7 +33,7 @@ More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).
 
 ####Installer
-Download the aInstaller from the [aInstaller website](http://ainstaller.cf). The installer requires [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653). Once downloaded, simply run `ainstaller.application` and follow the installation instructions. Once installed, you'll be able to customize ahud to your liking. aInstaller comes with an assistant that checks for updates and allows you to enable and disable crosshairs via hotkeys. More info can be found on the aInstaller webiste.
+Download the installer from the [aInstaller website](http://ainstaller.cf). The installer requires [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653). Once downloaded, simply run `ainstaller.application` and follow the installation instructions. Once installed, you'll be able to customize ahud to your liking. aInstaller comes with an assistant that checks for updates and allows you to enable and disable crosshairs via hotkeys. More info can be found on the aInstaller webiste.
 
 ##Customization
 
