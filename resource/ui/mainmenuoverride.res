@@ -1300,7 +1300,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2015.1028"
+		"labelText"		"v2015.1103"
 		"textAlignment"	"east"
 		"xpos"			"r56"
 		"ypos"			"r15"
