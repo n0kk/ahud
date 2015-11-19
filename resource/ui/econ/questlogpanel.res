@@ -103,7 +103,9 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MainMenuBGBorder"
+		"border"		""
+		"paintborder"	"0"
+		"bgcolor_override"	"ahudDarkGrey"
 
 		"UpperLine"
 		{

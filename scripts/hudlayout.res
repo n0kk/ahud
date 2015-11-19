@@ -23,7 +23,7 @@
 		"wide" 		 	"50"
 		"tall" 		 	"50"
 		
-		"font"			"size:30,outline:off"	// size: range 10-50 
+		"font"			"size:30,outline:off"	// size: range 10-50
 												// outline: on or off
 		
 		"textAlignment"	"center"
@@ -571,7 +571,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"232"
-		"ypos"			"r91"
+		"ypos"			"r88"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
