@@ -1,11 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"ToggleMinmode"
-	{
-		"label" "Scoreboard"
-		"command" "engine toggle cl_hud_minmode"
-		"OnlyInGame" "0"
-	}
 	"QuickplayButton"
 	{
 		"label" "Quickplay" 
@@ -13,30 +7,30 @@
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "Change Server" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
 	"PlayPVEButton"
 	{
-		"label" "Play MvM" 
+		"label" "Mann vs. Machine" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
+	"CompetitiveButton"
+	{
+		"label" "Competitive" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+	}
 	"ServerBrowserButton"
 	{
-		"label" "Browse Servers" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "Change Server" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
@@ -52,6 +46,7 @@
 		"label" "Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
+		"tooltip" "Open Steam Workshop"
 	}
 	"TrainingButton"
 	{
@@ -63,14 +58,14 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "Create Server"
+		"label" ""
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"tooltip" "Create a Server"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Shop"
+		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
@@ -80,6 +75,11 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"ToggleMinmode"
+	{
+		"label" "Scoreboard"
+		"command" "engine toggle cl_hud_minmode"
+	}	
 	"HomeServer"
 	{
 		"label"	"6"
@@ -101,7 +101,6 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -109,7 +108,6 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
