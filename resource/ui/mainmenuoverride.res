@@ -175,46 +175,10 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_halloween_0
+		if_operation
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/title_team_tough_break"
 		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
-		}		
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011"
-		}
-//		if_eotl_launch
-//		{
-//			"image"		"../console/title_eotl01"
-//		}
-//		if_operation
-//		{
-//			"image"		"../console/title_team_halloween2015"
-//		}
-//		if_community_update
-//		{
-//			"image"		"../console/title_invasion"
-//		}
 	}
 	
 	"MainMenuSideBG"
@@ -355,11 +319,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r45"
-		"ypos"			"40"
+		"xpos"			"r38"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -372,15 +336,15 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"24"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"labelText"		"%"
+			"font"			"Symbols"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -389,8 +353,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultFgColor_override" 	"ahudWhite"
+			"armedFgColor_override"   	"ahudYellow"
 
 			"SubImage"
 			{
@@ -398,13 +363,13 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"26"
-				"tall"			"26"
-				"visible"		"1"
-				"enabled"		"1"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"button_MOTD"
-				"scaleImage"	"1"
+				"scaleImage"	"0"
 			}
 		}
 	}
@@ -769,11 +734,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"r80"
-		"ypos"			"40"
+		"xpos"			"r60"
+		"ypos"			"35"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"24"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -783,15 +748,15 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"16"
+			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"16"
-			"tall"			"16"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_achievements"
-			"scaleImage"	"1"
+			"zpos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			""
+			"scaleImage"	"0"
 			"drawcolor" "210 125 33 255"
 		}				
 		
@@ -802,8 +767,8 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
-			"ypos"			"0"
+			"xpos"			"11"
+			"ypos"			"4"
 			"zpos"			"4"
 			"wide"			"16"
 			"tall"			"16"
@@ -821,15 +786,15 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"24"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallestBold"
+			"labelText"		"c"
+			"font"			"Symbols"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -838,8 +803,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"ahudWhite"
+			
+			"defaultFgColor_override" 	"ahudWhite"
+			"armedFgColor_override"   	"ahudYellow"
 			
 			"SubImage"
 			{
@@ -847,13 +813,13 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"button_Alert"
-				"scaleImage"	"1"
+				"scaleImage"	"0"
 			}
 		}
 	}
@@ -862,11 +828,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r45"
-		"ypos"			"70"
+		"xpos"			"r38"
+		"ypos"			"55"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"30"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -882,19 +848,19 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"24"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"labelText"		""
+			"textinsetx"	"0"
+			"labelText"		"s"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
+			"font"			"Symbols"
 			"command"		"questlog"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -907,8 +873,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"0"
 			"paintborder"		"0"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultFgColor_override" 	"ahudWhite"
+			"armedFgColor_override"   	"ahudYellow"
 
 			"SubImage"
 			{
@@ -916,12 +883,12 @@
 				"fieldName"		"SubImage"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"26"
-				"tall"			"26"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"0"
 				"image"			"button_quests"
 
 				"proportionaltoparent"	"1"
@@ -934,33 +901,13 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"NotificationsContainer"
-			"xpos"			"rs1"
-			"ypos"			"0"
+			"xpos"			"16"
+			"ypos"			"4"
 			"zpos"			"10"
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-			"keyboardinputenabled" "0"
 
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"3"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_achievements"
-				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
-				"proportionaltoparent"	"1"
-			}				
-		
 			"Notifications_CountLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -968,8 +915,8 @@
 				"font"			"HudFontSmallestBold"
 				"labelText"		"%noticount%"
 				"textAlignment"	"center"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"4"
 				"wide"			"16"
 				"tall"			"16"
@@ -977,12 +924,12 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"255 255 255 255"
+				"fgcolor_override"	"ahudWhite"
 				"proportionaltoparent"	"1"
 			}
 		}
 	}
-	
+
 	"Notifications_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1302,12 +1249,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2015.1118"
+		"labelText"		"v2015.1217"
 		"textAlignment"	"east"
 		"xpos"			"r56"
-		"ypos"			"r15"
+		"ypos"			"r13"
 		"wide"			"46"
-		"tall"			"12"
+		"tall"			"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

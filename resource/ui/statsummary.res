@@ -27,6 +27,20 @@
 		"scaleImage"		"1"
 	}	
 
+	"MainBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MainBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../console/background_upward_widescreen"
+		"scaleImage"		"1"
+	}
+
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -38,7 +52,21 @@
 		"visible"	"0"
 		"enabled"	"1"
 		"bgcolor_override"	"ahudDarkGrey"
-	
+
+		"MainBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"MainBackground"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../console/background_gravelpit_widescreen"
+			"scaleImage"		"1"
+		}
+		
 		"InfoBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -78,16 +106,16 @@
 			"fieldName"		"MapAuthors"
 			"font"			"NormalCode12"
 			"labelText"		"%authors%"
-			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"10"
+			"textAlignment"	"center"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"2"
 			"wide"			"270"
 			"tall"			"275"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"wrap"			"0"
 		}
 
@@ -133,10 +161,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"NormalCode20"
+		"font"			"NormalCode18"
 		"labelText"		"Loading..."
-		"textAlignment"		"west"
-		"xpos"			"10"
+		"textAlignment"		"center"
+		"xpos"			"c-175"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"350"
@@ -153,8 +181,8 @@
 		"fieldName"		"MapLabel"
 		"font"			"Code34"
 		"labelText"		"%maplabel%"
-		"textAlignment"		"west"
-		"xpos"			"10"
+		"textAlignment"		"center"
+		"xpos"			"c-175"
 		"ypos"			"25"
 		"zpos"			"50"
 		"wide"			"350"
@@ -169,10 +197,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"NormalCode14"
+		"font"			"NormalCode16"
 		"labelText"		"%maptype%"
-		"textAlignment"	"west"
-		"xpos"			"10"
+		"textAlignment"	"center"
+		"xpos"			"c-175"
 		"ypos"			"48"
 		"zpos"			"50"
 		"wide"			"350"
@@ -2014,13 +2042,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"10"
-		"ypos"			"435"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -2031,15 +2059,15 @@
 		"font"			"NormalCode9"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
-		"xpos"			"80"
-		"ypos"			"428"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"12"
 		"wide"			"350"
 		"tall"			"48"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"wrap"			"1"
 	}
 	"NextTipButton" [$WIN32]

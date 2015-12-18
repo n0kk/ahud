@@ -52,8 +52,8 @@ Scheme
 
 	    "TFMediumBrown"				"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"       "131 121 104 150"
+	    "QuickListBGDeselected"		"0 0 0 0"
+	    "QuickListBGSelected"       "169 123 53 255"
 	    
 	    "Blank"						"0 0 0 0"
 	    
@@ -337,9 +337,12 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$X360]
+			"1"
 			{
-				"tall_hidef"		"24"
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 
@@ -347,11 +350,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Code-Pro-Bold"
 				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
 			}
 		}
@@ -733,20 +733,87 @@ Scheme
 		}		
 	}
 	
+	Fonts
+	{
+
+		"Code35"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"35"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode17"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"17"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode19"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+	}
+	
 	CustomFontFiles
 	{
-		"9"
+		"1"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
+		}
+		"2"
+		{
+			"font"	"resource/fonts/CodeProBold.otf"
+			"name"	"Code-Pro-Bold"
+		}
+		"3"
+		{
+			"font"	"resource/fonts/CodeProLC.otf"
+			"name"	"Code-Pro-LC"
 		}
 	}
 }

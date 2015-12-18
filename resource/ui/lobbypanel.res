@@ -1692,7 +1692,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RankLabel"
 			"xpos"			"60"
-			"ypos"			"44"
+			"ypos"			"64"
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"20"
@@ -1709,7 +1709,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"RankIcon"
 			"xpos"			"130"
-			"ypos"			"73"
+			"ypos"			"90"
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"100"
@@ -1725,7 +1725,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RankTitle"
 			"xpos"			"130"
-			"ypos"			"44"
+			"ypos"			"64"
 			"zpos"			"0"
 			"wide"			"150"
 			"tall"			"20"
@@ -1736,6 +1736,59 @@
 			"textAlignment"	"west"
 			"labelText"		"%ranktitle%"
 		}
+
+		"LevelLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RankLabel"
+			"xpos"			"60"
+			"ypos"			"44"
+			"zpos"			"0"
+			"wide"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallestBold"
+			//"fgcolor_override"	"89 81 71 255"
+			"textAlignment"	"west"
+			"labelText"		"LEVEL:"
+		}
+
+		"LevelProgress"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"LevelLabel"
+			"xpos"			"130"
+			"ypos"			"44"
+			"zpos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"HudFontSmallBold"
+			"fgcolor_override"	"250 114 45 255"
+			"textAlignment"	"west"
+			"labelText"		"%level%"
+		}
+
+		"LevelProgressMeter"
+		{	
+			"ControlName"	"ContinuousProgressBar"
+			"fieldName"		"LevelProgressMeter"
+			"font"			"HudFontSmallestBold"
+			"xpos"			"145"
+			"ypos"			"49"
+			"zpos"			"2"
+			"wide"			"90"
+			"tall"			"9"				
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}			
 
 		// Default image
 		"ModeImage"
@@ -1758,10 +1811,10 @@
 		{
 			"ControlName"	"CLadderLobbyLeaderboard"
 			"fieldName"		"Leaderboard6v6"
-			"xpos"			"c+20"
+			"xpos"			"c-20"
 			"ypos"			"20"
 			"zpos"			"0"
-			"wide"			"300"
+			"wide"			"350"
 			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1774,10 +1827,10 @@
 		{
 			"ControlName"	"CLadderLobbyLeaderboard"
 			"fieldName"		"Leaderboard9v9"
-			"xpos"			"c+20"
+			"xpos"			"c-20"
 			"ypos"			"20"
 			"zpos"			"0"
-			"wide"			"300"
+			"wide"			"350"
 			"tall"			"300"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1830,5 +1883,5 @@
 			"linespacing"	"16"
 			"bgcolor_override"	"46 43 42 255"
 		}
-	}	
+	}
 }

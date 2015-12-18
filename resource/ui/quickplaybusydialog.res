@@ -47,7 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"ahudDarkerGrey"
+			"bgcolor_override"	"ahudDarkGrey"
 		}
 
 		"TitleLabel"
@@ -79,7 +79,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"ahudGrey"
+			"bgcolor_override"	"ahudBlack"
 			"fgcolor_override"	"ahudWhite"
 		}
 

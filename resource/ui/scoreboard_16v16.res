@@ -13,17 +13,19 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"medal_width"		"15"
-		"avatar_width"		"50"	
+		"medal_width"		"20"
+		"avatar_width"		"54"
+		"spacer"			"5"		
 		"name_width"		"85"
+		"name_width_short"	"85"
 		"name_width_minmode""60" 
-		"status_width"		"15"	
 		"nemesis_width"		"15"	
-		"class_width"		"15"	
+		"class_width"		"24"	
 		"score_width"		"24"
 		"ping_width"		"24"
 		"stats_width"		"30"
-		"killstreak_width"	"20"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -31,7 +33,7 @@
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r270"
-		"ypos"			"84"
+		"ypos"			"90"
 		"ypos_minmode"	"100"
 		"zpos"			"3"
 		"wide"			"280"
@@ -55,7 +57,7 @@
 		"fieldName"		"BlueScoreBG2"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r270"
-		"ypos"			"86"
+		"ypos"			"92"
 		"ypos_minmode"	"102"
 		"zpos"			"2"
 		"wide"			"280"
@@ -79,7 +81,7 @@
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c0"
 		"xpos_minmode"	"r270"
-		"ypos"			"84"
+		"ypos"			"90"
 		"ypos_minmode"	"313"
 		"zpos"			"3"
 		"wide"			"280"
@@ -103,7 +105,7 @@
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c0"
 		"xpos_minmode"	"r270"
-		"ypos"			"86"
+		"ypos"			"92"
 		"ypos_minmode"	"310"
 		"zpos"			"2"
 		"wide"			"280"
@@ -145,13 +147,13 @@
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r270"
-		"ypos"			"106"
+		"ypos"			"112"
 		"ypos_minmode"	"c-140"
 		"zpos"			"-1"
 		"wide"			"560"
 		"wide_minmode"	"260"
-		"tall"			"292"
-		"tall_minmode"	"312"
+		"tall"			"280"
+		"tall_minmode"	"307"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -173,7 +175,7 @@
 		"textAlignment_minmode"		"west"
 		"xpos"			"c-274"
 		"xpos_minmode"	"r265"
-		"ypos"			"82"
+		"ypos"			"88"
 		"ypos_minmode"	"98"
 		"zpos" 			"4"
 		"wide"			"205"
@@ -199,7 +201,7 @@
 		"textAlignment_minmode"		"east"
 		"xpos"			"c-108"
 		"xpos_minmode"	"r120"
-		"ypos"			"57"
+		"ypos"			"63"
 		"ypos_minmode"	"73"
 		"zpos"			"4"
 		"wide"			"100"
@@ -225,7 +227,7 @@
 		"textAlignment_minmode"		"east"
 		"xpos"			"c-106"
 		"xpos_minmode"	"r119"
-		"ypos"			"59"
+		"ypos"			"65"
 		"ypos_minmode"	"75"
 		"zpos"			"4"
 		"wide"			"100"
@@ -250,7 +252,7 @@
 		"textAlignment"		"east"
 		"xpos"			"c-45"
 		"xpos_minmode"	"r55"
-		"ypos"			"94"
+		"ypos"			"100"
 		"ypos_minmode"	"111"
 		"zpos"			"4"
 		"wide"			"40"
@@ -276,7 +278,7 @@
 		"textAlignment_minmode"		"west"		
 		"xpos"			"c69"
 		"xpos_minmode"	"r265"
-		"ypos"			"82"
+		"ypos"			"88"
 		"ypos_minmode"	"311"
 		"zpos"			"4"
 		"wide"			"205"
@@ -302,7 +304,7 @@
 		"textAlignment_minmode"		"east"
 		"xpos"			"c8"
 		"xpos_minmode"	"r120"
-		"ypos"			"57"
+		"ypos"			"63"
 		"ypos_minmode"	"306"
 		"zpos"			"4"
 		"wide"			"100"
@@ -328,7 +330,7 @@
 		"textAlignment_minmode"		"east"		
 		"xpos"			"c10"
 		"xpos_minmode"	"r119"
-		"ypos"			"59"
+		"ypos"			"65"
 		"ypos_minmode"	"308"
 		"zpos"			"4"
 		"wide"			"100"
@@ -354,7 +356,7 @@
 		"textAlignment_minmode"		"east"	
 		"xpos"			"c5"
 		"xpos_minmode"	"r55"
-		"ypos"			"94"
+		"ypos"			"100"
 		"ypos_minmode"	"312"
 		"zpos"			"4"
 		"wide"			"40"
@@ -379,7 +381,7 @@
 		"textAlignment"		"west"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r269"
-		"ypos"			"68"
+		"ypos"			"74"
 		"ypos_minmode"	"84"
 		"zpos"			"999"
 		"wide"			"235"
@@ -387,14 +389,61 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"ahudWhite"
 		
 		if_mvm
 		{
 			"xpos_minmode"	"c-280"
-			"ypos"			"83"
+			"ypos"			"91"
+			"visible"		"1"
+		}
+	}
+	"ServerTimeLeftLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftLabel"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"#Scoreboard_TimeLeftLabel"
+		"textAlignment"		"center"
+		"xpos"			"c-36"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"ServerTimeLeftValue"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeftValue"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%servertime%"
+		"textAlignment"		"center"
+		"xpos"			"c-36"
+		"ypos"			"14"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"BrightYellow"
+		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -406,7 +455,7 @@
 		"textAlignment"		"west"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r269"
-		"ypos"			"58"
+		"ypos"			"64"
 		"ypos_minmode"	"74"
 		"zpos"			"999"
 		"wide"			"235"
@@ -414,23 +463,24 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"ahudWhite"
 		
 		if_mvm
 		{
 			"xpos_minmode"	"c-280"
-			"ypos"			"95"
+			"ypos"			"101"
+			"visible"		"1"
 		}
-	}							
+	}
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"c-275"
 		"xpos_minmode"	"r265"
-		"ypos"			"109"
+		"ypos"			"115"
 		"ypos_minmode"	"125"
 		"zpos"			"20"
 		"wide"			"270"
@@ -443,6 +493,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"13"
+		"linegap"		"0"
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
@@ -457,7 +508,7 @@
 		"fieldName"		"RedPlayerList"
 		"xpos"			"c5"
 		"xpos_minmode"	"r265"
-		"ypos"			"109"
+		"ypos"			"115"
 		"ypos_minmode"	"215"
 		"zpos"			"20"
 		"wide"			"270"
@@ -470,6 +521,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"13"
+		"linegap"		"0"
 		"textcolor"		"red"
 		//"show_columns"	"1"
 		
@@ -509,8 +561,8 @@
 		"textAlignment"		"west"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r269"
-		"ypos"			"395"
-		"ypos_minmode"	"408"
+		"ypos"			"388"
+		"ypos_minmode"	"403"
 		"zpos"			"4"
 		"wide"			"560"
 		"wide_minmode"	"255"
@@ -524,7 +576,7 @@
 		if_mvm
 		{
 			"xpos"		"c-280"
-			"ypos"		"366"
+			"ypos"		"360"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -536,8 +588,8 @@
 		"textAlignment"		"west"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r269"
-		"ypos"			"405"
-		"ypos_minmode"	"418"
+		"ypos"			"398"
+		"ypos_minmode"	"413"
 		"zpos"			"4"
 		"wide"			"560"
 		"wide_minmode"	"255"
@@ -603,7 +655,7 @@
 		"textAlignment"		"west"
 		"xpos"			"c147"
 		"xpos_minmode"	"9999"
-		"ypos"			"369"
+		"ypos"			"368"
 		"ypos_minmode"	"9999"
 		"zpos"			"4"
 		"wide"			"116"
@@ -619,7 +671,7 @@
 			"visible"		"1"
 			"fgcolor"		"ahudBlack"
 			"xpos_minmode"	"c147"
-			"ypos"			"342"
+			"ypos"			"341"
 		}	
 	}
 	"HorizontalLine"
@@ -885,7 +937,7 @@
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"c-280"
 		"xpos_minmode"	"r272"
-		"ypos"			"325"
+		"ypos"			"331"
 		"ypos_minmode"	"329"
 		"zpos"			"3"
 		"wide"			"560"
@@ -899,8 +951,8 @@
 		{
 			"visible"		"1"
 			"xpos_minmode"	"c-280"
-			"ypos"			"298"
-			"ypos_minmode"	"298"
+			"ypos"			"304"
+			"ypos_minmode"	"304"
 			"tall"			"500"
 		}
 		
@@ -915,8 +967,8 @@
 			"zpos"			"0"
 			"wide"			"560"
 			"wide_minmode"	"260"
-			"tall"			"68"
-			"tall_minmode"	"79"
+			"tall"			"56"
+			"tall_minmode"	"74"
 			"autoResize"	"0"
 			"pinCorner"		"1"
 			"visible"		"1"
@@ -929,10 +981,10 @@
 			{
 				"visible"		"1"
 				"xpos_minmode"	"0"
-				"ypos"			"9"
-				"tall_minmode"	"62"
+				"ypos"			"4"
+				"tall_minmode"	"56"
 				"wide_minmode"	"560"				
-				"tall"			"62"
+				"tall"			"56"
 				"fillcolor"		"ahudWhite"
 			}
 		}
@@ -946,8 +998,8 @@
 			"textAlignment"	"center"
 			"xpos"			"14"
 			"xpos_minmode"	"76"
-			"ypos"			"13"
-			"ypos_minmode"	"-3"
+			"ypos"			"6"
+			"ypos_minmode"	"-6"
 			"zpos"			"3"
 			"wide"			"116"
 			"tall"			"48"
@@ -960,7 +1012,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"14"
-				"ypos_minmode"	"13"
+				"ypos_minmode"	"6"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}			
@@ -979,8 +1031,8 @@
 			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"AssistsLabel"
 		{
@@ -991,8 +1043,8 @@
 			"textAlignment"		"west"
 			"xpos"			"126"
 			"xpos_minmode"	"21"
-			"ypos"			"15"
-			"ypos_minmode"	"40"
+			"ypos"			"8"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1005,7 +1057,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"126"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1019,7 +1071,7 @@
 			"textAlignment"		"west"
 			"xpos"			"126"
 			"xpos_minmode"	"21"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"50"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1034,7 +1086,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"126"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1048,8 +1100,8 @@
 			"textAlignment"		"east"
 			"xpos"			"-3"
 			"xpos_minmode"	"60"
-			"ypos"			"13"
-			"ypos_minmode"	"-3"
+			"ypos"			"6"
+			"ypos_minmode"	"-6"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -1062,7 +1114,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"-3"
-				"ypos_minmode"	"13"
+				"ypos_minmode"	"6"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1076,8 +1128,8 @@
 			"textAlignment"		"east"
 			"xpos"			"-3"
 			"xpos_minmode"	"60"
-			"ypos"			"13"
-			"ypos_minmode"	"-3"
+			"ypos"			"6"
+			"ypos_minmode"	"-6"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -1090,7 +1142,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"-3"
-				"ypos_minmode"	"13"
+				"ypos_minmode"	"6"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1104,8 +1156,8 @@
 			"textAlignment"		"west"
 			"xpos"			"77"
 			"xpos_minmode"	"138"
-			"ypos"			"13"
-			"ypos_minmode"	"-3"
+			"ypos"			"6"
+			"ypos_minmode"	"-6"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -1118,7 +1170,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"77"
-				"ypos_minmode"	"13"
+				"ypos_minmode"	"6"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1132,8 +1184,8 @@
 			"textAlignment"		"west"
 			"xpos"			"77"
 			"xpos_minmode"	"138"
-			"ypos"			"13"
-			"ypos_minmode"	"-3"
+			"ypos"			"6"
+			"ypos_minmode"	"-6"
 			"zpos"			"3"
 			"wide"			"70"
 			"tall"			"55"
@@ -1146,7 +1198,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"77"
-				"ypos_minmode"	"13"
+				"ypos_minmode"	"6"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1158,11 +1210,11 @@
 			"font"			"NormalCode12"
 			"labelText"		"%gametype%"
 			"textAlignment"		"center"
-			"xpos"			"411"
-			"ypos"			"39"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"3"
-			"wide"			"116"
-			"tall"			"20"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -1184,8 +1236,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"15"
-			"ypos_minmode"	"40"
+			"ypos"			"8"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1198,7 +1250,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1212,8 +1264,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"15"
-			"ypos_minmode"	"40"
+			"ypos"			"8"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1226,7 +1278,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1240,7 +1292,7 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"84"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"50"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1255,7 +1307,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"0"
+				"ypos_minmode"	"18"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1269,7 +1321,7 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"84"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"50"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1284,7 +1336,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1298,8 +1350,8 @@
 			"textAlignment"		"west"
 			"xpos"			"126"
 			"xpos_minmode"	"21"
-			"ypos"			"35"
-			"ypos_minmode"	"50"
+			"ypos"			"28"
+			"ypos_minmode"	"45"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1312,7 +1364,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"126"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1326,8 +1378,8 @@
 			"textAlignment"		"west"
 			"xpos"			"126"
 			"xpos_minmode"	"21"
-			"ypos"			"45"
-			"ypos_minmode"	"60"			
+			"ypos"			"38"
+			"ypos_minmode"	"55"			
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1340,7 +1392,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"126"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1354,7 +1406,7 @@
 			"textAlignment"		"west"
 			"xpos"			"226"
 			"xpos_minmode"	"16"
-			"ypos"			"15"	
+			"ypos"			"8"	
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1369,7 +1421,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"226"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1383,7 +1435,7 @@
 			"textAlignment"		"west"
 			"xpos"			"226"
 			"xpos_minmode"	"16"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1398,7 +1450,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"226"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1412,8 +1464,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"35"
-			"ypos_minmode"	"50"			
+			"ypos"			"28"
+			"ypos_minmode"	"45"			
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1426,7 +1478,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1440,8 +1492,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"35"
-			"ypos_minmode"	"50"			
+			"ypos"			"28"
+			"ypos_minmode"	"45"			
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1454,7 +1506,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1468,8 +1520,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"45"
-			"ypos_minmode"	"60"
+			"ypos"			"38"
+			"ypos_minmode"	"55"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1482,7 +1534,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1496,8 +1548,8 @@
 			"textAlignment"		"east"
 			"xpos"			"181"
 			"xpos_minmode"	"89"
-			"ypos"			"45"
-			"ypos_minmode"	"60"
+			"ypos"			"38"
+			"ypos_minmode"	"55"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1510,7 +1562,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"181"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1524,7 +1576,7 @@
 			"textAlignment"		"east"
 			"xpos"			"281"	
 			"xpos_minmode"	"84"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1539,7 +1591,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1553,7 +1605,7 @@
 			"textAlignment"		"east"
 			"xpos"			"281"	
 			"xpos_minmode"	"84"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1568,7 +1620,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1582,7 +1634,7 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"84"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1597,7 +1649,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1611,7 +1663,7 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"84"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1626,7 +1678,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1640,8 +1692,8 @@
 			"textAlignment"		"west"
 			"xpos"			"226"	
 			"xpos_minmode"	"142"
-			"ypos"			"35"
-			"ypos_minmode"	"50"
+			"ypos"			"28"
+			"ypos_minmode"	"45"
 			"zpos"			"3"
 			"wide"			"95"	
 			"tall"			"20"
@@ -1654,7 +1706,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"226"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1668,8 +1720,8 @@
 			"textAlignment"		"west"
 			"xpos"			"226"	
 			"xpos_minmode"	"142"
-			"ypos"			"45"
-			"ypos_minmode"	"60"
+			"ypos"			"38"
+			"ypos_minmode"	"55"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1682,7 +1734,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"226"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1696,7 +1748,7 @@
 			"textAlignment"		"west"
 			"xpos"			"326"
 			"xpos_minmode"	"137"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"60"
 			"zpos"			"3"
 			"wide"			"95"	
@@ -1711,7 +1763,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"326"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1725,7 +1777,7 @@
 			"textAlignment"		"west"
 			"xpos"			"326"
 			"xpos_minmode"	"137"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"70"
 			"zpos"			"3"
 			"wide"			"95"	
@@ -1740,7 +1792,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"326"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1754,8 +1806,8 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"210"
-			"ypos"			"35"
-			"ypos_minmode"	"50"
+			"ypos"			"28"
+			"ypos_minmode"	"45"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1768,7 +1820,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1782,8 +1834,8 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"210"
-			"ypos"			"35"
-			"ypos_minmode"	"50"
+			"ypos"			"28"
+			"ypos_minmode"	"45"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1796,7 +1848,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1810,8 +1862,8 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"210"
-			"ypos"			"45"
-			"ypos_minmode"	"60"
+			"ypos"			"38"
+			"ypos_minmode"	"55"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1824,7 +1876,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1838,8 +1890,8 @@
 			"textAlignment"		"east"
 			"xpos"			"281"
 			"xpos_minmode"	"210"
-			"ypos"			"45"
-			"ypos_minmode"	"60"
+			"ypos"			"38"
+			"ypos_minmode"	"55"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1852,7 +1904,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"281"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1866,7 +1918,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"60"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1881,7 +1933,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1895,7 +1947,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"60"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1910,7 +1962,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1924,7 +1976,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"70"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1939,7 +1991,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1953,7 +2005,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"25"
+			"ypos"			"18"
 			"ypos_minmode"	"70"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1968,7 +2020,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -1982,7 +2034,7 @@
 			"textAlignment"		"west"
 			"xpos"			"326"
 			"xpos_minmode"	"137"
-			"ypos"			"35"
+			"ypos"			"28"
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1997,7 +2049,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"326"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2011,7 +2063,7 @@
 			"textAlignment"		"east"	
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"35"
+			"ypos"			"28"
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2026,7 +2078,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2040,7 +2092,7 @@
 			"textAlignment"		"east"	
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"35"
+			"ypos"			"28"
 			"ypos_minmode"	"80"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2055,7 +2107,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"35"
+				"ypos_minmode"	"28"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2069,7 +2121,7 @@
 			"textAlignment"		"west"
 			"xpos"			"326"
 			"xpos_minmode"	"137"
-			"ypos"			"45"
+			"ypos"			"38"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"95"
@@ -2084,7 +2136,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"326"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2098,7 +2150,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"45"
+			"ypos"			"38"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2113,7 +2165,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2127,7 +2179,7 @@
 			"textAlignment"		"east"
 			"xpos"			"381"
 			"xpos_minmode"	"205"
-			"ypos"			"45"
+			"ypos"			"38"
 			"ypos_minmode"	"90"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2142,7 +2194,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"381"
-				"ypos_minmode"	"45"
+				"ypos_minmode"	"38"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2156,7 +2208,7 @@
 			"textAlignment"	"west"
 			"xpos"			"426"
 			"xpos_minmode"	"16"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"100"
 			"zpos"			"3"
 			"wide"			"95"
@@ -2170,7 +2222,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"426"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2184,7 +2236,7 @@
 			"textAlignment"	"east"
 			"xpos"			"481"
 			"xpos_minmode"	"84"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"100"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2198,7 +2250,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"481"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2212,7 +2264,7 @@
 			"textAlignment"	"east"
 			"xpos"			"481"
 			"xpos_minmode"	"84"
-			"ypos"			"15"
+			"ypos"			"8"
 			"ypos_minmode"	"100"
 			"zpos"			"3"
 			"wide"			"35"
@@ -2226,7 +2278,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"481"
-				"ypos_minmode"	"15"
+				"ypos_minmode"	"8"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2240,8 +2292,8 @@
 			"textAlignment"	"west"
 			"xpos"			"426"
 			"xpos_minmode"	"142"
-			"ypos"			"25"
-			"ypos_minmode"	"40"
+			"ypos"			"18"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -2253,7 +2305,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"426"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}	
@@ -2267,8 +2319,8 @@
 			"textAlignment"	"east"
 			"xpos"			"481"
 			"xpos_minmode"	"210"
-			"ypos"			"25"
-			"ypos_minmode"	"40"
+			"ypos"			"18"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -2280,7 +2332,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"481"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"0"
 				"fgcolor"		"ahudBlack"
 			}
@@ -2294,8 +2346,8 @@
 			"textAlignment"	"east"
 			"xpos"			"481"
 			"xpos_minmode"	"210"
-			"ypos"			"25"
-			"ypos_minmode"	"40"
+			"ypos"			"18"
+			"ypos_minmode"	"35"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -2307,7 +2359,7 @@
 			if_mvm
 			{
 				"xpos_minmode"	"481"
-				"ypos_minmode"	"25"
+				"ypos_minmode"	"18"
 				"visible"		"1"
 				"fgcolor"		"ahudBlack"
 			}
