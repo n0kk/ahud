@@ -55,7 +55,7 @@
 				"paintbackground"	"2"
 				
 				"defaultFgColor_override" "ahudWhite"
-				"armedFgColor_override"   "ahudYellow"
+				"armedFgColor_override"   "169 123 53 255"
 				"depressedFgColor_override" "75 125 255 255"
 				
 				"image_drawcolor"	"0 0 0 175"
@@ -320,7 +320,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r38"
-		"ypos"			"35"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -355,7 +355,7 @@
 			"paintbackground" "0"
 			
 			"defaultFgColor_override" 	"ahudWhite"
-			"armedFgColor_override"   	"ahudYellow"
+			"armedFgColor_override"   	"169 123 53 255"
 
 			"SubImage"
 			{
@@ -499,7 +499,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"ahudBlack"
 			"wrap"			"1"
 		}
 		
@@ -518,7 +518,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"ahudBlack"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -602,7 +602,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"46 43 42 255"
+					"fgcolor_override"	"ahudBlack"
 					"wrap"			"1"
 				}
 			}
@@ -635,10 +635,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "ahudWhite"
+			"defaultBgColor_override" "ahudBlack"
+			"armedFgColor_override" "ahudWhite"
+			"depressedFgColor_override" "ahudWhite"
 		}	
 		
 		"MOTD_PrevButton"
@@ -735,7 +735,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"r60"
-		"ypos"			"35"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -805,7 +805,7 @@
 			"paintbackground" "0"
 			
 			"defaultFgColor_override" 	"ahudWhite"
-			"armedFgColor_override"   	"ahudYellow"
+			"armedFgColor_override"   	"169 123 53 255"
 			
 			"SubImage"
 			{
@@ -829,7 +829,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r38"
-		"ypos"			"55"
+		"ypos"			"60"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"24"
@@ -875,7 +875,7 @@
 			"paintborder"		"0"
 			
 			"defaultFgColor_override" 	"ahudWhite"
-			"armedFgColor_override"   	"ahudYellow"
+			"armedFgColor_override"   	"169 123 53 255"
 
 			"SubImage"
 			{
@@ -1232,10 +1232,10 @@
 		"fieldName"		"ahudLabel"
 		"font"			"NormalCode48"
 		"labelText"		"ahud"
-		"textAlignment"	"west"
-		"xpos"			"32"
+		"textAlignment"	"center"
+		"xpos"			"0"
 		"ypos"			"62"
-		"wide"			"130"
+		"wide"			"170"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1249,7 +1249,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2015.1217"
+		"labelText"		"v2016.0118"
 		"textAlignment"	"east"
 		"xpos"			"r56"
 		"ypos"			"r13"
@@ -2630,7 +2630,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HomeServer"
 		"xpos"					"r38"
-		"ypos"					"r36"
+		"ypos"					"85"
 		"zpos"					"11"
 		"wide"					"24"
 		"tall"					"24"

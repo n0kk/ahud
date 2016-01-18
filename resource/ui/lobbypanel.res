@@ -1678,12 +1678,12 @@
 			"unicode"			"0"
 			"default"			"0"
 		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"fgcolor_override"	"ahudWhite"
+			"bgcolor_override"	"ahudBlack"
+			"disabledFgColor_override" "ahudWhite"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "ahudWhite"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -1788,6 +1788,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"bgcolor_override"	"ahudBlack"
 		}			
 
 		// Default image
@@ -1843,17 +1844,17 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"StatsLabel"
-			"xpos"			"120"
-			"ypos"			"195"
-			"zpos"			"0"
+			"xpos"			"60"
+			"ypos"			"198"
+			"zpos"			"1"
 			"wide"			"150"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallBold"
-			"fgcolor_override"	"89 81 71 255"
+			"font"			"NormalCode12"
+			"fgcolor_override"	"ahudWhite"
 			"textAlignment"	"west"
-			"labelText"		"Stats"
+			"labelText"		"STATS"
 		}
 
 		"StatLine"
@@ -1865,7 +1866,7 @@
 			"zpos"				"1"
 			"wide"				"240"
 			"tall"				"2"
-			"visible"			"1"
+			"visible"			"0"
 			"proportionaltoparent" "1"
 			"bgcolor_override"	"89 81 71 255"
 		}
@@ -1881,7 +1882,7 @@
 			"tall"			"150"
 			"autoresize"	"3"
 			"linespacing"	"16"
-			"bgcolor_override"	"46 43 42 255"
+			"bgcolor_override"	"0 0 0 0"
 		}
 	}
 }

@@ -18,6 +18,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "White"
+		"bgcolor_override"		"0 0 0 100"
 	}
 	"ChargeMeterLabel"
 	{

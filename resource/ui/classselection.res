@@ -30,21 +30,6 @@
 		"tabPosition"	"0"
 	}
 	
-	"ClassSelectBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ClassSelectBG"
-		"xpos"			"c-150"
-		"ypos"			"c-130"
-		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"260"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"HudBlack"
-	}
 	"SelectAClassLabel"
 	{
 		"ControlName"	"Label"
@@ -63,7 +48,7 @@
 	}
 	"random"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"random"
 		"xpos"				"c85"
 		"ypos"				"c77"
@@ -80,16 +65,12 @@
 		"Command"			"select 12"
 		"Default"			"1"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_random_inactive"
-		"image_armed"		"class_sel_sm_random_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -97,28 +78,9 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"class_sel_sm_random_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"				
 	}
 		
 	"Offense"
@@ -142,7 +104,7 @@
 	}
 	"scout"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"scout"
 		"xpos"				"c86"
 		"ypos"				"c-63"
@@ -159,16 +121,12 @@
 		"Command"			"select 1"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_scout_inactive"
-		"image_armed"		"class_sel_sm_scout_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -176,32 +134,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_scout_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"			
 	}
 	"soldier"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"soldier"
 		"xpos"				"c85"
 		"ypos"				"c-49"
@@ -218,16 +157,12 @@
 		"Command"			"select 3"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_soldier_inactive"
-		"image_armed"		"class_sel_sm_soldier_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -235,32 +170,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_soldier_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"			
 	}
 	"pyro"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"pyro"
 		"xpos"				"c85"
 		"ypos"				"c-35"
@@ -277,16 +193,12 @@
 		"Command"			"select 7"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_pyro_inactive"
-		"image_armed"		"class_sel_sm_pyro_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -294,28 +206,9 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_pyro_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"			
 	}
 	
 	"Defense"
@@ -339,7 +232,7 @@
 	}
 	"demoman"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"demoman"
 		"xpos"				"c85"
 		"ypos"				"c-21"
@@ -356,16 +249,12 @@
 		"Command"			"select 4"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_demo_inactive"
-		"image_armed"		"class_sel_sm_demo_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -373,32 +262,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_demo_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"				
 	}	
 	"heavyweapons"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"heavyweapons"
 		"xpos"				"c85"
 		"ypos"				"c-7"
@@ -415,16 +285,12 @@
 		"Command"			"select 6"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_heavy_inactive"
-		"image_armed"		"class_sel_sm_heavy_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -432,32 +298,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_heavy_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"		
 	}
 	"engineer"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"engineer"
 		"xpos"				"c85"
 		"ypos"				"c7"
@@ -474,16 +321,11 @@
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_engineer_inactive"
-		"image_armed"		"class_sel_sm_engineer_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -491,28 +333,9 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_engineer_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"				
 	}
 	
 	"Support"
@@ -536,7 +359,7 @@
 	}
 	"medic"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"medic"
 		"xpos"				"c85"
 		"ypos"				"c21"
@@ -553,16 +376,12 @@
 		"Command"			"select 5"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_medic_inactive"
-		"image_armed"		"class_sel_sm_medic_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -570,32 +389,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_medic_inactive"
-			"scaleImage"	"1"
-		}				
 	}
 	"sniper"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"sniper"
 		"xpos"				"c85"
 		"ypos"				"c35"
@@ -612,16 +412,12 @@
 		"Command"			"select 2"
 		"Default"			"0"
 		"font"				"NormalCode12"
-		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_sniper_inactive"
-		"image_armed"		"class_sel_sm_sniper_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -629,32 +425,13 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_sniper_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"			
 	}
 	"spy"
 	{
-		"ControlName"		"CExImageButton"
+		"ControlName"		"CExButton"
 		"fieldName"			"spy"
 		"xpos"				"c85"
 		"ypos"				"c49"
@@ -673,14 +450,11 @@
 		"font"				"NormalCode12"
 		"scaleImage"		"1"
 		
-		"image_default"		"class_sel_sm_spy_inactive"
-		"image_armed"		"class_sel_sm_spy_inactive"
-		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "ahudWhite"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -688,28 +462,9 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"255 255 255 180"
-		"image_armedcolor"		"255 255 255 255"
-		"image_selectedcolor"	"255 255 255 255"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"7"
-			"wide"			"50"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"class_sel_sm_spy_inactive"
-			"scaleImage"	"1"
-		}				
+		"keyboardinputenabled"	"0"		
 	}	
 
 	"CancelButton" [$WIN32] 
@@ -732,11 +487,11 @@
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "ahudWhite"
-		"selectedFgColor_override" "TanDark"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -763,11 +518,11 @@
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "ahudWhite"
-		"selectedFgColor_override" "TanDark"
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1119,7 +874,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}	
 	
 	"numSoldier"
@@ -1139,7 +894,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}		
 	
 	"numPyro"
@@ -1159,7 +914,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}			
 	
 	"numDemoman"
@@ -1179,7 +934,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}				
 	
 	"numHeavy"
@@ -1199,7 +954,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}					
 	
 	"numEngineer"
@@ -1219,7 +974,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}						
 	
 	"numMedic"
@@ -1239,7 +994,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}							
 	
 	"numSniper"
@@ -1259,7 +1014,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}						
 	
 	"numSpy"
@@ -1279,7 +1034,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
 		"font"			"NormalCode12"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"ahudWhite"
 	}								
 	
 	"MvMUpgradeImageScout"
@@ -1489,8 +1244,8 @@
 			"tall"			"14"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
@@ -1533,7 +1288,7 @@
 		"fieldName"		"TFPlayerModel"
 		
 		"xpos"			"c-130"
-		"ypos"			"80"
+		"ypos"			"85"
 		"zpos"			"6"		
 		"wide"			"320"
 		"tall"			"320"

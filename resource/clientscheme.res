@@ -47,7 +47,7 @@ Scheme
 		"ahudGreen"				"92 122 90 255"
 		"ahudDarkGreen"			"38 53 36 255"
 		"ahudYellow"			"169 123 53 255"
-		"ahudDarkYellow"		"97 70 27 255"
+		"ahudBrightYellow"		"218 165 32 255"
 		
 		"ahudWhite"				"242 242 242 255"
 		"ahudDullWhite"			"132 132 132 255"
@@ -1408,6 +1408,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Code10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Code12"
 		{
 			"1"
@@ -1418,12 +1428,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code15"
+		"Code14"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-Bold"
-				"tall"		"15"
+				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1438,16 +1448,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-Bold"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"Code18"
 		{
 			"1"
@@ -1456,17 +1456,6 @@ Scheme
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		"Code18Shadow"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-Bold"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
 			}
 		}
 		"Code20"
@@ -1479,15 +1468,14 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code20Outline"
+		"Code22"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-Bold"
-				"tall"		"20"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"	"1"
 			}
 		}
 		"Code24"
@@ -1590,17 +1578,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode12Outline"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-				"outline"	"1"
-			}
-		}
 		"NormalCode14"
 		{
 			"1"
@@ -1611,32 +1588,12 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode15"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"15"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"NormalCode16"
 		{
 			"1"
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"17"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3079,7 +3036,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"

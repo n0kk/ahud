@@ -223,7 +223,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack2"
 		"xpos"			"c-30"
-		"ypos"			"c114"
+		"ypos"			"c115"
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"14"

@@ -528,11 +528,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"NormalCode12"
+		"font"			"NormalCode10"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"30"

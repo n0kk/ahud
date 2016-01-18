@@ -15,23 +15,7 @@
 		"fgcolor"		"255 0 0 255"
 		"tabPosition"	"0"
 	}
-	
-	"SelectTeamBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SelectTeamBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"170"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"Hudblack"
-	}
-	
+
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -411,10 +395,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
 		"xpos"			"c-85"
-		"ypos"			"c-26"
+		"ypos"			"c-19"
 		"zpos"			"3"
 		"wide"			"18"
-		"tall"			"29"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -423,7 +407,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode18"
+		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}
 	"BlueCountPlayers"
@@ -452,10 +436,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
 		"xpos"			"c67"
-		"ypos"			"c-26"
+		"ypos"			"c-19"
 		"zpos"			"3"
 		"wide"			"18"
-		"tall"			"29"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -464,7 +448,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode18"
+		"font"			"NormalCode12"
 		"fgcolor"		"255 255 255 255"
 	}	
 	"RedCountPlayers"

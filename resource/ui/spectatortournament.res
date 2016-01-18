@@ -234,7 +234,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
-				"fgcolor"		"ahudYellow"
+				"fgcolor"		"ahudBrightYellow"
 			}
 			
 			"chargeamount"

@@ -141,6 +141,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"		"Ubercharge Meter"
+		"bgcolor_override"		"0 0 0 100"
 	}
 	"ChargeMeter1"
 	{	

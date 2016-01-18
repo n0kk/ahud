@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-75"	
 		"ypos"			"c113"	
-		"wide"			"500"
-		"tall"			"500"
+		"wide"			"150"
+		"tall"			"8"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
@@ -42,7 +42,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
@@ -70,5 +69,6 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}				
+		"bgcolor_override"		"0 0 0 100"
+	}
 }

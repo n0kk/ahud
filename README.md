@@ -6,34 +6,47 @@ ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://git
 
 * Custom colors
 * Custom crosshairs
-* Toggle scoreboard
+* 6v6 scoreboard
 * Alternative styles
-* Home server button
+* Home Server button
 * 16:9, 16:10, and 4:3 support
-* MvM support
+* Competitive and MvM support
 
 ####Screenshots
 
-* http://i.imgur.com/PIx7Ds5.jpg – Main Menu
-* http://i.imgur.com/yGdN0CO.jpg – Team Select
-* http://i.imgur.com/xVrIYJs.jpg – Class Select
-* http://i.imgur.com/ExOLP9q.jpg – Buffed HP
-* http://i.imgur.com/wefV5Jm.jpg – Low HP
-* http://i.imgur.com/PYHubC5.jpg – Buffed HP – alt. style
-* http://i.imgur.com/x7h2U1t.jpg – Low HP – alt. style
-* http://i.imgur.com/NIwun3r.jpg – Default scoreboard
-* http://i.imgur.com/5LM0rNd.jpg – 6v6 scoreboard
-* http://i.imgur.com/SPhvdMh.jpg – Tournament Spectator HUD
+* [Main Menu](http://i.imgur.com/HEriy8N.jpg)
+* [Team Select](http://i.imgur.com/gNSYYOc.jpg)
+* [Class Select](http://i.imgur.com/cDgPJwB.jpg)
+* [Buffed HP](http://i.imgur.com/9NbLjtH.jpg)
+* [Alt. Buffed HP](http://i.imgur.com/O5PRiD0.jpg)
+* [Low HP](http://i.imgur.com/wR6gkGn.jpg)
+* [Alt. Low HP](http://i.imgur.com/yFmiSEC.jpg)
+* [Default scoreboard](http://i.imgur.com/Lk2Ey63.jpg)
+* [6v6 scoreboard](http://i.imgur.com/9pempQF.jpg)
 
 More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
 ##Installation
 
 ####Manual
-Extract the `ahud-master` folder to `..\Steam\steamapps\common\Team Fortress 2\tf\custom`, making sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`. For detailed instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).
+1. Download ahud by clicking `Download ZIP` on the ahud GitHub repo
+2. Navigate to  `..\Steam\steamapps\common\Team Fortress 2\tf\custom`
+3. Extract `ahud-master` from the ZIP file to the `custom` folder
+4. Make sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`
+5. Run Team Fortress 2
+
+For thorough instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).
 
 ####Installer
-Download the installer from the [aInstaller website](http://ainstaller.cf). The installer requires [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653). Once downloaded, simply run `ainstaller.application` and follow the installation instructions. Once installed, you'll be able to customize ahud to your liking. aInstaller comes with an assistant that checks for updates and allows you to enable and disable crosshairs via hotkeys. More info can be found on the aInstaller webiste.
+Note: The installer requires [.NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653).
+
+1. Download the installer from the [aInstaller website](http://ainstaller.cf)
+2. Run `setup.exe` and follow the installation instructions
+3. Once installed, customize ahud to your liking
+4. Apply your settings and exit
+5. Run Team Fortress 2
+
+More info can be found on the aInstaller website.
 
 ##Customization
 
@@ -43,14 +56,15 @@ Note: It is highly recommend you download and use [Notepad++](https://notepad-pl
 The color of various HUD elements (health and ammo numbers, damage numbers, crosshair and flash damage, etc.) can be easily changed in `resource\clientscheme.res`. Edit anything under  `CUSTOM COLORS` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow). 
 
 ####Scoreboards
-The default scoreboard is a 12v12 scoreboard. To switch between the default scoreboard and the 6v6 scoreboard, use the Scoreboard button in the main menu. Alternatively, you can enter `cl_hud_minmode 1` or `0` in console.
+The default scoreboard is a 12v12 scoreboard. To switch between the default scoreboard and the 6v6 scoreboard, use the Scoreboard button in the main menu. Alternatively, you can enter `cl_hud_minmode 1` or `0` in console. To use one of the alternative scoreboards, navigate to `resource\ui\`, back up or delete `scoreboard.res`, and replace it with one of the alternatives included: 
 
-To use the alternative 16v16 scoreboard in place of the default scoreboard, navigate to `resource\ui`, delete or backup `scoreboard.res` and rename `scoreboard_16v16.res` to `scoreboard.res`.
+* `scoreboard_BOTTOM.res` – Similiar to the default scoreboard except it is positioned at the bottom of the screen
+* `scoreboard_16v16.res` – An extended scoreboard for 32 player servers (the minmode scoreboard remains 6v6)
 
 ####Custom crosshairs
 Navigate to `scripts\hudlayout.res`. Under `KnucklesCrosses`, change the values of `visible` and `enabled` to `1` to use the crosshairs. In the `scripts` folder, you'll find `KnucklesCrosses.png`, which shows what crosshair corresponds with which character (e.g., the normal cross crosshair is `a`). Find the crosshair  you want to use and Use the character as a value for `labelText`. To change the size and add an outline, simply follow the format for the value of `font` (default is `size:30,outline:off`). The color of the crosshair is listed in `resource\clientscheme.res`.
 
-Note that not every crosshair will be perfectly centered because of different resolutions and aspect ratios. If your crosshair is not perfectly centered, experiment with changing the `xpos`, `ypos`, `wide`, and `tall` values.
+Note: Not every crosshair will be perfectly centered because of different resolutions and aspect ratios. If your crosshair is not perfectly centered, experiment with changing the `xpos` and `ypos` values (and possibly the `wide`, and `tall` values as well).
 
 ####Crosshair damage flash
 If using any of the custom crosshairs, the crosshair damage flash will be on by default. To change the color of the flash, navigate to `resource\clientscheme.res` and change the RGBA value of `CrosshairDamage` under `CUSTOM COLORS`. To disable, change the RGBA value of `CrosshairDamage` to the same as `Crosshair`.
@@ -69,7 +83,7 @@ To use one of the alternative Medic charge meters, navigate to `resource\ui\`, d
 The chat can often obstruct various HUD elements when using different resolutions and aspect ratios. To use a different chat position, navigate to `resource\ui\`, delete or backup `basechat.res`, and replace it with any of the alternative positions included.
 
 ####Home Server button
-To use the Home Server button (located on the bottom right of the main menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
+To use the Home Server button (the heart on the Main Menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
 ##Support
 
