@@ -1,5 +1,5 @@
 "Resource/UI/MvMVictoryPanel.res"
-{	
+{
 	"SplashContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -9,7 +9,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
-		
+
 		"SplashBackground"
 		{
 			"ControlName"		"ImagePanel"
@@ -24,7 +24,7 @@
 			"enabled"		"1"
 			"fillcolor"		"ahudRed"
 		}
-		
+
 		"SplashLabelShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -38,7 +38,7 @@
 			"tall"			"50"
 			"fgcolor"		"ShadowBlack"
 		}
-		
+
 		"SplashLabel"
 		{
 			"ControlName"	"CExLabel"

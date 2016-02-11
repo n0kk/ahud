@@ -1,6 +1,6 @@
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,13 +11,13 @@
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NormalCode20"
@@ -36,9 +36,9 @@
 		"brighttext"	"0"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NormalCode20"
@@ -56,10 +56,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-	}	
+	}
 
 	"ToggleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
 		"font"			"NormalCode9"
@@ -78,9 +78,9 @@
 		"brighttext"	"0"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"NormalCode9"
@@ -112,11 +112,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"HUDBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"class_item_red_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -127,8 +127,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -139,8 +139,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_red_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -151,8 +151,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -163,8 +163,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_red_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -175,8 +175,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -188,7 +188,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -199,8 +199,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -212,7 +212,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_5"
 	{
 		"ControlName"	"EditablePanel"
@@ -223,8 +223,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_5"
 	{
 		"ControlName"	"EditablePanel"
@@ -236,7 +236,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_6"
 	{
 		"ControlName"	"EditablePanel"
@@ -247,8 +247,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_6"
 	{
 		"ControlName"	"EditablePanel"
@@ -260,7 +260,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_7"
 	{
 		"ControlName"	"EditablePanel"
@@ -271,8 +271,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_7"
 	{
 		"ControlName"	"EditablePanel"
@@ -284,7 +284,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_8"
 	{
 		"ControlName"	"EditablePanel"
@@ -295,8 +295,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_8"
 	{
 		"ControlName"	"EditablePanel"
@@ -308,7 +308,7 @@
 		"tall"			"16"
 		"visible"		"1"
 	}
-	
+
 	"class_item_red_9"
 	{
 		"ControlName"	"EditablePanel"
@@ -319,8 +319,8 @@
 		"wide"			"75"
 		"tall"			"16"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"class_item_blue_9"
 	{
 		"ControlName"	"EditablePanel"
@@ -334,7 +334,7 @@
 		"visible"		"1"
 	}
 
-	"NumberBg1"	
+	"NumberBg1"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -345,13 +345,13 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"0"	
+		"scaleImage"	"0"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel1"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode20"
@@ -382,13 +382,13 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"ahudWhite"
 	}
-	
+
 	"NumberLabel2"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode20"
@@ -407,7 +407,7 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"NumberBg3"
 	{
 		"ControlName"	"CIconPanel"
@@ -419,13 +419,13 @@
 		"tall"			"15"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"ahudWhite"
 	}
-	
+
 	"NumberLabel3"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode20"

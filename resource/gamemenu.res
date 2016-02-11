@@ -2,35 +2,35 @@
 {
 	"QuickplayButton"
 	{
-		"label" "Quickplay" 
+		"label" "Quickplay"
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "Mann vs. Machine" 
+		"label" "Mann vs. Machine"
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"CompetitiveButton"
 	{
-		"label" "Competitive" 
+		"label" "Competitive"
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
+		"label" "Servers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
-	} 
+	}
 	"ChangeServerButton"
 	{
-		"label" "Servers" 
+		"label" "Servers"
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
@@ -54,8 +54,8 @@
 		"command" "offlinepractice"
 		"OnlyAtMenu" "0"
 	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
+
+	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
 		"label" ""
@@ -68,7 +68,7 @@
 		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
-	}	
+	}
 	"CharacterSetupButton"
 	{
 		"label" "Items"
@@ -79,7 +79,7 @@
 	{
 		"label" "Scoreboard"
 		"command" "engine toggle cl_hud_minmode"
-	}	
+	}
 	"HomeServer"
 	{
 		"label"	"6"

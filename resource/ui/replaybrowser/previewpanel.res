@@ -14,7 +14,7 @@
 		"proportional"	"0"
 		"bgcolor_override"	"ahudDarkerGrey"
 	}
-	
+
 	"Screenshot"
 	{
 		"ControlName"	"ImagePanel"
@@ -35,7 +35,7 @@
 		"tall"			"75"
 		"paintbackground"	"1"
 		"bgcolor_override"	"ahudDarkerGrey"
-	
+
 		"NoScreenshotLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 			"TextAlignment"	"center"
 			"bgcolor_override"	"ahudDarkGrey"
 		}
-		
+
 		"MapLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -61,7 +61,7 @@
 			"wide"			"160"
 			"tall"			"12"
 		}
-		
+
 		"DateTimeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -74,7 +74,7 @@
 			"wide"			"160"
 			"tall"			"18"
 		}
-		
+
 		"Label0_0"
 		{
 			"ControlName"	"CExLabel"
@@ -151,7 +151,7 @@
 			"tall"			"10"
 		}
 	}
-	
+
 	"ClassImage"
 	{
 		"ControlName"	"Panel"

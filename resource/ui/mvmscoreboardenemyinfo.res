@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboardEnemyInfo.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"Panel"
@@ -15,7 +15,7 @@
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
 	}
-	
+
 	"EnemyIcon"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-	
+
 	"DescriptionLabel"
 	{
 		"ControlName"	"CExLabel"

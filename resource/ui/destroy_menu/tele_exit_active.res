@@ -1,7 +1,7 @@
 "Resource/UI/destroy_menu/tele_exit_active.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"NormalCode11"
@@ -20,8 +20,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"200 10 20 255"
 	}
-	
-	"DestroyIcon"	
+
+	"DestroyIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
@@ -32,12 +32,12 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_demolish"
 		"iconColor"		"255 0 0 255"
 	}
-		
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -48,12 +48,12 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_tele_exit"
 		"iconColor"		"255 255 255 255"
 	}
-		
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -64,13 +64,13 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"

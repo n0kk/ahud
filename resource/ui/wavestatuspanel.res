@@ -17,11 +17,11 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -34,13 +34,13 @@
 		"wide"			"200"
 		"tall"			"15"
 		"xpos_minmode"	"80"
-		"wide_minmode"	"200"	
+		"wide_minmode"	"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
 	}
-	
+
 	"WaveCountLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -53,13 +53,13 @@
 		"wide"			"200"
 		"tall"			"15"
 		"xpos_minmode"	"81"
-		"wide_minmode"	"200"		
+		"wide_minmode"	"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
 	}
-	
+
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -74,13 +74,13 @@
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"ahudWhite"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -96,13 +96,13 @@
 		"enabled"		"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
-		}		
+		}
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -116,12 +116,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"../HUD/tournament_panel_tan"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 	"NewProgressBarBG"
 	{
@@ -151,11 +151,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 }

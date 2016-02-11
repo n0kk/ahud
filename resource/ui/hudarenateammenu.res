@@ -62,7 +62,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-	
+
 	"TeamBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -75,8 +75,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"ahudYellow"
-	}	
-	
+	}
+
 	"TeamBG2"
 	{
 		"ControlName"	"ImagePanel"
@@ -90,21 +90,21 @@
 		"enabled"		"1"
 		"fillcolor"		"ahudDarkYellow"
 	}
-	
+
 	"teambuttonBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"teambuttonBG"
 		"xpos"			"c-60"
 		"ypos"			"c0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"120"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"teambutton2"
 	{
 		"ControlName"		"CTFTeamButton"
@@ -132,7 +132,7 @@
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"ahudWhite"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"		"CTFTeamButton"
@@ -153,15 +153,15 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"associated_model"	"spectate"	
+		"associated_model"	"spectate"
 		"font"			"NormalCode12"
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" 	"ahudWhite"
 	}
-	
-	"CancelButton" [$WIN32] 
+
+	"CancelButton" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -182,15 +182,15 @@
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
 	}
-		
+
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"9999" [$WIN32] 
+		"xpos"			"9999" [$WIN32]
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"102" [$WIN32] 
+		"wide"			"102" [$WIN32]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -204,7 +204,7 @@
 		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"	"CExLabel"
@@ -234,7 +234,7 @@
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -242,7 +242,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/ui_arena01.mdl"
@@ -256,10 +256,10 @@
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
-	}	
+	}
 
 
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -273,18 +273,18 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
-	}		
-		
+	}
+
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -292,7 +292,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/ui_arenadoor01.mdl"
@@ -303,7 +303,7 @@
 			"origin_x" "290"
 			"origin_y" "0"
 			"origin_z" "-34"
-			
+
 			"animation"
 			{
 				"name"			"idle_enabled"
@@ -316,22 +316,22 @@
 				"name"			"enter_enabled"
 				"sequence"		"hoveropen"
 			}
-			
+
 			"animation"
 			{
 				"name"			"exit_enabled"
 				"sequence"		"hoverclose"
 			}
 		}
-	}		
-	
+	}
+
 	"spectate"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -339,7 +339,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_team01_spectate.mdl"
@@ -350,7 +350,7 @@
 			"origin_x" "290"
 			"origin_y" "0"
 			"origin_z" "-34"
-			
+
 			"animation"
 			{
 				"name"			"idle_enabled"
@@ -363,13 +363,13 @@
 				"name"			"enter_enabled"
 				"sequence"		"hover"
 			}
-			
+
 			"animation"
 			{
 				"name"			"exit_enabled"
 				"sequence"		"idle"
 			}
 		}
-	}			
+	}
 }
 

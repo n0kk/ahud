@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hud"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"CallerBurning"
 	{
@@ -26,8 +26,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_fire"
-		"scaleImage"		"1"	
-	}	
+		"scaleImage"		"1"
+	}
 	"CallerHealth"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -40,7 +40,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hurt"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"CallerBleeding"
 	{
@@ -54,7 +54,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_bleed"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 	}
 	"CallerAuto"
 	{
@@ -68,8 +68,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_attention"
-		"scaleImage"		"1"	
-	}	
+		"scaleImage"		"1"
+	}
 	"CallerReviveEasy"
 	{
 		"ControlName"	"CTFImagePanel"

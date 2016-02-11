@@ -18,7 +18,7 @@
 		"bgcolor_override"				"27 27 27 0"
 		"infocus_bgcolor_override"		"27 27 27 0"
 		"outoffocus_bgcolor_override"	"27 27 27 0"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"NormalCode24"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"ahudDarkGrey"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}		
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,8 +100,8 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,7 +111,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"35"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -125,24 +125,24 @@
 			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"font"				"Code24"
 			"selectedcolor"		"ahudWhite"
-			"unselectedcolor"	"TanDark"	
+			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"ahudDarkGrey"
 			"paintbackground"	"1"
 			"activeborder_override"	"ButtonDepressedBorder"
 			"normalborder_override" "ButtonDepressedBorder"
-			
+
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"ahudDarkGrey"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -166,8 +166,8 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"

@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -11,8 +11,8 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_blue_bg"
+		"scaleImage"		"1"
 		"src_corner_height"	"3"
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
@@ -24,7 +24,7 @@
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
 		"ypos"				"16"
-		"zpos"				"4"	
+		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"0"
@@ -54,7 +54,7 @@
 		"wrap"			"0"
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -66,8 +66,8 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"		"1"
 	}
 	"OvertimeLabel"
 	{
@@ -87,7 +87,7 @@
 		"wrap"			"0"
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -99,7 +99,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"	"HudBlack"	
+		"fillcolor"	"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
 	"SuddenDeathLabel"
@@ -120,7 +120,7 @@
 		"wrap"			"0"
 		"font"			"NormalCode10"
 		"fgcolor"			"ahudWhite"
-	}			
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -132,9 +132,9 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-	}	
+		"image"			"../hud/objectives_timepanel_suddendeath"
+		"scaleImage"		"1"
+	}
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -153,7 +153,7 @@
 		"wrap"				"0"
 		"font"				"NormalCode10"
 		"fgcolor"			"ahudWhite"
-	}	
+	}
 	"SetupBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -165,9 +165,9 @@
 		"tall"				"12"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HudBlack"	
+		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -198,7 +198,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"	"HudBlack"	
+		"fillcolor"	"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
 }

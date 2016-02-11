@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveStatus.res"
-{	
+{
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -18,7 +18,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"NormalCode14"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -34,6 +34,6 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-		}	
-	}	
+		}
+	}
 }

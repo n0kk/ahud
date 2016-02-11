@@ -1,5 +1,5 @@
 "Resource/UI/MvMCreditSubPanel.res"
-{	
+{
 	"HeaderLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -13,7 +13,7 @@
 		"tall"			"15"
 		"fgcolor"		"ahudWhite"
 	}
-		
+
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,13 +26,13 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 	}
-	
+
 	"CreditCollectedTextLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
 		"font"			"NormalCode12"
-		"labelText"		"#TF_PVE_Collected"	
+		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" "north-west"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -40,7 +40,7 @@
 		"tall"			"12"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"CreditCollectedCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -54,7 +54,7 @@
 		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
-	
+
 	"CreditMissedTextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -68,7 +68,7 @@
 		"tall"			"12"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"CreditMissedCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -82,7 +82,7 @@
 		"tall"			"12"
 		"fgcolor"		"RedSolid"
 	}
-	
+
 	"CreditBonusTextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -96,7 +96,7 @@
 		"tall"			"12"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"CreditBonusCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -110,7 +110,7 @@
 		"tall"			"12"
 		"fgcolor"		"CreditsGreen"
 	}
-		
+
 	"CreditRatingLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -124,7 +124,7 @@
 		"tall"			"20"
 		"fgcolor"		"Black"
 	}
-	
+
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"

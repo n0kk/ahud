@@ -90,7 +90,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-	
+
 			"ModeInfoContainer"
 			{
 				"ControlName"	"EditablePanel"
@@ -118,7 +118,7 @@
 					"image"			"maps/menu_screen_ctf_2fort"
 					"scaleImage"	"1"
 				}
-	
+
 				"Label_GameType"
 				{
 					"ControlName"	"CExLabel"
@@ -200,7 +200,7 @@
 					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
 					"border"				"BackpackItemBorder"
-		
+
 					"Background"
 					{
 						"ControlName"	"EditablePanel"
@@ -216,7 +216,7 @@
 						"tabPosition"		"0"
 						"bgcolor_override"	"40 37 37 255"
 					}
-		
+
 					"MoreInfoLabel"
 					{
 						"ControlName"		"CExLabel"
@@ -236,8 +236,8 @@
 						"wrap"			"1"
 						"centerwrap"	"1"
 					}
-				}	
-			}	
+				}
+			}
 
 			"PrevPageButton"
 			{
@@ -266,8 +266,8 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
-				
+			}
+
 			"NextPageButton"
 			{
 				"ControlName"	"CExButton"
@@ -295,7 +295,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 		}
 	}
 
@@ -312,7 +312,7 @@
 		"enabled"	"1"
 		"border"	"HoAssBorder"
 		"bgcolor_override"	"ahudDarkGrey"
-		
+
 		"MannVsMachineLabel"
 		{
 			"ControlName"	"Label"
@@ -330,7 +330,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-		
+
 		"MannVsMachineExplanation"
 		{
 			"ControlName"	"CExLabel"
@@ -431,7 +431,7 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"225"
-		
+
 		"NavToRelay"	"TourlistGroupBox"
 		"NavUp"			"MvMSelectChallengeGroupBox"
 		"NavLeft"		"MvMSelectChallengeGroupBox"
@@ -1485,7 +1485,7 @@
 		{
 			"ypos"			"35"
 		}
-		
+
 		"PartyGroupBox"
 		{
 			"ControlName"	"EditablePanel"
@@ -1625,7 +1625,7 @@
 		"wide"		"200"
 		"tall"		"20"
 	}
-	
+
 	"CompetitiveModeGroupBox"
 	{
 		"ControlName"	"EditablePanel"
@@ -1677,7 +1677,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"default"			"0"
-		
+
 			"fgcolor_override"	"ahudWhite"
 			"bgcolor_override"	"ahudBlack"
 			"disabledFgColor_override" "ahudWhite"
@@ -1772,7 +1772,7 @@
 		}
 
 		"LevelProgressMeter"
-		{	
+		{
 			"ControlName"	"ContinuousProgressBar"
 			"fieldName"		"LevelProgressMeter"
 			"font"			"HudFontSmallestBold"
@@ -1780,7 +1780,7 @@
 			"ypos"			"49"
 			"zpos"			"2"
 			"wide"			"90"
-			"tall"			"9"				
+			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1789,7 +1789,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"bgcolor_override"	"ahudBlack"
-		}			
+		}
 
 		// Default image
 		"ModeImage"

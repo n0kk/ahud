@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/tele_exit_inactive.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"NormalCode11"
@@ -20,8 +20,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"189 189 189 255"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -32,13 +32,13 @@
 		"tall"			"105"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
 	}
-	
+
 	"NotBuiltLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
 		"font"			"NormalCode8"
@@ -56,10 +56,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"189 189 189 255"
-	}	
+	}
 
 	"UnavailableLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
 		"font"			"Default"
@@ -77,9 +77,9 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"189 189 189 255"
-	}	
-			
-	"NumberBg"	
+	}
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -90,13 +90,13 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 128"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"

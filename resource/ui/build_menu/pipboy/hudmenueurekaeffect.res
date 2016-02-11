@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,7 +11,7 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"paintbackground" "0"
 	}
 
@@ -26,12 +26,12 @@
 		"tall"			"88"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"pipboy_overlay"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -45,11 +45,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -61,13 +61,13 @@
 		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"pipboy_engineer"
 		"tileImage"		"0"
 		"tileVertically" "0"
 	}
 
-	"BuildIcon"	
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -78,13 +78,13 @@
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"0 255 0 255"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NormalCode20"
@@ -103,9 +103,9 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NormalCode20"
@@ -124,9 +124,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -145,7 +145,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
-	
+
 	"available_target_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -156,8 +156,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"available_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -168,7 +168,7 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
+	}
 
 	"unavailable_target_1"
 	{
@@ -180,8 +180,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_target_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -192,5 +192,5 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
+	}
 }

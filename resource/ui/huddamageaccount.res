@@ -12,7 +12,7 @@
 		"delta_item_font"		"NormalCode20Outline"
 		"delta_item_font_big"	"NormalCode20Outline"
 	}
-	
+
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
@@ -29,7 +29,7 @@
 		"fgcolor"		"Damage Numbers"
 		"font"			"NormalCode20"
 	}
-	
+
 	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"

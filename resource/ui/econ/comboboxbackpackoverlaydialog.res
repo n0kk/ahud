@@ -14,7 +14,7 @@
 		"settitlebarvisible"	"1"
 		"border"				"HoAssBorder"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -35,7 +35,7 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"preview_model"
 		"xpos"			"60"
@@ -85,7 +85,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
-		
+
 		"fgcolor_override"	"ahudWhite"
 		"bgcolor_override"	"ahudBlack"
 		"disabledFgColor_override" "ahudWhite"
@@ -94,7 +94,7 @@
 		"selectionTextColor_override" "ahudWhite"
 		"defaultSelectionBG2Color_override" "ahudBlack"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -119,7 +119,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

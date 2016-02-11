@@ -14,9 +14,9 @@
 		"settitlebarvisible"	"0"
 		"border"				"HoAssBorder"
 	}
-	
+
 	"CenterPositioner"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"CenterPositioner"
 		"font"			"HudFontSmallBold"
@@ -35,7 +35,7 @@
 		"textAlignment"		"center"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
+
 	"RecipeItemModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -44,7 +44,7 @@
 	}
 
 	"TitleLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
@@ -64,13 +64,13 @@
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
 		"auto_wide_tocontents" "1"
-		
+
 		"pin_to_sibling"               "CenterPositioner"
-        "pin_corner_to_sibling"        "4"          
-        "pin_to_sibling_corner"        "4"          	
+        "pin_corner_to_sibling"        "4"
+        "pin_to_sibling_corner"        "4"
 	}
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"EllipsesLabel"
 		"font"			"HudFontSmallBold"
@@ -87,12 +87,12 @@
 		"textAlignment"		"west"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
-		
+
 		"pin_to_sibling"               "TitleLabel"
-        "pin_corner_to_sibling"        "0"          
-        "pin_to_sibling_corner"        "1"          	
+        "pin_corner_to_sibling"        "0"
+        "pin_to_sibling_corner"        "1"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"

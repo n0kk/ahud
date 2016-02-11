@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -52,10 +52,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"			"ahudBlue"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -73,10 +73,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"ahudRed"
-		
+
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
-			
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
@@ -142,7 +142,7 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
     }
-	
+
 	"MoveableSubPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -153,8 +153,8 @@
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
-		"enabled"		"1"	
-		
+		"enabled"		"1"
+
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -170,7 +170,7 @@
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
-		
+
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -203,7 +203,7 @@
 		}
 
 		"MoveableKeyLabel"
-		{	
+		{
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"NormalCode10"
@@ -220,9 +220,9 @@
 			"textAlignment"	"North"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}	
+		}
 	}
-	
+
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -235,7 +235,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
-	}	
+	}
 }

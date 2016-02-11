@@ -12,15 +12,15 @@
 		"fillcolor"		"HudBlack"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		
+
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 
 	"WaveCompleteContainer"
@@ -33,9 +33,9 @@
 		"tall"			"24"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		
+
 		"WinningTeamLabelDropshadow"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
 			"font"			"HudFontMediumSmallBold"
@@ -52,15 +52,15 @@
 			"textAlignment"		"Center"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			
+
 			// blue Background
 			"PaintBackgroundType" "0"
-			"fgcolor_override"	"ShadowBlack"		
+			"fgcolor_override"	"ShadowBlack"
 			"bgcolor_override"	"ahudBlue"
 		}
-		
+
 		"WinningTeamLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
 			"font"			"HudFontMediumSmallBold"
@@ -77,9 +77,9 @@
 			"fgcolor"		"ahudWhite"
 		}
 	}
-	
+
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"HudFontSmall"

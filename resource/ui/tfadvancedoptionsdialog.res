@@ -19,7 +19,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"HoAssBorder"
-		
+
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -91,7 +91,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"PanelListPanel"
 	{
 		"ControlName"		"CPanelListPanel"
@@ -107,7 +107,7 @@
 		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 0"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -121,7 +121,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"HoAssBorder"
 		"bgcolor_override"	"ahudBlack"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -142,5 +142,5 @@
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}
-	}	
+	}
 }

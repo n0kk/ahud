@@ -39,7 +39,7 @@ Scheme
 		Button.ArmedTextColor							"TFDarkBrown"
 		Button.ArmedBgColor								"TFTanBright"
 		Button.DepressedTextColor						"TFDarkBrown"
-		Button.DepressedBgColor							"TFTanLight"	
+		Button.DepressedBgColor							"TFTanLight"
 		Button.FocusBorderColor							"TransparentBlack"
 		CheckButton.TextColor							"TFTextBright"
 		CheckButton.SelectedTextColor					"TFTextBright"
@@ -82,7 +82,7 @@ Scheme
 		Label.TextBrightColor							"TFTextBright"
 		Label.SelectedTextColor							"TFTextBright"
 		Label.BgColor									"Blank"
-		Label.DisabledFgColor1							"TFTextDull"	
+		Label.DisabledFgColor1							"TFTextDull"
 		Label.DisabledFgColor2							"Blank"
 		ListPanel.TextColor								"TFTextBright"
 		ListPanel.BgColor								"ListBG"
@@ -464,7 +464,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype"	"0"
@@ -520,7 +520,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset"	"2 2 0 0"
@@ -780,6 +780,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"	"resource/HALFLIFE2.ttf"
-		"2"	"resource/HL2EP2.ttf"		
+		"2"	"resource/HL2EP2.ttf"
 	}
 }

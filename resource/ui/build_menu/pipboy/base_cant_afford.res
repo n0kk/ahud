@@ -1,7 +1,7 @@
 "Resource/UI/build_menu/base_cant_afford.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
 		"font"			"NormalCode11"
@@ -20,8 +20,8 @@
 		"brighttext"	"0"
 		"fgcolor"		"200 10 20 255"
 	}
-	
-	"ItemBackground"	
+
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -32,12 +32,12 @@
 		"tall"			"105"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"0 0 0 196"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildingIcon"
@@ -48,13 +48,13 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_sentry_build"
 		"iconColor"		"200 10 20 255"
 	}
-	
+
 	"CantBuildReason"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"NormalCode8"
@@ -71,8 +71,8 @@
 		"labelText"		"Metal Required"
 		"textAlignment"	"center"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
@@ -83,14 +83,14 @@
 		"tall"			"7"
 		"visible"		"1"
 		"enabled"		"0"
-		"scaleImage"	"0"	
+		"scaleImage"	"0"
 		"icon"			"ico_metal"
 		"iconColor"		"200 10 20 255"
 		"textAlignment"	"center"
 	}
-	
+
 	"CostLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"NormalCode20"
@@ -105,11 +105,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
-	
+
 	"CostLabelShadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
 		"font"			"NormalCode20"
@@ -124,11 +124,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 	}
-	
+
 	"ModeLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
@@ -143,10 +143,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"East"	
+		"textAlignment"	"East"
 	}
-	
-	"NumberBg"	
+
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -157,13 +157,13 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_key_blank"
 		"iconColor"		"200 10 20 255"
 	}
-	
+
 	"NumberLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NormalCode11"
