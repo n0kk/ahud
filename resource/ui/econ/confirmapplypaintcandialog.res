@@ -29,13 +29,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -94,7 +94,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -120,7 +120,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -141,7 +141,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -166,8 +166,8 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -188,7 +188,7 @@
 	}
 
 	"paint_model"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"paint_model"
 		"xpos"			"150"
@@ -260,7 +260,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

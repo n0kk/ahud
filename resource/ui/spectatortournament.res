@@ -10,7 +10,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		  "1"
-				
+
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"				  "130"
 		"team1_player_delta_x"				"0"
@@ -19,17 +19,17 @@
 		"team2_player_base_y"				  "158"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"145"
 			"tall"			"15"
 			"zpos"			"1"
-			
+
 			"color_ready"	    "0 255 0 220"
 			"color_notready"	"0 0 0 220"
-			
+
 			"PanelBG"
 			{
 				"ControlName"	"ImagePanel"
@@ -45,7 +45,7 @@
 				"enabled"		  "1"
 				"fillcolor"		"0 0 0 30"
 			}
-			
+
 			"PanelCoverLeft"
 			{
 				"ControlName"	"ImagePanel"
@@ -61,7 +61,7 @@
 				"enabled"		  "1"
 				"fillcolor"		"ahudDarkGrey"
 			}
-			
+
 			"PanelCoverRight"
 			{
 				"ControlName"	"ImagePanel"
@@ -77,7 +77,7 @@
 				"enabled"		  "1"
 				"fillcolor"		"ahudDarkGrey"
 			}
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		  "255 255 255 255"
 			}
-			
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -108,9 +108,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -125,7 +125,7 @@
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -136,14 +136,14 @@
 				"wide"				"30"
 				"tall"				"15"
 				"visible"			"1"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -161,11 +161,11 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -182,7 +182,7 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -200,7 +200,7 @@
 				"textAlignment"	"center"
 				"fgcolor"		"ahudWhite"
 			}
-			
+
 			"respawntimeshadow"
 			{
 				"ControlName"	"CExLabel"
@@ -217,8 +217,8 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"ShadowBlack"
-			}			
-			
+			}
+
 			"respawntimecover"
 			{
 				"ControlName"	"CExLabel"
@@ -236,7 +236,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"ahudBrightYellow"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -254,7 +254,7 @@
 				"textAlignment"	"east"
 				"fgcolor_override"		"HP Buff"
 			}
-		
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -313,7 +313,7 @@
 		"textAlignment"		"center"
 		"font"			"NormalCode18"
 		"fgcolor"		"255 255 255 255"
-		
+
 		if_mvm
 		{
 			"ypos"			"0"
@@ -337,11 +337,11 @@
 		"fgcolor"		"ahudWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
 	"MapLabel"
 	{
@@ -360,7 +360,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -411,22 +411,22 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -449,9 +449,9 @@
 			"enabled"		"1"
 			"fillcolor"		"Hudblack"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"default"
@@ -483,5 +483,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 }

@@ -28,9 +28,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_time_10"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -59,7 +59,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-		}	
+		}
 	}
 	"StopWatchScoreToBeat"
 	{
@@ -137,9 +137,9 @@
 
 		"src_corner_height"	"2"				// pixels inside the image
 		"src_corner_width"	"2"
-		
+
 		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"draw_corner_height" 	"2"
 	}
 
 	"StopWatchDescriptionLabel"

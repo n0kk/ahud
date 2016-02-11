@@ -1,6 +1,6 @@
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MainBackground"
@@ -11,11 +11,11 @@
 		"tall"			"170"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -29,12 +29,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"HudBlack"
 		"PaintBackgroundType"	"0"
 	}
-	
-	"BuildIcon"	
+
+	"BuildIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIcon"
@@ -45,12 +45,12 @@
 		"tall"			"38"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
 	}
-	
-	"BuildIconShadow"	
+
+	"BuildIconShadow"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"BuildIconShadow"
@@ -61,13 +61,13 @@
 		"tall"			"38"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"ico_build"
 		"iconColor"		"ShadowBlack"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NormalCode20"
@@ -86,9 +86,9 @@
 		"brighttext"	"0"
 		"fgcolor"		"255 255 255 255"
 	}
-	
+
 	"TitleLabelDropshadow"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NormalCode20"
@@ -107,9 +107,9 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-	
+
 	"CancelLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
 		"font"			"SpectatorKeyHints"
@@ -127,7 +127,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -138,8 +138,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -150,8 +150,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -162,8 +162,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"1"
-	}	
-	
+	}
+
 	"active_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -175,7 +175,7 @@
 		"tall"			"124"
 		"visible"		"1"
 	}
-	
+
 	"already_built_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -186,8 +186,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -198,8 +198,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -210,8 +210,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"already_built_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -223,7 +223,7 @@
 		"tall"			"124"
 		"visible"		"0"
 	}
-	
+
 	"cant_afford_item_1"
 	{
 		"ControlName"	"EditablePanel"
@@ -234,8 +234,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -246,8 +246,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -258,8 +258,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"cant_afford_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -282,8 +282,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_2"
 	{
 		"ControlName"	"EditablePanel"
@@ -294,8 +294,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_3"
 	{
 		"ControlName"	"EditablePanel"
@@ -306,8 +306,8 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
-	
+	}
+
 	"unavailable_item_4"
 	{
 		"ControlName"	"EditablePanel"
@@ -318,5 +318,5 @@
 		"wide"			"100"
 		"tall"			"124"
 		"visible"		"0"
-	}	
+	}
 }

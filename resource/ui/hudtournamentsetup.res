@@ -17,7 +17,7 @@
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmallBold"
@@ -36,7 +36,7 @@
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"HudFontSmallest"
@@ -77,7 +77,7 @@
 		"fgcolor_override"		"ahudWhite"
 		"bgcolor_override"	"0 0 0 255"
 		"selectionColor_override" "ahudWhite"
-		"selectionTextColor_override" "ahudBlack"		
+		"selectionTextColor_override" "ahudBlack"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}
@@ -120,7 +120,7 @@
 		"default"		"1"
 		"font"			"SymbolS"
 		"fgcolor"		"Red"
-		
+
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"Blank"
@@ -146,11 +146,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"default"		"1"
 		"font"			"SymbolS"
 		"fgcolor"		"FooterBGBlack"
-		
+
 		"defaultBgColor_override"	"Blank"
 		"defaultFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"Blank"

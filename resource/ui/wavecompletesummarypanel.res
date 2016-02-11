@@ -1,5 +1,5 @@
 "Resource/UI/WaveCompletePanel.res"
-{		
+{
 	"Background"
 	{
 		"ControlName"		"ImagePanel"
@@ -16,11 +16,11 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"WaveCompleteContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -31,7 +31,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-		
+
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -45,14 +45,14 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ShadowBlack"		
-			
+			"fgcolor"		"ShadowBlack"
+
 			// Red Background
 			"PaintBackgroundType" "0"
-			"fgcolor_override"	"ShadowBlack"		
+			"fgcolor_override"	"ShadowBlack"
 			"bgcolor_override"	"ahudRed"
 		}
-		
+
 		"WaveCompleteLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -66,10 +66,10 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"		
+			"fgcolor"		"ahudWhite"
 		}
 	}
-		
+
 	"CreditContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -80,7 +80,7 @@
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -94,7 +94,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"CreditCollectedCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -108,7 +108,7 @@
 			"tall"			"20"
 			"fgcolor"		"CreditsGreen"
 		}
-		
+
 		"CreditMissedTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -122,7 +122,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"CreditMissedCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -136,7 +136,7 @@
 			"tall"			"20"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"CreditBonusTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -150,7 +150,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"CreditBonusCountLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -165,7 +165,7 @@
 			"fgcolor"		"CreditsGreen"
 		}
 	}
-	
+
 	"RatingContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -176,7 +176,7 @@
 		"tall"			"400"
 		"autoResize"	"1"
 		"visible"		"1"
-		
+
 		"RatingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -190,7 +190,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"RatingTextShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -204,7 +204,7 @@
 			"tall"			"30"
 			"fgcolor"		"ShadowBlack"
 		}
-		
+
 		"RatingText"
 		{
 			"ControlName"	"CExLabel"
@@ -236,9 +236,9 @@
 
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 
 	"RespecContainer"
@@ -251,7 +251,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
-	
+
 		"RespecTextLabelWin"
 		{
 			"ControlName"	"CExLabel"
@@ -265,7 +265,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"RespecCountLabel"
 		{
 			"ControlName"	"CExLabel"

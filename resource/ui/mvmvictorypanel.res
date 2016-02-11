@@ -9,11 +9,11 @@
 		"wide"			"536"
 		"tall"			"230"
 		"visible"		"1"
-		
+
 		//"PaintBackgroundType"	"0"
 		//"paintbackground"	"0"
 		//"border"		"MainMenuHighlightBorder"
-		
+
 		"StatsBackground"
 		{
 			"ControlName"		"ImagePanel"
@@ -30,11 +30,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-		
+
 		"HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -58,7 +58,7 @@
 				"tall"			"40"
 				"fgcolor"		"ShadowBlack"
 			}
-			
+
 			"HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -73,7 +73,7 @@
 				"fgcolor"		"Orange"
 			}
 		}
-	
+
 		"CreditLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -87,7 +87,7 @@
 			"tall"			"40"
 			"fgcolor"		"ahudWhite"
 		}
-			
+
 		"CreditContainer"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -110,7 +110,7 @@
 			"tall"			"400"
 			"autoResize"	"1"
 			"visible"		"1"
-			
+
 			"RatingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -124,7 +124,7 @@
 				"tall"			"40"
 				"fgcolor"		"ahudWhite"
 			}
-			
+
 			"RatingTextShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -138,7 +138,7 @@
 				"tall"			"50"
 				"fgcolor"		"ShadowBlack"
 			}
-			
+
 			"RatingText"
 			{
 				"ControlName"	"CExLabel"
@@ -153,7 +153,7 @@
 				"fgcolor"		"ahudWhite"
 			}
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -188,12 +188,12 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
 
 		"pin_to_sibling"               "StatsContainer"
-		"pin_corner_to_sibling"        "1"          
-		"pin_to_sibling_corner"        "3" 
+		"pin_corner_to_sibling"        "1"
+		"pin_to_sibling_corner"        "3"
 	}
 }

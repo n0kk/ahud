@@ -10,7 +10,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"ImagePanel"
@@ -26,7 +26,7 @@
 			"enabled"		"1"
 			"fillcolor"		"ahudBlue"
 		}
-		
+
 		"background2"
 		{
 			"ControlName"	"ImagePanel"
@@ -42,7 +42,7 @@
 			"enabled"		"1"
 			"fillcolor"		"ahudDarkBlue"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -60,7 +60,7 @@
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"east"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -79,10 +79,10 @@
 			"textAlignment"	"east"
 			"fgcolor"		"ShadowBlack"
 		}
-		
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"10"
 			"ypos"			"3"
@@ -106,7 +106,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"ImagePanel"
@@ -122,7 +122,7 @@
 			"enabled"		"1"
 			"fillcolor"		"ahudRed"
 		}
-		
+
 		"background2"
 		{
 			"ControlName"	"ImagePanel"
@@ -138,7 +138,7 @@
 			"enabled"		"1"
 			"fillcolor"		"ahudDarkRed"
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -156,7 +156,7 @@
 			"labelText"		"%red_alive%"
 			"textAlignment"	"west"
 			"fgcolor"		"TanLight"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -175,10 +175,10 @@
 			"textAlignment"	"west"
 			"fgcolor"		"ShadowBlack"
 		}
-	
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"32"
 			"ypos"			"3"
@@ -189,6 +189,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}
 	}
 }

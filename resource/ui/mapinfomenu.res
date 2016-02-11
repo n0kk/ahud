@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"fillcolor"		"Hudblack"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"font"			"Code18"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -67,8 +67,8 @@
 		"textAlignment"	"center"
 		"font"			"NormalCode10"
 		"fgcolor"		"ahudWhite"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -87,7 +87,7 @@
 		"textAlignment"	"northwest"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue"
@@ -124,7 +124,7 @@
 		"default"		"1"
 		"font"			"Blank"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"ahudWhite"
 		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
@@ -153,14 +153,14 @@
 		"default"		"1"
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "ahudWhite"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
@@ -182,14 +182,14 @@
 		"default"		"1"
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"ahudWhite"
 		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -210,14 +210,14 @@
 		"command"		"back"
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"ahudWhite"
 		"defaultFgColor_override" "ahudWhite"
 		"armedFgColor_override" "0 200 255 255"
 		"depressedFgColor_override" "0 200 255 255"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MapInfoBack2"
 	{
 		"ControlName"	"CExButton"
@@ -238,21 +238,21 @@
 		"command"		"back"
 		"font"			"NormalCode12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
 		"armedFgColor_override" "ahudWhite"
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -260,7 +260,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -274,7 +274,7 @@
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
-	}					
+	}
 
 	"ShadedBar"
 	{
@@ -289,9 +289,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 }

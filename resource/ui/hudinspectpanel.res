@@ -1,5 +1,5 @@
 "Resource/UI/HudInspectPanel.res"
-{	
+{
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -12,22 +12,22 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -50,9 +50,9 @@
 			"enabled"		"1"
 			"fillcolor"		"Hudblack"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -70,5 +70,5 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 }

@@ -20,7 +20,7 @@
 	}
 
 	"WarningLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
 		"font"			"ScoreboardTeamScore"
@@ -40,7 +40,7 @@
 		"textAlignment"		"north"
 	}
 	"BalanceLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
 		"font"			"NormalCode14"
@@ -61,7 +61,7 @@
 	}
 
 	"BalanceLabelTip"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
 		"font"			"NormalCode10"

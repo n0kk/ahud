@@ -17,7 +17,7 @@
 		"scaleImage"		"1"
 	}
 	"StalemateLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
 		"font"			"HudFontMedium"
@@ -35,7 +35,7 @@
 		"textAlignment"		"northwest"
 	}
 	"ReasonLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ReasonLabel"
 		"font"			"HudFontSmall"

@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"27 27 27 245"
-		
+
 		"BGImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -26,11 +26,11 @@
 			"image"			"item_carousel_bg"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}	
+		}
 	}
-	
+
 	"ItemName"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
@@ -59,8 +59,8 @@
 			"allow_rot"				"0"
 			"inventory_image_type"	"1"
 		}
-	}	
-	
+	}
+
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
@@ -95,7 +95,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -155,17 +155,17 @@
 		"Command"		"close"
 		"proportionaltoparent" "1"
 		"actionsignallevel" "2"
-			
+
 		"paintbackground"	"0"
 
 		"pin_to_sibling"		"MainContainer"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "200 80 60 255"
 		"depressedFgColor_override" "46 43 42 255"
-			
+
 		"image_drawcolor"	"150 60 45 255"
 		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
@@ -182,8 +182,8 @@
 			"image"			"close_button"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}				
-	}	
+		}
+	}
 
 	"TeamNavPanel"
 	{
@@ -199,14 +199,14 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"proportionaltoparent"	"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"0"
 		"align"				"west"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"19"
@@ -219,29 +219,29 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
-			
+
 			"fgcolor"			"TanDark"
 			"defaultFgColor_override" "TanDark"
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
+
 			"paintborder"		"0"
-			
+
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -254,9 +254,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -265,11 +265,11 @@
 				"image_default"		"store/store_redteam"
 				"image_armed"		"store/store_redteam"
 				"image_selected"	"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -277,11 +277,11 @@
 				"image_default"		"store/store_blueteam"
 				"image_armed"		"store/store_blueteam"
 				"image_selected"	"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
