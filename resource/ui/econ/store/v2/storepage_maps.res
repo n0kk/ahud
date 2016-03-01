@@ -57,8 +57,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#Store_Maps_Title"
+		"font"			"NormalCode14"
+		"labelText"		"Support Community Map Makers and Get a Hat!"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
 		"ypos"			"20"
@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"ahudDullWhite"
 	}
 	
 	"LearnMoreButton"
@@ -104,8 +104,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_LearnMore"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Learn More"
+		"font"			"NormalCode14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

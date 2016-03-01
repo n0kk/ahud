@@ -1428,17 +1428,28 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-	
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
 	//----------------------------------------
 	// FOR TESTING PURPOSES
 	//----------------------------------------
-	
+
 	"MidVerticalLine"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"c0"
-		"ypos"			"c-540"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"
@@ -1453,7 +1464,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c0"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1469,7 +1480,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c-10"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1485,7 +1496,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-960"
+		"xpos"			"0"
 		"ypos"			"c10"
 		"zpos"			"-5"
 		"wide"			"f0"
@@ -1496,13 +1507,13 @@
 		"enabled"		"0"
 		"fillcolor"		"255 0 0 255"
 	}
-	
+
 	"VerticalLine1"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c55"
-		"ypos"			"c-540"
+		"xpos"			"c100"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"
@@ -1517,8 +1528,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"c-55"
-		"ypos"			"c-540"
+		"xpos"			"c-100"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"1"
 		"tall"			"480"

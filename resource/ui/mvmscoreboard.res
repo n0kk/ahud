@@ -22,7 +22,7 @@
 		"ypos"			"112"
 		"zpos"			"-1"
 		"wide"			"560"
-		"tall"			"191"
+		"tall"			"187"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"

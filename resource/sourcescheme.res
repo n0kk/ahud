@@ -7,28 +7,30 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		// custom  colors -------------------
+		//---------------------------------------------
+		// HUD COLORS
+		//---------------------------------------------
 		
-		"HudBlack"			"0 0 0 200"
+		"HudBlack"				"0 0 0 200"
 		
-		"ahudBlue"			"72 112 125 255"
-		"ahudDarkBlue"		"46 73 82 255"
-		"ahudRed"			"158 64 61 255"
-		"ahudDarkRed"		"102 48 46 255"
+		"ahudBlue"				"72 112 125 255"
+		"ahudDarkBlue"			"46 73 82 255"
+		"ahudRed"				"158 64 61 255"
+		"ahudDarkRed"			"102 48 46 255"
 		
-		"ahudGreen"			"92 122 90 255"
-		"ahudDarkGreen"		"38 53 36 255"
-		"ahudYellow"		"169 123 53 255"
-		"ahudDarkYellow"	"97 70 27 255"
-
-		"ahudWhite"			"243 243 243 255"
-		"ahudDullWhite"		"132 132 132 255"
+		"ahudGreen"				"92 122 90 255"
+		"ahudDarkGreen"			"38 53 36 255"
+		"ahudYellow"			"169 123 53 255"
+		"ahudBrightYellow"		"218 165 32 255"
 		
-		"ahudGrey"			"51 47 46 255"
-		"ahudDarkGrey"		"27 27 27 255"
-		"ahudDarkerGrey"	"22 22 22 255"
+		"ahudWhite"				"242 242 242 255"
+		"ahudDullWhite"			"132 132 132 255"
 		
-		"ahudBlack"			"17 17 17 255"
+		"ahudGrey"				"51 47 46 255"
+		"ahudDarkGrey"			"27 27 27 255"
+		"ahudDarkerGrey"		"22 22 22 255"
+		
+		"ahudBlack"				"17 17 17 255"
 		
 		// ----------------------------------
 		
@@ -256,7 +258,7 @@ Scheme
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "480 599"            
                 "outline"     "0"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds ahudWhite to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "1"  //not default added //smoothing the edges.                
             }
             "2" //For screen heights between 600 and 767 (eg 4:3 aspect Width 800X600 High, ... 16:9 aspect Width 1152x648 High.)
@@ -272,7 +274,7 @@ Scheme
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "600 767"
                 "outline"     "0"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds ahudWhite to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "1"  //not default added //smoothing the edges.                
             }
             "3" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
@@ -280,15 +282,15 @@ Scheme
                 "name"         "Arial" [$WINDOWS] // Standard is "Lucida Console" Options are "Microsoft Sans Serif" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Verdana" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "16" [$POSIX]  // "11"                
-                "tall"         "16"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.
+                "tall"         "13" [$POSIX]  // "11"                
+                "tall"         "13"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Microsoft Sans Serif" font.
                 "tall_lodef" "15" //"15"
                 "tall_hidef" "20" //"20"                
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "768 1023"
                 "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds ahudWhite to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
             "4" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
@@ -304,7 +306,7 @@ Scheme
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1024 1199"
                 "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds ahudWhite to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
             "5" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
@@ -320,10 +322,10 @@ Scheme
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1200 6000"
                 "outline"     "1"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
-                "additive"     "0"  //not default added //This adds ahudWhite to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
+                "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
-		}	
+		}
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]

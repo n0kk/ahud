@@ -327,7 +327,7 @@
 		"ypos"			"170"
 		"zpos"			"100"
 		"wide"			"200"
-		"tall"			"40"
+		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -338,7 +338,7 @@
 		"paintborder"	"1"
 		"textinsetx"	"100"
 		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
+		"fgcolor"		"ahudWhite"
 	}
 
 	"PrevPageButton"
@@ -444,7 +444,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -463,7 +463,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"SortFilterLabel"
@@ -482,7 +482,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"ClassFilterLabel"
@@ -501,7 +501,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"ahudWhite"
 	}
 	
 	"ClassFilterNavPanel"

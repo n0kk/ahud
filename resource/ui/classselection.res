@@ -46,43 +46,7 @@
 		"enabled"		"1"
 		"fgcolor_override"	"ahudWhite"
 	}
-	"random"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"random"
-		"xpos"				"c85"
-		"ypos"				"c77"
-		"zpos"				"6"
-		"wide"				"100"
-		"tall"				"14"
-		"autoResize"		"0"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"&R   Random"
-		"textAlignment"		"west"
-		"Command"			"select 12"
-		"Default"			"1"
-		"font"				"NormalCode12"
-		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"ahudWhite"
-		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"ahudWhite"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
-		
-		"stayselectedonclick"	"1"
-		"selectonhover"			"1"
-		"keyboardinputenabled"	"0"				
-	}
-		
+	
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -106,7 +70,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"scout"
-		"xpos"				"c86"
+		"xpos"				"c101"
 		"ypos"				"c-63"
 		"zpos"				"6"
 		"wide"				"100"
@@ -142,7 +106,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"soldier"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c-49"
 		"zpos"				"6"
 		"wide"				"100"
@@ -178,7 +142,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"pyro"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c-35"
 		"zpos"				"6"
 		"wide"				"100"
@@ -234,7 +198,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"demoman"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c-21"
 		"zpos"				"6"
 		"wide"				"100"
@@ -270,7 +234,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c-7"
 		"zpos"				"6"
 		"wide"				"100"
@@ -306,7 +270,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"engineer"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c7"
 		"zpos"				"6"
 		"wide"				"100"
@@ -361,7 +325,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"medic"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c21"
 		"zpos"				"6"
 		"wide"				"100"
@@ -397,7 +361,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"sniper"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c35"
 		"zpos"				"6"
 		"wide"				"100"
@@ -433,7 +397,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"spy"
-		"xpos"				"c85"
+		"xpos"				"c100"
 		"ypos"				"c49"
 		"zpos"				"6"
 		"wide"				"100"
@@ -465,27 +429,27 @@
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"		
-	}	
-
-	"CancelButton" [$WIN32] 
+	}
+	
+	"random"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"c84"
-		"ypos"			"c106"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"&C   Cancel"
-		"textAlignment"	"west"
-		"Command"		"vguicancel"
-		"font"			"NormalCode12"
-		"paintbackground"	"0"
+		"ControlName"		"CExButton"
+		"fieldName"			"random"
+		"xpos"				"c100"
+		"ypos"				"c77"
+		"zpos"				"6"
+		"wide"				"100"
+		"tall"				"14"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"&R   Random"
+		"textAlignment"		"west"
+		"Command"			"select 12"
+		"Default"			"1"
+		"font"				"NormalCode12"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -496,13 +460,19 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"				
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"c85"
+		"xpos"			"c100"
 		"ypos"			"c92"
 		"zpos"			"6"
 		"wide"			"100"
@@ -528,7 +498,38 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-
+	
+	"CancelButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"c100"
+		"ypos"			"c106"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&C  Cancel"
+		"textAlignment"	"west"
+		"Command"		"vguicancel"
+		"font"			"NormalCode12"
+		"paintbackground"	"0"
+		
+		"FgColor"					"255 255 255 128"
+		"defaultFgColor_override" 	"255 255 255 128"
+		"armedFgColor_override"		"ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
+		"selectedFgColor_override" 	"ahudWhite"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+	}
+	
 	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
@@ -861,7 +862,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c-63"
 		"zpos"			"5"
 		"wide"			"100"
@@ -881,7 +882,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c-49"
 		"zpos"			"5"
 		"wide"			"100"
@@ -901,7 +902,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c-35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -921,7 +922,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c-21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -941,7 +942,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c-7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -961,7 +962,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c7"
 		"zpos"			"5"
 		"wide"			"100"
@@ -981,7 +982,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c21"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1001,7 +1002,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c35"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1021,7 +1022,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c175"
+		"xpos"			"c190"
 		"ypos"			"c49"
 		"zpos"			"5"
 		"wide"			"100"
@@ -1041,7 +1042,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c-63"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1056,7 +1057,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c-49"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1071,7 +1072,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImagePyro" 
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c-35"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1086,7 +1087,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageDemoman" 
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c-21"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1101,7 +1102,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageHeavy" 
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c-7"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1116,7 +1117,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c7"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1131,7 +1132,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c21"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1146,7 +1147,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c35"
 		"zpos"			"10"
 		"wide"			"14"
@@ -1161,7 +1162,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"c67"
+		"xpos"			"c83"
 		"ypos"			"c49"
 		"zpos"			"10"
 		"wide"			"14"
