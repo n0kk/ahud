@@ -487,7 +487,7 @@
 		"autoresize"	"3"
 		"linespacing"	"13"
 		"linegap"		"0"
-		"textcolor"		"red"
+		"fgcolor"		"red"
 		//"show_columns"	"1"
 		
  		if_mvm

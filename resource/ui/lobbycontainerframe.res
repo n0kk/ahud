@@ -385,7 +385,7 @@
 		if_competitive
 		{
 			"xpos"			"c+120"
-			"ypos"			"375"
+			"ypos"			"388"
 		}
 
 		"NavUp"			"Sheet"
