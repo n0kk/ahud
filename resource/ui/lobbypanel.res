@@ -1928,6 +1928,10 @@
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "ahudWhite"
+				"armedFgColor_override" "ahudWhite"
+				"depressedFgColor_override" "ahudWhite"
 			}
 
 			"MatchStatsButton"
@@ -1954,6 +1958,10 @@
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultFgColor_override" "ahudWhite"
+				"armedFgColor_override" "ahudWhite"
+				"depressedFgColor_override" "ahudWhite"
 			}
 
 			"StatLine"

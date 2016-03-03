@@ -1238,7 +1238,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0229"
+		"labelText"		"v2016.0303"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -1398,7 +1398,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"10"			"use_proportional_insets" "1"
+			"textinsetx"	"10"			
+			"use_proportional_insets" "1"
 			"font"			"NormalCode12"
 			"textAlignment"	"west"
 			"dulltext"		"0"
@@ -1431,6 +1432,35 @@
 				"enabled"		"0"
 				"scaleImage"	"0"
 			}
+		}
+	}
+
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"CExLabel"
+		"fieldname"		"CompetitiveBetaImage"
+		"font"			"DefaultVerySmall"
+		"labelText"		"BETA"
+		"textAlignment"	"west"
+		"xpos"			"112"
+		"ypos"			"148"
+		"zpos"			"12"
+		"wide"			"55"
+		"tall"			"8"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor_override" "255 255 0 255"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			"labelText"		"STRESS TEST"
+			"fgcolor_override" "255 0 0 255"
 		}
 	}
 

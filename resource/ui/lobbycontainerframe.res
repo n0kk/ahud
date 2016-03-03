@@ -139,6 +139,7 @@
 			"paintbackground"	"1"
 			"activeborder_override"	"HoAssBorder"
 			"normalborder_override" "HoAssBorder"
+			"mouseinputenabled"	"0"
 			
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"ahudDarkGrey"
