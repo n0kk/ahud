@@ -248,7 +248,7 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabelNew"
@@ -348,12 +348,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"74"
-		"ypos_minmode"	"138"
+		"ypos"			"75"
+		"ypos_minmode"	"139"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -366,7 +366,7 @@
 		if_mvm
 		{
 			"xpos_minmode"	"c-280"
-			"ypos"			"91"
+			"ypos"			"94"
 			"visible"		"1"
 		}
 	}
@@ -400,8 +400,8 @@
 		"labelText"		"%servertime%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"64"
-		"ypos_minmode"	"128"
+		"ypos"			"67"
+		"ypos_minmode"	"131"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -421,12 +421,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"64"
-		"ypos_minmode"	"128"
+		"ypos"			"67"
+		"ypos_minmode"	"131"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -438,9 +438,7 @@
 		
 		if_mvm
 		{
-			"xpos_minmode"	"c-280"
-			"ypos"			"101"
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"BluePlayerList"
@@ -521,11 +519,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"388"
+		"ypos"			"387"
 		"ypos_minmode"	"324"
 		"zpos"			"4"
 		"wide"			"560"
@@ -546,12 +544,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"372"
-		"ypos_minmode"	"334"
+		"ypos"			"395"
+		"ypos_minmode"	"332"
 		"zpos"			"4"
 		"wide"			"560"
 		"tall"			"20"

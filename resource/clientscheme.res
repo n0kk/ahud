@@ -2892,7 +2892,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"10"
+				"tall"		"8"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -4229,6 +4229,82 @@ Scheme
 			}
 		}
 		
+		ahudDarkBlueTeamBorder
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "ahudDarkBlue"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ahudDarkRedTeamBorder
+		{
+			"inset" "0 0 0 0"
+			Bottom
+			{
+				"1"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+				"6"
+				{
+					"color" "ahudDarkRed"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4631,7 +4707,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"../hud/color_panel_red"
+			"image"					"replay/thumbnails/bg_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -4642,7 +4718,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"../hud/color_panel_blu"
+			"image"					"replay/thumbnails/bg_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

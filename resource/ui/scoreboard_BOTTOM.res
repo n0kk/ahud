@@ -348,12 +348,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"215"
-		"ypos_minmode"	"290"
+		"ypos"			"216"
+		"ypos_minmode"	"291"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -366,7 +366,7 @@
 		if_mvm
 		{
 			"xpos_minmode"	"c-280"
-			"ypos"			"91"
+			"ypos"			"94"
 			"visible"		"1"
 		}
 	}
@@ -400,8 +400,8 @@
 		"labelText"		"%servertime%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"205"
-		"ypos_minmode"	"280"
+		"ypos"			"208"
+		"ypos_minmode"	"283"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -421,12 +421,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"c-280"
-		"ypos"			"205"
-		"ypos_minmode"	"280"
+		"ypos"			"208"
+		"ypos_minmode"	"283"
 		"zpos"			"999"
 		"wide"			"235"
 		"tall"			"20"
@@ -438,9 +438,7 @@
 		
 		if_mvm
 		{
-			"xpos_minmode"	"c-280"
-			"ypos"			"101"
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"BluePlayerList"
@@ -521,12 +519,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%spectators%"
 		"textAlignment"		"east"
 		"xpos"			"c45"
-		"ypos"			"215"
-		"ypos_minmode"	"290"
+		"ypos"			"216"
+		"ypos_minmode"	"291"
 		"zpos"			"4"
 		"wide"			"235"
 		"tall"			"20"
@@ -546,12 +544,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"NormalCode10"
+		"font"			"NormalCode8"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"east"
 		"xpos_minmode"	"r269"
-		"ypos"			"205"
-		"ypos_minmode"	"280"
+		"ypos"			"208"
+		"ypos_minmode"	"282"
 		"zpos"			"4"
 		"wide"			"235"
 		"tall"			"20"

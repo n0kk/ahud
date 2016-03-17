@@ -35,8 +35,9 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
+		"xpos"			"115"
 		"ypos"			"1"
+		"zpos"			"-1"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"
@@ -68,8 +69,8 @@
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#Building_hud_dispenser_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
@@ -91,7 +92,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
+			"xpos"			"109"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -107,7 +108,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"46"
+			"xpos"			"109"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -123,7 +124,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"46"
+			"xpos"			"109"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -139,12 +140,12 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"113"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"	
+			"visible"		"0"
+			"enabled"		"0"	
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -152,15 +153,15 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
+			"xpos"			"7"
 			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
+			"wide"			"20"
+			"tall"			"20"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"icon"			"obj_status_icon_wrench"
+			"icon"			"ico_build"
 			"iconColor"		"255 255 255 255"
 		}
 		
@@ -168,7 +169,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
+			"xpos"			"4"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"25"
@@ -177,7 +178,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"255 0 0 255"
 		}
 
 		"Health"
@@ -185,7 +186,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
+			"xpos"			"97"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"
@@ -202,7 +203,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"25"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -213,7 +214,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"NormalCode10"
-				"xpos"			"0"
+				"xpos"			"12"
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
@@ -232,7 +233,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"12"
 				"ypos"			"16"
 				"wide"			"50"
 				"tall"			"8"				
@@ -250,7 +251,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"25"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -260,7 +261,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"AmmoIcon"
-				"xpos"			"0"
+				"xpos"			"52"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"10"
@@ -294,7 +295,7 @@
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
-				"xpos"			"0"
+				"xpos"			"52"
 				"ypos"			"16"
 				"zpos"			"1"
 				"wide"			"10"

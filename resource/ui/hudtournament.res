@@ -746,7 +746,6 @@
 
 		if_readymode
 		{
-			"xpos"			"325"
 			"visible"		"0"
 		}
 	}
@@ -846,11 +845,7 @@
 		
 		if_mvm
 		{
-			"xpos"			"155"
 			"ypos"			"105"
-			"wide"			"190"
-			"tall"			"12"
-			"zpos"			"3"
 		}
 	}
 
@@ -1062,33 +1057,19 @@
 
 		"BlueTeamBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueTeamBG"
 			"xpos"			"6"
-			"ypos"			"17"
-			"zpos"			"2"
-			"wide"			"136"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"ahudBlue"
-		}
-		"BlueTeamBG2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"BlueTeamBG2"
-			"xpos"			"6"
 			"ypos"			"19"
-			"zpos"			"1"
+			"zpos"			"2"
 			"wide"			"136"
 			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudDarkBlue"
+			"border"		"ahudDarkBlueTeamBorder"
+			"bgcolor_override"	"ahudBlue"
 		}
 		"BlueTeamImage"
 		{
@@ -1199,23 +1180,8 @@
 
 		"RedTeamBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"RedTeamBG"
-			"xpos"			"6"
-			"ypos"			"17"
-			"zpos"			"2"
-			"wide"			"136"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"ahudRed"
-		}
-		"RedTeamBG2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"RedTeamBG2"
 			"xpos"			"6"
 			"ypos"			"19"
 			"zpos"			"2"
@@ -1225,7 +1191,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudDarkRed"
+			"border"		"ahudDarkRedTeamBorder"
+			"bgcolor_override"	"ahudRed"
 		}
 		"RedTeamImage"
 		{
