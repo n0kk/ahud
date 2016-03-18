@@ -56,7 +56,7 @@
 		"ypos"			"11"
 		"zpos"			"5"
 		"wide"			"80"
-		"tall"			"13"
+		"tall"			"14"
 		"proportionaltoparent"	"1"
 		"fillcolor"				"HudBlack"
 		"scaleimage"			"1"

@@ -29,8 +29,8 @@
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_lifetime"		"2"
+			"delta_item_font"		"NormalCode14"
 		}
 		
 		"TimePanelValue"
@@ -53,11 +53,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
-				"ypos"			"11"
-				"tall"			"10"
+				"xpos"			"13"
+				"ypos"			"9"
+				"tall"			"15"
 				"wide"			"35"
-				"font"			"NormalCode14"
 			}
 		}
 	}
@@ -83,8 +82,8 @@
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_lifetime"		"2"
+			"delta_item_font"		"NormalCode14"
 		}
 		
 		"TimePanelValue"
@@ -107,12 +106,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"ypos"			"11"
+				"xpos"			"rs1-13"
+				"ypos"			"9"
 				"wide"			"35"
-				"tall"			"10"
-				"font"			"NormalCode14"
-			
+				"tall"			"15"
 			}
 		}
 	}

@@ -66,26 +66,26 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
+		"xpos"				"c-50"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"31"
+		"delta_item_start_y"	"14"
+		"delta_item_end_y"		"34"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_lifetime"		"2"
+		"delta_item_font"		"NormalCode14"
 
 		if_comp
 		{
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"delta_item_x"			"31"
+			"delta_item_start_y"	"23"
+			"delta_item_end_y"		"43"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
@@ -97,7 +97,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"NormalCode14"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"ahudWhite"
 			"xpos"			"27"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -110,14 +110,7 @@
 
 			if_comp
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"cs-0.5"
-				"ypos"			"11"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
+				"ypos"			"9"
 			}
 		}	
 	}

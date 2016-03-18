@@ -326,6 +326,66 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
+		"Code35"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"35"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode17"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"17"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode19"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"NormalCode20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -733,71 +793,6 @@ Scheme
 				}
 			}
 		}		
-	}
-	
-	Fonts
-	{
-
-		"Code35"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-Bold"
-				"tall"		"35"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode16"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"16"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode17"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"17"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode18"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"18"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode19"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"19"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"NormalCode20"
-		{
-			"1"
-			{
-				"name"		"Code-Pro-LC"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 	}
 	
 	CustomFontFiles

@@ -345,7 +345,7 @@
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
@@ -774,7 +774,7 @@
 		}
 		if_competitive
 		{
-			"ypos"			"22"
+			"ypos"			"25"
 		}
 	}
 
@@ -853,7 +853,7 @@
 		}
 		if_competitive
 		{
-			"ypos"			"33"
+			"ypos"			"36"
 		}
 	}
 
