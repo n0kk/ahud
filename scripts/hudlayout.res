@@ -471,7 +471,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"
+		"ypos"	 "18"
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -1440,9 +1440,21 @@
 		"tall"	"f0"
 	}
 
-	HudCompetitive
+	HudMatchStatus
 	{
-		"fieldName"				"HudCompetitive"
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"

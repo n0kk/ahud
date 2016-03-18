@@ -772,6 +772,10 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"ypos"			"22"
+		}
 	}
 
 	"TournamentConditionLabelBG"
@@ -846,6 +850,10 @@
 		if_mvm
 		{
 			"ypos"			"105"
+		}
+		if_competitive
+		{
+			"ypos"			"33"
 		}
 	}
 
