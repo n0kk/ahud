@@ -8,12 +8,14 @@ event HudHealthBonusPulse
 	//Animate PlayerStatusHealthValue 		FgColor 	"HP Buff" 	Linear 0.0 0.0
 	//Animate PlayerStatusHealthValueSpec 	FgColor 	"HP Buff" 	Linear 0.0 0.0
 	//Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Buff" 	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueFreezePanel 	FgColor 	"HP Buff" 	Linear 0.0 0.0
 	
 	//box
 	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec 	FgColor 	"HP" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP" 	Linear 0.0 0.0
-
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor 	"HP" 	Linear 0.0 0.0
+	
 	Animate	HealthBG			BgColor		"HP Buff"		Accel 0.0 0.0
     Animate	HealthBG			Alpha		"200"			Accel 0.0 0.2
 	Animate	HealthBG			Alpha		"0"				Accel 0.2 0.4
@@ -23,6 +25,9 @@ event HudHealthBonusPulse
 	Animate	SpecHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
     Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
 	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	FreezeHealthBG		BgColor		"HP Buff"		Accel 0.0 0.0
+    Animate	FreezeHealthBG		Alpha		"200"			Accel 0.0 0.2
+	Animate	FreezeHealthBG		Alpha		"0"				Accel 0.2 0.4
 	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -40,6 +45,7 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValue FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpec FgColor "HP" Accel 0.0 0.0
 	Animate PlayerStatusHealthValueSpecgui FgColor "HP" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "HP" Accel 0.0 0.0
 	
 	//box
 	Animate	HealthBG			BgColor		"Blank"	       Accel 0.0 0.0
@@ -48,6 +54,8 @@ event HudHealthBonusPulseStop
     Animate	TargetHealthBG			Alpha		"255"		   Accel 0.0 0.0
 	Animate	SpecHealthBG			BgColor		"Blank"	       Accel 0.0 0.0
     Animate	SpecHealthBG			Alpha		"255"		   Accel 0.0 0.0
+	Animate	FreezeHealthBG		BgColor		"Blank"	       Accel 0.0 0.0
+    Animate	FreezeHealthBG		Alpha		"255"		   Accel 0.0 0.0
 }
 
 //===========================================
@@ -62,6 +70,7 @@ event HudHealthDyingPulse
 	//Animate PlayerStatusHealthValue 		FgColor 	"HP Low" 	Linear 0.0 0.0
 	//Animate PlayerStatusHealthValueSpec		FgColor		"HP Low"	Linear 0.0 0.0
 	//Animate PlayerStatusHealthValueSpecgui 	FgColor 	"HP Low" 	Linear 0.0 0.0
+	//Animate PlayerStatusHealthValueFreezePanel	FgColor 	"HP Low" 	Linear 0.0 0.0
 	
 	//box
 	Animate PlayerStatusHealthValue 		FgColor 	"HP" 	Linear 0.0 0.0
@@ -78,6 +87,7 @@ event HudHealthDyingPulse
 	Animate	SpecHealthBG		BgColor		"HP Low"		Accel 0.0 0.0
     Animate	SpecHealthBG		Alpha		"200"			Accel 0.0 0.2
 	Animate	SpecHealthBG		Alpha		"0"				Accel 0.2 0.4
+	Animate	FreezeHealthBG		BgColor		"HP Low"		Accel 0.0 0.0
     Animate	FreezeHealthBG		Alpha		"200"			Accel 0.0 0.2
 	Animate	FreezeHealthBG		Alpha		"0"				Accel 0.2 0.4	
 	

@@ -68,6 +68,7 @@
 		if_comp
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -111,6 +112,7 @@
 		if_comp
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"OvertimeBG"
@@ -154,6 +156,7 @@
 		if_comp
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}			
 	"SuddenDeathBG"
@@ -198,6 +201,7 @@
 		if_comp
 		{
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}	
 	"SetupBG"
@@ -243,6 +247,7 @@
 		{
 			"xpos"					"c-44"
 			"ypos"					"21"
+			"ypos_minmode"			"21"
 		}
 	}
 	"ServerTimeLimitLabelBG"

@@ -23,7 +23,10 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
-			"xpos"		"cs-0.5"
+			"xpos"					"cs-0.5"
+			"xpos_minmode"			"cs-0.5"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -54,9 +57,12 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"13"
+				"xpos_minmode"	"13"
 				"ypos"			"9"
+				"ypos_minmode"	"9"
 				"tall"			"15"
 				"wide"			"35"
+				"wide_minmode"	"35"
 			}
 		}
 	}
@@ -76,6 +82,10 @@
 		if_comp
 		{
 			"proportionaltoparent"	"1"
+			"xpos"					"cs-0.5"
+			"xpos_minmode"			"cs-0.5"
+			"ypos"					"0"
+			"ypos_minmode"			"0"
 			"xpos"		"cs-0.5"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
@@ -107,9 +117,12 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"rs1-13"
+				"xpos_minmode"	"rs1-13"
 				"ypos"			"9"
+				"ypos_minmode"	"9"
 				"wide"			"35"
 				"tall"			"15"
+				"wide_minmode"	"35"
 			}
 		}
 	}

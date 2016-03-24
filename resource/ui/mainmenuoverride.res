@@ -806,13 +806,101 @@
 			"armedFgColor_override"   	"0 191 255 255"
 		}
 	}
+
+
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"r36"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"24"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"24"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"labelText"		"q"
+			"use_proportional_insets" "1"
+			"font"			"Symbols"
+			"command"		"watch_stream"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" 	"ahudWhite"
+			"armedFgColor_override"   	"0 191 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"0"
+				"image"			"button_streaming"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+	}
 	
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r36"
-		"ypos"			"60"
+		"ypos"			"80"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"24"
@@ -1238,7 +1326,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0321"
+		"labelText"		"v2016.0324"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -2718,7 +2806,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"HUDReload"
 		"xpos"			"r36"
-		"ypos"			"80"
+		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"24"
 		"tall"			"24"
@@ -2751,7 +2839,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HomeServer"
 		"xpos"					"r36"
-		"ypos"					"105"
+		"ypos"					"125"
 		"zpos"					"11"
 		"wide"					"24"
 		"tall"					"24"

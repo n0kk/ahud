@@ -111,7 +111,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -147,7 +147,35 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"BlueLeaderAvatar"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"5"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"ahudDarkBlue"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"39"
+			"tall"			"39"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"ahudDarkBlue"
+		}
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -165,7 +193,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -201,8 +229,35 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
-
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"		"CAvatarImagePanel"
+			"fieldName"		"RedLeaderAvatar"
+			"xpos"			"164"
+			"ypos"			"2"
+			"zpos"			"5"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"ahudDarkRed"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"162"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"39"
+			"tall"			"39"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"ahudDarkRed"
+		}
 	}
 	"WinPanelBG"
 	{
@@ -239,7 +294,7 @@
 		"font"			"NormalCode10"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"10"
-		"ypos"			"45"
+		"ypos"			"43"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"14"
@@ -279,7 +334,7 @@
 		"font"			"NormalCode10"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"10"
-		"ypos"			"45"
+		"ypos"			"43"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"14"
@@ -338,7 +393,7 @@
 		"font"			"NormalCode9"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"10"
-		"ypos"			"55"
+		"ypos"			"53"
 		"zpos"			"1"
 		"wide"			"185"
 		"tall"			"12"

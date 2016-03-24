@@ -151,7 +151,21 @@
 			"visible"	"0"
 		}
 	}
-	
+	"BlueLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"BlueLeaderAvatar"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 	"BlueTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
@@ -175,7 +189,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
 	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -247,7 +261,22 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
+	"RedLeaderAvatar"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"		"RedLeaderAvatar"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"	
+		"color_outline"	"52 48 45 255"
+	}
 	"RedTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
@@ -271,7 +300,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -319,7 +348,7 @@
 		{
 			"visible"		"0"
 		}
-	}	
+	}
 	"RedTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"

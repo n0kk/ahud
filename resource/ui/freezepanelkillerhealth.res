@@ -87,4 +87,21 @@
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}
+	"FreezeHealthBG"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"FreezeHealthBG"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"44"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+        "textinsety" 	"99"
+	}	
 }
