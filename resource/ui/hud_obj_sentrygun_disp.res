@@ -35,16 +35,15 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_1"
-		"xpos"			"121"
+		"xpos"			"30"
 		"ypos"			"1"
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"228 228 242 255"
-		"alpha"			"125"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"NotBuiltPanel"
@@ -91,7 +90,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"109"
+			"xpos"			"46"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -107,7 +106,7 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"0"
+			"xpos"			"114"
 			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
@@ -122,7 +121,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"7"
+			"xpos"			"121"
 			"ypos"			"18"
 			"zpos"			"1"
 			"wide"			"17"
@@ -130,7 +129,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"scaleImage"	"1"	
-			"icon"			"ico_build"
+			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
 		
@@ -138,7 +137,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"4"
+			"xpos"			"117"
 			"ypos"			"12"
 			"zpos"			"1"
 			"wide"			"15"
@@ -147,7 +146,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 0 0 255"
+			"iconColor"		"255 255 255 255"
 		}
 		
 		"Health"
@@ -155,7 +154,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"97"
+			"xpos"			"13"
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"
@@ -172,7 +171,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"25"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"30"
@@ -183,7 +182,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
-				"xpos"			"12"
+				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
@@ -202,7 +201,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
@@ -220,7 +219,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"25"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"20"
@@ -230,7 +229,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
-				"xpos"			"52"
+				"xpos"			"0"
 				"ypos"			"5"
 				"zpos"			"1"
 				"wide"			"10"
@@ -265,7 +264,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
-				"xpos"			"52"
+				"xpos"			"0"
 				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"10"
