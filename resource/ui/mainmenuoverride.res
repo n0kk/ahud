@@ -369,9 +369,10 @@
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"1"
+		"border"		""
+		"bgcolor_override"	"ahudDarkGrey"
 		
 		"MOTD_HeaderContainer"
 		{
@@ -418,8 +419,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"NormalCode12"
+			"labeltext"		"X"
+			"font"			"Code14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -432,9 +433,9 @@
 			
 			//"defaultFgColor_override" "235 226 202 255"
 			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "255 0 0 255"
+			"depressedFgColor_override" "ahudWhite"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -447,8 +448,8 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -484,7 +485,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"ahudBlack"
+			"fgcolor_override"	"ahudWhite"
 			"wrap"			"1"
 		}
 		
@@ -496,14 +497,14 @@
 			"labelText"		"%motddate%"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
-			"ypos"			"40"
+			"ypos"			"38"
 			"wide"			"300"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"ahudBlack"
+			"fgcolor_override"	"ahudWhite"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -587,7 +588,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"ahudBlack"
+					"fgcolor_override"	"ahudWhite"
 					"wrap"			"1"
 				}
 			}
@@ -598,7 +599,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"75"
-			"ypos"			"rs1.2"
+			"ypos"			"rs1.4"
 			"wide"			"150"
 			"tall"			"15"
 			"autoResize"	"0"
@@ -885,11 +886,12 @@
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"350"
+		"tall"			"330"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"1"
+		"border"		""
+		"bgcolor_override"	"ahudDarkGrey"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
@@ -1326,7 +1328,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0324"
+		"labelText"		"v2016.0325"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"

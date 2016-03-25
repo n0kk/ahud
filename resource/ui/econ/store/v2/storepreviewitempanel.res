@@ -31,9 +31,9 @@
 	{
 		"ControlName"	"ScrollBar"
 		"FieldName"		"ScrollBar"
-		"xpos"			"c222"
+		"xpos"			"c226"
 		"ypos"			"c-120"
-		"wide"			"11"
+		"wide"			"4"
 		"tall"			"200"
 		"zpos"			"1000"
 		"visible"		"1"
@@ -41,8 +41,8 @@
 		
 		"Slider"
 		{
-			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"PaintBackgroundType"	"0"
+			"fgcolor_override"	"ahudDullWhite"
 		}
 		
 		"UpButton"
@@ -181,7 +181,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"118 107 94 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"RestrictionsLabel"
@@ -232,7 +232,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"UsedByTextLabel"
@@ -265,7 +265,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"SlotTextLabel"
@@ -367,7 +367,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"TradableTextLabel"
@@ -400,7 +400,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"GiftableTextLabel"
@@ -433,7 +433,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"NameableTextLabel"
@@ -466,7 +466,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"ahudDullWhite"
 				}		
 				
 				"CraftableTextLabel"
@@ -1452,8 +1452,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"X"
+		"font"			"Code16"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1463,6 +1463,10 @@
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
 		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "ahudWhite"
+		"armedFgColor_override" "255 0 0 255"
+		"depressedFgColor_override" "ahudWhite"
 		
 		"image_drawcolor"	"118 107 94 255"
 		"image_armedcolor"	"246 247 213 255"
@@ -1476,8 +1480,8 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				

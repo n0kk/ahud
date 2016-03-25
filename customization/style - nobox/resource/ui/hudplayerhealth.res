@@ -40,7 +40,7 @@
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/health_bg"
+		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
