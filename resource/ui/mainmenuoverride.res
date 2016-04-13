@@ -175,10 +175,50 @@
 		"image"			""
 		"scaleImage"	"1"
 		
-		if_operation
+		if_halloween_0
 		{
-			"image"		"../console/title_team_tough_break"
+			"image"		"../console/title_team_halloween2011"
 		}
+		if_halloween_1
+		{
+			"image"		"../console/title_team_halloween2012"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/title_team_halloween2013"
+		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
+		if_fullmoon
+		{
+			"image"		"../console/title_fullmoon"
+		}
+		if_christmas
+		{
+			"image"		"../console/background_xmas2011"
+		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+		if_spy_vs_engy_war
+		{
+			"image"		"../console/background_sve_01"
+		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_tough_break"
+//		}
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 	
 	"MainMenuSideBG"
@@ -271,7 +311,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		""
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkerGrey"
 		
 		"TipSubLabel"
@@ -371,7 +411,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
-		"border"		""
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 		
 		"MOTD_HeaderContainer"
@@ -814,8 +854,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"r36"
-		"ypos"			"60"
-		"zpos"			"1"
+		"ypos"			"66"
+		"zpos"			"0"
 		"wide"			"24"
 		"tall"			"24"
 		"autoResize"	"0"
@@ -841,7 +881,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"0"
-			"labelText"		"q"
+			"labelText"		""
 			"use_proportional_insets" "1"
 			"font"			"Symbols"
 			"command"		"watch_stream"
@@ -860,20 +900,22 @@
 			
 			"defaultFgColor_override" 	"ahudWhite"
 			"armedFgColor_override"   	"0 191 255 255"
-
+			
+			"image_drawcolor"	"ahudWhite"
+			"image_armedcolor"	"100 65 165 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage"	"0"
-				"image"			"button_streaming"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/twitch"
 			}		
 		}
 	}
@@ -890,7 +932,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
-		"border"		""
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
@@ -1328,7 +1370,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0325"
+		"labelText"		"v2016.0412"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -2842,7 +2884,7 @@
 		"fieldName"				"HomeServer"
 		"xpos"					"r36"
 		"ypos"					"125"
-		"zpos"					"11"
+		"zpos"					"1"
 		"wide"					"24"
 		"tall"					"24"
 		"visible"				"1"

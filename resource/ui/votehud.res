@@ -10,7 +10,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 				
 		"PassedIcon"
@@ -77,7 +77,7 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 		
 		"Header"
@@ -409,7 +409,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 				
 		"FailedIcon"
@@ -476,7 +476,7 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 				
 		"FailedIcon"
@@ -546,7 +546,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"HoAssBorder"
+		"border"			"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 		"PaintBackground"	"1"
 
@@ -651,13 +651,13 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"117 107 94 255"
-			"bgcolor_override"	"251 235 202 255"
-			"disabledFgColor_override" "117 107 94 255"
-			"disabledBgColor_override" "251 235 202 255"
-			"selectionColor_override" "251 235 202 255"
-			"selectionTextColor_override" "117 107 94 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
+			"fgcolor_override"	"ahudWhite"
+			"bgcolor_override"	"ahudBlack"
+			"disabledFgColor_override" "ahudWhite"
+			"disabledBgColor_override" "ahudBlack"
+			"selectionColor_override" "ahudBlack"
+			"selectionTextColor_override" "ahudWhite"
+			"defaultSelectionBG2Color_override" "ahudWhite"
 		}
 			
 		"CallVoteButton"
@@ -667,7 +667,7 @@
 			"xpos"		"75"
 			"ypos"		"275"
 			"wide"		"160"
-			"tall"		"24"
+			"tall"		"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -688,7 +688,7 @@
 			"xpos"		"240"
 			"ypos"		"275"
 			"wide"		"80"
-			"tall"		"24"
+			"tall"		"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
