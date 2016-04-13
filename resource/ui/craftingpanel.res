@@ -430,8 +430,8 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"HoAssBorder"
-		"bgcolor_override" "ahudBlack"
+		"border"		"ahudPanelBorder"
+		"bgcolor_override" "ahudDarkerGrey"
 		
 		"TipLabel"
 		{

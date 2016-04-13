@@ -295,8 +295,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NormalCode18"
-		"fgcolor"		"255 255 255 255"
+		"font"			"NormalCode16"
+		"fgcolor"		"ahudWhite"
 		
 		if_mvm
 		{
@@ -308,7 +308,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"360"
+		"ypos"			"75"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"

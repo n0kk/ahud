@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"NormalCode11"
+		"font"			"NormalCode10"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -81,10 +81,10 @@
 		"tall"			"154"
 		"autoResize"	"3"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"center"
 		"fgcolor"		"ahudWhite"
 	}
 	
@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"c-75"
+		"xpos"			"c-80"
 		"ypos"			"c-90"
 		"zpos"			"2"
 		"wide"			"180"

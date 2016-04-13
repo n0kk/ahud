@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"ahudDarkerGrey"
-
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -25,14 +25,14 @@
     		"xpos"				"0"
     		"ypos"				"0"
     		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
+    		"wide"				"300"
+    		"tall"	 			"250"
     		"visible"			"1"
     		"enabled"			"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
+			"border"			"ahudPanelBorder"
 			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
@@ -41,7 +41,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Code18"
+		"font"			"Code16"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"

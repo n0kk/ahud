@@ -216,7 +216,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"-30"
+		"ypos"		"-45"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"

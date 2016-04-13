@@ -367,8 +367,8 @@ Scheme
 		PropertySheet.SelectedTextColor	"Orange"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"ahudYellow"
+		RadioButton.SelectedTextColor	"ahudYellow"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -412,7 +412,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	"ahudYellow"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -4224,6 +4224,46 @@ Scheme
 				"5"
 				{
 					"color" "ahudYellow"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ahudPanelBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "ahudBlack"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "ahudBlack"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "ahudBlack"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "ahudBlack"
 					"offset" "0 0"
 				}
 			}

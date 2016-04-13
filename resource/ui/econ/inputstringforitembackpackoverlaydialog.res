@@ -12,7 +12,7 @@
 		"bgcolor_override"		"ahudDarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"HoAssBorder"
+		"border"				"ahudPanelBorder"
 
 		"modelpanels_kv"
 		{

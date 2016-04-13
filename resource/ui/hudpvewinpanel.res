@@ -30,9 +30,12 @@
 		"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"300"
-		"tall"			"24"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType" "0"
+		"paintborder"	"1"
+		"border"		"ahudDarkBlueTeamBorder"
+		"bgcolor_override"	"ahudBlue"
 		
 		"WinningTeamLabelDropshadow"
 		{	
@@ -43,7 +46,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"300"
-			"tall"			"26"
+			"tall"			"31"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -56,7 +59,7 @@
 			// blue Background
 			"PaintBackgroundType" "0"
 			"fgcolor_override"	"ShadowBlack"		
-			"bgcolor_override"	"ahudBlue"
+			"bgcolor_override"	"0 0 0"
 		}
 		
 		"WinningTeamLabel"
@@ -67,7 +70,7 @@
 			"xpos"			"2"
 			"ypos"			"-1"
 			"wide"			"295"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -84,7 +87,7 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"0"
-		"ypos"			"80"
+		"ypos"			"85"
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"20"
@@ -104,7 +107,7 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"15"
-		"ypos"			"100"
+		"ypos"			"105"
 		"zpos"			"1"
 		"wide"			"265"
 		"tall"			"30"

@@ -25,14 +25,14 @@
     		"xpos"				"0"
     		"ypos"				"0"
     		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
+    		"wide"				"300"
+    		"tall"	 			"200"
     		"visible"			"1"
     		"enabled"			"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
+			"border"			"ahudPanelBorder"
 			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
@@ -41,7 +41,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Code18"
+		"font"			"Code16"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -113,12 +113,6 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"HoAssBorder"
-		"border_armed"				"HoAssBorder"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
 
 	"ConfirmButton"
@@ -145,11 +139,5 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"HoAssBorder"
-		"border_armed"				"HoAssBorder"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}			
 }

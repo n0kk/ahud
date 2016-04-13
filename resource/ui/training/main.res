@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"HoAssBorder"
+		"border"				"ahudPanelBorder"
 		
 		"GradientBgPanel"
 		{

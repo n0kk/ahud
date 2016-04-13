@@ -25,14 +25,14 @@
     		"xpos"				"0"
     		"ypos"				"0"
     		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
+			"wide"				"300"
+			"tall"				"230"
     		"visible"			"1"
     		"enabled"			"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"			"NoBorder"
+			"border"			"ahudPanelBorder"
 			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
@@ -41,7 +41,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
+		"font"			"Code16"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"

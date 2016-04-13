@@ -103,8 +103,8 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		""
-		"paintborder"	"0"
+		"border"		"ahudPanelBorder"
+		"paintborder"	"1"
 		"bgcolor_override"	"ahudDarkGrey"
 
 		"UpperLine"
@@ -130,7 +130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"Code16"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -161,8 +161,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"Code14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -175,9 +175,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "255 0 0 255"
+			"depressedFgColor_override" "ahudWhite"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -190,8 +190,8 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				

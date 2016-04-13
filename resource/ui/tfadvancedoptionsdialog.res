@@ -18,7 +18,7 @@
 		"settitlebarvisible"	""
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"HoAssBorder"
+		"border"				"ahudPanelBorder"
 		
 		"control_w"			"500"
 		"control_h"			"25"
@@ -119,8 +119,8 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"HoAssBorder"
-		"bgcolor_override"	"ahudBlack"
+		"border"		"ahudPanelBorder"
+		"bgcolor_override"	"ahudDarkerGrey"
 		
 		"TipLabel"
 		{

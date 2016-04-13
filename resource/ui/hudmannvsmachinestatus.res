@@ -219,23 +219,19 @@
 		
 		"Background"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
-			"tall"			"20"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"ahudRed"
+			"border"		"ahudDarkRedTeamBorder"
+			"bgcolor_override"	"ahudRed"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
 		}
 	
 		"ServerChangeLabel"
@@ -246,7 +242,7 @@
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"

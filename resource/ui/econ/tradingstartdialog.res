@@ -12,7 +12,7 @@
 		"bgcolor_override"		"ahudDarkerGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"HoAssBorder"
+		"border"				"ahudPanelBorder"
 		
 		"button_kv"
 		{

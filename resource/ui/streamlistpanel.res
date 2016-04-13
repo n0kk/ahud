@@ -14,7 +14,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"Code18"
+			"font"			"Code16"
 			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
 			"xpos"			"0"
@@ -27,7 +27,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType" "0"
 			"fgcolor_override"	"ahudWhite"
-			"bgcolor_override"	"0 160 215 255"
+			"bgcolor_override"	"100 65 165 255"
 		}
 	}
 		

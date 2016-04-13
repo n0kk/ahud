@@ -326,8 +326,8 @@
 		"tall"		"350"
 		"visible"	"1"
 		"enabled"	"1"
-		"border"	"HoAssBorder"
-		"bgcolor_override"	"ahudDarkGrey"
+		"border"	"ahudPanelBorder"
+		"bgcolor_override"	"25 25 25 200"
 		
 		"MannVsMachineLabel"
 		{
@@ -522,10 +522,10 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"197"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"ahudDarkGrey"
-			"border"		"HoAssBorder"
+			"bgcolor_override"	"25 25 25 200"
+			"border"		"ahudPanelBorder"
 
 			"NavToRelay"	"TourList"
 
@@ -553,6 +553,7 @@
 				"wide"			"400"
 				"tall"			"197"
 				"linespacing"	"12"
+				"bgcolor_override"	"25 25 25 200"
 			}
 		}
 
@@ -584,10 +585,10 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
+		"bgcolor_override"	"25 25 25 200"
+		"border"		"ahudPanelBorder"
 
 		"TourLootImage"
 		{
@@ -644,8 +645,8 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
-		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
+		"bgcolor_override"	"25 25 25 200"
+		"border"		"ahudPanelBorder"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -852,10 +853,10 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
+		"bgcolor_override"	"25 25 25 200"
+		"border"		"ahudPanelBorder"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -1015,10 +1016,10 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"197"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"ahudBlack"
-			"border"		"HoAssBorder"
+			"bgcolor_override"	"25 25 25 200"
+			"border"		"ahudPanelBorder"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -1062,7 +1063,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 
 		"NoGCTitle"
 		{
@@ -1109,8 +1110,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"ahudDarkGrey"
-		"border"		"HoAssBorder"
+		"bgcolor_override"	"25 25 25 200"
+		"border"		"ahudPanelBorder"
 
 		"SearchActiveTitle"
 		{
@@ -1528,8 +1529,8 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"ahudBlack"
-			"border"		"HoAssBorder"
+			"bgcolor_override"	"25 25 25 200"
+			"border"		"ahudPanelBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -1612,8 +1613,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"ahudBlack"
-			"border"		"HoAssBorder"
+			"bgcolor_override"	"25 25 25 200"
+			"border"		"ahudPanelBorder"
 		}
 
 		"ChatTextEntry"
@@ -1627,7 +1628,7 @@
 			"wide"			"200"
 			"tall"			"20"
 			"bgcolor_override"	"ahudBlack"
-			"border"		"HoAssBorder"
+			"border"		"ahudPanelBorder"
 		}
 	}
 
@@ -1709,12 +1710,12 @@
 			"unicode"			"0"
 			"default"			"0"
 		
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"ahudWhite"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"disabledFgColor_override" "ahudDullWhite"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "ahudWhite"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 		
@@ -1730,7 +1731,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"25 25 25 200"
-			"border"			"QuickplayBorder"
+			"border"			"ahudPanelBorder"
 
 			"StatsLabel"
 			{
@@ -2094,7 +2095,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"25 25 25 200"
-			"border"			"QuickplayBorder"
+			"border"			"ahudPanelBorder"
 
 			"Leaderboard"
 			{

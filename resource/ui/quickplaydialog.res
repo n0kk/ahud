@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"HoAssBorder"
+		"border"				"ahudPanelBorder"
 
 		"Background"
 		{
@@ -337,7 +337,7 @@
 			"tall"		"240"
 			"visible"	"0"
 			"enabled"	"1"
-			"border"	"HoAssBorder"
+			"border"	"NoBorder"
 			"bgcolor_override"	"ahudBlack"
 
 			"TitleLabel"

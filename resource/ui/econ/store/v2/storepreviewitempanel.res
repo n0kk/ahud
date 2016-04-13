@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"border"		"HoAssBorder"
+		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkGrey"
 		"PaintBorder"	"1"
 		
@@ -110,7 +110,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"HoAssBorder"
+			"border"		"ahudPanelBorder"
 			"bgcolor_override"	"ahudGrey"
 		}
 		
