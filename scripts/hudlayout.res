@@ -10,10 +10,10 @@
 
 	KnucklesCrosses
 	{
-		"visible" 		"1"
-		"enabled" 		"1"
+		"visible" 		"0"
+		"enabled" 		"0"
 		
-		"labelText"		"9"
+		"labelText"		"a"
 		
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
