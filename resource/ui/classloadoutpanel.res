@@ -471,6 +471,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"ahudDarkerGrey"
 		"PaintBackgroundType"	"0"
+		"border"		"ahudPanelBorder"
 	}
 	
 	"TauntHintLabel"

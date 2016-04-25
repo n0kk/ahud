@@ -10,10 +10,10 @@
 
 	KnucklesCrosses
 	{
-		"visible" 		"0"
-		"enabled" 		"0"
+		"visible" 		"1"
+		"enabled" 		"1"
 		
-		"labelText"		"a"
+		"labelText"		"9"
 		
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
@@ -839,6 +839,8 @@
 		"ypos"					"r163"
 		"wide"					"200"
 		"tall"					"152"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -1032,7 +1034,7 @@
 		"xpos"					"c-160"
 		"ypos"					"15"
 		"wide"					"320"
-		"tall"					"245"
+		"tall"					"260"
 	}
 
 	HudTeamSwitch
@@ -1110,7 +1112,7 @@
 		"xpos"					"c0"
 		"ypos"					"0"
 		"wide"					"300"
-		"tall"					"55"
+		"tall"					"70"
 	}
 	
 	NotificationPanel
@@ -1447,21 +1449,9 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
-	}
-
-	HudTeamStatus
-	{
-		"fieldName"				"HudTeamStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"150"
 	}
 
 	//----------------------------------------
