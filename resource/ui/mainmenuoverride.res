@@ -403,7 +403,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"r348"
+		"xpos"			"r360"
 		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"300"
@@ -924,7 +924,7 @@
 	{
 		"ControlName"	"CTFStreamListPanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r348"
+		"xpos"			"r360"
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
@@ -1370,7 +1370,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0425"
+		"labelText"		"v2016.0426"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
