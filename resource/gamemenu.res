@@ -1,61 +1,18 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
+	"ResumeGameButton"
 	{
-		"label" "Quickplay" 
-		"command" "quickplay"
+		"label"			"Resume"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage" "icon_resume"
+	}
+	"FindAGameButton"
+	{
+		"label" "Play" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
 	}
-	"PlayPVEButton"
-	{
-		"label" "Mann vs. Machine" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "Workshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-		"tooltip" "Open Steam Workshop"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"OnlyAtMenu" "0"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
 		"label" ""
@@ -79,7 +36,14 @@
 	{
 		"label" "Scoreboard"
 		"command" "engine toggle cl_hud_minmode"
-	}	
+	}
+	"SteamWorkshopButton"
+	{
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" "glyph_steamworkshop"
+		"tooltip" "Open Steam Workshop"
+	}
 	"HomeServer"
 	{
 		"label"	"6"
@@ -88,26 +52,21 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
+		"tooltip"	"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute Players"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
+		"tooltip"	"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{

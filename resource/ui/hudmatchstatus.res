@@ -1,8 +1,8 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"RoundSignModel"
+		"fieldName"		"HudMatchStatus"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/round_banner.mdl"
+			"modelname"	"models/props_ui/banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -240,7 +240,7 @@
 		"delta_lifetime"		"2"
 		"delta_item_font"		"NormalCode14"
 
-		if_comp
+		if_match
 		{
 			"ypos_minmode"			"0"
 			"delta_item_x"			"31"
@@ -268,7 +268,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"ypos"			"9"
 				"ypos_minmode"	"9"
@@ -548,8 +548,14 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+		
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
 
 		"BlueTeamBG"
 		{
@@ -644,6 +650,11 @@
 			"linespacing"	"25"
 			"linegap"		"0"
 			//"show_columns"	"1"
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"BluePlayerListBG"
 		{
@@ -659,6 +670,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 
@@ -674,6 +690,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+		if_large
+		{
+			"ypos"			"65"
+			"tall"			"385"
+		}
+		
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -767,6 +789,11 @@
 			"linespacing"	"25"
 			"linegap"		"0"
 			//"show_columns"	"1"
+			
+			if_large
+			{
+				"tall"			"315"
+			}
 		}
 		"RedPlayerListBG"
 		{
@@ -782,6 +809,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
+			
+			if_large
+			{
+				"tall"			"325"
+			}
 		}
 	}
 }

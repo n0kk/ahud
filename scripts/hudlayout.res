@@ -3,9 +3,9 @@
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
-	// Set visible/enabled to 1 to use. Change labelText to the corr-
-	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
-	// values if not perfectly centered.
+	// Set visible and enabled to 1 to use. Change labelText to the
+	// corresponding crosshair in KnucklesCrosses.png. Change xpos
+	// and ypos values if not perfectly centered.
 	//--------------------------------------------------------------
 
 	KnucklesCrosses
@@ -1034,7 +1034,7 @@
 		"xpos"					"c-160"
 		"ypos"					"15"
 		"wide"					"320"
-		"tall"					"260"
+		"tall"					"300"
 	}
 
 	HudTeamSwitch
@@ -1394,18 +1394,6 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
-	}
-
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
 	}
 
 	"MatchMakingContainer"

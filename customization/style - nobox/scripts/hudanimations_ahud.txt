@@ -209,12 +209,17 @@ event DamagedPlayer
 
 //===========================================
 
-event WinPanel_CompPos
+event MMenu_PlayList_Expand
 {
-    Animate WinPanel ypos r163 Linear 0 0
+	// empty
 }
 
-event WinPanel_NormalPos
+event MMenu_PlayList_Collapse
 {
-    Animate WinPanel ypos r163 Linear 0 0
+	// empty
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	// empty
 }

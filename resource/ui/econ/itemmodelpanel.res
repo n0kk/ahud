@@ -3,7 +3,6 @@
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
-		"collection_wide"		"500"
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
@@ -191,7 +190,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"matcheslabel"
