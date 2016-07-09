@@ -30,8 +30,8 @@ More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
 1. Download ahud by clicking `Download ZIP` on the ahud GitHub repo
 2. Navigate to  `..\Steam\steamapps\common\Team Fortress 2\tf\custom`
-3. Extract `ahud-master` from the ZIP file to the `custom` folder
-4. Make sure the `materials`, `resource`, and `scripts` folders are within `ahud-master`
+3. Extract `ahud-master` from the ZIP file to the `custom` folder and rename it to `ahud`
+4. Make sure `materials`, `resource`, `scripts`, and `info.vdr` are inside the `ahud` folder
 5. Run Team Fortress 2
 
 For thorough instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).
