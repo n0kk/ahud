@@ -28,7 +28,7 @@ More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
 ##Installation
 
-1. Download ahud by clicking `Download ZIP` on the ahud GitHub repo
+1. Download ahud by clicking `Download ZIP` from the green `Clone or download` button on the ahud GitHub repo
 2. Navigate to  `..\Steam\steamapps\common\Team Fortress 2\tf\custom`
 3. Extract `ahud-master` from the ZIP file to the `custom` folder and rename it to `ahud`
 4. Make sure `materials`, `resource`, `scripts`, and `info.vdr` are inside the `ahud` folder
