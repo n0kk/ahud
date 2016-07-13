@@ -825,7 +825,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"Code24"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -1245,7 +1245,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
+				"font"			"Code24"
 				"labelText"		"#TF_Matchmaking_Party"
 				"textAlignment"	"west"
 				"xpos"			"5"

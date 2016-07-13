@@ -7,12 +7,6 @@
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
-	"FindAGameButton"
-	{
-		"label" "Play" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-	}
 	"CreateServerButton"
 	{
 		"label" ""

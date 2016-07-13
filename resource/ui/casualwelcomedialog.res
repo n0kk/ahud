@@ -6,7 +6,7 @@
 		"fieldName"		"ConfirmDialog"
 		// Auto-centered by GenericConfirmDialog
 		"wide"			"564"
-		"tall"			"287" // Bottom of confirm button + 10 margin
+		"tall"			"200" // Bottom of confirm button + 10 margin
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -25,7 +25,7 @@
     		"ypos"				"0"
     		"zpos"				"-1"
     		"wide"				"564"
-    		"tall"	 			"287"
+    		"tall"	 			"200"
     		"visible"			"1"
     		"enabled"			"1"
 			"pinCorner"		"0"
@@ -120,48 +120,6 @@
 		"fgcolor_override" "ahudDullWhite"
 	}
 
-	"SectionTwoTitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionTwoTitleLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_Two_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"108" // 4 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "ahudWhite"
-	}
-
-	"SectionTwoTextLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionTwoTextLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_Two_Text"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"121" // 2 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "ahudDullWhite"
-	}
-
 	"SectionThreeTitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -171,7 +129,7 @@
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
-		"ypos"			"169" // 4 margin
+		"ypos"			"108" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -192,7 +150,7 @@
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
-		"ypos"			"182" // 2 margin
+		"ypos"			"121" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"44" // Size 11 font - 4 rows
@@ -210,7 +168,7 @@
 		"fieldName"		"TakeTourButton"
 		"proportionalToParent"  "1"
 		"xpos"			"rs1-170"
-		"ypos"			"252" // 4 margin
+		"ypos"			"rs1-10" // 10 margin
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"20"
@@ -243,7 +201,7 @@
 		"fieldName"		"ConfirmButton"
 		"proportionalToParent"  "1"
 		"xpos"			"rs1-10"
-		"ypos"			"252" // 4 margin
+		"ypos"			"rs1-10" // 10 margin
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"20"
@@ -275,11 +233,12 @@
 		"ControlName"	"CheckButton"
 		"fieldName"	"NeverShowAgainCheckBox"
 		"xpos"		"20"
-		"ypos"		"252" // 4 margin
+		"ypos"		"rs1-10" // 10 margin
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
 		"font"		"HudFontSmall"
 		"labelText"	"#TF_Competitive_Welcome_DontShow"
+		"proportionalToParent"  "1"
 	}
 }
