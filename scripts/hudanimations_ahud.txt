@@ -196,15 +196,16 @@ event HudMedicChargedStop
 
 //===========================================
 
-event DamagedPlayer
+event DamagedPlayer 
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+
+event HitMarker
 {
 	Animate KnucklesCrosses	 	FgColor 	"CrosshairDamage" 		Linear 0.0 0.0
 	Animate KnucklesCrosses	 	FgColor 	"Crosshair" 			Linear 0.15 0.0
-	
-	// The colors for CrosshairDamage and Crosshair can be changed under custom
-	// colors in clientscheme.res in the resource folder. Alternatively, you can
-	// use RGBA. 
-
 }
 
 //===========================================

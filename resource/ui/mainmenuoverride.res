@@ -190,49 +190,33 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/title_team_halloween2011_widescreen"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/title_team_halloween2012_widescreen"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013"
+			"image"		"../console/title_team_halloween2013_widescreen"
 		}
 		if_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014"
+			"image"		"../console/title_team_halloween2014_widescreen"
 		}
 		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015"
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/title_fullmoon_widescreen"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_xmas2011_widescreen"
 		}
-//		if_eotl_launch
-//		{
-//			"image"		"../console/title_eotl01"
-//		}
-		if_spy_vs_engy_war
-		{
-			"image"		"../console/background_sve_01"
-		}
-//		if_operation
-//		{
-//			"image"		"../console/title_team_tough_break"
-//		}
-//		if_community_update
-//		{
-//			"image"		"../console/title_invasion"
-//		}
-//
+
 //		if_meet_your_match_0
 //		{
 //			"xpos"		"rs1"
@@ -1455,7 +1439,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.0927"
+		"labelText"		"v2016.1021"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
