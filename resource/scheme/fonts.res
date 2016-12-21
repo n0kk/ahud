@@ -2296,7 +2296,6 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"AchievementTracker_Desc"
@@ -2341,7 +2340,6 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
@@ -2865,7 +2863,18 @@ Scheme
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
+			}
+		}
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 	}

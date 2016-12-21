@@ -216,31 +216,6 @@
 		{
 			"image"		"../console/background_xmas2011_widescreen"
 		}
-
-//		if_meet_your_match_0
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_heavy01_blu_widescreen"
-//		}
-//		if_meet_your_match_1
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_heavy01_red_widescreen"
-//		}
-//		if_meet_your_match_2
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_pyro01_blu_widescreen"
-//		}
-//		if_meet_your_match_3
-//		{
-//			"xpos"		"rs1"
-//			"image"		"../console/title_team_pyro01_red_widescreen"
-//		}
-//		if_meet_your_match_4
-//		{
-//			"image"		"../console/title_team_competitive_widescreen"
-//		}
 	}
 	
 	"MainMenuSideBG"
@@ -1439,7 +1414,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2016.1021"
+		"labelText"		"v2016.1221"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"

@@ -35,7 +35,7 @@
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"ahudDarkGrey"
+		"item_backdrop_color"				"27 27 27 255"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -305,7 +305,7 @@
 		"xpos"				"c-230"
 		"ypos"				"8"
 		"zpos"				"0"
-		"wide"				"335"
+		"wide"				"430"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
