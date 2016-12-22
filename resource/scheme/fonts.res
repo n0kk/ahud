@@ -2869,7 +2869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Code-Pro-LC
+				"name"		"Code-Pro-LC"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
