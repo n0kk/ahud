@@ -72,10 +72,5 @@ Scheme
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
-		"11"
-		{
-			"font" "resource/fonts/Entypo.otf"
-			"name"	"Entypo"
-		}
 	}
 }

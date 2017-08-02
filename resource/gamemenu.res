@@ -40,7 +40,7 @@
 	}
 	"HomeServer"
 	{
-		"label"	"6"
+		"label"	""
 		"command" "engine JoinHomeServer"
 	}
 

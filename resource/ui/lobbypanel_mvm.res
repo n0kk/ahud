@@ -47,7 +47,7 @@
 			"wide"			"370"
 			"tall"			"25"
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"HudFontMediumBold"
+			"font"			"Code24"
 			//"fgcolor_override"	"89 81 71 255"
 			"fgcolor_override"	"201 79 57 255"
 			"textAlignment"	"west"
@@ -59,7 +59,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannVsMachineExplanation"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"fgcolor_override"	"ahudWhite"
 			"labelText"		"#TF_MvM_MannVsMachineExplaination"
 			"textAlignment"	"north-west"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayForBraggingRightsExplanation"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"fgcolor_override"	"ahudWhite"
 			"labelText"		"#TF_MvM_BraggingRightsExplaination"
 			"textAlignment"	"north-west"
@@ -133,7 +133,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"PlayOnCommunityServerExplanation"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"fgcolor_override"	"ahudWhite"
 			"labelText"		"#TF_MvM_PracticeExplaination"
 			"textAlignment"	"north-west"
@@ -332,7 +332,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -605,7 +605,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NoMannUpDescriptionLabel"
-			"font"			"HudFontSmall"
+			"font"			"NormalCode12"
 			"labelText"		"#TF_MvM_NoMannUpDescription"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -1348,7 +1348,7 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
-		"font"			"HudFontSmall"
+		"font"			"NormalCode12"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 	}
 
@@ -1356,7 +1356,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"JoinLateValueLabel"
-		"font"			"HudFontSmall"
+		"font"			"NormalCode12"
 		"textAlignment"	"west"
 		"xpos"		"c+100"
 		"ypos"		"325"

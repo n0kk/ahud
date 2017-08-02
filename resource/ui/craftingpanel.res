@@ -110,7 +110,7 @@
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "ahudWhite"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "178 82 22 255"
+			"depressedFgColor_override" "ahudYellow"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		

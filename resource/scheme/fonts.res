@@ -6,16 +6,6 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
-		"SymbolS"
-		{
-			"1"
-			{
-				"name"	"Entypo"
-				"tall"	"25"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
 		"BlocksSharp64"
 		{
 			"1"
