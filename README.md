@@ -60,7 +60,7 @@ To use the Home Server button (the heart on the Main Menu) in conjunction with y
 ## Support
 **Windows**: Yes
 * 4:3 - 1024×768 and above  
-* 16:9 - 1280x70 and above  
+* 16:9 - 1280x720 and above  
 * 16:10 -  1280x800 and above  
 
 **Linux**: No  
