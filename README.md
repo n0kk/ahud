@@ -34,7 +34,8 @@ More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 4. Make sure `materials`, `resource`, `scripts`, and `info.vdf` are inside the `ahud` folder
 5. Run Team Fortress 2
 
-For thorough instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).
+For thorough instructions on installing a HUD for TF2, check out the [huds.tf guide](http://huds.tf/forum/showthread.php?tid=2).  
+A third-party installer, [ainstaller](https://github.com/ainstaller/aInstaller/releases), is also available.
 
 ## Customization
 
@@ -46,7 +47,7 @@ In the `customization` folder, you'll find various folders that change the look 
 The color of various HUD elements (health and ammo numbers, damage numbers, crosshair and flash damage, etc.) can be easily changed in `resource\scheme\colors.res`. Edit anything under  `CUSTOM COLORS` using RGBA (e.g., `0 255 0 255` = Green and `255 255 0 255` = Yellow). 
 
 #### Custom crosshairs
-Navigate to `scripts\hudlayout.res`. Under `KnucklesCrosses`, change the values of `visible` and `enabled` to `1` to use the crosshairs. In the `scripts` folder, you'll find `KnucklesCrosses.png`, which shows what crosshair corresponds with which character (e.g., the normal cross crosshair is `a`). Find the crosshair  you want to use and Use the character as a value for `labelText`. To change the size and add an outline, simply follow the format for the value of `font` (default is `size:30,outline:off`). The color of the crosshair is listed in `resource\scheme\colors.res`.
+Navigate to `scripts\hudlayout.res`. Under `KnucklesCrosses`, change the values of `visible` and `enabled` to `1` to use the crosshairs. In the `scripts` folder, you'll find `KnucklesCrosses.png`, which shows what crosshair corresponds with which character (e.g., the normal cross crosshair is `a`). Find the crosshair  you want to use and use the character as a value for `labelText`. To change the size and add an outline, simply follow the format for the value of `font` (default is `size:30,outline:off`). The color of the crosshair is listed in `resource\scheme\colors.res`.
 
 Note: Not every crosshair will be perfectly centered because of different resolutions and aspect ratios. If your crosshair is not perfectly centered, experiment with changing the `xpos` and `ypos` values (and possibly the `wide`, and `tall` values as well).
 
@@ -57,6 +58,13 @@ If using any of the custom crosshairs, the crosshair damage flash will be on by 
 To use the Home Server button (the heart on the Main Menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
 ## Support
+**Windows**: Yes
+* 4:3 - 1024×768 and above  
+* 16:9 - 1280x720 and above  
+* 16:10 -  1280x800 and above  
+
+**Linux**: No  
+**Mac**: No
 
 I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linux). 
 
