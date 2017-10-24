@@ -36,8 +36,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"9999"
-		"tall"			"9999"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
@@ -47,13 +47,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"87"
+		"ypos"			"23"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -88,7 +88,39 @@
 		"textAlignment"	"center"	
 		"font"			"NormalCode55"
 		"fgcolor"		"ShadowBlack"
-	}	
+	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"64"
+		"ypos"			"74"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"NormalCode10"
+		"fgcolor"		"Gray"
+	}
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShadow"
+		"xpos"			"64"
+		"ypos"			"75"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"center"	
+		"font"			"NormalCode10"
+		"fgcolor"		"ShadowBlack"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -117,6 +149,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -532,11 +579,27 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}
-	
-	"HealthBG"	
+
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"25"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
+
+	"HealthBoxBG"	
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBG"
+		"fieldName"		"HealthBoxBG"
 		"xpos"			"64"
 		"ypos"			"29"
 		"zpos"			"1"

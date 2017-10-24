@@ -87,10 +87,10 @@
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}
-	"FreezeHealthBG"	
+	"HealthBoxBG"	
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"FreezeHealthBG"
+		"fieldName"		"HealthBoxBG"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1"

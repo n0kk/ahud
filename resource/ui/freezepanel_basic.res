@@ -110,7 +110,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"NormalCode10"
+			"font"			"NormalCode8"
 			"fgcolor"		"ahudWhite"
 			"xpos"			"48"
 			"ypos"			"0"

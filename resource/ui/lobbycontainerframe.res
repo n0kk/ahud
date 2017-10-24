@@ -152,7 +152,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"OptionsButton"
 		"xpos"			"c275"
-		"ypos"			"10"
+		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"

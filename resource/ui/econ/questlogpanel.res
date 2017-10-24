@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CQuestLogPanel"
 		"fieldName"		"QuestLog"
-		"xpos"			"r360"
+		"xpos"			"r385"
 		"ypos"			"64"
 		"zpos"			"1"
 		"wide"			"300"

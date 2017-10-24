@@ -45,11 +45,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"12"
+		"ypos"			"5"
 		"zpos"			"3"
-		"wide"			"24"
-		"tall"			"24"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
@@ -102,10 +102,10 @@
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
 	}
-	"TargetHealthBG"	
+	"HealthBoxBG"	
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"TargetHealthBG"
+		"fieldName"		"HealthBoxBG"
 		"xpos"			"0"
 		"ypos"			"9"
 		"zpos"			"1"

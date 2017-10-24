@@ -109,7 +109,8 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"35"
+		"tabheight"		"20"
+		"yoffset"		"15"
 		"transition_time" "0"
 		
 		"HeaderLine"

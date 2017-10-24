@@ -1,0 +1,37 @@
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
+	Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
+
+	RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
+}
+
+event DamagedPlayer 
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+
+event HitMarker
+{
+	Animate KnucklesCrosses		FgColor		"CrosshairDamage"		Linear 0.0 0.0
+	Animate KnucklesCrosses		FgColor		"Crosshair"		Linear 0.15 0.0
+}
+
+event MMenu_PlayList_Expand
+{
+	// empty
+}
+
+event MMenu_PlayList_Collapse
+{
+	// empty
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	// empty
+}

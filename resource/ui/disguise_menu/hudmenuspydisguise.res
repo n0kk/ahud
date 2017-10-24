@@ -62,9 +62,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"NormalCode9"
+		"font"			"NormalCode8"
 		"xpos"			"0"
-		"ypos"			"76"
+		"ypos"			"77"
 		"zpos"			"2"
 		"wide"			"198"
 		"tall"			"11"

@@ -2,10 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		// fonts are used in order that they are listed
-		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace
-		
 		"BlocksSharp64"
 		{
 			"1"
@@ -102,6 +98,46 @@ Scheme
 			{
 				"name"		"Code-Pro-Bold"
 				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Code26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Code28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Code30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Code32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1520,7 +1556,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"8"
+				"tall"		"9"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -2865,6 +2901,79 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
+			}
+		}
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 	}

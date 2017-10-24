@@ -96,8 +96,8 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
 		Menu.TextColor					"ahudWhite"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
+		Menu.BgColor					"ahudBlack"
+		Menu.ArmedTextColor				"ahudBlack"
 		Menu.ArmedBgColor				"ahudWhite"
 		Menu.TextInset					"6"
 

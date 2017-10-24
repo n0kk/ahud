@@ -103,10 +103,10 @@
 		"font"					"NormalCode12"
 		"fgcolor"		    "0 0 0 0"
 	}				
-	"SpecHealthBG"	
+	"HealthBoxBG"	
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SpecHealthBG"
+		"fieldName"		"HealthBoxBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

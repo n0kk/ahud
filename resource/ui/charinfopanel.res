@@ -109,8 +109,9 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"35"
+		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"		"15"
 		
 		"HeaderLine"
 		{
