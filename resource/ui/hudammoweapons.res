@@ -143,6 +143,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"labelText"		""
 		"defaultbgcolor_override"	"Blank"
 		"PaintBackgroundType"	"0"
         "textinsety" 	"99"

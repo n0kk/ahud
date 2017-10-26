@@ -2257,6 +2257,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ItemFontAttribSmallest"
 		{
 			"1"

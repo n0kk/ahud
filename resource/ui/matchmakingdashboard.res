@@ -108,6 +108,7 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"0"
+			"paintbackground"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -128,7 +129,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_chat"
+				"image"			"replay/thumbnails/buttons/chat"
 			}
 		}
 

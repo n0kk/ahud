@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "vgui\replay\thumbnails\buttons\contracts"
+	"$baseTexture" "vgui\replay\thumbnails\buttons\chat"
 	"$alpha" "1"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"
