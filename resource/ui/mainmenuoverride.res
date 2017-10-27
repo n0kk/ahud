@@ -208,6 +208,10 @@
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
@@ -257,13 +261,22 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c-250"
+
+		if_taller
+		{
+			if_operation
+			{
+				"xpos"		"c-300"
+			}
+		}
+
+		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"600"
+		"tall"			"600"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 
@@ -1391,7 +1404,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"NormalCode8"
-		"labelText"		"v2017.1026"
+		"labelText"		"v2017.1026.2"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
