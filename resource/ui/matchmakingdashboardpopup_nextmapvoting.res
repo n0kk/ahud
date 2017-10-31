@@ -50,7 +50,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"ahudPanelBorder"
-			"bgcolor_override"	"25 25 25 225"
+			"bgcolor_override"	"ahudDarkGrey"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 			"HideButton"
