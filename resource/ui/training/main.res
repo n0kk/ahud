@@ -72,7 +72,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"Code24"
+			"font"			"aBold24"
 			"labelText"		"Select Training Mode"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubTitleLabel"
-			"font"			"Code18"
+			"font"			"aBold18"
 			"labelText"		"%subtitle%"
 			"textAlignment"	"center"
 			"xpos"			"0"

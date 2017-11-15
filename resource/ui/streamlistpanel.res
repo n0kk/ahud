@@ -14,7 +14,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"Code16"
+			"font"			"aBold16"
 			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
 			"xpos"			"0"

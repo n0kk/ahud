@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"NormalCode8"
+		"font"			"aRegular8"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -79,7 +79,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"fgcolor"		"189 189 189 255"
 		"xpos"			"1"
 		"ypos"			"55"
@@ -133,7 +133,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"fgcolor"		"189 189 189 255"
 		"xpos"			"-40"
 		"ypos"			"-2"

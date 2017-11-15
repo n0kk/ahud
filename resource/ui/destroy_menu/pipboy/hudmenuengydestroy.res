@@ -86,7 +86,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"2"
@@ -107,7 +107,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"xpos"			"1"
 		"ypos"			"2"
 		"zpos"			"2"

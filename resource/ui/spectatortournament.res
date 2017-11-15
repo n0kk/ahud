@@ -50,12 +50,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			  "NormalCode9"
+				"font"			  "aRegular9"
 				"xpos"			  "44"
-				"ypos"			  "4"
+				"ypos"			  "0"
 				"zpos"			  "5"
 				"wide"			  "80"
-				"tall"			  "10"
+				"tall"			  "16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		  "1"
@@ -64,6 +64,28 @@
 				"fgcolor"		  "ahudWhite"
 			}
 			
+			"playernameshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"playernameshadow"
+				"font"			  "aRegular9"
+				"xpos"			  "-1"
+				"ypos"			  "-1"
+				"zpos"			  "5"
+				"wide"			  "80"
+				"tall"			  "16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		  "1"
+				"labelText"		"%playername%"
+				"textAlignment"	"west"
+				"fgcolor"		  "ShadowBlack"
+
+				"pin_to_sibling"	"playername"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -171,7 +193,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"NormalCode10"
+				"font"			"aRegular10"
 				"xpos"			"16"
 				"ypos"			"0"
 				"zpos"			"6"
@@ -189,9 +211,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeshadow"
-				"font"			"NormalCode10"
-				"xpos"			"17"
-				"ypos"			"1"
+				"font"			"aRegular10"
+				"xpos"			"-1"
+				"ypos"			"-1"
 				"zpos"			"6"
 				"wide"			"24"
 				"tall"			"16"
@@ -201,6 +223,10 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"ShadowBlack"
+
+				"pin_to_sibling"	"respawntime"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}			
 			
 			"respawntimecover"
@@ -225,18 +251,19 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"NormalCode9"
+				"font"			"aRegular9"
 				"xpos"			"117"
-				"ypos"			"4"
+				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"10"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor_override"		"HP Buff"
+				"fgcolor_override"	"HP Buff"
+
 			}
 		
 			"specindex"
@@ -295,7 +322,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NormalCode16"
+		"font"			"aRegular16"
 		"fgcolor"		"ahudWhite"
 		
 		if_mvm
@@ -317,7 +344,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"

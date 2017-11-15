@@ -141,7 +141,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"west"
-			"font"			"Code24"
+			"font"			"aBold24"
 		
 			"mouseinputenabled"	"0"
 		}

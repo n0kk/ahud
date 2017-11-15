@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"labelText"		"Support Community Map Makers and Get a Hat!"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Learn More"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

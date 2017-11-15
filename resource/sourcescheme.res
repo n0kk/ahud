@@ -326,7 +326,7 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
-		"Code35"
+		"aBold35"
 		{
 			"1"
 			{
@@ -336,7 +336,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode16"
+		"aRegular16"
 		{
 			"1"
 			{
@@ -346,7 +346,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode17"
+		"aRegular17"
 		{
 			"1"
 			{
@@ -356,7 +356,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode18"
+		"aRegular18"
 		{
 			"1"
 			{
@@ -366,7 +366,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode19"
+		"aRegular19"
 		{
 			"1"
 			{
@@ -376,7 +376,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode20"
+		"aRegular20"
 		{
 			"1"
 			{

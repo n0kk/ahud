@@ -56,7 +56,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"fgcolor"		"255 255 255 255"
 			"xpos"			"5"
 			"ypos"			"5"
@@ -74,13 +74,13 @@
 		}
 	}	
 	
-	"FreezePanelBase"	[$WIN32]
+	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"c-95"
+		"xpos"			"c-100"
 		"ypos"			"260"		
-		"wide"			"190"		
+		"wide"			"200"		
 		"tall"			"32"		
 		"visible"		"1"
 
@@ -89,33 +89,26 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"0"
-			"ypos"			"10"
+			"ypos"			"11"
 			"zpos"			"0"
-			"wide"			"190"
+			"wide"			"200"
 			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
 			//"image"			"../hud/color_panel_blu"
 			"fillcolor"		"HudBlack"
-			"scaleImage"		"1"	
-			
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-				
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
 		}
 		
 		"FreezeLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"NormalCode8"
+			"font"			"aRegular8"
 			"fgcolor"		"ahudWhite"
-			"xpos"			"48"
+			"xpos"			"54"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"166"
+			"wide"			"141"
 			"tall"			"10"
 			"autoResize"		"0"
 			"pinCorner"		"0"
@@ -127,12 +120,12 @@
 			"brighttext"		"0"
 		}
 		
-		"FreezePanelHealth"		[$WIN32]
+		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"44"
 			"tall"			"36"
@@ -149,34 +142,54 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"NormalCode10"
+			"font"			"aRegular10"
 			"fgcolor"		"ahudWhite"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"54"
+			"ypos"			"11"
 			"zpos"			"5"
-			"wide"			"160"
-			"tall"			"12"
+			"wide"			"141"
+			"tall"			"13"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
-			"textinsetx"	"14"
-            "use_proportional_insets" "1"
-		}	
-		
-		"AvatarImage"
-		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"AvatarImage"
-			"xpos"			"32"
-			"ypos"			"9"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"14"
+		}
+		"FreezeLabelKillerShadow"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"FreezeLabelKillerShadow"
+			"font"			"aRegular10"
+			"fgcolor"		"ShadowBlack"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"zpos"			"5"
+			"wide"			"141"
+			"tall"			"13"
+			"autoResize"	"0"
+			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"labelText"		"%killername%"
+			"textAlignment"		"west"
+
+			"pin_to_sibling"	"FreezeLabelKiller"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		}	
+
+		"AvatarImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"AvatarImage"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"zpos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
@@ -268,8 +281,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"c-83"
-		"ypos"			"50"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
@@ -284,8 +297,8 @@
 			"zpos"			"0"
 			"wide"			"166"
 			"tall"			"38"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/freezecam_black_bg"
 			"scaleImage"		"1"
 		}
@@ -298,8 +311,8 @@
 			"zpos"			"1"
 			"wide"			"36"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_camera"
 			"scaleImage"	"1"	
 		}		
@@ -315,8 +328,8 @@
 			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%text%"
 			"textAlignment"		"west"
 			"dulltext"		"0"

@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"0"
 		"ypos"			"18"

@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"80"

@@ -33,7 +33,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"NormalCode8"
+		"font"			"aRegular8"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"NormalCode8"
+			"font"			"aRegular8"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -71,7 +71,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"NormalCode8"
+			"font"			"aRegular8"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -119,7 +119,7 @@
 		"autoresize"	"3"
 		"linespacing"	"16"
 		"textcolor"		"ahudWhite"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 	}
 	
 	"CreditStatsContainer"
@@ -158,7 +158,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "center"
 			"xpos"			"9999"
@@ -219,7 +219,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "center"
 			"xpos"			"30"

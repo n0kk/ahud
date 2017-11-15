@@ -54,7 +54,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"5"
@@ -75,10 +75,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"
-		"ypos"			"2"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"4"
 		"wide"			"250"
 		"tall"			"22"
@@ -90,6 +90,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"

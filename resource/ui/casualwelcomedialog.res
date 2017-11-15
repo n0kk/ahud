@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CasualTitleLabel"
-		"font"			"Code20"
+		"font"			"aBold20"
 		"labelText"		"#TF_Casual_Welcome_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"

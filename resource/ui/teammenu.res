@@ -62,7 +62,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Code24"
+		"font"			"aBold24"
 		"fgcolor"		"ahudWhite"
 	}
 
@@ -77,7 +77,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A TEAM"
 		"textAlignment"	"center"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"ahudWhite"
@@ -103,7 +103,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
@@ -112,31 +112,31 @@
 	
 	"BlueTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBG"
 		"xpos"			"c-100"
 		"ypos"			"c-23"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ahudBlue"
-	}
+		"bgcolor_override"	"ahudBlue"
 
-	"BlueTeamBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamBG2"
-		"xpos"			"c-100"
-		"ypos"			"c-21"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"ahudDarkBlue"
-	}	
+		"BlueTeamBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueTeamBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ahudDarkBlue"
+			"proportionaltoparent"	"1"
+		}	
+	}
 
 	"teambutton1"
 	{
@@ -158,7 +158,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
@@ -167,30 +167,30 @@
 	
 	"RedTeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamBG"
 		"xpos"			"c0"
 		"ypos"			"c-23"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ahudRed"
-	}
-	
-	"RedTeamBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamBG2"
-		"xpos"			"c0"
-		"ypos"			"c-21"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"ahudDarkRed"
+		"bgcolor_override"	"ahudRed"
+
+		"RedTeamBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedTeamBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ahudDarkRed"
+			"proportionaltoparent"	"1"
+		}
 	}
 
 	"teambutton2"
@@ -213,7 +213,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "TanDark"
@@ -240,7 +240,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "TanDark"
@@ -249,7 +249,7 @@
 	
 	"teambuttonBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"teambuttonBG"
 		"xpos"			"c-100"
 		"ypos"			"c0"
@@ -258,7 +258,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBlack"
+		"bgcolor_override"	"HudBlack"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -281,7 +281,7 @@
 		"brighttext"	"0"
 		"paintbackground""0"
 		"command"		"cancelmenu"
-		"font"			"Code15"
+		"font"			"aBold15"
 		"defaultFgColor_override" 	"TanDark"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "TanDark"
@@ -305,7 +305,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Code24"
+		"font"			"aBold24"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -349,7 +349,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Code17"
+		"font"			"aBold17"
 		"fgcolor"		"white"
 	}
 
@@ -407,7 +407,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"255 255 255 255"
 	}
 	"BlueCountPlayers"
@@ -427,7 +427,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"fgcolor"		"255 255 255 175"
 	}		
 	
@@ -448,7 +448,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"255 255 255 255"
 	}	
 	"RedCountPlayers"
@@ -468,7 +468,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"fgcolor"		"255 255 255 175"
 	}	
 	
@@ -554,7 +554,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 		"centerwrap"	"1"
 	}
@@ -576,7 +576,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 	}
@@ -598,7 +598,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 		"centerwrap"	"1"
 	}
@@ -620,7 +620,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
 	}

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -74,7 +74,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"-3"
 		"ypos"			"31"
@@ -93,10 +93,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"-2"
-		"ypos"			"32"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"59"
 		"tall"			"13"
@@ -105,7 +105,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
+
+		"pin_to_sibling"	"CostLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"ModeLabel"
@@ -147,7 +151,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"fgcolor"		"255 255 255 255"
 		"xpos"			"0"
 		"ypos"			"52"

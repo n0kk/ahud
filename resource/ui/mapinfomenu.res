@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Code18"
+		"font"			"aBold18"
 		"fgcolor"		"ahudWhite"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
 	}	
 	
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -151,7 +151,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"TanDark"
@@ -180,7 +180,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"ahudWhite"
@@ -208,7 +208,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"ahudWhite"
@@ -236,7 +236,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"TanDark"

@@ -9,6 +9,6 @@
 		"PositiveColor"			"HP Buff"
 		"NegativeColor"			"HP Low"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"NormalCode20"
+		"delta_item_font"		"aRegular20"
 	}
 }

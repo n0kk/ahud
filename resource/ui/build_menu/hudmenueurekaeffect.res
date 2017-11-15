@@ -70,7 +70,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"ypos"			"1"
 		"zpos"			"2"
@@ -91,10 +91,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NormalCode20"
+		"font"			"aRegular20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"xpos"			"-1"			// align me to the left edge of the first selection
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"22"
@@ -106,6 +106,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"	"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	
 	"CancelLabel"

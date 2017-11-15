@@ -70,15 +70,15 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NormalCode55"
+		"font"			"aRegular55"
 		"fgcolor"		"HP"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"66"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
@@ -86,8 +86,30 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"NormalCode55"
+		"font"			"aRegular55"
 		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	"HealthBoxBG"	
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBoxBG"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+
+ 		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -102,7 +124,7 @@
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"		"Gray"
 	}
 	"PlayerStatusMaxHealthValueShadow"
@@ -118,7 +140,7 @@
 		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"		"ShadowBlack"
 	}
 	"PlayerStatusBleedImage"
@@ -594,24 +616,5 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
-	}
-
-	"HealthBoxBG"	
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HealthBoxBG"
-		"xpos"			"64"
-		"ypos"			"29"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
 	}
 }

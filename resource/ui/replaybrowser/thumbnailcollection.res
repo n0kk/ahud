@@ -24,7 +24,7 @@
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"center"
 		"text"			"#Replay_RenderAll"
 		"Command"		"render_queued_replays"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"labelText"		""
 		"auto_wide_tocontents" "1"
@@ -54,7 +54,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"%titleandcount%"
 		"textAlignment"	"west"
 		"zpos"			"2"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DateLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"zpos"			"2"
 		"autoResize"	"0"
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"textAlignment"	"west"
 		"zpos"			"1"
 		"autoResize"	"0"
@@ -112,7 +112,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"labelText"		""
 		"auto_wide_tocontents" "1"
@@ -142,7 +142,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoReplayItemsLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"wide"			"400"
 		"tall"			"40"
 		"zpos"			"5"

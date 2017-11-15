@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Code24"
+		"font"			"aBold24"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"

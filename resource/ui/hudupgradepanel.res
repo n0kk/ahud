@@ -638,7 +638,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemStatsLabel"
-			"font"			"NormalCode10"
+			"font"			"aRegular10"
 			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"30"

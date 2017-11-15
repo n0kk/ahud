@@ -43,7 +43,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"xpos"			"75"
 		"ypos"			"30"
 		"ypos_hidef"	"23"
@@ -64,7 +64,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"xpos"			"75"
 		"ypos"			"75"
 		"ypos_hidef"	"23"

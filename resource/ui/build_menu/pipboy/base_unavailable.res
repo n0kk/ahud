@@ -78,7 +78,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"NormalCode11"
+		"font"			"aRegular11"
 		"fgcolor"		"TanDark"
 		"xpos"			"0"
 		"ypos"			"55"

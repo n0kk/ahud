@@ -85,23 +85,43 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"xpos"			"40"
 		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"13"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"	"west"
 		"fgcolor_override"		"255 255 255 255"
 	}
+	"TargetNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"TargetNameLabelShadow"
+		"font"			"aRegular10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"640"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"	"west"
+		"fgcolor_override"		"ShadowBlack"
+
+		"pin_to_sibling"	"TargetNameLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	}
 	"TargetDataLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"NormalCode8"
+		"font"			"aRegular8"
 		"xpos"			"40"
 		"ypos"			"30"
 		"zpos"			"1"
@@ -167,9 +187,9 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"		"KillStreakIconAnchor"
-        "pin_corner_to_sibling" "1"
-        "pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"KillStreakIconAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}	
 	
 	"MoveableSubPanel"
@@ -235,7 +255,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"NormalCode10"
+			"font"			"aRegular10"
 			"xpos"			"0"
 			"ypos"			"35"
 			"zpos"			"1"

@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"NormalCode26"
+		"font"			"aRegular26"
 		"fgcolor"		"HP"
 		"labeltext"		"%Health%"
 	}
@@ -75,17 +75,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"1"
-		"ypos"			"5"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"44"
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"NormalCode26"
+		"font"			"aRegular26"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
+
+		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -104,19 +108,20 @@
 	}
 	"HealthBoxBG"	
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBoxBG"
 		"xpos"			"0"
-		"ypos"			"9"
+		"ypos"			"-5"
 		"zpos"			"1"
 		"wide"			"44"
 		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
+		"bgcolor_override"	"Blank"
 		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
+
+		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}	
 }

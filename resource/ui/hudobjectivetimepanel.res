@@ -62,7 +62,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
 		
 		if_match
@@ -106,7 +106,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
 		
 		if_match
@@ -150,7 +150,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
 		
 		if_match
@@ -195,7 +195,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"NormalCode10"
+		"font"				"aRegular10"
 		"fgcolor"			"ahudWhite"
 		
 		if_match
@@ -240,7 +240,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
 		
 		if_match

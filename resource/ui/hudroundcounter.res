@@ -50,7 +50,7 @@
 
 	"Background"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"c-40"
 		"ypos"			"11"
@@ -58,59 +58,54 @@
 		"wide"			"80"
 		"tall"			"14"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"HudBlack"
-		"scaleimage"			"1"
+		"bgcolor_override"	"HudBlack"
 	}
 	"BlueTeamBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueTeamBackground"
 		"xpos"			"c-40"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"40"
-		"tall"			"9"
+		"tall"			"11"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ahudBlue"
-		"scaleimage"			"1"
-	}
-	"BlueTeamBackground2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamBackground2"
-		"xpos"			"c-40"
-		"ypos"			"2"
-		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"9"
-		"proportionaltoparent"	"1"
-		"fillcolor"				"ahudDarkBlue"
-		"scaleimage"			"1"
+		"bgcolor_override"	"ahudBlue"
+
+		"BlueTeamBackground2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueTeamBackground2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"2"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"ahudDarkBlue"
+		}
 	}
 	"RedTeamBackground"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"RedTeamBackground"
 		"xpos"			"c0"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"40"
-		"tall"			"9"
+		"tall"			"11"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"ahudRed"
-		"scaleimage"			"1"
-	}
-	"RedTeamBackground2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamBackground2"
-		"xpos"			"c0"
-		"ypos"			"2"
-		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"9"
-		"proportionaltoparent"	"1"
-		"fillcolor"				"ahudDarkRed"
-		"scaleimage"			"1"
+		"bgcolor_override"	"ahudRed"
+
+		"RedTeamBackground2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedTeamBackground2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"2"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"ahudDarkRed"
+		}
 	}
 }

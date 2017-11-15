@@ -868,7 +868,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationTitle"
-			"font"			"NormalCode16"
+			"font"			"aRegular16"
 			"labelText"		"#TF_Matchmaking_PlayWithFriends"
 			"textAlignment"	"center"
 			"xpos"			"cs-0.5"
@@ -899,7 +899,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationLabel"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"#TF_Casual_PlayWithFriendsExplanation"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"

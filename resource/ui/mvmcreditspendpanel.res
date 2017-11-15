@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"NormalCode14"
+		"font"			"aRegular14"
 		"labelText"		"%header%"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"UpgradesCountLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
 		"xpos"			"75"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackCountLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
 		"xpos"			"75"
@@ -87,7 +87,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BottleCountLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
 		"xpos"			"75"

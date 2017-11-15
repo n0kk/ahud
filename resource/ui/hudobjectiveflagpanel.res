@@ -20,103 +20,20 @@
 	
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-90"
-		"ypos"			"r24"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"ahudBlue"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-	
-	"LeftSideBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBG2"
-		"xpos"			"c-90"
-		"ypos"			"r21"
-		"zpos"			"0"
-		"wide"			"50"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"ahudDarkBlue"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-		
-	"RightSideBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBG"
-		"xpos"			"c40"
-		"ypos"			"r24"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"ahudRed"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-	
-	"RightSideBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBG2"
-		"xpos"			"c40"
-		"ypos"			"r21"
-		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ahudDarkRed"
+		"bgcolor_override"		"ahudBlue"
+
+		"pin_to_sibling"	"PlayingToBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -132,8 +49,69 @@
 		{
 			"visible"	"0"
 		}
+
+		"LeftSideBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"LeftSideBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"ahudDarkBlue"
+			"proportionaltoparent"	"1"
+		}	
 	}
+	
+	"RightSideBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RightSideBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"ahudRed"
+
+		"pin_to_sibling"	"PlayingToBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+
+		"RightSideBG2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RightSideBG2"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"wide"			"f0"
+			"tall"			"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"	"ahudDarkRed"
+			"proportionaltoparent"	"1"
+		}
+	}
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -168,17 +146,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-125"
-		"ypos"			"r30"
+		"xpos"			"-10"
+		"ypos"			"2"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"NormalCode24"
+		"font"			"aRegular24"
 		"fgcolor"		"ahudWhite"
+
+		"pin_to_sibling"	"LeftSideBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
 		"if_hybrid"
 		{
@@ -200,17 +182,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-124"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"NormalCode24"
+		"font"			"aRegular24"
 		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"BlueScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -232,17 +218,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c50"
-		"ypos"			"r30"
+		"xpos"			"-10"
+		"ypos"			"2"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"NormalCode24"
+		"font"			"aRegular24"
 		"fgcolor"		"ahudWhite"	
+
+		"pin_to_sibling"	"RightSideBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -264,17 +254,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c51"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
-		"tall"			"35"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"NormalCode24"
-		"fgcolor"		"ShadowBlack"	
+		"font"			"aRegular24"
+		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"RedScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -337,17 +331,17 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"cs-0.5"
-		"ypos"			"r30"
+		"ypos"			"r23"
 		"zpos"			"7"
 		"wide"			"140"
-		"tall"			"38"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
 		
 		"if_hybrid"
@@ -368,16 +362,16 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-40"
-		"ypos"			"r24"
+		"xpos"			"cs-0.5"
+		"ypos"			"r23"
 		"zpos"			"3"
 		"wide"			"80"
-		"tall"			"24"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Hudblack"
+		"bgcolor_override"	"Hudblack"
 		
 		"if_hybrid"
 		{

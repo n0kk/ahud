@@ -718,10 +718,10 @@
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultFgColor_override" "ahudWhite"
+			"armedFgColor_override" "ahudWhite"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"242 242 242 255"
 
 			"SubImage"
 			{
@@ -737,7 +737,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
+				"drawcolor_override" "ahudWhite"
 			}
 		}
 	}

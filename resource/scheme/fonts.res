@@ -12,7 +12,7 @@ Scheme
 				"antialias" "0"
 			}
 		}
-		"Code9"
+		"aBold9"
 		{
 			"1"
 			{
@@ -22,7 +22,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code10"
+		"aBold10"
 		{
 			"1"
 			{
@@ -32,7 +32,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code12"
+		"aBold12"
 		{
 			"1"
 			{
@@ -42,7 +42,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code14"
+		"aBold14"
 		{
 			"1"
 			{
@@ -52,7 +52,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code16"
+		"aBold16"
 		{
 			"1"
 			{
@@ -62,7 +62,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code18"
+		"aBold18"
 		{
 			"1"
 			{
@@ -72,7 +72,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code20"
+		"aBold20"
 		{
 			"1"
 			{
@@ -82,7 +82,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code22"
+		"aBold22"
 		{
 			"1"
 			{
@@ -92,7 +92,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code24"
+		"aBold24"
 		{
 			"1"
 			{
@@ -102,7 +102,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code26"
+		"aBold26"
 		{
 			"1"
 			{
@@ -112,7 +112,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code28"
+		"aBold28"
 		{
 			"1"
 			{
@@ -122,7 +122,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code30"
+		"aBold30"
 		{
 			"1"
 			{
@@ -132,7 +132,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code32"
+		"aBold32"
 		{
 			"1"
 			{
@@ -142,7 +142,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code34"
+		"aBold34"
 		{
 			"1"
 			{
@@ -152,7 +152,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code48"
+		"aBold48"
 		{
 			"1"
 			{
@@ -162,7 +162,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code50"
+		"aBold50"
 		{
 			"1"
 			{
@@ -172,7 +172,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code52"
+		"aBold52"
 		{
 			"1"
 			{
@@ -182,7 +182,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Code55"
+		"aBold55"
 		{
 			"1"
 			{
@@ -192,7 +192,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode8"
+		"aRegular8"
 		{
 			"1"
 			{
@@ -202,7 +202,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode9"
+		"aRegular9"
 		{
 			"1"
 			{
@@ -212,7 +212,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode10"
+		"aRegular10"
 		{
 			"1"
 			{
@@ -222,7 +222,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode12"
+		"aRegular12"
 		{
 			"1"
 			{
@@ -232,7 +232,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode14"
+		"aRegular14"
 		{
 			"1"
 			{
@@ -242,7 +242,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode16"
+		"aRegular16"
 		{
 			"1"
 			{
@@ -252,7 +252,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode18"
+		"aRegular18"
 		{
 			"1"
 			{
@@ -262,7 +262,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode20"
+		"aRegular20"
 		{
 			"1"
 			{
@@ -272,7 +272,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode20Outline"
+		"aRegular20Outline"
 		{
 			"1"
 			{
@@ -283,7 +283,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode22"
+		"aRegular22"
 		{
 			"1"
 			{
@@ -293,7 +293,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode22Outline"
+		"aRegular22Outline"
 		{
 			"1"
 			{
@@ -304,7 +304,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode24"
+		"aRegular24"
 		{
 			"1"
 			{
@@ -314,7 +314,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode24Outline"
+		"aRegular24Outline"
 		{
 			"1"
 			{
@@ -325,7 +325,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"NormalCode26"
+		"aRegular26"
 		{
 			"1"
 			{
@@ -335,7 +335,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode28"
+		"aRegular28"
 		{
 			"1"
 			{
@@ -345,7 +345,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode30"
+		"aRegular30"
 		{
 			"1"
 			{
@@ -355,7 +355,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode32"
+		"aRegular32"
 		{
 			"1"
 			{
@@ -365,7 +365,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode34"
+		"aRegular34"
 		{
 			"1"
 			{
@@ -375,7 +375,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode36"
+		"aRegular36"
 		{
 			"1"
 			{
@@ -385,7 +385,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode38"
+		"aRegular38"
 		{
 			"1"
 			{
@@ -395,7 +395,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode40"
+		"aRegular40"
 		{
 			"1"
 			{
@@ -405,7 +405,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode42"
+		"aRegular42"
 		{
 			"1"
 			{
@@ -415,7 +415,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode44"
+		"aRegular44"
 		{
 			"1"
 			{
@@ -425,7 +425,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode46"
+		"aRegular46"
 		{
 			"1"
 			{
@@ -435,7 +435,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode48"
+		"aRegular48"
 		{
 			"1"
 			{
@@ -445,7 +445,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode50"
+		"aRegular50"
 		{
 			"1"
 			{
@@ -455,7 +455,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode52"
+		"aRegular52"
 		{
 			"1"
 			{
@@ -465,7 +465,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"NormalCode55"
+		"aRegular55"
 		{
 			"1"
 			{

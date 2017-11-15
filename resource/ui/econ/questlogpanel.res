@@ -130,7 +130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"Code16"
+			"font"			"aBold16"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

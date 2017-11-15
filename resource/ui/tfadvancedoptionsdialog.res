@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Code24"
+		"font"			"aBold24"
 		"labelText"		"#TF_AdvancedOptions"
 		"textAlignment"	"center"
 		"xpos"			"0"

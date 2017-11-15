@@ -482,7 +482,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"NormalCode10"
+		"TextFont"		"aRegular10"
 		
 		"TeamBlue"		"ahudBlue"
 		"TeamRed"		"ahudRed"
@@ -570,7 +570,7 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"c190"
+		"xpos"			"c205"
 		"ypos"			"c91"
 		
 		"TextFont"				"Default"

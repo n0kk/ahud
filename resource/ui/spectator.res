@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NormalCode18"
+		"font"			"aRegular18"
 	}
 	"BuyBackLabel"
 	{

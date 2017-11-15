@@ -104,7 +104,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"NormalCode9"
+				"font"			"aRegular9"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"NormalCode9"
+				"font"			"aRegular9"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
@@ -137,7 +137,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"NormalCode9"
+				"font"			"aRegular9"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -299,7 +299,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"Code18"
+			"font"			"aBold18"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"			"c-285"
@@ -383,7 +383,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -400,7 +400,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -417,7 +417,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -502,7 +502,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -519,7 +519,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -536,7 +536,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -621,7 +621,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -638,7 +638,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -655,7 +655,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -740,7 +740,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -757,7 +757,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -774,7 +774,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -859,7 +859,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -876,7 +876,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -893,7 +893,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -978,7 +978,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -995,7 +995,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1012,7 +1012,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1097,7 +1097,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1114,7 +1114,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1131,7 +1131,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1216,7 +1216,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1233,7 +1233,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1250,7 +1250,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1335,7 +1335,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1352,7 +1352,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1369,7 +1369,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1400,7 +1400,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"Code18"
+			"font"			"aBold18"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
@@ -1450,7 +1450,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1467,7 +1467,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1484,7 +1484,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1501,7 +1501,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1518,7 +1518,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1535,7 +1535,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1552,7 +1552,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1569,7 +1569,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1586,7 +1586,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1603,7 +1603,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1620,7 +1620,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1637,7 +1637,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1654,7 +1654,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1671,7 +1671,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1688,7 +1688,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1705,7 +1705,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1722,7 +1722,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1739,7 +1739,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1756,7 +1756,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1773,7 +1773,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1790,7 +1790,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1807,7 +1807,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1824,7 +1824,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1841,7 +1841,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1858,7 +1858,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1875,7 +1875,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1892,7 +1892,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1909,7 +1909,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1926,7 +1926,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c+128"
@@ -1943,7 +1943,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"NormalCode9"
+			"font"			"aRegular9"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c+210"
@@ -1975,7 +1975,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"NormalCode9"
+		"font"			"aRegular9"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"xpos"			"c-245"

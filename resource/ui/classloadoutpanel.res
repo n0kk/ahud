@@ -84,7 +84,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		">>"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Code24"
+		"font"			"aBold24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-120"
@@ -269,7 +269,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"NormalCode12" //ItemFontAttribLarge
+		"font"			"aRegular12" //ItemFontAttribLarge
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -327,7 +327,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NormalCode12" //HudFontSmallBold
+			"font"			"aRegular12" //HudFontSmallBold
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -346,7 +346,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -376,7 +376,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"NormalCode12"
+			"font"			"aRegular12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -461,7 +461,7 @@
 		"tabPosition"		"0"
 		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"NormalCode16"
+		"font"				"aRegular16"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
@@ -575,7 +575,7 @@
 		"tabPosition"		"0"
 		"labelText"			"R"
 		"textAlignment"		"center"
-		"font"				"NormalCode16"
+		"font"				"aRegular16"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		

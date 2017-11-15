@@ -102,7 +102,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 	}
 	
 	"MenuBG"

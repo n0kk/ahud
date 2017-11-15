@@ -48,7 +48,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode10"
+		"font"					"aRegular10"
 		"fgcolor"				"ahudWhite"
 	}
 	
@@ -88,15 +88,15 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode20"
+		"font"					"aRegular20"
 		"fgcolor"				"Killstreak"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"3"
-		"ypos"					"11"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"30"
 		"tall"					"20"	
@@ -108,7 +108,11 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NormalCode20"
+		"font"					"aRegular20"
 		"fgcolor"				"ShadowBlack"
+
+		"pin_to_sibling"	"ItemEffectMeterCount"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

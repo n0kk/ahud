@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"NormalCode10"
+		"font"			"aRegular10"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"

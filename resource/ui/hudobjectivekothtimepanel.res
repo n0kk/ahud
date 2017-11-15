@@ -33,14 +33,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"NormalCode14"
+			"delta_item_font"		"aRegular14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"fgcolor"		"ahudWhite"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -93,14 +93,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"2"
-			"delta_item_font"		"NormalCode14"
+			"delta_item_font"		"aRegular14"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"NormalCode14"
+			"font"			"aRegular14"
 			"fgcolor"		"ahudWhite"
 			"xpos"			"0"
 			"ypos"			"0"

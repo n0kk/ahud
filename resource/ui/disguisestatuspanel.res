@@ -48,7 +48,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"NormalCode12"
+		"font"			"aRegular12"
 		"xpos"			"48"
 		"ypos"			"9"
 		"zpos"			"1"
@@ -68,9 +68,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabelShadow"
-		"font"			"NormalCode12"
-		"xpos"			"49"
-		"ypos"			"10"
+		"font"			"aRegular12"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"115"
 		"tall"			"14"
@@ -83,13 +83,17 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+
+		"pin_to_sibling"	"DisguiseNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"NormalCode10"
+		"font"			"aRegular8"
 		"xpos"			"48"
 		"ypos"			"21"
 		"zpos"			"1"
@@ -109,9 +113,9 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"NormalCode10"
-		"xpos"			"49"
-		"ypos"			"22"
+		"font"			"aRegular8"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"115"
 		"tall"			"12"
@@ -124,6 +128,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+
+		"pin_to_sibling"	"WeaponNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"SpectatorGUIHealth"

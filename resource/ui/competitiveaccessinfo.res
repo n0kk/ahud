@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"Code16"
+			"font"			"aBold16"
 			"labelText"		"#MMenu_CompetitiveAccess"
 			"textAlignment"	"center"
 			"xpos"			"5"
