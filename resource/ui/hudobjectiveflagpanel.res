@@ -191,7 +191,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"aRegular24"
+		"font"			"aRegularShadow24"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"BlueScore"
@@ -263,7 +263,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"aRegular24"
+		"font"			"aRegularShadow24"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"RedScore"

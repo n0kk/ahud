@@ -143,7 +143,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"aRegular34"
+			"font"			"aRegularShadow34"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -238,7 +238,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"aRegular34"
+			"font"			"aRegularShadow34"
 			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"

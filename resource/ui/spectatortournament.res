@@ -68,7 +68,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playernameshadow"
-				"font"			  "aRegular9"
+				"font"			  "aRegularShadow9"
 				"xpos"			  "-1"
 				"ypos"			  "-1"
 				"zpos"			  "5"
@@ -211,7 +211,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeshadow"
-				"font"			"aRegular10"
+				"font"			"aRegularShadow10"
 				"xpos"			"-1"
 				"ypos"			"-1"
 				"zpos"			"6"
@@ -265,7 +265,30 @@
 				"fgcolor_override"	"HP Buff"
 
 			}
-		
+			
+			"chargeamountshadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamountshadow"
+				"font"			"aRegularShadow9"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"zpos"			"6"
+				"wide"			"25"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor_override"	"ShadowBlack"
+				
+				"pin_to_sibling"	"chargeamount"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+
+			}
+			
 			"specindex"
 			{
 				"ControlName"	"CExLabel"

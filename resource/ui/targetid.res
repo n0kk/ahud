@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"aRegular10"
+		"font"			"aRegularShadow10"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"

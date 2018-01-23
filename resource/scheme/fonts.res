@@ -475,6 +475,503 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"aBoldShadow9"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow12"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow14"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow22"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow24"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow34"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow52"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aBoldShadow55"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		// SHADOWS
+		"aRegularShadow8"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow9"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow10"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow12"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow14"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow16"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow18"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow20"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow22"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow24"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow24Outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow26"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow28"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow30"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow32"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow34"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"34"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow36"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow38"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"38"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow40"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"40"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow42"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"42"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow44"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"44"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow46"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"46"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow48"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow50"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow52"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow55"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"55"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}		
+		"aTargetIDData"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"DefaultOutline"
 		{
 			"1"

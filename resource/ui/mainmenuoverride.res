@@ -216,10 +216,10 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
+//		if_christmas
+//		{
+//			"image"		"../console/title_team_smissmas_2017_widescreen"
+//		}
 //		if_jungle_inferno_0
 //		{
 //			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
@@ -228,22 +228,6 @@
 //		{
 //			"image"		"../console/title_pyro_jungle_inferno_2017_widescreen"
 //		}
-	}
-	
-	"MainMenuSideBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuSideBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-98"
-		"wide"			"170"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"HudBlack"
 	}
 	
 	"TFLogoImage"
@@ -789,7 +773,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"170"
-		"ypos"			"100"
+		"ypos"			"69"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"20"
@@ -922,22 +906,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"r290"
+		"xpos"			"200"
 		"ypos"			"64"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"		"ahudPanelBorder"
+		"bgcolor_override"	"HudBlack"
 		
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
 			"xpos"			"186"
-			"ypos"			"8"
+			"ypos"			"6"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -966,21 +951,22 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"ahudWhite"
+			"image_armedcolor"	"255 0 0 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"9"
+				"tall"			"9"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
 			}				
 		}		
 	
@@ -992,14 +978,14 @@
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
-			"ypos"			"8"
+			"ypos"			"7"
 			"wide"			"250"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"ahudWhite"
 			"wrap"			"1"
 		}
 		
@@ -1031,7 +1017,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButtonNew"
-		"xpos"			"72"
+		"xpos"			"70"
 		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"30"
@@ -1380,6 +1366,22 @@
 	}
 
 	//START OF MENU
+	"MainMenuSideBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuSideBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-98"
+		"wide"			"170"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"HudBlack"
+	}	
+	
 	"ahudLabel"
 	{
 		"ControlName"	"CExButton"
@@ -1408,7 +1410,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"aRegular8"
-		"labelText"		"v2017.1114"
+		"labelText"		"v2018.0123"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -1785,10 +1787,10 @@
 		"depressedFgColor_override" "75 125 255 255"
 	}
 		
-	"ToggleMinmode"
+	"ScoreboardButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ToggleMinmode"
+		"fieldName"		"ScoreboardButton"
 		"xpos"			"27"
 		"ypos"			"325"
 		"wide"			"85"
