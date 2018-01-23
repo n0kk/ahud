@@ -58,6 +58,9 @@ If using any of the custom crosshairs, the crosshair damage flash will be on by 
 To use the Home Server button (the heart on the Main Menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
 ## Support
+[ahud Steam group](http://steamcommunity.com/groups/ahud)  
+[Report bugs here](https://github.com/n0kk/ahud/issues)
+
 **Windows**: Yes
 * 4:3 - 1024×768 and above  
 * 16:9 - 1280x720 and above  
@@ -66,6 +69,4 @@ To use the Home Server button (the heart on the Main Menu) in conjunction with y
 **Linux**: No  
 **Mac**: No
 
-I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support (However, ahud is reported to work with Linux). 
-
-Please post any bugs with ahud to the Issues page on this repository. There is also a [Steam group](http://steamcommunity.com/groups/ahud) you can join where you can ask general questions and get announcements on updates to ahud.
+I have tested ahud on my Windows PC using a 16:9 monitor primarily on resolutions 1280x720 and above. ahud works on 16:10 and 4:3 and I'll be providing support for these aspect ratios as best as I can. Unfortunately, no Mac or Linux support.
