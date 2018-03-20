@@ -121,10 +121,10 @@
 		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	

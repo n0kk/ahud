@@ -9,18 +9,3 @@ event HitMarker
 	Animate KnucklesCrosses		FgColor		"CrosshairDamage"		Linear 0.0 0.0
 	Animate KnucklesCrosses		FgColor		"Crosshair"		Linear 0.15 0.0
 }
-
-event MMenu_PlayList_Expand
-{
-	// empty
-}
-
-event MMenu_PlayList_Collapse
-{
-	// empty
-}
-
-event MMenu_PlayList_Collapse_Immediate
-{
-	// empty
-}

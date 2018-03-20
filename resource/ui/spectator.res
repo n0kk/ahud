@@ -191,7 +191,8 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"HudBlack"
+		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -215,28 +216,12 @@
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-
-		"ItemBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"200"
-			"tall"			"1000"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"Hudblack"
-		}
 		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"aRegular9"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

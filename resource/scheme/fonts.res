@@ -222,6 +222,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"aRegular11"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"aRegular12"
 		{
 			"1"
@@ -475,6 +485,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		// SHADOWS
 		"aBoldShadow9"
 		{
 			"1"
@@ -673,7 +684,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		// SHADOWS
+
 		"aRegularShadow8"
 		{
 			"1"
@@ -702,6 +713,17 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}
+		"aRegularShadow11"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 				"blur"		"1"
@@ -966,7 +988,7 @@ Scheme
 			"1"
 			{
 				"name"		"Code-Pro-LC"
-				"tall"		"8"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"

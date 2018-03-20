@@ -125,10 +125,10 @@
 		"font"			"Blank"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 
@@ -154,10 +154,10 @@
 		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -183,10 +183,10 @@
 		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -211,10 +211,10 @@
 		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"ahudWhite"
-		"defaultFgColor_override" "ahudWhite"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
+		"armedFgColor_override" "ahudWhite"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	
@@ -239,10 +239,10 @@
 		"font"			"aRegular12"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
+		"fgcolor"			"255 255 255 128"
+		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
 	

@@ -286,6 +286,7 @@
 		"Default"			"0"
 		"font"				"aRegular12"
 		
+		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"

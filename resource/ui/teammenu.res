@@ -207,16 +207,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1  Auto-join"	[$WIN32]
+		"labelText"		"&1  Auto-Join"	[$WIN32]
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"font"			"aRegular12"
-		"defaultFgColor_override" 	"TanDark"
+		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"ahudWhite"
 	}
 
@@ -241,9 +241,9 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"aRegular12"
-		"defaultFgColor_override" 	"TanDark"
+		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"ahudWhite"
 	}
 	
@@ -282,9 +282,9 @@
 		"paintbackground""0"
 		"command"		"cancelmenu"
 		"font"			"aBold15"
-		"defaultFgColor_override" 	"TanDark"
+		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"ahudWhite"
-		"depressedFgColor_override" "TanDark"
+		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" 	"ahudWhite"
 	}
 	
