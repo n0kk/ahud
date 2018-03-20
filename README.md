@@ -14,15 +14,15 @@ ahud is a simplistic HUD for Team Fortress 2 first started by [kyle](https://git
 
 #### Screenshots
 
-* [Main Menu](http://i.imgur.com/HEriy8N.jpg)
-* [Team Select](http://i.imgur.com/gNSYYOc.jpg)
-* [Class Select](http://i.imgur.com/cDgPJwB.jpg)
-* [Buffed HP](http://i.imgur.com/9NbLjtH.jpg)
-* [Alt. Buffed HP](http://i.imgur.com/O5PRiD0.jpg)
-* [Low HP](http://i.imgur.com/wR6gkGn.jpg)
-* [Alt. Low HP](http://i.imgur.com/yFmiSEC.jpg)
-* [Default scoreboard](http://i.imgur.com/Lk2Ey63.jpg)
-* [6v6 scoreboard](http://i.imgur.com/9pempQF.jpg)
+* [Main Menu](https://i.imgur.com/V1u0GzX.jpg)
+* [Team Select](https://i.imgur.com/oQiZNg0.jpg)
+* [Class Select](https://i.imgur.com/q2xoFtc.jpg)
+* [Buffed HP](https://i.imgur.com/ocaWQeb.jpg)
+* [Alt. Buffed HP](https://i.imgur.com/cXah2Ui.jpg)
+* [Low HP](https://i.imgur.com/sYgXTB4.jpg)
+* [Alt. Low HP](https://i.imgur.com/LwHrrkD.jpg)
+* [Default scoreboard](https://i.imgur.com/lHBthvm.jpg)
+* [6v6 scoreboard](https://i.imgur.com/IFQU69s.jpg)
 
 More screenshots can be found at the [Imgur album](http://imgur.com/a/569GH).
 
