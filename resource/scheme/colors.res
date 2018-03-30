@@ -14,7 +14,7 @@ Scheme
 		"HP Buff"				"0 255 127 255"
 		"HP Low"				"200 45 45 255"
 		
-		"Damage Numbers"		"255 255 0 255"
+		"Damage Numbers"		"255 255 0 255"		// Set in Advanced Options
 		"Healing Numbers"		"0 255 127 255"
 		
 		"Ammo In Clip"			"243 243 243 255"

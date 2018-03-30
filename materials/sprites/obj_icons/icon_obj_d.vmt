@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\bg_red"
+	"$translucent" "1"
+	"$baseTexture" "vgui\replay\thumbnails\icon_obj_d"
 	"$vertexcolor" "1"
 	"$no_fullbright" "1"
 	"$ignorez" "1"
-	"$translucent" "1"
 }

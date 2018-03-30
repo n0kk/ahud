@@ -106,9 +106,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
+		"tabxindent"	"15"
+		"tabxdelta"		"10"
+		"tabwidth"		"150"
 		"tabheight"		"20"
 		"yoffset"		"15"
 		"transition_time" "0"
@@ -130,18 +130,15 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"aBold24"
+			"textinsetx"		"0"
+			"textinsety"		"-6"
+			"font"				"aBold16"
 			"selectedcolor"		"ahudWhite"
-			"unselectedcolor"	"TanDark"	
-			"defaultBgColor_override"	"ahudDarkGrey"
-			"paintbackground"	"1"
-			"activeborder_override"	"ButtonDepressedBorder"
-			"normalborder_override" "ButtonDepressedBorder"
-			
-			"armedBgColor_override"		"37 37 37 255"
-			"selectedBgColor_override"	"ahudDarkGrey"
+			"unselectedcolor"	"ahudDullWhite"	
+			"defaultBgColor_override"	"Blank"
+			"paintbackground"	"0"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
 	

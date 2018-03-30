@@ -70,7 +70,7 @@
 		"wrap"					"0"
 		"labelText"				"%status%"
 		"proportionaltoparent"	"1"
-		"font"					"aRegular8"
+		"font"					"QuestObjectiveTracker_Desc"
 		"fgcolor_override"				"TanDark"
 		"mouseinputenabled"		"0"
 	}
