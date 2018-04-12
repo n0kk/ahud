@@ -527,7 +527,6 @@
 		"wrap"			"0"
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"	"west"
-		"AllCaps"		"1"
 
 		"pin_to_sibling"	"HudTournamentBLUEBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -646,7 +645,6 @@
 		"wrap"			"0"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"	"east"
-		"AllCaps"		"1"
 
 		"pin_to_sibling"	"HudTournamentREDBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"

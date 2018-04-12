@@ -1410,7 +1410,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"VersionLabel"
 		"font"			"aRegular8"
-		"labelText"		"v2018.0404"
+		"labelText"		"v2018.0412"
 		"textAlignment"	"east"
 		"xpos"			"r52"
 		"ypos"			"r13"
@@ -1420,7 +1420,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"242 242 242 5"
+		"fgcolor_override"	"242 242 242 10"
 	}
 
 	"RankModelPanel"

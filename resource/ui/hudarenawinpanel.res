@@ -81,7 +81,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps"		"1"
 
 			"pin_to_sibling"	"BlueScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -148,7 +147,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"AllCaps"		"1"
 
 			"pin_to_sibling"	"RedScoreBG"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
