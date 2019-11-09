@@ -1,3 +1,5 @@
+#base "../../resource/preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -244,6 +246,12 @@
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 	}	
+	
+	"DashboardDimmer"
+	{
+		"wide"			"0"
+		"tall"			"0"
+	}
 	
 	"TFCharacterImage"
 	{
