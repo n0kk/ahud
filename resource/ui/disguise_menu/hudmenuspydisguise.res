@@ -103,6 +103,7 @@
 		"brighttext"	"0"
 		"fgcolor"		"ahudWhite"
 	}
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -333,7 +334,6 @@
 		"ypos"			"53"
 		"zpos"			"2"
 		"wide"			"75"
-		"tall"			"16"
 		"tall"			"16"
 		"visible"		"1"
 	}

@@ -91,13 +91,14 @@
 		"font"					"aRegular20"
 		"fgcolor"				"Killstreak"
 	}
+	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"-1"
 		"ypos"					"-1"
-		"zpos"					"2"
+		"zpos"					"1"
 		"wide"					"30"
 		"tall"					"20"	
 		"pinCorner"				"2"
