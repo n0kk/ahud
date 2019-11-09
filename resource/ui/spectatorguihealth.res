@@ -5,42 +5,28 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"4"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"wide"			"0"
+		"tall"			"0"
 	}		
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"wide"			"0"
+		"tall"			"0"
 	}	
+	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"28"
-		"tall"			"28"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
+		"wide"			"0"
+		"tall"			"0"
 	}	
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -71,6 +57,7 @@
 		"fgcolor"		"HP"
 		"labeltext"		"%Health%"
 	}
+	
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -91,22 +78,17 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
+	
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusPlayerLevel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
+		"wide"			"0"
+		"tall"			"0"
 	}
-	"HealthBoxBG"	
+	
+	"HealthBoxBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBoxBG"

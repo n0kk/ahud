@@ -121,6 +121,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 			
 			"New"
@@ -130,6 +131,7 @@
 				"font"			"FontStorePrice"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
+				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"25"
 				"tall"			"12"
@@ -169,17 +171,18 @@
 		"enabled"		"0"
 		"fgcolor_override" "200 80 60 255"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"aBold24"
+		"font"			"aBold20"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-288"
 		"ypos"			"11"
 		"zpos"			"1"
-		"wide"			"210"
+		"wide"			"420"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -351,7 +354,6 @@
 		}
 	}	
 	
-	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -366,7 +368,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
@@ -395,7 +396,6 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-		
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -406,7 +406,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
@@ -510,6 +509,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
+	
 	"DragToPrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -668,7 +668,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -677,6 +676,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -688,10 +688,11 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -710,6 +711,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -733,7 +735,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -742,6 +743,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -772,7 +774,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-250"
 		"end_y"			"130"
@@ -843,7 +844,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -852,6 +852,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -867,6 +868,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -890,7 +892,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -899,6 +900,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -914,6 +916,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -932,6 +935,7 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -955,7 +959,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -964,6 +967,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -994,7 +998,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"force_close"	"1"
 		"end_x"			"c-150"
 		"end_y"			"80"
@@ -1065,7 +1068,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1074,6 +1076,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1089,6 +1092,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1112,7 +1116,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1121,6 +1124,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1136,6 +1140,7 @@
 				"scaleImage"	"1"
 			}				
 		}
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1159,7 +1164,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1168,6 +1172,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1183,6 +1188,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1287,7 +1293,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1296,6 +1301,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1307,10 +1313,11 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1334,7 +1341,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1343,6 +1349,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1358,6 +1365,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"NextButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1381,7 +1389,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"nextexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1390,6 +1397,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1405,6 +1413,7 @@
 				"scaleImage"	"1"
 			}				
 		}	
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1508,7 +1517,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1517,6 +1525,7 @@
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1528,10 +1537,11 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PrevButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1555,7 +1565,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"prevexplanation"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1564,6 +1573,7 @@
 			
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 255 255 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1579,6 +1589,7 @@
 				"scaleImage"	"1"
 			}				
 		}		
+		
 		"PositionLabel"
 		{
 			"ControlName"	"CExLabel"

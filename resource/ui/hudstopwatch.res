@@ -27,17 +27,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"17"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/ico_time_10"
-		"scaleImage"		"1"	
-		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
-		//"teambg_3"		"../hud/objectives_timepanel_blue_bg"		
+		"xpos"			"9999"		
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -74,6 +64,7 @@
 			"textAlignment"		"center"
 		}	
 	}
+	
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"		"CExLabel"
@@ -98,6 +89,7 @@
 			"ypos"	"31"
 		}
 	}
+	
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -154,42 +146,13 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchDescriptionBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"125"
-		"tall"			"19"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"
-
-
-		"src_corner_height"	"2"				// pixels inside the image
-		"src_corner_width"	"2"
-		
-		"draw_corner_width"	"2"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"2"	
+		"xpos"			"9999"	
 	}
 
 	"StopWatchDescriptionLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"ClockSubTextTiny"
-		"labelText"		"%descriptionlabel%"
-		"textAlignment"		"center"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"4"
-		"wide"			"125"
-		"tall"			"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"wrap"			"0"
-		"fgcolor"			"ahudWhite"
 	}
 }

@@ -166,21 +166,6 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Cancel"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
 	}
 		
 	"TeamMenuAuto"
@@ -258,71 +243,19 @@
 		}
 	}	
 
-
 	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
+		"xpos"			"9999"
 	}		
 		
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"autodoor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arenadoor01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hoveropen"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"hoverclose"
-			}
-		}
+		"xpos"			"9999"
 	}		
 	
 	"spectate"
@@ -330,46 +263,5 @@
 		"ControlName"	"CModelPanel"
 		"fieldName"		"spectate"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01_spectate.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hover"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"idle"
-			}
-		}
 	}			
 }
-

@@ -213,7 +213,7 @@
 			"image"			"../HUD/tournament_panel_black"
 			"scaleImage"		"1"
 	
-			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_height"	"23"			// pixels inside the image
 			"src_corner_width"	"23"
 		
 			"draw_corner_width"	"6"				// screen size of the corners ( and sides ), proportional
@@ -268,6 +268,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"HudBlack"
 	}
+	
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -312,7 +313,7 @@
 	"LosingTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabel"
+		"fieldName"		"LosingTeamLabel"
 		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
 		"xpos"			"10"
@@ -332,7 +333,7 @@
 	"LosingTeamLabelDropshadow"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
+		"fieldName"		"LosingTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
 		"fgcolor"		"black"
 		"xpos"			"9999"
@@ -886,7 +887,7 @@
 	"ArenaWinPanelLosersPanel"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"ArenaWinPanelWinnersPanel"
+		"fieldName"		"ArenaWinPanelLosersPanel"
 		"xpos"			"10"
 		"ypos"			"76"
 		"wide"			"340"

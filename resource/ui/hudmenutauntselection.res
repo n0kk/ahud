@@ -39,13 +39,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Divider"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"456"
-		"tall"			"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"255 222 208 255"
 	}
 
 	"IcoReelIcon"
@@ -53,15 +46,6 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"IcoReelIcon"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"hud_taunt_menu_icon"
-		"iconColor"		"255 255 255 255"
 	}
 	
 	"TitleLabel"
@@ -90,8 +74,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"aRegular20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"			// align me to the left edge of the first selection
-		"ypos"			"2"
+		"xpos"			"-1"			// align me to the left edge of the first selection
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"470"
 		"tall"			"22"
@@ -103,6 +87,10 @@
 		"textAlignment"	"center"
 		"dulltext"		"1"
 		"brighttext"	"0"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 
 	"WeaponTauntLabel"
@@ -111,18 +99,6 @@
 		"fieldName"		"WeaponTauntLabel"
 		"font"			"Default"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"350"
-		"tall"			"13"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#Hud_Menu_Taunt_Weapon"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"CancelLabel"
@@ -176,6 +152,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -248,6 +225,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -320,6 +298,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -392,6 +371,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -464,6 +444,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -536,6 +517,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -608,6 +590,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}
@@ -680,6 +663,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}

@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"500"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"400"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -35,7 +35,6 @@
 			"text_center"	"0"
 			"text_yoffset"	"2"
 			"inset_eq_y"	"55"
-			
 			"deferred_description"        "1"
             "deferred_icon"                        "1"
 		}
@@ -62,12 +61,12 @@
 			
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
-			
 			"deferred_description"        "1"
 			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 			

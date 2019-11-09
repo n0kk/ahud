@@ -22,9 +22,9 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			
 			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
+		
 		"RedScoreBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -37,9 +37,9 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-
 			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
+		
 		"BLUBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -67,6 +67,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
+		
 		"REDBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -94,6 +95,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
+		
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -116,6 +118,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
+		
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -160,6 +163,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
+		
 		"BlueLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -175,6 +179,7 @@
 			"scaleImage"	"1"	
 			"color_outline"	"ahudDarkBlue"
 		}
+		
 		"BlueLeaderAvatarBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -188,6 +193,7 @@
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkBlue"
 		}
+		
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -210,6 +216,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
+		
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -254,6 +261,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
+		
 		"RedLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -269,6 +277,7 @@
 			"scaleImage"	"1"	
 			"color_outline"	"ahudDarkRed"
 		}
+		
 		"RedLeaderAvatarBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -398,18 +407,6 @@
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"292"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"DetailsLabel"
 	{	
@@ -436,36 +433,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"268"
-		"tall"			"84"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
 	}
+	
 	"TopPlayersLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"200"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%TopPlayersLabel%"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"PointsThisRoundLabel"
 	{	
@@ -473,35 +448,12 @@
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_PointsThisRound"
-		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"260"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
 	}
 	"Player1Avatar"		[$WIN32]
 	{
@@ -572,6 +524,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
 	"Player2Avatar"		[$WIN32]
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -641,6 +594,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
 	"Player3Avatar"		[$WIN32]
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -710,6 +664,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
+	// KillStreak
 	"KillStreakLeaderLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -724,7 +680,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Highest Killstreak"
+		"labelText"		"#Winpanel_KillStreakLeader"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -735,35 +691,12 @@
 		"fieldName"		"KillStreakMaxCountLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_KillStreakMaxCount"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"HorizontalLine2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine2"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"260"
-		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
 	}
 	"KillStreakPlayer1Avatar"		[$WIN32]
 	{

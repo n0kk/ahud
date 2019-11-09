@@ -1,22 +1,5 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"38"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -70,22 +53,6 @@
 		"tall"			"50"
 		"visible"		"1"
 		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../hud/ico_stickybomb_red"
-			"scaleImage"	"1"
-			"teambg_2"		"../hud/ico_stickybomb_red"
-			"teambg_3"		"../hud/ico_stickybomb_blue"	
-		}	
-		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -113,7 +80,7 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"-1"
 			"ypos"			"-1"
-			"zpos"			"2"
+			"zpos"			"1"
 			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"1"
@@ -144,22 +111,6 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../hud/ico_stickybomb_red_faded"
-			"scaleImage"	"1"
-			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
-		}
 
 		"NumPipesLabel"
 		{
@@ -188,7 +139,7 @@
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"-1"
 			"ypos"			"-1"
-			"zpos"			"2"
+			"zpos"			"1"
 			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"1"

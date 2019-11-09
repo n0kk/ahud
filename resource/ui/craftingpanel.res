@@ -66,6 +66,7 @@
 				"itemmodelpanel"
 				{
 					"use_item_rendertarget" "0"
+					"inventory_image_type"	"1"
 					"allow_rot"				"0"
 				}
 			
@@ -229,6 +230,7 @@
 			"enabled"		"1"
 			"fgcolor"		"ahudDullWhite"
 		}
+		
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -292,6 +294,7 @@
 			"wrap"			"1"
 			"fgcolor"		"178 82 22 255"
 		}
+		
 		"UpgradeButton"
 		{
 			"ControlName"	"CExButton"
@@ -337,6 +340,7 @@
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 	}
+	
 	"recipecontainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -364,7 +368,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
@@ -394,7 +397,6 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"mousedragitempanel"
-		
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"100"
@@ -405,7 +407,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"model_ypos"	"5"
 		"model_tall"	"35"
 		"text_ypos"		"60"
@@ -416,6 +417,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 	

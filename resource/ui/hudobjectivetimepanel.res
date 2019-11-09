@@ -46,6 +46,7 @@
 			"visible"	"0"
 		}
 	}
+	
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -68,7 +69,6 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -90,6 +90,7 @@
 			"wide"	"0"
 		}
 	}
+	
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -112,7 +113,6 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
 		}
 	}			
 	"OvertimeBG"
@@ -134,6 +134,7 @@
 			"wide"	"0"
 		}
 	}
+	
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -156,7 +157,6 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
 		}
 	}			
 	"SuddenDeathBG"
@@ -177,8 +177,8 @@
 		{
 			"wide"	"0"
 		}
-		
-	}	
+	}
+	
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -201,7 +201,6 @@
 		if_match
 		{
 			"ypos"					"21"
-			"ypos_minmode"			"21"
 		}
 	}	
 	"SetupBG"
@@ -224,6 +223,7 @@
 			"wide"	"0"
 		}
 	}	
+	
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -247,9 +247,9 @@
 		{
 			"xpos"					"c-44"
 			"ypos"					"21"
-			"ypos_minmode"			"21"
 		}
 	}
+	
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"ImagePanel"

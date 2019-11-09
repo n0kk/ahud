@@ -492,7 +492,6 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"c-230"
 		"ypos"			"c-132"
 		"zpos"			"1"
@@ -502,11 +501,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"1"
-
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -514,7 +511,6 @@
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
@@ -525,60 +521,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}	
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 		
@@ -594,7 +537,6 @@
 		"visible"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
-		
 		"model_xpos"	"10"
 		"model_ypos"	"10"
 		"model_wide"	"200"
@@ -603,7 +545,6 @@
 		"attrib_only"	"0"
 		"model_only"	"1"
 		"paint_icon_hide"	"0"
-		
 		"text_ypos"		"10"
 		
 		"itemmodelpanel"
@@ -618,7 +559,6 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon1"
-		
 		"xpos"			"c-215"
 		"ypos"			"c56"
 		"zpos"			"13"
@@ -648,10 +588,8 @@
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -664,6 +602,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -672,7 +611,6 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon2"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
@@ -702,10 +640,8 @@
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -718,6 +654,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -726,7 +663,6 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon3"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
@@ -756,10 +692,8 @@
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -772,6 +706,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -780,7 +715,6 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon4"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
@@ -810,10 +744,8 @@
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -826,6 +758,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -834,7 +767,6 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon5"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
@@ -864,10 +796,8 @@
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -880,6 +810,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -1163,9 +1094,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"gofullscreen"
-		
 		"paintbackground"	"0"
-		
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
 		
@@ -1208,9 +1137,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"zoom_toggle"
-		
 		"paintbackground"	"0"
-		
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
 		
@@ -1243,7 +1170,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -1435,7 +1361,6 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		
-	
 	//---
 	
 	"CloseButton"
@@ -1461,15 +1386,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"
 		"depressedFgColor_override" "Blank"
-		
 		"image_drawcolor"	"ahudWhite"
 		"image_armedcolor"	"255 0 0 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1578,18 +1502,14 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
 		"text_center_x"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
 		"model_ypos"	"15"
 		"model_wide"	"150"
 		"model_tall"	"100"
-
 		"hide_collection_panel" "1"
 		"model_center_x"	"1"
-
 		"name_only"			"1"
 	}
 }

@@ -57,7 +57,7 @@
 			"ypos"			"12"
 			"zpos"			"0"
 			"wide"			"575"
-			"tall"			"275"
+			"tall"			"293"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"workshop_branding"
@@ -358,7 +358,6 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
 				"labelText"		"#TF_SteamWorkshop_Edit"
 				"command"		"edit"
 				
@@ -403,7 +402,6 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
 				"labelText"		"#TF_SteamWorkshop_View"
 				"command"		"view"				
 				
@@ -448,7 +446,6 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-				
 				"labelText"		"#TF_SteamWorkshop_Delete"
 				"command"		"delete_item"
 				
@@ -599,7 +596,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Close"
+			"labelText"		"#TF_Close"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"

@@ -521,7 +521,6 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"vote_restart"
 	}
@@ -539,7 +538,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Continue"
+		"labelText"		"#ConfirmButtonText"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -547,7 +546,6 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"continue"
 	}

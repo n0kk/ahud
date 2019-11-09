@@ -75,7 +75,7 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"25"
-		"labelText"		"SELECT A TEAM"
+		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
 		"font"			"aBold18"
 		"visible"		"1"
@@ -607,8 +607,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
-		"xpos"			"c-49"
-		"ypos"			"c151"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -623,6 +623,10 @@
 		"font"			"aRegular12"
 		"fgcolor"		"TransparentBlack"
 		"centerwrap"	"1"
+		
+		"pin_to_sibling"		"TeamsFullLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"TeamsFullArrow" [$WIN32]
@@ -640,4 +644,3 @@
 		"scaleImage"	"1"	
 	}
 }
-

@@ -11,42 +11,47 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
+	
 	"specgui"
 	{
 	}
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"bottombarblank"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"999999"
-		"ypos"			"999999"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -63,6 +68,7 @@
 		"textAlignment"		"center"
 		"font"			"aRegular18"
 	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -81,105 +87,61 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
+	
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"ClassOrTeamLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 		
 	}
 	"SwitchCamModeLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"TipLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"999999"
-		"ypos"			"999999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"9999"
 	}
 	"itempanel"
 	{
@@ -215,6 +177,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
+			"inventory_image_type"	"1"
 		}
 		
 		"ItemLabel"
@@ -237,6 +200,7 @@
 			"brighttext"	"0"
 		}
 	}
+	
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

@@ -45,6 +45,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -141,17 +142,6 @@
 			"ControlName"	"Panel"
 			"fieldName"		"InnerPanelRim"
 			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"-1"
-			"wide"			"480"
-			"tall"			"230"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			
-			"PaintBackgroundType" "0"
-			"bgcolor_override"	"ahudWhite"
 		}
 		"TopBorder"
 		{
@@ -221,6 +211,7 @@
 			"PaintBackgroundType" "0"
 			"bgcolor_override"	"ahudWhite"
 		}		
+		
 		"InnerBGPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -558,7 +549,6 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			
 			"bgcolor_override"	"52 48 45 255"
 		}
 		

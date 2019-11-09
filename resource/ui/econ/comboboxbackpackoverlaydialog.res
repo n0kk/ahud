@@ -57,11 +57,13 @@
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
+		
 		"itemmodelpanel"
 		{
 			"force_use_model"		"1"
 			"use_item_rendertarget" "0"
 			"allow_rot"				"1"
+			"inventory_image_type" 	"1"
 		}
 	}
 

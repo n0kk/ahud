@@ -776,7 +776,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -951,7 +951,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -1173,7 +1173,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -1395,7 +1395,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -1617,7 +1617,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -1839,7 +1839,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		
@@ -2060,7 +2060,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}		

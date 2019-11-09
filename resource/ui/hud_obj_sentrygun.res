@@ -101,7 +101,6 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -178,7 +177,7 @@
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
-			"icon"			"obj_status_alert_background"
+			"icon"			"obj_status_alert_background_tall"
 		}
 		
 		"WrenchIcon"

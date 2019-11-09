@@ -48,7 +48,6 @@
 		"bgcolor_override"	"0 0 0 255"
 	}
 
-	
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -184,8 +183,8 @@
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
-		"xpos"			"rs1+1"
-		"ypos"			"19"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"125"
 		"tall"			"40"
@@ -197,6 +196,10 @@
 		"fgcolor_override" "Black"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"		"DescLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"DisabledIcon"

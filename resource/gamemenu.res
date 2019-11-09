@@ -32,7 +32,7 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip"	"Call Vote"
+		"tooltip"	"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -40,13 +40,13 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip"	"Mute Players"
+		"tooltip"	"#MMenu_MutePlayers"
 	}
 	"ReportPlayerButton"
 	{
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"tooltip"		"Report Player"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }

@@ -117,29 +117,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
 	}
 	
 	"BlueScore"
@@ -322,7 +299,7 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"ypos"		"r142"
 		}
 	}		
 	

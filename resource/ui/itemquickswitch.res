@@ -14,7 +14,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"HudBlack"
 		
@@ -40,7 +39,6 @@
 			"text_xpos"		"50"
 			"text_wide"		"160"
 			"name_only"		"1"
-			
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
@@ -49,20 +47,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
 	}
+	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"

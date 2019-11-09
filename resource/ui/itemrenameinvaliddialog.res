@@ -75,12 +75,15 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
+	
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -121,9 +124,11 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	

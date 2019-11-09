@@ -137,6 +137,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -186,6 +187,7 @@
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
+			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
 	}	
@@ -209,6 +211,7 @@
 		"bgcolor_override" "ahudBlack"
 		"paintbackgroundtype" "0"
 	}
+	
 	"OldItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -228,6 +231,7 @@
 		"fgcolor_override" "117 107 94 255"
 		"paintbackground" "0"
 	}
+	
 	"OldItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -266,6 +270,7 @@
 		"bgcolor_override" "ahudBlack"
 		"paintbackgroundtype" "0"
 	}
+	
 	"NewItemNameDescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -285,6 +290,7 @@
 		"fgcolor_override" "117 107 94 255"
 		"paintbackground" "0"
 	}
+	
 	"CustomNameEntry"
 	{
 		"ControlName"		"TextEntry"

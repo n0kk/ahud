@@ -30,42 +30,23 @@
 		"tabPosition"	"0"
 	}
 	
-	"SelectAClassLabel"
+	"SelectClassLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"SelectAClassLabel"
+		"fieldName"		"SelectClassLabel"
 		"xpos"			"c-150"
 		"ypos"			"c-130"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"25"
-		"labelText"		"SELECT A CLASS"
-		"textAlignment"	"center"
-		"font"			"aBold18"
 		"visible"		"1"
 		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"center"
+		"font"			"aBold18"
 		"fgcolor_override"	"ahudWhite"
 	}
 	
-	"Offense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Offense"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Offense"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanDark"
-	}
 	"scout"
 	{
 		"ControlName"		"CExButton"
@@ -85,6 +66,7 @@
 		"Command"			"select 1"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -96,12 +78,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"			
 	}
+	
 	"soldier"
 	{
 		"ControlName"		"CExButton"
@@ -121,6 +102,7 @@
 		"Command"			"select 3"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -132,12 +114,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"			
 	}
+	
 	"pyro"
 	{
 		"ControlName"		"CExButton"
@@ -157,6 +138,7 @@
 		"Command"			"select 7"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -168,32 +150,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"			
 	}
 	
-	"Defense"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Defense"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Defense"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanDark"
-	}
 	"demoman"
 	{
 		"ControlName"		"CExButton"
@@ -213,6 +174,7 @@
 		"Command"			"select 4"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -224,12 +186,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"				
 	}	
+	
 	"heavyweapons"
 	{
 		"ControlName"		"CExButton"
@@ -249,6 +210,7 @@
 		"Command"			"select 6"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -260,12 +222,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"		
 	}
+	
 	"engineer"
 	{
 		"ControlName"		"CExButton"
@@ -285,6 +246,7 @@
 		"Command"			"select 9"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -296,32 +258,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"				
 	}
 	
-	"Support"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Support"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"12"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_Support"
-		"textAlignment"	"left"
-		"font"			"MenuClassBuckets"
-		"fgcolor"		"TanDark"
-	}
 	"medic"
 	{
 		"ControlName"		"CExButton"
@@ -341,6 +282,7 @@
 		"Command"			"select 5"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -352,12 +294,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 	"sniper"
 	{
 		"ControlName"		"CExButton"
@@ -377,6 +318,7 @@
 		"Command"			"select 2"
 		"Default"			"0"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -388,12 +330,11 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"			
 	}
+	
 	"spy"
 	{
 		"ControlName"		"CExButton"
@@ -414,6 +355,7 @@
 		"Default"			"0"
 		"font"				"aRegular12"
 		"scaleImage"		"1"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -424,8 +366,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -451,6 +391,7 @@
 		"Command"			"select 12"
 		"Default"			"1"
 		"font"				"aRegular12"
+		"paintbackground"	"0"
 		
 		"FgColor"					"255 255 255 128"
 		"defaultFgColor_override" 	"255 255 255 128"
@@ -461,8 +402,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
-		
-		"paintbackground"	"0"
 		
 		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
@@ -639,14 +578,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"45"
-		"tall"			"90"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""	
-		"scaleImage"	"0"	
 	}
 	
 	"localPlayerBG"
@@ -654,24 +585,6 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"80"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/color_panel_clear"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/color_panel_clear"
-		"teambg_3"		"../hud/color_panel_clear"
-			
-		"src_corner_height"		"23"			// pixels inside the image
-		"src_corner_width"		"23"
-				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
 	}
 	
 	"countImage0" [$WIN32]
@@ -1288,22 +1201,18 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
-		
 		"xpos"			"c-130"
 		"ypos"			"85"
 		"zpos"			"6"		
 		"wide"			"320"
 		"tall"			"320"
-		
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"25"
 		"allow_rot"		"0"
-
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -1311,7 +1220,6 @@
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "180"
 			"angles_z" "0"
@@ -1322,7 +1230,6 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
 		}
 	}
@@ -1332,15 +1239,6 @@
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"7"
-		"wide"			"235"
-		"tall"			"165"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
 	}
 	
 	"ClassHighlightPanel"
@@ -1356,7 +1254,6 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
-		
 		"start_x"		"c-238"
 		"start_y"		"100"
 		"start_wide"	"1"
@@ -1429,7 +1326,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
-			
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1449,7 +1345,7 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"close_button"
+				"image"			"replay/thumbnails/buttons/x"
 				"scaleImage"	"1"
 			}				
 		}

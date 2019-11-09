@@ -64,7 +64,7 @@ Scheme
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
+		"GoalOrange"		"255 133 0 255"
 		"TFOrange"			"145 73 59 255"
 		"Purple"			"137 69 99 255"
 		
@@ -98,7 +98,7 @@ Scheme
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
-
+		"Transparent"		"0 0 0 0"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
@@ -113,11 +113,9 @@ Scheme
 		"HudOffWhite"		"200 187 161 255"
 		//"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
-		
 		"CreditsGreen"		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
-
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
 		"ForTesting_Magenta"	"255 0 255 255"
@@ -235,7 +233,6 @@ Scheme
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-		
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
