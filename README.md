@@ -58,7 +58,6 @@ If using any of the custom crosshairs, the crosshair damage flash will be on by 
 To use the Home Server button (the heart on the Main Menu) in conjunction with your favorite server, add `alias JoinHomeServer "connect x.x.x.x:xxxx"` in your `autoexec.cfg`.
 
 ## Support
-[ahud Steam group](http://steamcommunity.com/groups/ahud)  
 [Report bugs here](https://github.com/n0kk/ahud/issues)
 
 **Windows**: Yes
