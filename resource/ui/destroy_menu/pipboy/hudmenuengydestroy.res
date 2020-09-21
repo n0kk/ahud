@@ -33,37 +33,20 @@
 		"drawcolor"		"192 192 192 255"
 	}
 	
-	"BackgroundEngineer"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BackgroundEngineer"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"			"pipboy_engineer"
-		"tileImage"		"0"
-		"tileVertically" "0"
-	}
-	
 	"DestroyIcon"	
 	{
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ahudPipBoy"
 	}
 	
 	"TitleLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 	
 	"CancelLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 }

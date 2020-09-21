@@ -4,16 +4,16 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 	
 	"BuildingIcon"	
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ahudPipBoy"
 	}
 	
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 }

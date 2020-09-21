@@ -31,6 +31,9 @@ Scheme
 		Econ.Button.PresetArmedColorBg						"ahudGreen"
 		Econ.Button.PresetDepressedColorBg					"ahudYellow"
 		
+		Econ.Button.Border.Default							"ahudWhite"
+		Econ.Button.Border.Armed							"ahudWhite"
+
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button

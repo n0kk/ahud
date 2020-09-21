@@ -1,24 +1,15 @@
-#base "../tele_exit_inactive.res"
+#base "../base_inactive.res"
 
 "Resource/UI/build_menu/tele_exit_inactive.res"
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"labelText"			"#TF_Object_Tele_Exit_360"
+		"fgcolor_override"	"ahudPipBoy"
 	}
-	
-	"NotBuiltLabel"
-	{
-		"fgcolor"		"0 255 0 255"
-	}	
 
-	"UnavailableLabel"
-	{
-		"fgcolor"		"0 255 0 255"
-	}
-	
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor_override"	"ahudPipBoy"
 	}
 }
