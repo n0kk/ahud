@@ -162,11 +162,11 @@
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
     }
-	"KillStreakIconAnchor"
+	"KillStreakAnchor"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"KillStreakIconAnchor"
-		"xpos"			"-4"
+		"fieldName"		"KillStreakAnchor"
+		"xpos"			"-5"
 		"ypos"			"38"
 		"wide"			"8"
 		"tall"			"8"
@@ -187,9 +187,9 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"	"KillStreakIconAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"	"KillStreakAnchor"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}	
 	
 	"MoveableSubPanel"

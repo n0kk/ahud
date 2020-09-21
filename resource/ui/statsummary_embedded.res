@@ -1,4 +1,4 @@
-"Resource/UI/winpanel.res"
+"Resource/UI/statsummary.res"
 {
 	"TFStatsSummary"
 	{

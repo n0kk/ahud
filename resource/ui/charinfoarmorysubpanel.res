@@ -214,7 +214,7 @@
 		
 		"model_hide"	"1"
 		"text_center"	"1"
-		"resize_to_text" "1"
+		"resize_to_text" "0"
 		
 		"itemmodelpanel"
 		{
@@ -411,8 +411,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-138"
-		"ypos"			"323"
+		"xpos"			"c-300"
+		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"20"
