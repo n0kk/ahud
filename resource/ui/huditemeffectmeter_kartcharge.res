@@ -13,23 +13,6 @@
 		"MeterBG"		"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"-30"
-		"ypos"			"28"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"75"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-	}
-	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"

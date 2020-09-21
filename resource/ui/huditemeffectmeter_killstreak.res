@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
 	{
@@ -11,23 +11,6 @@
 		"tall"			"36"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
