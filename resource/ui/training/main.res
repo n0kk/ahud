@@ -33,7 +33,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"ahudPanelBorder"
-		
+
 		"GradientBgPanel"
 		{
 			"ControlName"	"ImagePanel"
@@ -126,8 +126,8 @@
 			"Command"		"prevpage"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
-		
+		}
+
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
@@ -150,8 +150,8 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}			
-		
+		}
+
 		"ModeSelectionPanel"
 		{
 			"ControlName"		"CModeSelectionPanel"
@@ -167,10 +167,10 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"paintBackground"	"0"
-			
+
 			"TrainingTitle"		"#TF_Training_Title"
 		}
-		
+
 		"BasicTraining_ClassSelectionPanel"
 		{
 			"ControlName"		"CBasicTraining_ClassSelectionPanel"
@@ -186,26 +186,26 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"paintBackground"	"0"
-			
+
 			"TrainingTitle"		"#TR_AttackDefense"
 			"TrainingSubTitle"	"#TF_SelectAClass"
-				
+
 			"Class0Token"		"#TF_Soldier"
 			"Class1Token"		"#TF_Demoman"
 			"Class2Token"		"#TF_Spy"
 			"Class3Token"		"#TF_Engineer"
-			
+
 			"Class0Image"		"training/class_soldier"
 			"Class1Image"		"training/class_demoman"
 			"Class2Image"		"training/class_spy"
 			"Class3Image"		"training/class_engineer"
-			
+
 			"Class0Command"		"basictraining_classselection_soldier"
 			"Class1Command"		"basictraining_classselection_demoman"
 			"Class2Command"		"basictraining_classselection_spy"
 			"Class3Command"		"basictraining_classselection_engineer"
 		}
-		
+
 		"BasicTraining_ClassDetailsPanel"
 		{
 			"ControlName"		"CBasicTraining_ClassDetailsPanel"
@@ -221,10 +221,10 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"paintBackground"	"0"
-			
+
 			"TrainingTitle"		"#TR_AttackDefense"
 		}
-		
+
 		"OfflinePractice_ModeSelectionPanel"
 		{
 			"ControlName"		"COfflinePractice_ModeSelectionPanel"
@@ -239,25 +239,25 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"paintBackground"	"0"
-			
+
 			"TrainingTitle"		"#TR_PracticeModeSelectTitle"
-			
+
 			"Mode0Token"		"#Gametype_CP"
 			"Desc0Token"		"#TF_GameModeDesc_CP"
 			"Image0Path"		"illustrations/gamemode_cp"
 			"Mode0Id"			"0"
-			
+
 			"Mode1Token"		"#Gametype_Koth"
 			"Desc1Token"		"#TF_GameModeDesc_Koth"
 			"Image1Path"		"illustrations/gamemode_koth"
 			"Mode1Id"			"1"
-			
+
 			"Mode2Token"		"#Gametype_Escort"
 			"Desc2Token"		"#TF_GameModeDesc_Escort"
 			"Image2Path"		"illustrations/gamemode_payload"
 			"Mode2Id"			"2"
 		}
-		
+
 		"OfflinePractice_MapSelectionPanel"
 		{
 			"ControlName"		"COfflinePractice_MapSelectionPanel"
@@ -272,7 +272,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"paintBackground"	"0"
-			
+
 			"TrainingTitle"		"#TR_PracticeMapSelectTitle"
 		}
 	}

@@ -6,12 +6,12 @@
 	{
 		"fgcolor"		"ahudPipBoy"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"iconColor"		"ahudPipBoy"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"		"ahudPipBoy"

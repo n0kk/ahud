@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,13 +26,13 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"ahudDarkGrey"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 
 		"NavToRelay"			"BackButton"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}	
+	}
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -102,8 +102,8 @@
 		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
-	
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -113,7 +113,7 @@
 		"tabwidth"		"240"
 		"tabheight"		"35"
 		"transition_time" "0"
-		
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
@@ -127,26 +127,25 @@
 			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
-		
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
 			"font"				"aBold24"
 			"selectedcolor"		"ahudWhite"
-			"unselectedcolor"	"TanDark"	
+			"unselectedcolor"	"TanDark"
 			"defaultBgColor_override"	"ahudDarkGrey"
 			"paintbackground"	"1"
 			"activeborder_override"	"HoAssBorder"
 			"normalborder_override" "HoAssBorder"
 			"mouseinputenabled"	"0"
-			
+
 			"armedBgColor_override"		"37 37 37 255"
 			"selectedBgColor_override"	"ahudDarkGrey"
 		}
 	}
 
-	
 	"OptionsButton"
 	{
 		"ControlName"	"CExImageButton"

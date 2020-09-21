@@ -16,7 +16,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
-	
+
 	"GameModeImageBgPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"scaleImage"	"1"
 		"image"			""
 	}
-	
+
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -54,8 +54,8 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
@@ -79,8 +79,8 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"GameModeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -99,7 +99,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"ahudWhite"
 	}
-	
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -119,7 +119,7 @@
 		"wrap"			"1"
 		"fgcolor_override"	"ahudWhite"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -138,7 +138,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"ahudWhite"
 	}
-	
+
 	"SelectCurrentGameModeButton"
 	{
 		"ControlName"		"CExButton"
@@ -162,5 +162,5 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 }

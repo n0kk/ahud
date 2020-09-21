@@ -16,8 +16,8 @@
 		"image"			""
 		"scaleImage"	"1"
 	}
-	
-	"Notification_Icon"	
+
+	"Notification_Icon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Notification_Icon"
@@ -27,12 +27,12 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			""
 	}
-	
+
 	"Notification_Label"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
 		"font"			"Default"

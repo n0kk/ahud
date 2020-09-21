@@ -29,14 +29,14 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		"attrib_only"		"1"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -68,7 +68,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -125,7 +125,6 @@
 			"proportionaltoparent"	"1"
 		}
 
-
 		"QuestLogTitle"
 		{
 			"ControlName"	"CExLabel"
@@ -172,13 +171,13 @@
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel" "2"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "Blank"
 			"armedFgColor_override" "Blank"
 			"depressedFgColor_override" "Blank"
-			
+
 			"image_drawcolor"	"ahudWhite"
 			"image_armedcolor"	"255 0 0 255"
 			"SubImage"
@@ -219,7 +218,7 @@
 			"not_possible"	"#QuestLog_NoContractsPossible"
 		}
 	}
-	
+
 	"ProgressPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -238,7 +237,7 @@
 		"proportionaltoparent"	"1"
 
 		"CoinModelPanel"
-		{		
+		{
 			"ControlName"	"CItemModelPanel"
 			"fieldName"		"CoinModelPanel"
 			"xpos"			"0"
@@ -250,7 +249,7 @@
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"proportionaltoparent"	"1"
-		
+
 			"model_xpos"	"0"
 			"model_ypos"	"5"
 			"model_wide"	"30"
@@ -260,9 +259,9 @@
 			"model_only"	"1"
 			"paint_icon_hide"	"0"
 			"hide_modifier_icons"	"1"
-		
+
 			"text_ypos"		"10"
-		
+
 			"itemmodelpanel"
 			{
 				"inventory_image_type"	"1"
@@ -309,14 +308,14 @@
 			"proportionaltoparent"	"1"
 
 			"BadgeProgressMeter"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BadgeProgressMeter"
 				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"2"
 				"wide"			"98"
-				"tall"			"13"				
+				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -339,7 +338,7 @@
 				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"f0"
-				"tall"			"f0"					
+				"tall"			"f0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -389,7 +388,7 @@
 			"proportionaltoparent"	"1"
 
 			"ContractsCompletedProgressMeter"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"ContractsCompletedProgressMeter"
 				"xpos"			"1"
@@ -419,7 +418,7 @@
 				"ypos"			"0"
 				"zpos"			"3"
 				"wide"			"f0"
-				"tall"			"f0"					
+				"tall"			"f0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

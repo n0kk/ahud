@@ -9,7 +9,7 @@
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"illustrations/training_basic"
-	}	
+	}
 
 	"SelectButton"
 	{
@@ -30,7 +30,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ProgressLabel"
 	{
 		"ControlName"	"CExLabel"

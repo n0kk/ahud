@@ -11,13 +11,13 @@
 	{
 		"iconColor"		"0 0 0 255"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
 		"iconColor"		"ahudPipBoy"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"xpos"			"10"
 		"ypos"			"18"
@@ -25,12 +25,12 @@
 		"tall"			"10"
 		"iconColor"		"ahudPipBoy"
 	}
-	
+
 	"CostLabel"
 	{
 		"fgcolor"		"ahudPipBoy"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"		"ahudPipBoy"

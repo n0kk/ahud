@@ -52,7 +52,7 @@
 			"wrap"				   "1"
 			"centerwrap"		   "1"
 		}
-		
+
 		"ImageFrame"
 		{
 			"ControlName"	"EditablePanel"
@@ -65,7 +65,7 @@
 			"enabled"		"1"
 			"border"		"HoAssBorder"
 		}
-		
+
 		// Parented to ImageFrame in code.
 		"Image"
 		{
@@ -80,7 +80,7 @@
 			"tileImage"		"0"
 			"scaleImage"	"1"
 			"image"			""
-		}	
+		}
 	}
 
 	"StartButton"

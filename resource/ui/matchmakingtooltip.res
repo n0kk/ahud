@@ -13,12 +13,11 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"0"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-
 
 			if_small
 			{
@@ -51,5 +50,5 @@
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"
 		}
-	}	
+	}
 }

@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
-{	
+{
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -11,13 +11,13 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"image"			"../hud/objectives_timepanel_blue_bg"
+		"scaleImage"		"1"
 		"src_corner_height"	"3"
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
-		
+
 		if_match
 		{
 			"visible"	"0"
@@ -29,7 +29,7 @@
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"67"
 		"ypos"				"16"
-		"zpos"				"4"	
+		"zpos"				"4"
 		"wide"				"20"
 		"tall"				"20"
 		"visible"			"0"
@@ -40,13 +40,13 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
-		
+
 		if_match
 		{
 			"visible"	"0"
 		}
 	}
-	
+
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -65,12 +65,12 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_match
 		{
 			"ypos"					"21"
 		}
-	}			
+	}
 	"WaitingForPlayersBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -82,7 +82,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 
 		if_match
@@ -90,7 +90,7 @@
 			"wide"	"0"
 		}
 	}
-	
+
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -109,12 +109,12 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_match
 		{
 			"ypos"					"21"
 		}
-	}			
+	}
 	"OvertimeBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -126,15 +126,15 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"	"HudBlack"	
+		"fillcolor"	"HudBlack"
 		"PaintBackgroundType"	"0"
-		
+
 		if_match
 		{
 			"wide"	"0"
 		}
 	}
-	
+
 	"SuddenDeathLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -153,12 +153,12 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_match
 		{
 			"ypos"					"21"
 		}
-	}			
+	}
 	"SuddenDeathBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -170,7 +170,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"image"			"../hud/objectives_timepanel_suddendeath"
 		"scaleImage"		"1"
 
 		if_match
@@ -178,7 +178,7 @@
 			"wide"	"0"
 		}
 	}
-	
+
 	"SetupLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -197,12 +197,12 @@
 		"wrap"				"0"
 		"font"				"aRegular10"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_match
 		{
 			"ypos"					"21"
 		}
-	}	
+	}
 	"SetupBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -214,16 +214,15 @@
 		"tall"				"12"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"HudBlack"	
+		"fillcolor"			"HudBlack"
 		"PaintBackgroundType"	"0"
-		
 
 		if_match
 		{
 			"wide"	"0"
 		}
-	}	
-	
+	}
+
 	"ServerTimeLimitLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -242,14 +241,14 @@
 		"wrap"			"0"
 		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
-		
+
 		if_match
 		{
 			"xpos"					"c-44"
 			"ypos"					"21"
 		}
 	}
-	
+
 	"ServerTimeLimitLabelBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -261,12 +260,12 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"	"HudBlack"	
+		"fillcolor"	"HudBlack"
 		"PaintBackgroundType"	"0"
-		
+
 		if_match
 		{
 			"wide"	"0"
-		}	
+		}
 	}
 }

@@ -6,7 +6,7 @@
 	{
 		"fgcolor"		"ahudPipBoy"
 	}
-	
+
 	"CantBuildReason"
 	{
 		"fgcolor"		"ahudPipBoy"

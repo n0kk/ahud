@@ -9,8 +9,8 @@
 
 	"RedScore"
 	{
-		"visible"		"0"	
-	}	
+		"visible"		"0"
+	}
 
 	"RedScoreShadow"
 	{
@@ -19,8 +19,8 @@
 
 	"BlueScore"
 	{
-		"visible"		"0"	
-	}	
+		"visible"		"0"
+	}
 
 	"BlueScoreShadow"
 	{
@@ -39,7 +39,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../effects/skull001_hud"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
 
@@ -55,7 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../effects/skull001_hud"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
 }

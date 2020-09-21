@@ -10,7 +10,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		  "1"
-				
+
 		"team1_player_base_offset_x"	"0"
 		"team1_player_base_y"				  "244"
 		"team1_player_delta_x"				"0"
@@ -19,17 +19,17 @@
 		"team2_player_base_y"				  "218"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-18"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
 			"wide"			"145"
 			"tall"			"18"
 			"zpos"			"1"
-			
+
 			"color_ready"	    "0 255 0 220"
 			"color_notready"	"0 0 0 220"
-			
+
 			"PanelBottom"
 			{
 				"ControlName"	"ImagePanel"
@@ -45,7 +45,7 @@
 				"enabled"		  "1"
 				"fillcolor"		"0 0 0 90"
 			}
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -63,7 +63,7 @@
 				"textAlignment"	"west"
 				"fgcolor"		  "ahudWhite"
 			}
-			
+
 			"playernameshadow"
 			{
 				"ControlName"	"CExLabel"
@@ -98,9 +98,9 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -115,7 +115,7 @@
 				"bgcolor_override"		"0 0 0 200"
 				"PaintBackgroundType"	"0"
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -126,14 +126,14 @@
 				"wide"				"24"
 				"tall"				"16"
 				"visible"			"1"
-				"enabled"			"1"	
+				"enabled"			"1"
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
 			}
-			
+
 			"HealthIconCover"
 			{
 				"ControlName"	"ImagePanel"
@@ -149,7 +149,7 @@
 				"enabled"		  "1"
 				"fillcolor"		"0 0 0 200"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -167,11 +167,11 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -188,7 +188,7 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 			}
-			
+
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
@@ -206,7 +206,7 @@
 				"textAlignment"	"center"
 				"fgcolor"		"255 255 0 255"
 			}
-			
+
 			"respawntimeshadow"
 			{
 				"ControlName"	"CExLabel"
@@ -227,8 +227,8 @@
 				"pin_to_sibling"	"respawntime"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
-			}			
-			
+			}
+
 			"respawntimecover"
 			{
 				"ControlName"	"CExLabel"
@@ -246,7 +246,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"0 0 0 0"
 			}
-			
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -265,7 +265,7 @@
 				"fgcolor_override"	"HP Buff"
 
 			}
-			
+
 			"chargeamountshadow"
 			{
 				"ControlName"	"CExLabel"
@@ -282,13 +282,13 @@
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
 				"fgcolor_override"	"ShadowBlack"
-				
+
 				"pin_to_sibling"	"chargeamount"
 				"pin_corner_to_sibling"	"PIN_TOPLEFT"
 				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 			}
-			
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -347,7 +347,7 @@
 		"textAlignment"		"center"
 		"font"			"aRegular16"
 		"fgcolor"		"ahudWhite"
-		
+
 		if_mvm
 		{
 			"ypos"			"0"
@@ -371,11 +371,11 @@
 		"fgcolor"		"ahudWhite"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
 	"MapLabel"
 	{
@@ -394,7 +394,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -445,31 +445,31 @@
 		"bgcolor_override"		"HudBlack"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"aRegular9"
@@ -500,5 +500,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 }

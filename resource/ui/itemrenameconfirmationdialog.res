@@ -54,7 +54,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -79,7 +79,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -100,7 +100,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -125,8 +125,8 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -145,7 +145,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"	"CExLabel"
@@ -209,7 +209,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"OkButton"
 	{
 		"ControlName"	"CExButton"

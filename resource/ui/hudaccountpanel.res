@@ -10,7 +10,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"aRegular18"
 	}
-	
+
 	"AccountBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -23,7 +23,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
@@ -49,7 +49,7 @@
 		"font"			"aRegular20"
 		"fgcolor"		"Metal"
 	}
-	
+
 	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"

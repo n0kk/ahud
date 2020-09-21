@@ -7,13 +7,13 @@
 		"labelText"		"#TF_Class_Name_Spy"
 		"fgcolor"		"153 194 216 255"
 	}
-	
+
 	"NewNumberLabel"
 	{
 		"fgcolor"		"153 194 216 255"
 		"labelText"		"3"
 	}
-	
+
 	"NumberLabel"
 	{
 		"fgcolor"		"153 194 216 255"

@@ -12,7 +12,7 @@
 		"MeterFG"		"ahudWhite"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -36,7 +36,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -44,7 +44,7 @@
 		"ypos"					"21"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -54,7 +54,7 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"0 0 0 100"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -63,7 +63,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -74,7 +74,7 @@
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
 	}
-	
+
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -83,7 +83,7 @@
 		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

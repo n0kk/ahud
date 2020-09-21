@@ -12,7 +12,6 @@
 		"visible"		"1"
 		"bgcolor_override"		"20 20 20 245"
 	}
-	
 
 	"BannerContainer"
 	{
@@ -24,7 +23,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"BannerImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -37,14 +36,14 @@
 			"enabled"		"1"
 			"fillcolor"			"ahudRed"
 			"scaleImage"    "1"
-			
+
 			"src_corner_height"	"40"				// pixels inside the image
 			"src_corner_width"	"40"
-		
+
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-		
+
 		"BannerTextDropShadow"
 		{
 			"ControlName"	"CExLabel"
@@ -58,7 +57,7 @@
 			"tall"			"35"
 			"fgcolor"		"ShadowBlack"
 		}
-		
+
 		"BannerText"
 		{
 			"ControlName"	"CExLabel"
@@ -73,7 +72,7 @@
 			"fgcolor"		"ahudWhite"
 		}
 	}
-	
+
 	"VictoryPanelNormal"
 	{
 		"ControlName"		"CVictoryPanel"
@@ -83,9 +82,9 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"		
+		"enabled"			"1"
 	}
-	
+
 	"VictoryPanelMannUp"
 	{
 		"ControlName"		"CMvMVictoryMannUpPanel"
@@ -96,6 +95,6 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"		
+		"enabled"			"1"
 	}
 }

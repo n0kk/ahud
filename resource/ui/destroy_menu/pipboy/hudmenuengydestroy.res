@@ -2,7 +2,7 @@
 
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"MainBackground"	
+	"MainBackground"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainBackground"
@@ -15,7 +15,7 @@
 		"enabled"		"0"
 		"paintbackground" "0"
 	}
-	
+
 	"ItemBackground"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -27,24 +27,24 @@
 		"tall"			"88"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"pipboy_overlay"
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
-	
-	"DestroyIcon"	
+
+	"DestroyIcon"
 	{
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"iconColor"		"ahudPipBoy"
 	}
-	
+
 	"TitleLabel"
 	{
 		"fgcolor"		"ahudPipBoy"
 	}
-	
+
 	"CancelLabel"
 	{
 		"fgcolor"		"ahudPipBoy"

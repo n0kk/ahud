@@ -26,7 +26,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -34,16 +34,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
-			"inset_eq_x"	"2"	
+
+			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
+
 			"use_item_sounds"	"1"
 		}
 	}
@@ -62,13 +62,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -87,7 +87,7 @@
 			"centerwrap"	"1"
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -109,7 +109,7 @@
 	}
 
 	"preview_model"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"preview_model"
 		"xpos"			"c-60"
@@ -269,7 +269,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionalToParent"	"1"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

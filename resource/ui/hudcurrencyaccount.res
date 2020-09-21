@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -29,10 +29,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Currency"
 	}
-	
+
 	"Currency"
 	{
 		"ControlName"	"CExLabel"
@@ -46,7 +46,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%currency%"
-	}	
+	}
 }

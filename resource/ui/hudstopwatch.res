@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
-		
+
 		if_comp
 		{
 			"xpos"	"c-54"
@@ -27,7 +27,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StopWatchImageCaptureTime"
-		"xpos"			"9999"		
+		"xpos"			"9999"
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -41,7 +41,7 @@
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_comp
 		{
 			"xpos"	"c-52"
@@ -62,9 +62,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
-		}	
+		}
 	}
-	
+
 	"StopWatchScoreToBeat"
 	{
 		"ControlName"		"CExLabel"
@@ -82,14 +82,14 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_comp
 		{
 			"xpos"	"c-3"
 			"ypos"	"31"
 		}
 	}
-	
+
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_comp
 		{
 			"xpos"	"c7"
@@ -134,7 +134,7 @@
 		"enabled"			"1"
 		"wrap"				"0"
 		"fgcolor"			"ahudWhite"
-		
+
 		if_comp
 		{
 			"xpos"	"c-62"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchDescriptionBG"
-		"xpos"			"9999"	
+		"xpos"			"9999"
 	}
 
 	"StopWatchDescriptionLabel"

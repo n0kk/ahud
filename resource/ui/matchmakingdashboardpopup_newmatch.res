@@ -145,7 +145,7 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -178,7 +178,7 @@
 				"wide"			"150"
 				"zpos"			"100"
 				"tall"			"15"
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"

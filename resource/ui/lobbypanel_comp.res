@@ -61,7 +61,6 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-				
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
@@ -95,7 +94,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-
 
 		"PlaylistBGPanel"
 		{
@@ -170,7 +168,7 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"mouseinputenabled"	"0"
-			
+
 					"labeltext"			"6"
 					"font"				"MarlettSmall"
 					"textAlignment"		"west"
@@ -191,8 +189,8 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-					"border_default"		"SortCategoryBorder"	
-			
+					"border_default"		"SortCategoryBorder"
+
 					"labeltext"			"#TF_Competitive_Result"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"141 63 63 255"
@@ -224,9 +222,9 @@
 					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
-					"paintbackground"	"0"	
+					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
-			
+
 					"labeltext"			"#TF_Competitive_Date"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
@@ -242,7 +240,7 @@
 					"image_drawcolor"		"0 0 0 0"
 
 					"command"	"sort1"
-					"actionsignallevel"	"4"	
+					"actionsignallevel"	"4"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -260,7 +258,7 @@
 					"visible"		"1"
 					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
-			
+
 					"labeltext"			"#TF_Competitive_Map"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
@@ -293,7 +291,7 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-			
+
 					"labeltext"			"#TF_Competitive_KDR"
 					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
@@ -327,7 +325,6 @@
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
 
-
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
@@ -344,14 +341,14 @@
 					{
 						"fgcolor_override"	"TanDark"
 					}
-		
+
 					"UpButton"
 					{
 						"ControlName"	"Button"
 						"FieldName"		"UpButton"
 						"visible"		"0"
 					}
-		
+
 					"DownButton"
 					{
 						"ControlName"	"Button"

@@ -23,7 +23,7 @@
 	}
 
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
@@ -31,7 +31,7 @@
 		"ypos"					"31"
 		"zpos"					"1"
 		"wide"					"120"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -40,8 +40,8 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"bgcolor_override"		"0 0 0 100"
-	}				
-		
+	}
+
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -52,7 +52,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -98,9 +98,9 @@
 			"pin_to_sibling"	"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}		
+		}
 	}
-	
+
 	"NoPipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -157,6 +157,6 @@
 			"pin_to_sibling"	"NumPipesLabel"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPLEFT"
-		}			
-	}				
+		}
+	}
 }

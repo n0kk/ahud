@@ -22,13 +22,13 @@
 		"wide"			"550"
 		"tall"			"350"
 		"visible"		"1"
-		
+
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 		"border"		"HoAssBorder"
 		"bgcolor_override"	"ahudWhite"
 	}
-	
+
 	"WaveFailHeaderShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -42,7 +42,7 @@
 		"tall"			"30"
 		"fgcolor"		"ShadowBlack"
 	}
-	
+
 	"WaveFailHeader"
 	{
 		"ControlName"	"CExLabel"
@@ -56,7 +56,7 @@
 		"tall"			"30"
 		"fgcolor"		"Orange"
 	}
-	
+
 	"HeaderDivider"
 	{
 		"ControlName"	"EditablePanel"
@@ -68,7 +68,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"20 20 20 100"
 	}
-	
+
 	"SummaryHeader"
 	{
 		"ControlName"	"CExLabel"
@@ -82,7 +82,7 @@
 		"tall"			"30"
 		"fgcolor"		"ahudBlack"
 	}
-	
+
 	"CollectionContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -92,7 +92,7 @@
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -105,7 +105,7 @@
 			"wide"			"140"
 			"fgcolor"		"ahudBlack"
 		}
-	
+
 		"CollectedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -118,7 +118,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"CollectedCount"
 		{
 			"ControlName"	"CExLabel"
@@ -131,7 +131,7 @@
 			"wide"			"30"
 			"fgcolor"		"CreditsGreen"
 		}
-		
+
 		"MissedLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -144,7 +144,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"MissedCount"
 		{
 			"ControlName"	"CExLabel"
@@ -157,7 +157,7 @@
 			"wide"			"30"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"BonusLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -170,7 +170,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BonusCount"
 		{
 			"ControlName"	"CExLabel"
@@ -184,7 +184,7 @@
 			"fgcolor"		"CreditsGreen"
 		}
 	}
-	
+
 	"UsageContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -194,7 +194,7 @@
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -207,7 +207,7 @@
 			"wide"			"195"
 			"fgcolor"		"ahudBlack"
 		}
-	
+
 		"YouLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -220,7 +220,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"TeamLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -233,7 +233,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BuybackLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -246,7 +246,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BuybackCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -259,7 +259,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BuybackCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -272,7 +272,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BottleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -285,7 +285,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BottleCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -298,7 +298,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"BottleCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -311,7 +311,7 @@
 			"wide"			"35"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"InactiveLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -324,7 +324,7 @@
 			"wide"			"120"
 			"fgcolor"		"TanDarker"
 		}
-		
+
 		"InactiveCountYou"
 		{
 			"ControlName"	"CExLabel"
@@ -337,7 +337,7 @@
 			"wide"			"35"
 			"fgcolor"		"RedSolid"
 		}
-		
+
 		"InactiveCountTeam"
 		{
 			"ControlName"	"CExLabel"
@@ -351,7 +351,7 @@
 			"fgcolor"		"RedSolid"
 		}
 	}
-	
+
 	"HintContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -361,7 +361,7 @@
 		"wide"			"500"
 		"tall"			"150"
 		"visible"		"1"
-		
+
 		"Background"
 		{
 			"ControlName"	"ImagePanel"
@@ -378,11 +378,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-		
+
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -440,7 +440,7 @@
 			"enabled"		"1"
 			"scaleImage"		"1"
 		}
-		
+
 		"HintImage1"
 		{
 			"ControlName"		"ImagePanel"
@@ -454,7 +454,7 @@
 			"enabled"		"1"
 			"scaleImage"		"1"
 		}
-		
+
 		"Hint1"
 		{
 			"ControlName"	"CExLabel"
@@ -469,7 +469,7 @@
 			"fgcolor"		"ahudWhite"
 			"wrap"			"1"
 		}
-		
+
 		"HintImage2"
 		{
 			"ControlName"		"ImagePanel"
@@ -483,7 +483,7 @@
 			"enabled"		"1"
 			"scaleImage"		"1"
 		}
-		
+
 		"Hint2"
 		{
 			"ControlName"	"CExLabel"
@@ -499,7 +499,7 @@
 			"wrap"			"1"
 		}
 	}
-	
+
 	"VoteButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -524,7 +524,7 @@
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"vote_restart"
 	}
-		
+
 	"ContinueButton"
 	{
 		"ControlName"	"CExImageButton"

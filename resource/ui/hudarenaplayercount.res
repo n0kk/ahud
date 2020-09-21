@@ -10,7 +10,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -39,7 +39,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -61,7 +61,7 @@
 			"pin_to_sibling"	"background"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -84,10 +84,10 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"10"
 			"ypos"			"2"
@@ -111,7 +111,7 @@
 		"wide"			"60"
 		"tall"			"30"
 		"visible"		"1"
-	
+
 		"background"
 		{
 			"ControlName"	"EditablePanel"
@@ -140,7 +140,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -162,7 +162,7 @@
 			"pin_to_sibling"	"background"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}	
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
@@ -185,10 +185,10 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-	
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
 			"xpos"			"32"
 			"ypos"			"2"
@@ -199,6 +199,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}
 	}
 }

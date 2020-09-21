@@ -2,5 +2,5 @@
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	
+
 }

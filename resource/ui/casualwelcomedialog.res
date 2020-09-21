@@ -16,7 +16,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"ahudDarkGrey"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -35,7 +35,6 @@
 			"bgcolor_override"	"ahudDarkGrey"
     	}
 	}
-
 
 	"CasualTitleLabel"
 	{

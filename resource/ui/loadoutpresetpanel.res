@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"fieldName"		"loadout_preset_panel"
-		
+
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
@@ -24,6 +24,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
-		}			
+		}
 	}
 }

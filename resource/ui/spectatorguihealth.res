@@ -7,8 +7,8 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
-	}		
-	
+	}
+
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -16,8 +16,8 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
-	}	
-	
+	}
+
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
-	}	
-	
+	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,7 +39,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValueSpec"
 	{
@@ -57,7 +57,7 @@
 		"fgcolor"		"HP"
 		"labeltext"		"%Health%"
 	}
-	
+
 	"PlayerStatusHealthValueSpecShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -78,7 +78,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
@@ -87,7 +87,7 @@
 		"wide"			"0"
 		"tall"			"0"
 	}
-	
+
 	"HealthBoxBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -105,5 +105,5 @@
 		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
+	}
 }

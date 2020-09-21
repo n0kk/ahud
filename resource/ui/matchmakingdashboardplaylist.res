@@ -28,7 +28,7 @@
 		"textAlignment"	"west"
 		"font"			"aBold24"
 		"fgcolor_override"	"ahudWhite"
-		
+
 		"mouseinputenabled"	"0"
 	}
 

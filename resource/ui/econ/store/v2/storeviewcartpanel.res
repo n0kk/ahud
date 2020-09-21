@@ -104,7 +104,7 @@
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
 			}
-			
+
 			"SeparatorLine2"
 			{
 				"ControlName"	"ImagePanel"

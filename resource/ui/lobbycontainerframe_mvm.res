@@ -8,7 +8,7 @@
 		"fieldName"		"OptionsButton"
 		"visible"	"0"
 	}
-	
+
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -71,7 +71,7 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"1"
-			
+
 		"defaultFgColor_override" "ahudWhite"
 		"defaultBgColor_override"	"ahudBlack"
 		"armedFgColor_override" "ahudWhite"
@@ -113,7 +113,7 @@
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"1"
-			
+
 		"defaultFgColor_override" "ahudWhite"
 		"defaultBgColor_override"	"ahudBlack"
 		"armedFgColor_override" "ahudWhite"

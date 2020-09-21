@@ -35,15 +35,15 @@ Scheme
 		Border.Bright									"TFTanLightDark"
 		Border.Dark										"TFTanLightDark"
 		Border.Selection								"BorderSelection"
-		
+
 		Button.TextColor								"TFDarkBrown"
 		Button.BgColor									"TFTanLight"
 		Button.ArmedTextColor							"TFDarkBrown"
 		Button.ArmedBgColor								"TFTanBright"
 		Button.DepressedTextColor						"TFDarkBrown"
-		Button.DepressedBgColor							"TFTanLight"	
+		Button.DepressedBgColor							"TFTanLight"
 		Button.FocusBorderColor							"TransparentBlack"
-		
+
 		CheckButton.TextColor							"TFTextBright"
 		CheckButton.SelectedTextColor					"TFTextBright"
 		CheckButton.BgColor								"ListBG"
@@ -54,14 +54,14 @@ Scheme
 		CheckButton.Border2  							"Border.Bright"
 		CheckButton.Check								"TFTanBright"
 		CheckButton.DisabledBgColor	   	 				"ListBG"
-		
+
 		ComboBoxButton.ArrowColor						"TFTanLight"
 		ComboBoxButton.ArmedArrowColor					"TFTanBright"
 		ComboBoxButton.BgColor							"Blank"
 		ComboBoxButton.DisabledBgColor					"Blank"
-		
+
 		"Chat.TypingText"								"TFTextBright"
-		
+
 		Frame.BgColor									"TransparentBlack"
 		Frame.OutOfFocusBgColor							"TransparentBlack"
 		Frame.FocusTransitionEffectTime					"0.0"
@@ -81,46 +81,46 @@ Scheme
 		FrameTitleBar.BgColor							"Blank"
 		FrameTitleBar.DisabledTextColor					"Orange"
 		FrameTitleBar.DisabledBgColor					"Blank"
-		
+
 		GraphPanel.FgColor								"White"
 		GraphPanel.BgColor								"TransparentBlack"
-		
+
 		Label.TextDullColor								"TFTextDull"
 		Label.TextColor									"TFTextBright"
 		Label.TextBrightColor							"TFTextBright"
 		Label.SelectedTextColor							"TFTextBright"
 		Label.BgColor									"Blank"
-		Label.DisabledFgColor1							"TFTextDull"	
+		Label.DisabledFgColor1							"TFTextDull"
 		Label.DisabledFgColor2							"Blank"
-		
+
 		ListPanel.TextColor								"TFTextBright"
 		ListPanel.BgColor								"ListBG"
 		ListPanel.SelectedBgColor						"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor				"SelectionBG2"
-		
+
 		Menu.TextColor									"White"
 		Menu.BgColor									"ListBG"
 		Menu.ArmedTextColor								"TFTextBlack"
 		Menu.ArmedBgColor								"TFOrangeBright"
 		Menu.TextInset									"6"
-		
+
 		Panel.FgColor									"Blank"
 		Panel.BgColor									"TFDarkBrown"
-		
+
 		ProgressBar.FgColor								"White"
 		ProgressBar.BgColor								"TransparentBlack"
 		PropertySheet.TextColor							"OffWhite"
 		PropertySheet.SelectedTextColor					"White"
 		PropertySheet.TransitionEffectTime				"0"
-		
+
 		RadioButton.TextColor							"DullWhite"
 		RadioButton.SelectedTextColor					"White"
-		
+
 		RichText.TextColor								"White"
 		RichText.BgColor								"ListBG"
 		RichText.SelectedTextColor						"White"
 		RichText.SelectedBgColor						"TFOrangeBright"
-		
+
 		ScrollBar.Wide									"0"
 		ScrollBarButton.FgColor							"Blank"
 		ScrollBarButton.BgColor							"Blank"
@@ -128,10 +128,10 @@ Scheme
 		ScrollBarButton.ArmedBgColor					"Blank"
 		ScrollBarButton.DepressedFgColor				"Blank"
 		ScrollBarButton.DepressedBgColor				"Blank"
-		
+
 		ScrollBarSlider.BgColor							"Blank"
 		ScrollBarSlider.FgColor							"Blank"
-		
+
 		SectionedListPanel.HeaderTextColor				"White"
 		SectionedListPanel.HeaderBgColor				"Blank"
 		SectionedListPanel.DividerColor					"Black"
@@ -142,13 +142,13 @@ Scheme
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
-		
+
 		Slider.NobColor									"108 108 108 255"
 		Slider.TextColor								"180 180 180 255"
 		Slider.TrackColor								"31 31 31 255"
 		Slider.DisabledTextColor1						"117 117 117 255"
 		Slider.DisabledTextColor2						"30 30 30 255"
-		
+
 		TextEntry.TextColor								"TFTextBright"
 		TextEntry.BgColor								"ListBG"
 		TextEntry.CursorColor							"OffWhite"
@@ -158,15 +158,15 @@ Scheme
 		TextEntry.SelectedBgColor						"TFOrangeBright"
 		TextEntry.OutOfFocusSelectedBgColor				"255 155 0 128"
 		TextEntry.FocusEdgeColor						"0 0 0 196"
-		
+
 		ToggleButton.SelectedTextColor					"TFOrangeBright"
 		Tooltip.TextColor								"0 0 0 196"
 		Tooltip.BgColor									"TFOrangeBright"
-		
+
 		TreeView.BgColor								"TransparentBlack"
-		
+
 		WizardSubPanel.BgColor							"Blank"
-		
+
 		MainMenu.TextColor								"White"
 		MainMenu.ArmedTextColor							"200 200 200 255"
 		MainMenu.DepressedTextColor						"192 186 80 255"
@@ -531,7 +531,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype"	"0"
@@ -587,7 +587,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset"	"2 2 0 0"
@@ -694,7 +694,6 @@ Scheme
 			}
 
 		}
-
 
 		ToolTipBorder
 		{
@@ -847,6 +846,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"	"resource/HALFLIFE2.ttf"
-		"2"	"resource/HL2EP2.ttf"		
+		"2"	"resource/HL2EP2.ttf"
 	}
 }

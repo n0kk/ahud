@@ -13,22 +13,22 @@
 		"bgcolor_override"		"HudBlack"
 		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
@@ -36,9 +36,9 @@
 			"useparentbg"		"1"
 			"inventory_image_type"	"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"
@@ -57,15 +57,15 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"c-100"
-		"ypos"			"260"		
-		"wide"			"190"		
-		"tall"			"32"		
+		"ypos"			"260"
+		"wide"			"190"
+		"tall"			"32"
 		"visible"		"1"
 
 		"FreezePanelBG"
@@ -82,9 +82,9 @@
 			//"image"			"../hud/color_panel_blu"
 			"fillcolor"		"HudBlack"
 		}
-		
+
 		"FreezeLabel"
-		{	
+		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
 			"font"			"aTargetIDData"
@@ -103,7 +103,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		
+
 		"FreezePanelHealth"
 		{
 			"ControlName"	"CTFFreezePanelHealth"
@@ -114,16 +114,16 @@
 			"wide"			"44"
 			"tall"			"36"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
 			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
-		}	
+		}
 
 		"FreezeLabelKiller"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"aRegular11"
@@ -141,7 +141,7 @@
 			"textAlignment"		"west"
 		}
 		"FreezeLabelKillerShadow"
-		{	
+		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKillerShadow"
 			"font"			"aRegularShadow11"
@@ -161,7 +161,7 @@
 			"pin_to_sibling"	"FreezeLabelKiller"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		}	
+		}
 
 		"AvatarImage"
 		{
@@ -175,10 +175,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"image"			""
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			"color_outline"		"52 48 45 255"
-		}	
-		
+		}
+
 		"NemesisSubPanel"
 		{
 			"ControlName"		"EditablePanel"
@@ -189,7 +189,7 @@
 			"enabled"		"0"
 		}
 	}
-		
+
 	"ScreenshotPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -198,5 +198,5 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}	
+	}
 }
