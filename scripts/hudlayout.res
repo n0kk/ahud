@@ -1187,7 +1187,7 @@
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
 		"NormalY"		"10"
-		"EngineerY"		"10"
+		"EngineerY"		"210"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"280"

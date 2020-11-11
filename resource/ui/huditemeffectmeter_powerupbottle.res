@@ -12,7 +12,7 @@
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
-	
+
 	"PowerupBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"fillcolor"		"ahudYellow"
 	}
-	
+
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
@@ -50,7 +50,7 @@
 		"brighttext"			"0"
 		"font"					"aRegular10"
 	}
-	
+
 	"CanteenLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -64,12 +64,12 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Powerups"
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -77,7 +77,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -85,8 +85,8 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
-	
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -95,7 +95,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"16"
-		"tall"					"19"	
+		"tall"					"19"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -104,7 +104,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"aRegular12"	
+		"font"					"aRegular12"
 		"fgcolor"				"ahudWhite"
 	}
 }

@@ -7,7 +7,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c102"	
+		"xpos"			"c102"
 		"ypos"			"374"
 		"wide"			"100"
 		"tall"			"30"
@@ -32,7 +32,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/pyro_jetpack_off2"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"ItemEffectMeterLabel"
@@ -58,7 +58,7 @@
 	}
 
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
@@ -66,7 +66,7 @@
 		"ypos"			"19"
 		"zpos"			"2"
 		"wide"			"20"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -79,7 +79,7 @@
 	}
 
 	"ItemEffectMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter2"
 		"font"			"Default"
@@ -87,7 +87,7 @@
 		"ypos"			"19"
 		"zpos"			"2"
 		"wide"			"20"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

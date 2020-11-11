@@ -17,11 +17,11 @@
 
 		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -33,13 +33,13 @@
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"80"	
+		"xpos_minmode"	"80"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
 	}
-	
+
 	"WaveCountLabelShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -50,17 +50,17 @@
 		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"200"
-		"tall"			"15"	
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
-		
+
 		"pin_to_sibling"		"WaveCountLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"SeparatorBar"
 	{
 		"ControlName"	"Panel"
@@ -75,13 +75,13 @@
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"ahudWhite"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -97,13 +97,13 @@
 		"enabled"		"1"
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
-		
+
 		if_verbose
 		{
 			"visible"		"1"
-		}		
+		}
 	}
-	
+
 	"ProgressBar"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -117,14 +117,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"../HUD/tournament_panel_tan"
-		
+
 		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"NewProgressBarBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -141,7 +141,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"ProgressBarBG"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -154,11 +154,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
-		
+
 		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
 }

@@ -42,7 +42,7 @@
 		"mouseinputenabled" "0"
 	}
 
-	"LabelTitle"	
+	"LabelTitle"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"LabelTitle"

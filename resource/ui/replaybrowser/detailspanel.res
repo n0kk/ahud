@@ -105,7 +105,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-		}	
+		}
 	}
 	"YouTubeUploadButton"
 	{
@@ -236,5 +236,5 @@
 		"Command"		"render_replay_dlg"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 }

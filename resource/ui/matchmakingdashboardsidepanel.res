@@ -35,7 +35,7 @@
 
 		"image"		"gradient_pure_black"
 	}
-	
+
 	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
@@ -82,7 +82,6 @@
 		"zpos"	"1000"
 		"visible"		"0"
 		"enabled"		"0"
-
 
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -154,7 +153,7 @@
 		"defaultFgColor_override"	"ahudWhite"
 		"armedFgColor_override"	"ahudYellow"
 	}
-	
+
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"

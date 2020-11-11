@@ -31,7 +31,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -63,7 +63,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-		
+
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -76,9 +76,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -90,7 +90,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"aRegular24"
 		"fgcolor"		"ahudWhite"
@@ -98,8 +98,8 @@
 		"pin_to_sibling"	"LeftSideBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -111,7 +111,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%bluescore%"
 		"font"			"aRegular24"
 		"fgcolor"		"ShadowBlack"
@@ -119,8 +119,8 @@
 		"pin_to_sibling"	"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -132,7 +132,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"aRegular24"
 		"fgcolor"		"ahudWhite"
@@ -140,8 +140,8 @@
 		"pin_to_sibling"	"RightSideBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-		
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -153,7 +153,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"aRegular24"
 		"fgcolor"		"ShadowBlack"
@@ -161,8 +161,8 @@
 		"pin_to_sibling"	"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-	}	
-															
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -180,8 +180,8 @@
 		"brighttext"	"0"
 		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
-	}	
-			
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -208,6 +208,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

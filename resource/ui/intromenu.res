@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"paintbackground"	"0"
 	}
-	
+
 	"titlelabel"
 	{
 		"ControlName"		"CExLabel"
@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 	}
 
-	"Skip" [$WIN32] 
+	"Skip" [$WIN32]
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -54,7 +54,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"Continue" [$WIN32] 
+	"Continue" [$WIN32]
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
@@ -76,9 +76,8 @@
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}
-	
-	
-	"Back" [$WIN32] 
+
+	"Back" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -102,7 +101,7 @@
 		"font"			"MenuSmallFont"
 	}
 
-	"ReplayVideo" [$WIN32] 
+	"ReplayVideo" [$WIN32]
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
@@ -125,7 +124,7 @@
 		"command"		"replayVideo"
 		"font"			"MenuSmallFont"
 	}
-	
+
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -143,19 +142,19 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		"tabPosition"	"0"
 		"fillcolor"		"ahudDarkGrey"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}		
-	
+	}
+
 	"VideoPanel"
 	{
 		"ControlName"	"CTFVideoPanel"
 		"fieldName"		"VideoPanel"
 		"xpos"			"c-145"
 		"ypos"			"c-183"
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"225"
 		"autoResize"	"0"
@@ -165,14 +164,14 @@
 		"start_delay"	"2.0"
 		"end_delay"		"2.0"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"		
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -180,7 +179,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
-		
+
 		"model"
 		{
 			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
@@ -193,19 +192,19 @@
 			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
-			
+
 			"animation"
 			{
 				"name"			"Up"
 				"sequence"		"screenup"
 			}
-			
+
 			"animation"
 			{
 				"name"			"UpSlow"
 				"sequence"		"screenup_slow"
 			}
-			
+
 			"animation"
 			{
 				"name"			"Down"
@@ -213,8 +212,8 @@
 				"default"		"1"
 			}
 		}
-	}					
-	
+	}
+
 	"VideoCaption"
 	{
 		"ControlName"	"CExLabel"
@@ -236,7 +235,7 @@
 		"fgcolor"		"White"
 		"wrap"			"1"
 	}
-	
+
 	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
@@ -252,20 +251,20 @@
 		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
 		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
+		"fgcolor"			"HudOffWhite"
+
 		"button"
 		{
 			"name"		"intro"
 			"text"		"#GameUI_Back"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
+			"icon"		"#GameUI_Icons_B_BUTTON"
 		}
-		
+
 		"button"
 		{
 			"name"		"continue"
 			"text"		"#Button_SkipIntro_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
+			"icon"		"#GameUI_Icons_A_BUTTON"
 		}
-	}	
+	}
 }

@@ -4,35 +4,35 @@
 {
 	"ItemNameLabel"
 	{
-		"fgcolor"		"0 225 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 
 	"ItemBackground"
 	{
 		"iconColor"		"0 0 0 255"
 	}
-	
-	"BuildingIcon"	
+
+	"BuildingIcon"
 	{
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ahudPipBoy"
 	}
-	
-	"MetalIcon"	
+
+	"MetalIcon"
 	{
 		"xpos"			"10"
 		"ypos"			"18"
 		"wide"			"10"
 		"tall"			"10"
-		"iconColor"		"0 255 0 255"
+		"iconColor"		"ahudPipBoy"
 	}
-	
+
 	"CostLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
-	
+
 	"NumberLabel"
 	{
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"ahudPipBoy"
 	}
 }

@@ -28,7 +28,7 @@
 		"textAlignment"	"west"
 		"font"			"aBold24"
 		"fgcolor_override"	"ahudWhite"
-		
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -72,7 +72,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"alpha"			"75"
 	}
 
@@ -100,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}

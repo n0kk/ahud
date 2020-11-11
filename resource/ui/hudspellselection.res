@@ -1,5 +1,5 @@
 "Resource/UI/HudSpellSelection.res"
-{		
+{
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -11,11 +11,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"		
+		"teambg_3"		"../hud/ammo_blue_bg"
 	}
-	
+
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -28,9 +28,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"scaleImage"	"1"
 	}
-	
+
 	"SpellIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,11 +44,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"ActionText"
 	{
 		"ControlName"	"CExLabel"
@@ -63,7 +63,7 @@
 		"fgcolor"		"ahudWhite"
 		"visible"		"1"
 	}
-	
+
 	"SpellText"
 	{
 		"ControlName"	"CExLabel"
@@ -78,7 +78,7 @@
 		"fgcolor"		"tanlight"
 		"visible"		"0"
 	}
-	
+
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
@@ -95,7 +95,7 @@
 		"tall"			"19"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"CountTextShadow"
 	{
 		"ControlName"	"CExLabel"

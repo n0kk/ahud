@@ -21,26 +21,26 @@ Scheme
 			"font" "resource/TF2.ttf"
 			"name" "TF2"
 		}
-		"4" 
+		"4"
 		{
 			"font" "resource/TF2Secondary.ttf"
 			"name" "TF2 Secondary"
 		}
-		"5" 
+		"5"
 		{
 			"font" "resource/TF2Professor.ttf"
 			"name" "TF2 Professor"
-		}	
-		"6" 
+		}
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
 		}
-		"7" 
+		"7"
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
-		}	
+		}
 		"8"
 		{
 			"font"	"resource/fonts/CodeProBold.otf"

@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"fillcolor"		"ahudWhite"
 	}
-	
+
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -29,10 +29,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"Remaining"
 	}
-	
+
 	"CurrencyGood"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%currency%"
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"	"CExLabel"
@@ -63,7 +63,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%currency%"
 	}
 }

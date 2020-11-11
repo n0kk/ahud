@@ -11,8 +11,8 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -53,7 +53,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValueSpecgui"
 	{
@@ -66,7 +66,7 @@
 		"tall"			    "16"
 		"visible"		    "1"
 		"enabled"		    "1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"		  "%Health%"
 		"font"				"aRegular14"
 		"fgcolor"		    "HP"
@@ -82,7 +82,7 @@
 		"tall"			    "16"
 		"visible"		    "1"
 		"enabled"		    "1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labeltext"		  "%Health%"
 		"font"				"aRegular14"
 		"fgcolor"		    "ShadowBlack"
@@ -91,7 +91,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	"HealthBoxBG"	
+	"HealthBoxBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBoxBG"

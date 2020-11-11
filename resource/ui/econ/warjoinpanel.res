@@ -27,7 +27,6 @@
 			"scene_anim_name"	"PyroVsHeavyWar_PyroWinnerScene"
 		}
 
-
 		"Dimmer"
 		{
 			"ControlName"	"EditablePanel"
@@ -109,13 +108,13 @@
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "200 80 60 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
 				"SubImage"
@@ -131,7 +130,7 @@
 					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
-				}				
+				}
 			}
 
 			"NoGContainer"
@@ -177,7 +176,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"image"			"glyph_alert"
-		
+
 					"proportionaltoparent"	"1"
 				}
 			}
@@ -216,15 +215,14 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"default"		"1"
-					"labelText"			"#MMenu_ViewUpdateComic" 
+					"labelText"			"#MMenu_ViewUpdateComic"
 					"command"		"view_update_comic"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
 					"actionsignallevel"	"3"
-			
-				
+
 					"paintbackground"	"1"
-			
+
 					"defaultFgColor_override"	"TanLight"
 					"armedFgColor_override"		"TanLight"
 					"depressedFgColor_override" "TanLight"
@@ -253,8 +251,8 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"default"		"1"
-					"labelText"			"%end_date%" 
-					
+					"labelText"			"%end_date%"
+
 					if_war_active
 					{
 						"fgcolor_override"	"ahudWhite"
@@ -264,7 +262,7 @@
 					{
 						"fgcolor_override"	"ahudDullWhite"
 					}
-				
+
 					"paintbackground"	"2"
 					"RoundedCorners"	"1"
 
@@ -301,7 +299,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"scaleImage"	"1"
-					
+
 					if_war_active
 					{
 						"image"			"heavy_pyro_war/war_screen_background"
@@ -311,7 +309,7 @@
 					{
 						"image"			"heavy_pyro_war/winner_screen_background"
 					}
-					
+
 					"proportionaltoparent" "1"
 				}
 
@@ -489,7 +487,7 @@
 						"wide"	"f0"
 						"tall"	"p0.8"
 						"progress"	"0.5"
-						"proportionaltoparent"	"1"	
+						"proportionaltoparent"	"1"
 						"war_name"	"Pyro vs Heavy"
 					}
 
@@ -577,7 +575,7 @@
 						"wide"	"f0"
 						"tall"	"p0.8"
 						"progress"	"0.5"
-						"proportionaltoparent"	"1"	
+						"proportionaltoparent"	"1"
 						"war_name"	"Pyro vs Heavy"
 					}
 
@@ -667,7 +665,7 @@
 							"textAlignment"	"north"
 							"labelText"		"%confirm_selection%"
 							"proportionaltoparent"	"1"
-							"wrap"	"1"	
+							"wrap"	"1"
 						}
 
 						"ConfirmButton"
@@ -691,16 +689,16 @@
 							"dulltext"		"0"
 							"brighttext"	"0"
 							"default"		"1"
-							"labelText"			"#Voice_Menu_Yes" 
+							"labelText"			"#Voice_Menu_Yes"
 							"command"		"confirm_team"
 							"sound_depressed"	"UI/buttonclick.wav"
 							"sound_released"	"UI/buttonclickrelease.wav"
 							"actionsignallevel"	"5"
-			
+
 							"border_default"	"NoBorder"
 							"border_armed"		"NoBorder"
 							"paintbackground"	"1"
-				
+
 							"defaultFgColor_override" "ahudWhite"
 							"armedFgColor_override" "ahudWhite"
 							"depressedFgColor_override" "ahudWhite"
@@ -731,16 +729,16 @@
 							"dulltext"		"0"
 							"brighttext"	"0"
 							"default"		"1"
-							"labelText"			"#Store_CANCEL" 
+							"labelText"			"#Store_CANCEL"
 							"command"		"dismiss_joining_result"
 							"sound_depressed"	"UI/buttonclick.wav"
 							"sound_released"	"UI/buttonclickrelease.wav"
 							"actionsignallevel"	"5"
-			
+
 							"border_default"	"NoBorder"
 							"border_armed"		"NoBorder"
 							"paintbackground"	"1"
-				
+
 							"defaultFgColor_override" "ahudWhite"
 							"armedFgColor_override" "ahudWhite"
 							"depressedFgColor_override" "ahudWhite"
@@ -791,7 +789,7 @@
 							"visible"		"1"
 							"enabled"		"1"
 							"image"			"animated/tf2_logo_hourglass"
-		
+
 							"proportionaltoparent"	"1"
 						}
 					}
@@ -845,16 +843,16 @@
 							"dulltext"		"0"
 							"brighttext"	"0"
 							"default"		"1"
-							"labelText"			"#TF_OK" 
+							"labelText"			"#TF_OK"
 							"command"		"dismiss_joining_result"
 							"sound_depressed"	"UI/buttonclick.wav"
 							"sound_released"	"UI/buttonclickrelease.wav"
 							"actionsignallevel"	"5"
-			
+
 							"border_default"	"NoBorder"
 							"border_armed"		"NoBorder"
 							"paintbackground"	"1"
-				
+
 							"defaultFgColor_override" "ahudWhite"
 							"armedFgColor_override" "ahudWhite"
 							"depressedFgColor_override" "ahudWhite"
@@ -932,16 +930,16 @@
 							"dulltext"		"0"
 							"brighttext"	"0"
 							"default"		"1"
-							"labelText"			"#TF_OK" 
+							"labelText"			"#TF_OK"
 							"command"		"dismiss_joining_result"
 							"sound_depressed"	"UI/buttonclick.wav"
 							"sound_released"	"UI/buttonclickrelease.wav"
 							"actionsignallevel"	"5"
-			
+
 							"border_default"	"NoBorder"
 							"border_armed"		"NoBorder"
 							"paintbackground"	"1"
-				
+
 							"defaultFgColor_override" "ahudWhite"
 							"armedFgColor_override" "ahudWhite"
 							"depressedFgColor_override" "ahudWhite"
@@ -1000,7 +998,6 @@
 					"drawcolor"	"HUDRedTeamSolid"
 				}
 
-
 				"HeavyContainer"
 				{
 					"ControlName"	"EditablePanel"
@@ -1033,16 +1030,16 @@
 						"dulltext"		"0"
 						"brighttext"	"0"
 						"default"		"1"
-						"labelText"			"#JoinHeavyButton" 
+						"labelText"			"#JoinHeavyButton"
 						"command"		"join_war0"
 						"sound_depressed"	"UI/buttonclick.wav"
 						"sound_released"	"UI/buttonclickrelease.wav"
 						"actionsignallevel"	"4"
-			
+
 						"border_default"	"NoBorder"
 						"border_armed"		"NoBorder"
 						"paintbackground"	"1"
-			
+
 						"defaultFgColor_override" "ahudWhite"
 						"armedFgColor_override" "ahudWhite"
 						"depressedFgColor_override" "ahudWhite"
@@ -1085,23 +1082,23 @@
 						"dulltext"		"0"
 						"brighttext"	"0"
 						"default"		"1"
-						"labelText"			"#JoinPyroButton" 
+						"labelText"			"#JoinPyroButton"
 						"command"		"join_war1"
 						"sound_depressed"	"UI/buttonclick.wav"
 						"sound_released"	"UI/buttonclickrelease.wav"
 						"actionsignallevel"	"4"
-			
+
 						"border_default"	"NoBorder"
 						"border_armed"		"NoBorder"
 						"paintbackground"	"1"
-			
+
 						"defaultFgColor_override" "ahudWhite"
 						"armedFgColor_override" "ahudWhite"
 						"depressedFgColor_override" "ahudWhite"
 						"defaultBgColor_override" "ahudBlack"
 						"armedBgColor_override" "ahudYellow"
 						"depressedBgColor_override" "ahudYellow"
-						
+
 						"proportionaltoparent"	"1"
 					}
 				}

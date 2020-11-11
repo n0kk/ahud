@@ -1,5 +1,5 @@
 "Resource/UI/SteamFriendPanel.res"
-{	
+{
 	"avatar"
 	{
 		"fieldName"	"avatar"

@@ -36,7 +36,7 @@
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
-	
+
 	"DescLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -56,7 +56,7 @@
 		"fgcolor_override" "ahudWhite"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
-	}	
+	}
 
 	"RanksContainer"
 	{
@@ -67,7 +67,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-
 
 		// ----------------- Row 1 -------------------
 		"Rank1"

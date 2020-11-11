@@ -17,14 +17,14 @@
 	}
 
 	"TournamentSetupLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"xpos"			"9999"
 	}
 
 	"TournamentTeamNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"xpos"			"9999"
@@ -53,7 +53,7 @@
 		"fgcolor_override"		"ahudWhite"
 		"bgcolor_override"	"Blank"
 		"selectionColor_override" "ahudWhite"
-		"selectionTextColor_override" "ahudBlack"		
+		"selectionTextColor_override" "ahudBlack"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}
@@ -86,7 +86,7 @@
 		"default"		"1"
 		"font"			"aRegular10"
 		"fgcolor"		"Red"
-		
+
 		"defaultBgColor_override"	"ahudBlack"
 		"defaultFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"RedSolid"
@@ -112,11 +112,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"teamready" 
+		"command"		"teamready"
 		"default"		"1"
 		"font"			"aRegular10"
 		"fgcolor"		"FooterBGBlack"
-		
+
 		"defaultBgColor_override"	"ahudBlack"
 		"defaultFgColor_override" "ahudWhite"
 		"armedBgColor_override"	"CreditsGreen"

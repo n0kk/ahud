@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
@@ -19,7 +19,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_match
 		{
 			"proportionaltoparent"	"1"
@@ -33,7 +33,7 @@
 			"delta_lifetime"		"2"
 			"delta_item_font"		"aRegular14"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -49,7 +49,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
+
 			if_match
 			{
 				"proportionaltoparent"	"1"
@@ -72,7 +72,7 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		if_match
 		{
 			"proportionaltoparent"	"1"
@@ -86,7 +86,7 @@
 			"delta_lifetime"		"2"
 			"delta_item_font"		"aRegular14"
 		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -102,7 +102,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
+
 			if_match
 			{
 				"proportionaltoparent"	"1"
@@ -113,7 +113,7 @@
 			}
 		}
 	}
-	
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"

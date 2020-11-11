@@ -1,5 +1,5 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -52,7 +52,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -66,7 +66,7 @@
 			"tall"			"20"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -81,7 +81,7 @@
 			"fgcolor"		"ahudWhite"
 		}
 	}
-	
+
 	"PlayerListBackground"
 	{
 		"ControlName"		"ImagePanel"
@@ -94,16 +94,16 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"fillcolor"		"TanLight"
-		
+
 		"scaleImage"		"1"
-		
+
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
-	
+
 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_height" 	"0"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -121,7 +121,7 @@
 		"textcolor"		"ahudWhite"
 		"font"			"aRegular10"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -131,7 +131,7 @@
 		"wide"			"515"
 		"tall"			"205"
 		"visible"		"1"
-		
+
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -149,11 +149,11 @@
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
-		
+
 			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "0"	
+			"draw_corner_height" "0"
 		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -166,7 +166,7 @@
 			"wide"			"200"
 			"fgcolor"		"ahudWhite"
 		}
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -178,7 +178,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -190,7 +190,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"PreviousWaveCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -202,7 +202,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -214,7 +214,7 @@
 			"wide"			"200"
 			"visible"		"1"
 		}
-		
+
 		"RespecStatusLabel"
 		{
 			"ControlName"	"CExLabel"

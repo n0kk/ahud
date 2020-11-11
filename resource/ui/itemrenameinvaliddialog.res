@@ -55,7 +55,7 @@
 		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"tool_modelpanel"
 		"xpos"			"10"
@@ -75,15 +75,15 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"SubjectBG"
 	{
 		"ControlName"	"CExLabel"
@@ -104,7 +104,7 @@
 		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_modelpanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"subject_modelpanel"
 		"xpos"			"300"
@@ -124,15 +124,15 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
-		
+
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"inventory_image_type"	"1"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
+
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"GivenName"
 	{
 		"ControlName"	"CExLabel"

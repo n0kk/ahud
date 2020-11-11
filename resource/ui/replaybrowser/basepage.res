@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"ahudDarkGrey"
 	}
-	
+
 	"SearchTextEntry"
 	{
 		"ControlName"	"TextEntry"

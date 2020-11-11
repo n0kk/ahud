@@ -1,4 +1,4 @@
-// enum PinCorner_e 
+// enum PinCorner_e
 // {
 // 	PIN_TOPLEFT = 0,
 // 	PIN_TOPRIGHT,
@@ -110,7 +110,7 @@
 			"textAlignment"		"center"
 			"labelText"			"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
 			"fgcolor_override"	"ahudWhite"
-		}	
+		}
 	}
 
 	"PassLockIndicator"

@@ -12,9 +12,9 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"ahudBlack"
 		ReplayBrowser.Search.FgColor						"ahudWhite"
-		
+
 		Replay.RenderDialog.BgColor							"ahudDarkGrey"
-		
+
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"ahudBlack"
 		Econ.Button.FgColor									"ahudWhite"
@@ -22,15 +22,18 @@ Scheme
 		Econ.Button.ArmedFgColor							"ahudWhite"
 		Econ.Button.DepressedBgColor						"ahudYellow"
 		Econ.Button.DepressedFgColor						"Black"
-		
+
 		Econ.Button.PresetDefaultColorFg					"ahudWhite"
 		Econ.Button.PresetArmedColorFg						"ahudWhite"
 		Econ.Button.PresetDepressedColorFg					"ahudWhite"
-		
+
 		Econ.Button.PresetDefaultColorBg					"ahudGreen"
 		Econ.Button.PresetArmedColorBg						"ahudGreen"
 		Econ.Button.PresetDepressedColorBg					"ahudYellow"
-		
+
+		Econ.Button.Border.Default							"ahudWhite"
+		Econ.Button.Border.Armed							"ahudWhite"
+
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
@@ -51,7 +54,7 @@ Scheme
 		CheckButton.Border2  			"ahudWhite"			// the right checkbutton border
 		CheckButton.Check				"ahudWhite"			// color of the check itself
 		CheckButton.HighlightFgColor	"ahudWhite"
-		
+
 		ComboBoxButton.ArrowColor		"ahudWhite"
 		ComboBoxButton.ArmedArrowColor	"ahudWhite"
 		ComboBoxButton.BgColor			"Blank"
@@ -113,7 +116,7 @@ Scheme
 
 		CircularProgressBar.FgColor		"White"
 		CircularProgressBar.BgColor		"White"
-		
+
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
@@ -175,7 +178,7 @@ Scheme
 		TreeView.BgColor			"TransparentBlack"
 
 		WizardSubPanel.BgColor		"Blank"
-		
+
 		TimerProgress.Active		"HudTimerProgressActive"
 		TimerProgress.InActive		"HudTimerProgressInActive"
 		TimerProgress.Warning		"HudTimerProgressWarning"
@@ -183,10 +186,10 @@ Scheme
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
 		HudObjectives.BorderColor	"HudPanelBorder"
-				
+
 		HudProgressBar.Active		"HudProgressBarActive"
 		HudProgressBar.InActive		"HudProgressBarInActive"
-		
+
 		HudCaptureIcon.Active		"HudProgressBarActive"
 		HudCaptureIcon.InActive		"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
@@ -229,7 +232,7 @@ Scheme
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
-		
+
 		"VguiScreenCursor"			"255 208 64 255"
 	}
 }

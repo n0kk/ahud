@@ -1,5 +1,5 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
+{
 	"ObjectiveStatusFlagPanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -11,13 +11,13 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"if_hybrid"
 		{
 			"zpos"			"-1"
 		}
 	}
-	
+
 	"LeftSideBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -34,17 +34,17 @@
 		"pin_to_sibling"	"PlayingToBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -62,9 +62,9 @@
 			"enabled"		"1"
 			"bgcolor_override"		"ahudDarkBlue"
 			"proportionaltoparent"	"1"
-		}	
+		}
 	}
-	
+
 	"RightSideBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -81,17 +81,17 @@
 		"pin_to_sibling"	"PlayingToBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
@@ -118,7 +118,7 @@
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
 	}
-	
+
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -130,7 +130,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"aRegular24"
 		"fgcolor"		"ahudWhite"
@@ -138,23 +138,23 @@
 		"pin_to_sibling"	"LeftSideBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -166,7 +166,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"aRegularShadow24"
 		"fgcolor"		"ShadowBlack"
@@ -174,23 +174,23 @@
 		"pin_to_sibling"	"BlueScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-							
+	}
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -202,31 +202,31 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"aRegular24"
-		"fgcolor"		"ahudWhite"	
+		"fgcolor"		"ahudWhite"
 
 		"pin_to_sibling"	"RightSideBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -238,7 +238,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"aRegularShadow24"
 		"fgcolor"		"ShadowBlack"
@@ -246,23 +246,23 @@
 		"pin_to_sibling"	"RedScore"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-															
+	}
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -275,9 +275,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
-		"scaleImage"	"1"	
-	}		
-	
+		"scaleImage"	"1"
+	}
+
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -291,18 +291,18 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r142"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"		"r142"
 		}
-	}		
-	
+	}
+
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -320,23 +320,23 @@
 		"brighttext"	"0"
 		"font"			"aRegular12"
 		"fgcolor"		"ahudWhite"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"PlayingToBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -349,23 +349,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Hudblack"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_mvm"
 		{
 			"visible"	"0"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-	}	
-		
+	}
+
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -377,18 +377,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-115"
@@ -398,13 +398,13 @@
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
 	}
-			
+
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -416,18 +416,18 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-				
+
 		"if_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
-		
+
 		"if_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
-		
+
 		"if_hybrid_double"
 		{
 			"xpos"		"c-45"
@@ -437,13 +437,13 @@
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_no_flags"
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+
 	"CaptureFlag"
 	{
 		"ControlName"	"CTFArrowPanel"
@@ -455,18 +455,18 @@
 		"tall"			"60"
 		"visible"		"0"
 		"enabled"		"1"
-		
+
 		"if_hybrid"
 		{
 			"ypos"		"r100"
 		}
-		
+
 		"if_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 	}
-	
+
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -493,12 +493,12 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
 		"fgcolor"		"TanLight"
 	}
-	
+
 	"SpecCarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -512,5 +512,5 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-	}			
+	}
 }

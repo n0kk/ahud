@@ -24,7 +24,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
-		
+
 		"RedScoreBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -39,7 +39,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderRedBGMoreOpaque"
 		}
-		
+
 		"BLUBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -67,7 +67,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"REDBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -95,7 +95,7 @@
 				"proportionaltoparent"	"1"
 			}
 		}
-		
+
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -118,7 +118,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"BlueTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -163,7 +163,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"BlueLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -176,10 +176,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"ahudDarkBlue"
 		}
-		
+
 		"BlueLeaderAvatarBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -193,7 +193,7 @@
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"ahudDarkBlue"
 		}
-		
+
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -216,7 +216,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
-		
+
 		"RedTeamScore"
 		{
 			"ControlName"		"CExLabel"
@@ -261,7 +261,7 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-		
+
 		"RedLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -274,10 +274,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"ahudDarkRed"
 		}
-		
+
 		"RedLeaderAvatarBG"
 		{
 			"ControlName"	"EditablePanel"
@@ -304,7 +304,7 @@
 		"tall"			"185"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"border"		"TFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
@@ -322,7 +322,7 @@
 		"bgcolor_override"	"Hudblack"
 	}
 	"WinningTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
 		"font"			"aRegular10"
@@ -342,7 +342,7 @@
 		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"ScoreboardTeamName"
@@ -362,7 +362,7 @@
 		"brighttext"		"0"
 	}
 	"AdvancingTeamLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"aRegular10"
@@ -382,7 +382,7 @@
 		"brighttext"		"0"
 	}
 	"AdvancingTeamLabelDropshadow"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"font"			"ScoreboardMedium"
@@ -402,14 +402,14 @@
 		"brighttext"		"0"
 	}
 	"WinReasonLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"DetailsLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"aRegular9"
@@ -434,16 +434,16 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
 	}
-	
+
 	"TopPlayersLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
 		"font"			"ScoreboardVerySmall"
 		"xpos"			"9999"
 	}
 	"PointsThisRoundLabel"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
 		"font"			"ScoreboardVerySmall"
@@ -467,11 +467,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player1Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
 		"xpos"			"29"
@@ -489,7 +489,7 @@
 		"brighttext"		"0"
 	}
 	"Player1Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Class"
 		"xpos"			"120"
@@ -507,7 +507,7 @@
 		"brighttext"		"0"
 	}
 	"Player1Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Score"
 		"xpos"			"168"
@@ -524,7 +524,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"Player2Avatar"		[$WIN32]
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -537,11 +537,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player2Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
 		"xpos"			"29"
@@ -559,7 +559,7 @@
 		"brighttext"		"0"
 	}
 	"Player2Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Class"
 		"xpos"			"120"
@@ -577,7 +577,7 @@
 		"brighttext"		"0"
 	}
 	"Player2Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Score"
 		"xpos"			"168"
@@ -594,7 +594,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	"Player3Avatar"		[$WIN32]
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -607,11 +607,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"Player3Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"29"
@@ -629,7 +629,7 @@
 		"brighttext"		"0"
 	}
 	"Player3Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
 		"xpos"			"120"
@@ -647,7 +647,7 @@
 		"brighttext"		"0"
 	}
 	"Player3Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Score"
 		"xpos"			"168"
@@ -664,10 +664,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+
 	// KillStreak
 	"KillStreakLeaderLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
 		"font"			"aRegular9"
@@ -686,7 +686,7 @@
 		"brighttext"	"0"
 	}
 	"KillStreakMaxCountLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
 		"font"			"ScoreboardVerySmall"
@@ -710,11 +710,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"		"1"	
+		"scaleImage"		"1"
 		"color_outline"		"52 48 45 255"
 	}
 	"KillStreakPlayer1Name"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
 		"xpos"			"29"
@@ -732,7 +732,7 @@
 		"brighttext"		"0"
 	}
 	"KillStreakPlayer1Class"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Class"
 		"xpos"			"120"
@@ -750,7 +750,7 @@
 		"brighttext"		"0"
 	}
 	"KillStreakPlayer1Score"
-	{	
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Score"
 		"xpos"			"168"

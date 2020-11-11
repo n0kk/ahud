@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -30,7 +30,7 @@
 		"enabled"		"0"
 		"fillcolor"		"Hudblack"
 	}
-	
+
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -49,7 +49,7 @@
 		"font"			"aBold18"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -67,8 +67,8 @@
 		"textAlignment"	"center"
 		"font"			"aRegular10"
 		"fgcolor"		"ahudWhite"
-	}	
-	
+	}
+
 	"MapInfoText"
 	{
 		"ControlName"	"CExRichText"
@@ -87,7 +87,7 @@
 		"textAlignment"	"center"
 		"fgcolor"		"ahudWhite"
 	}
-	
+
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -100,7 +100,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 
 	"MapInfoContinue"
@@ -131,21 +131,21 @@
 		"default"		"1"
 		"font"			"aRegular12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"255 255 255 128"
 		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
 	}
-	
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
@@ -166,14 +166,14 @@
 		"command"		"back"
 		"font"			"aRegular12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"255 255 255 128"
 		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MapInfoBack2"
 	{
 		"ControlName"	"CExButton"
@@ -194,25 +194,25 @@
 		"command"		"back"
 		"font"			"aRegular12"
 		"paintbackground"	"0"
-		
+
 		"fgcolor"			"255 255 255 128"
 		"defaultFgColor_override" "255 255 255 128"
 		"armedFgColor_override" "ahudWhite"
 		"depressedFgColor_override" "255 255 255 128"
 		"selectedFgColor_override" "ahudWhite"
 	}
-	
+
 	"MenuBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-	}					
+	}
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}	
+	}
 }

@@ -12,7 +12,7 @@
 		"delta_item_font"		"aRegular20Outline"
 		"delta_item_font_big"	"aRegular20Outline"
 	}
-	
+
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
@@ -29,7 +29,7 @@
 		"fgcolor"		"Damage Numbers"
 		"font"			"aRegular20"
 	}
-	
+
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	"CExLabel"

@@ -1,5 +1,5 @@
 "Resource/UI/UpgradeBuyPanel.res"
-{	
+{
 	"UpgradeBuyPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -7,16 +7,16 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"155"
-		"tall"			"45"		
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
+
 		"upgradebutton_xpos"	"37"
 		"upgradebutton_ypos"	"26"
-		
+
 		"skilltreebuttons_kv"
 		{
 			"wide"			"16"
@@ -24,8 +24,8 @@
 			"textAlignment"	"center"
 			"font"			"HudFontSmallest"
 			"image"			"pve/upgrade_unowned"
-			"scaleImage"	"1"	
-			
+			"scaleImage"	"1"
+
 			"defaultFgColor_override"	"UpgradeDefaultFg"
 			"defaultBgColor_override"	"UpgradeDefaultBg"
 			"armedFgColor_override"		"UpgradeArmedFg"
@@ -37,7 +37,7 @@
 			"disabledfgcolor2_override"	"UpgradeDisabledFg"
 		}
 	}
-	
+
 	"InnerPanelRim"
 	{
 		"ControlName"	"Panel"
@@ -51,11 +51,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"PaintBackgroundType" "0"
 		"bgcolor_override"	"97 94 85 255"
 	}
-	
+
 	"IconBorder"
 	{
 		"ControlName"	"Panel"
@@ -69,11 +69,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"PaintBackgroundType" "0"
 		"bgcolor_override"	"ahudWhite"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"	"ImagePanel"
@@ -88,12 +88,12 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		
-		"scaleImage"	"1"	
+
+		"scaleImage"	"1"
 
 		"image"		"pve/buy_disabled"
 	}
-	
+
 	"PriceLabel"
 	{
 		"ControlName"	"Label"
@@ -108,12 +108,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
+
 		"labelText"		""
 		"textAlignment"	"center"
 		"font"			"aRegular12"
 	}
-	
+
 	"ShortDescriptionLabel"
 	{
 		"ControlName"	"Label"
@@ -129,12 +129,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"wrap"			"1"
-		
+
 		"labelText"		""
 		"textAlignment"	"center-west"
 		"font"			"HudFontSmallest"
 	}
-	
+
 	"BuySellBG"
 	{
 		"ControlName"	"Panel"
@@ -148,11 +148,11 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		
+
 		"PaintBackgroundType" "0"
 		"bgcolor_override"	"117 114 103 255"
 	}
-	
+
 	"IncrementButton"
 	{
 		"ControlName"	"CImageButton"
@@ -167,15 +167,15 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		
+
 		"labelText"		""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 
 		"activeimage"		"pve/buy_disabled"
 		"inactiveimage"		"pve/buy_disabled"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override"	"255 255 255 0"
 		"defaultBgColor_override"	"255 255 255 0"
 		"armedFgColor_override"		"255 255 255 0"
@@ -186,7 +186,7 @@
 		"selectedBgColor_override"	"255 255 255 0"
 		"disabledfgcolor2_override"	"255 255 255 0"
 	}
-	
+
 	"DecrementButton"
 	{
 		"ControlName"	"CImageButton"
@@ -201,15 +201,15 @@
 		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"	"0"
-		
+
 		"labelText"		""
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 
 		"activeimage"		"pve/sell_disabled"
 		"inactiveimage"		"pve/sell_disabled"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"defaultFgColor_override"	"255 255 255 0"
 		"defaultBgColor_override"	"255 255 255 0"
 		"armedFgColor_override"		"255 255 255 0"

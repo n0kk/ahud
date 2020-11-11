@@ -18,21 +18,21 @@
 		"bgcolor_override"	"ahudDarkGrey"
 		"infocus_bgcolor_override" "ahudDarkGrey"
 		"outoffocus_bgcolor_override" "ahudDarkGrey"
-		
+
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
-		
+
 		"max_cart_model_panels"	"8"
-		
+
 		"item_ypos"		"70"
 		"item_mod_wide"	"40"
-		
+
 		"item_panels"			"12"
 		"item_columns"			"4"
 		"item_offcenter_x"		"-230"
 		"item_xdelta"			"8"
 		"item_ydelta"			"8"
-		
+
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
 		"item_backdrop_color"				"27 27 27 255"
@@ -43,11 +43,11 @@
 		"item_backdrop_paintbackgroundtype"	"0"
 
 		"item_backdrop_zpos"				"1"
-		
+
 		"item_panel_bgcolor"			"ahudGrey"
 		"item_panel_bgcolor_mouseover"	"156 146 128 255"
 		"item_panel_bgcolor_selected"	"176 166 148 255"
-		
+
 		"classicon_xdelta"		"5"
 
 		"modelpanels_kv"
@@ -63,7 +63,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-						
+
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -75,10 +75,10 @@
 			"name_only"		"1"
 			"resize_to_text" "0"
 			"name_label_alignment" "3"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -86,9 +86,9 @@
 				"inventory_image_type" "1"
 			}
 
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
-		
+
 		"modelpanel_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -99,13 +99,13 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			
+
 			"use_item_sounds" "1"
 		}
-		
+
 		"cart_modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -119,7 +119,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			
+
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -127,20 +127,20 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
-			
+
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-			
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 				"inventory_image_type" 	"1"
 			}
-			
-			"use_item_sounds" "1"		
+
+			"use_item_sounds" "1"
 		}
-		
+
 		"cart_labels_kv"
 		{
 			"font"			"HudFontSmallestBold"
@@ -151,13 +151,13 @@
 			"wide"			"16"
 			"tall"			"10"
 			"autoResize"	"1"
-			"pinCorner"		"0"	
+			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"use_item_sounds" "1"		
+			"use_item_sounds" "1"
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -172,13 +172,13 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -195,8 +195,8 @@
 			"PaintBackgroundType"	"2"
 			"border"			"NoBorder"
 			"bgcolor_override"	"ahudDarkerGrey"
-    	}	
-		
+    	}
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -227,7 +227,7 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-	
+
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -298,7 +298,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"ItemCategoryTabs"
 	{
 		"ControlName"		"CNavigationPanel"
@@ -312,13 +312,13 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_horizontal_buffer"	"9"
 		"display_vertically"	"0"
-		
+
 		"ButtonSettings"
 		{
 			"wide"				"100"
@@ -332,7 +332,7 @@
 			"textAlignment"		"center"
 			"scaleImage"		"1"
 			"font"			"aRegular14"
-			
+
 			"fgcolor"	"TanDark"
 			"defaultBgColor_override" "ahudGrey"
 			"defaultFgColor_override" "TanDark"
@@ -340,21 +340,21 @@
 			"armedFgColor_override" "ahudWhite"
 			"selectedBgColor_override" "ahudBlack"
 			"selectedFgColor_override"	"ahudWhite"
-			
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"1"
 			"paintborder"		"1"
-			
+
 			"border"				"ButtonBorder"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
 		}
 	}
-	
+
 	"PrevPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -377,8 +377,8 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
+	}
+
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -397,7 +397,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
@@ -420,8 +420,8 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
-	
+	}
+
 	"BackpackSpaceLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -439,7 +439,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"CartButton"
 	{
 		"ControlName"	"CExButton"
@@ -456,13 +456,13 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
-		
+
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CartImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -502,7 +502,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"MarketPlaceButton"
 	{
 		"ControlName"	"CExButton"
@@ -529,7 +529,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -547,7 +547,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	
+
 	"HomePageLabelContainer"
 	{
 		"ControlName"	"EditablePanel"

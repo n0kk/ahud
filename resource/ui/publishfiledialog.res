@@ -65,7 +65,7 @@
 		"bgcolor_override"	"ahudDarkGrey"
 	}
 
-	"Title"	
+	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
@@ -86,7 +86,7 @@
 		"font"		"HudFontMediumBold"
 	}
 
-	"LabelPreview"	
+	"LabelPreview"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"LabelPreview"
@@ -223,7 +223,7 @@
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
-		
+
 	"LabelDesc"
 	{
 		"ControlName"		"Label"
@@ -288,7 +288,7 @@
 		"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
-	
+
 	"SourceFile"
 	{
 		"ControlName"		"Label"
@@ -344,7 +344,7 @@
 			"tall"			"25"
 			"scaleImage"	"1"
 			"image"			"importtool_goldstar"
-		}	
+		}
 	}
 
 	"ButtonSourceOther"
@@ -639,7 +639,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
+		}
 
 		"TagCheckbox_Headgear"
 		{
@@ -741,6 +741,26 @@
 			"brighttext"	"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
+		"TagCheckbox_Smissmas"
+		{
+			"ControlName"	"CheckButton"
+			"fieldName"		"TagCheckbox_Smissmas"
+			"labelText"		"#TF_SteamWorkshop_Tag_Smissmas"
+			"Font"			"ItemFontAttribSmall"
+			"textAlignment"	"west"
+			"xpos"			"85"
+			"ypos"			"125"
+			"zpos"			"1"
+			"wide"			"75"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"disabledfgcolor2_override"	"117 107 94 255"
+		}
 		"TagCheckbox_Taunt"
 		{
 			"ControlName"	"CheckButton"
@@ -749,7 +769,7 @@
 			"Font"			"ItemFontAttribSmall"
 			"textAlignment"	"west"
 			"xpos"			"85"
-			"ypos"			"125"
+			"ypos"			"145"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"20"
@@ -769,7 +789,7 @@
 			"Font"			"ItemFontAttribSmall"
 			"textAlignment"	"west"
 			"xpos"			"85"
-			"ypos"			"145"
+			"ypos"			"165"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"20"
@@ -789,7 +809,7 @@
 			"Font"			"ItemFontAttribSmall"
 			"textAlignment"	"west"
 			"xpos"			"85"
-			"ypos"			"165"
+			"ypos"			"185"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"20"
@@ -809,7 +829,7 @@
 			"Font"			"ItemFontAttribSmall"
 			"textAlignment"	"west"
 			"xpos"			"85"
-			"ypos"			"185"
+			"ypos"			"205"
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"20"

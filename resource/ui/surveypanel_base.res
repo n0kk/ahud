@@ -67,7 +67,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"animated/tf2_logo_hourglass"
-		
+
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -147,13 +147,13 @@
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"1"
-			
+
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
+
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -169,7 +169,7 @@
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
-			}				
+			}
 		} // Close button
-	}	
+	}
 }

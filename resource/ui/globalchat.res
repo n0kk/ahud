@@ -43,7 +43,7 @@
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
-		
+
 		"bgcolor_override"	"0 0 0 50"
 
 		"pinCorner"		"2"
@@ -64,14 +64,14 @@
 			{
 				"fgcolor_override"	"TanLight"
 			}
-		
+
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
 				"visible"		"0"
 			}
-		
+
 			"DownButton"
 			{
 				"ControlName"	"Button"

@@ -35,7 +35,7 @@
 		"PaintBackgroundType"	"0"
 		"border"		"ahudPanelBorder"
 		"bgcolor_override"	"ahudDarkerGrey"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -115,7 +115,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"animated/tf2_logo_hourglass"
-		
+
 			"proportionaltoparent"	"1"
 		}
 	}
@@ -180,7 +180,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"animated/tf2_logo_hourglass"
-		
+
 			"proportionaltoparent"	"1"
 		}
 	}

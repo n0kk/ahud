@@ -32,7 +32,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
+
 	"TeardropSide"
 	{
 		"ControlName"	"CIconPanel"
@@ -44,7 +44,7 @@
 	}
 
 	"ProgressText"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
 		"wide"			"0"

@@ -11,7 +11,7 @@
 		"tall"			"p1.17"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
@@ -43,7 +43,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 	}
@@ -60,7 +60,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 	}
 
@@ -76,7 +76,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"showtooltipswhenmousedisabled"	"1"
 		"proportionaltoparent" "1"
 	}
@@ -114,7 +114,7 @@
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanLight"
-	}	
+	}
 
 	"MatchmakingBanPanel"
 	{
@@ -196,12 +196,12 @@
 		"fgcolor_override" "Black"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
-		
+
 		"pin_to_sibling"		"DescLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-	
+
 	"DisabledIcon"
 	{
 		"ControlName"	"CExImageButton"
@@ -216,19 +216,19 @@
 		"actionsignallevel"	"1"
 		"command"			"comp_access_info"
 		"labeltext"			""
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-				
+
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
-				
+
 		"image_drawcolor"	"ahudWhite"
 		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
@@ -245,6 +245,6 @@
 			"image"			"locked_icon"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
-		}	
+		}
 	}
 }

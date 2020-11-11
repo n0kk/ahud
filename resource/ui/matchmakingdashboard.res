@@ -326,9 +326,9 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 				"button_activation_type"	"1"
-			
+
 				"paintbackground"	"0"
-				"paintborder"		"0"				
+				"paintborder"		"0"
 			}
 
 			"CTFLogoPanel"
@@ -409,13 +409,13 @@
 				"Command"		"manage_queues"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"ahudWhite"
 				"image_armedcolor"	"0 191 255 255"
 				"SubImage"
@@ -431,7 +431,7 @@
 					"enabled"		"1"
 					"image"			"glyph_options"
 					"scaleImage"	"1"
-				}				
+				}
 			}
 
 			"CloseButton"
@@ -459,13 +459,13 @@
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
-			
+
 				"paintbackground"	"0"
-			
+
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"	"ahudWhite"
 				"image_armedcolor"	"255 0 0 255"
 				"SubImage"
@@ -482,8 +482,8 @@
 					"image"			"replay/thumbnails/buttons/x"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
-				}			
-			}		
+				}
+			}
 		}
 
 		"JoinPartyLobbyContainer"
@@ -546,7 +546,7 @@
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-			}		
+			}
 
 			"JoinNowButton"
 			{
@@ -563,7 +563,7 @@
 					"xpos"			"cs-0.5"
 					"wide"			"150"
 				}
-				
+
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"

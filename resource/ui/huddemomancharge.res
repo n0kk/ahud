@@ -1,7 +1,7 @@
 "Resource/UI/HudDemomanCharge.res"
-{	
+{
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"aRegular10"
@@ -9,7 +9,7 @@
 		"ypos"			"89"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"6"				
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -20,10 +20,10 @@
 		"fgcolor_override" "White"
 		"bgcolor_override"		"0 0 0 100"
 	}
-	"ChargeMeterLabel"
+	"ItemEffectMeterLabel"
 	{
 		"ControlName" 		"CExLabel"
-		"fieldName" 		"ChargeMeterLabel"
+		"fieldName" 		"ItemEffectMeterLabel"
 		"xpos" 				"0"
 		"ypos" 				"89"
 		"zpos" 				"3"
@@ -32,13 +32,13 @@
 		"autoResize" 		"1"
 		"pinCorner" 		"2"
 		"visible" 			"1"
-		"enabled" 			"1"
+		"enabled"			"0"
 		"tabPosition" 		"0"
-		"labelText" 		"CHARGE"
+		"labelText" 		"#TF_Charge"
 		"textAlignment" 	"center"
 		"dulltext" 		  	"0"
 		"brighttext" 	   	"0"
 		"font" 			  	"aRegular8"
 		"fgcolor_override" 	"150 150 150 255"
-	}	
+	}
 }

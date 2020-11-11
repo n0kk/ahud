@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"ahudDarkerGrey"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -36,7 +36,7 @@
 			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -54,7 +54,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -74,7 +74,7 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -98,7 +98,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -124,8 +124,8 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
-	
+	}
+
 	"OptOutCheckbox"
 	{
 		"ControlName"	"CheckButton"

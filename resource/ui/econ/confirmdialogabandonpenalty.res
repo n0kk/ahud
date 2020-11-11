@@ -17,7 +17,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"ahudDarkerGrey"
-		
+
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -36,7 +36,7 @@
 			"bgcolor_override"	"ahudDarkerGrey"
     	}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -55,7 +55,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"AbandonIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"scaleImage"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -89,7 +89,7 @@
 		"wrap"			"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -115,7 +115,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"ahudPanelBorder"
 		"border_armed"				"ahudPanelBorder"
-	}		
+	}
 
 	"ConfirmButton"
 	{
@@ -141,5 +141,5 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
+	}
 }
