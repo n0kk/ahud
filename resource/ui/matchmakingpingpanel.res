@@ -85,7 +85,7 @@
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"ahudBlack"
 		"fgcolor_override"	"ahudWhite"
 		"disabledFgColor_override" "ahudWhite"
 		"disabledBgColor_override" "0 0 0 0"

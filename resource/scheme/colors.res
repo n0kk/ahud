@@ -53,10 +53,11 @@ Scheme
 		"ahudDullWhite"			"132 132 132 255"
 
 		"ahudGrey"				"51 47 46 255"
-		"ahudDarkGrey"			"27 27 27 255"
-		"ahudDarkerGrey"		"22 22 22 255"
+		"ahudDarkGrey2"			"34 34 34 255"
+		"ahudDarkGrey"			"29 29 29 255"
+		"ahudDarkerGrey"		"24 24 24 255"
 
-		"ahudBlack"				"17 17 17 255"
+		"ahudBlack"				"20 20 20 255"
 
 		"ahudPipBoy"			"0 225 0 255"
 

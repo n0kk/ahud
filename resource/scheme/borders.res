@@ -48,7 +48,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ahudBlack"
+					"color" "17 17 17 127"
 					"offset" "0 0"
 				}
 			}
@@ -57,7 +57,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ahudBlack"
+					"color" "17 17 17 127"
 					"offset" "0 0"
 				}
 			}
@@ -66,7 +66,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ahudBlack"
+					"color" "17 17 17 127"
 					"offset" "0 0"
 				}
 			}
@@ -75,7 +75,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "ahudBlack"
+					"color" "17 17 17 127"
 					"offset" "0 0"
 				}
 			}
@@ -779,7 +779,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"ahudDarkGrey"
+			"color"					"ahudDarkGrey2"
 
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"32"				// pixels inside the image

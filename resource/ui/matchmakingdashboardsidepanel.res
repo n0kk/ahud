@@ -96,12 +96,12 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
-		"labelText"		">"
+		"labelText"		"▶"
 
 		if_left
 		{
 			"xpos"		"0"
-			"labelText"		"<"
+			"labelText"		"◀"
 		}
 
 		"ypos"			"0"
@@ -127,12 +127,12 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
 		"xpos"			"3"
-		"labelText"		"<"
+		"labelText"		"◀"
 
 		if_left
 		{
 			"xpos"	"rs1-3"
-			"labelText"		">"
+			"labelText"		"▶"
 		}
 
 		"ypos"			"0"
@@ -142,7 +142,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
-		"labelText"		"<"
+		"labelText"		"◀"
 
 		"textAlignment"	"west"
 		"font"			"aRegular16"

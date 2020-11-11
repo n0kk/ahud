@@ -9,3 +9,13 @@ event HitMarker
 	Animate KnucklesCrosses		FgColor		"CrosshairDamage"		Linear 0.0 0.0
 	Animate KnucklesCrosses		FgColor		"Crosshair"		Linear 0.15 0.0
 }
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
