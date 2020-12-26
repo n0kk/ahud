@@ -10,7 +10,7 @@
 		"proportionaltoparent"	"1"
 		"collapsed_height"	"57"
 		"resize_time"	"0.2"
-	
+
 	}
 
 	"TopContainer"
@@ -53,7 +53,7 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
 
@@ -75,10 +75,10 @@
 			"textinsetx"	"40"
 			"stay_armed_on_click"	"1"
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
+			"defaultBgColor_override"	"88 88 88 20"
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
-			"selectedBGColor_override" "Orange"
+			"armedBgColor_override"	"ahudYellow"
+			"selectedBGColor_override" "ahudYellow"
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -98,7 +98,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-			}	
+			}
 		}
 
 		"Shade"
@@ -127,7 +127,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"smallcheckimage"	"1"
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
+			"sound_depressed"	"UI/buttonclickrelease.wav"
 			"button_activation_type"	"1"
 		}
 
@@ -153,7 +153,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 			"fgcolor"		"TanLight"
-		}	
+		}
 
 		"TitleShadow"
 		{
@@ -177,7 +177,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 			"fgcolor_override"		"ShadowBlack"
-			
+
 			"pin_to_sibling"		"Title"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"
@@ -225,7 +225,7 @@
 			"fgcolor_override" "ShadowBlack"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-			
+
 			"pin_to_sibling"		"DescLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPLEFT"

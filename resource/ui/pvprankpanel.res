@@ -8,7 +8,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 
-		"zpos"			"3"		
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -44,7 +44,7 @@
 				}
 			}
 
-			"paintbackground"	"0"	
+			"paintbackground"	"0"
 		}
 
 		"RankModel"
@@ -53,7 +53,7 @@
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"zpos"			"0"		
+			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.12"
 			"autoResize"	"0"
@@ -74,7 +74,7 @@
 			"paintbackground"	"0"
 
 			"render_texture"	"0"
-		
+
 			"model"
 			{
 				"force_pos"		"1"
@@ -99,7 +99,7 @@
 					"default"	"1"
 				}
 			}
-		
+
 			"lights"
 			{
 				"default"
@@ -161,7 +161,7 @@
 				}
 			}
 
-			"paintbackground"	"1"	
+			"paintbackground"	"1"
 		}
 
 		"MedalButton"
@@ -190,12 +190,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"170"
+		"wide"			"125"
 		"tall"			"f40"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 0"
+		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -210,9 +210,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"15"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"140"
+			"wide"			"125"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -233,9 +233,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"15"
+			"xpos"			"0"
 			"ypos"			"14"
-			"wide"			"140"
+			"wide"			"125"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -253,7 +253,7 @@
 				"wide"	"195"
 				"textAlignment"	"north-west"
 			}
-			
+
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
@@ -266,9 +266,9 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"15"
-			"ypos"			"24"
-			"wide"			"140"
+			"xpos"			"0"
+			"ypos"			"26"
+			"wide"			"125"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -307,7 +307,7 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"170"
+			"wide"			"125"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -323,8 +323,8 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-3"
-				"wide"			"170"
+				"ypos"			"rs1+1"
+				"wide"			"155"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
 
@@ -339,10 +339,10 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"15"
-					"ypos"			"rs1"
+					"xpos"			"0"
+					"ypos"			"rs1+3"
 					"zpos"			"0"
-					"wide"			"140"
+					"wide"			"125"
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
@@ -393,9 +393,9 @@
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"35"
-					"ypos"			"rs1-10"
-					"wide"			"100"
+					"xpos"			"0"
+					"ypos"			"rs1-8"
+					"wide"			"125"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
 
@@ -481,8 +481,6 @@
 					"border"		"NoBorder"
 				}
 
-
-	
 				// First column
 				"GamesLabel"
 				{
