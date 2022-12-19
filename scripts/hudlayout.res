@@ -1,5 +1,21 @@
 "Resource/HudLayout.res"
 {	
+	//transparent viewmodel stuff
+	"TransparentViewmodelMask"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"	"1"
+	}
 	//--------------------------------------------------------------
 	// KNUCKLESCROSSES
 	//--------------------------------------------------------------
@@ -330,6 +346,18 @@
 		"tall"		"480"
 		
 		"PaintBackgroundType"	"2"
+	}
+	
+	"CurrencyStatusPanel"
+	{
+		"ControlName"	"CCurrencyStatusPanel"
+		"fieldName"	"CurrencyStatusPanel"
+		"xpos"		"c-202"
+		"ypos"		"r56"
+		"wide"		"100"
+		"tall"		"16"
+		"visible" 	"1"
+		"enabled" 	"1"
 	}
 	
 	HudProgressBar

@@ -1,0 +1,6 @@
+open scripts/hudlayout.res
+
+1. find "TransparentViewmodelMask"
+2. change enabled and visible to "1"
+3. save file
+4. ingame type hud_reloadscheme into the console and they should work
