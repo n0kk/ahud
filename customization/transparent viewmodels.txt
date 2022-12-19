@@ -1,0 +1,1 @@
+open scripts/hudlayout.res and find "TransparentViewmodelMask" and set enabled and visible to "1"
