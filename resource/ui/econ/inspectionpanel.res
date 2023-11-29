@@ -568,7 +568,7 @@
 			"defaultbgcolor_override"	"ahudBlack"
 			"selectedfgcolor_override"	"ahudBlack"
 			"selectedbgcolor_override"	"ahudWhite"
-			"maxchars"		"18"
+			"maxchars"		"20"
 
 			"consume_mode"
 			{
